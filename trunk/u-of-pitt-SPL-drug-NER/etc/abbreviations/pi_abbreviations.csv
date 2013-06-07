@@ -1,0 +1,99 @@
+PI,Abbreviation,Long Form
+package-insert-section-206.txt,SHBG,sex hormone binding globulin
+package-insert-section-72.txt,CNS,central nervous system
+package-insert-section-75.txt,MICs,minimum inhibitory concentrations
+package-insert-section-75.txt,MIC,minimum inhibitory concentration
+package-insert-section-75.txt,ECL,Enterochromaffin-like
+package-insert-section-75.txt,CYP,cytochrome P450
+package-insert-section-74.txt,CYP,cytochrome P450
+package-insert-section-9.txt,SSRI,selective serotonin reuptake inhibitor
+package-insert-section-9.txt,TCAs,Tricyclic Antidepressants
+package-insert-section-9.txt,PM,poor metabolizers
+package-insert-section-9.txt,EM,extensive metabolizers
+package-insert-section-199.txt,AUC,area under the concentration-time curve
+package-insert-section-140.txt,AUC,area under the curve
+package-insert-section-123.txt,CYP,Cytochrome P450
+package-insert-section-123.txt,AUC,area under the curve
+package-insert-section-123.txt,BMI,body mass index
+package-insert-section-105.txt,i.e.,increased free water excretion
+package-insert-section-105.txt,AVP,arginine vasopressin
+package-insert-section-105.txt,QTcI,QT correction
+package-insert-section-190.txt,ddI,didanosine
+package-insert-section-190.txt,ZDV,zidovudine
+package-insert-section-190.txt,msec,milliseconds
+package-insert-section-190.txt,95% CI,95% confidence intervals
+package-insert-section-190.txt,CYP3A,cytochrome P450 3A
+package-insert-section-184.txt,H. pylori,Helicobacter pylori
+package-insert-section-184.txt,MIC,minimum inhibitory concentration
+package-insert-section-184.txt,SHBG,sex hormone binding globulin
+package-insert-section-184.txt,AUCs,area under the plasma concentration curves
+package-insert-section-184.txt,INR,International Normalized Ratio
+package-insert-section-184.txt,STH,somatotropic hormone
+package-insert-section-184.txt,ECL,Enterochromaffin-like
+package-insert-section-184.txt,TSH,thyroid stimulating hormone
+package-insert-section-184.txt,DHEA-S,dehydroepiandrosterone sulfate
+package-insert-section-184.txt,FSH,follicle stimulating hormone
+package-insert-section-184.txt,LH,luteinizing hormone
+package-insert-section-90.txt,PMs,poor metabolizers
+package-insert-section-90.txt,EMs,extensive metabolizers
+package-insert-section-102.txt,MAO,monoamine oxidase
+package-insert-section-102.txt,NMS,Neuroleptic Malignant Syndrome
+package-insert-section-60.txt,ADH,antidiuretic hormone
+package-insert-section-197.txt,RT,reverse transcriptase
+package-insert-section-197.txt,ZDV-TP,zidovudine triphosphate
+package-insert-section-197.txt,AMT,3'-amino-3'-deoxythymidine
+package-insert-section-197.txt,IV,intravenous
+package-insert-section-197.txt,TAMs,Thymidine analogue mutations
+package-insert-section-197.txt,CrCl,creatinine clearance
+package-insert-section-8.txt,D2,dopamine Type 2
+package-insert-section-154.txt,BPH,benign prostatic hyperplasia
+package-insert-section-194.txt,PT,prothrombin time
+package-insert-section-194.txt,INR,international normalized ratio
+package-insert-section-173.txt,apo B,apolipoprotein B
+package-insert-section-173.txt,LDL,low-density lipoprotein
+package-insert-section-173.txt,IDL,intermediate density lipoprotein
+package-insert-section-173.txt,VLDL,very-low-density lipoprotein
+package-insert-section-173.txt,TG,Triglycerides
+package-insert-section-173.txt,IDL,intermediate-density lipoprotein
+package-insert-section-173.txt,IDL-C,intermediate density lipoprotein cholesterol
+package-insert-section-173.txt,FH,familial hypercholesterolemia
+package-insert-section-173.txt,total-C,total cholesterol
+package-insert-section-173.txt,LDL-C,LDL-cholesterol
+package-insert-section-155.txt,PDE5,phosphodiesterase type-5
+package-insert-section-155.txt,CYP2C9,cytochrome P450 2C9
+package-insert-section-136.txt,CYP3A4,cytochrome P450 3A4
+package-insert-section-91.txt,ADHD,Attention-Deficit/Hyperactivity Disorder
+package-insert-section-91.txt,PMs,poor metabolizers
+package-insert-section-91.txt,EMs,[extensive metabolizers
+package-insert-section-91.txt,CYP2D6,cytochrome P450 2D6
+package-insert-section-5.txt,PM,PM's -38% to 105%
+package-insert-section-5.txt,ODV,O-desmethylvenlafaxine
+package-insert-section-5.txt,EM,extensive metabolizers
+package-insert-section-185.txt,INR,International Normalized Ratio
+package-insert-section-171.txt,ACE,angiotensin-converting enzyme
+package-insert-section-73.txt,CTZ,chemoreceptor trigger zone
+package-insert-section-73.txt,CNS,Central Nervous System
+package-insert-section-73.txt,TSH,Thyroid stimulating hormone
+package-insert-section-73.txt,GH,growth hormone
+package-insert-section-73.txt,LH,luteinizing hormone
+package-insert-section-208.txt,ADP,adenosine diphosphate
+package-insert-section-165.txt,MAO,monoamine oxidase
+package-insert-section-157.txt,ACE,angiotensin-converting enzyme
+package-insert-section-157.txt,Ang I,angiotensin I
+package-insert-section-157.txt,Ang II,angiotensin II
+package-insert-section-157.txt,PRA,plasma renin activity
+package-insert-section-157.txt,RAAS,renin-angiotensin-aldosterone system
+package-insert-section-188.txt,ATV/RTV,atazanavir/ritonavir
+package-insert-section-188.txt,LPV,lopinavir
+package-insert-section-188.txt,PI,protease inhibitor
+package-insert-section-188.txt,AAG,alpha-1-acid glycoprotein
+package-insert-section-188.txt,ATV,Atazanavir
+package-insert-section-189.txt,CYP3A,cytochrome P450 3A
+package-insert-section-2.txt,CI,confidence interval
+package-insert-section-103.txt,CTZ,chemoreceptor trigger zone
+package-insert-section-103.txt,e.g.,emptying
+package-insert-section-103.txt,LESP,lower esophageal sphincter pressure
+package-insert-section-186.txt,HMG-CoA,3-hydroxy-3-methylglutaryl-coenzyme A
+package-insert-section-186.txt,CYP3A4,cytochrome P450 isoform 3A4
+package-insert-section-6.txt,MAO,monoamine oxidase
+package-insert-section-6.txt,ODV,O-desmethylvenlafaxine
