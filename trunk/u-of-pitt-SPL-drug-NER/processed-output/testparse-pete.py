@@ -14,12 +14,12 @@ def findDrugs():
             dg[child.tag] = child.text
             g1 = child.getchildren()
             for g in g1:
-                dg[g.tag] = g.text
+                dg[g.tag] = g.text.strip('\n').strip()
                 g2 = g.getchildren()
                 x = 0
                 for u in g2:
                     syn.append(u.text)
-                    dg[x] = u.text
+                    dg[x] = u.text.strip('\n').strip()
                     x += 1                    
         drugs.append(dg)
     return drugs

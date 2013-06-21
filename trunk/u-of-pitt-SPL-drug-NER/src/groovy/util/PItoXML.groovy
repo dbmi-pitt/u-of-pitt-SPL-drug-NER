@@ -26,8 +26,10 @@ import net.sf.extjwnl.data.list.PointerTargetNodeList;
 
 class PItoXML {
 	
-	static final String PIPATH = "/home/boycerd/Dropbox/SemEval-2013-DDI-challenge/boyce-code/drug-NER/textfiles/"
-        def BASEPATH = "/home/boycerd/Dropbox/SemEval-2013-DDI-challenge/boyce-code/drug-NER/"
+    //static final String PIPATH = "/home/boycerd/Dropbox/SemEval-2013-DDI-challenge/boyce-code/drug-NER/textfiles/"
+	    //def BASEPATH = "/home/boycerd/Dropbox/SemEval-2013-DDI-challenge/boyce-code/drug-NER/"
+        static final String PIPATH = "/home/boycerd/DI_DIR/swat-4-med-safety/u-of-pitt-SPL-drug-NER/textfiles/"
+	def BASEPATH = "/home/boycerd/DI_DIR/swat-4-med-safety/u-of-pitt-SPL-drug-NER/"
 
 	def OUTPATH = BASEPATH + "processed-output/"
 

@@ -4,14 +4,22 @@
     /obs/annotator
   </accessedResource>
   <accessDate>
-    2012-12-12 06:43:02.274 PST
+    2013-06-12 13:48:47.138 PDT
   </accessDate>
   <data>
     <annotatorResultBean>
       <resultID>
-        OBA_RESULT_af3f
+        OBA_RESULT_579e
       </resultID>
       <statistics>
+        <statisticsBean>
+          <contextName>
+            CLOSURE
+          </contextName>
+          <nbAnnotation>
+            0
+          </nbAnnotation>
+        </statisticsBean>
         <statisticsBean>
           <contextName>
             MAPPING
@@ -25,15 +33,7 @@
             MGREP
           </contextName>
           <nbAnnotation>
-            145
-          </nbAnnotation>
-        </statisticsBean>
-        <statisticsBean>
-          <contextName>
-            CLOSURE
-          </contextName>
-          <nbAnnotation>
-            0
+            142
           </nbAnnotation>
         </statisticsBean>
       </statistics>
@@ -589,270 +589,16 @@
           </score>
           <concept>
             <id>
-              22971598
+              40506457
             </id>
             <localConceptId>
-              46395/8718
+              49463/8718
             </localConceptId>
             <localOntologyId>
-              46395
+              49463
             </localOntologyId>
             <isTopLevel>
-              1
-            </isTopLevel>
-            <fullId>
-              http://purl.bioontology.org/ontology/RXNORM/8718
-            </fullId>
-            <preferredName>
-              Procyclidine
-            </preferredName>
-            <synonyms/>
-            <definitions/>
-            <semanticTypes>
-              <semanticTypeBean>
-                <id>
-                  5
-                </id>
-                <semanticType>
-                  T121
-                </semanticType>
-                <description>
-                  Pharmacologic Substance
-                </description>
-              </semanticTypeBean>
-              <semanticTypeBean>
-                <id>
-                  10
-                </id>
-                <semanticType>
-                  T109
-                </semanticType>
-                <description>
-                  Organic Chemical
-                </description>
-              </semanticTypeBean>
-            </semanticTypes>
-            <childConcepts/>
-            <immediateParent/>
-            <childConceptsMap/>
-            <relations/>
-          </concept>
-          <context class="mgrepContextBean">
-            <contextName>
-              MGREP
-            </contextName>
-            <isDirect>
-              true
-            </isDirect>
-            <from>
-              211
-            </from>
-            <to>
-              222
-            </to>
-            <term>
-              <name>
-                Procyclidine
-              </name>
-              <concept>
-                <id>
-                  22971598
-                </id>
-                <localConceptId>
-                  46395/8718
-                </localConceptId>
-                <localOntologyId>
-                  46395
-                </localOntologyId>
-                <isTopLevel>
-                  1
-                </isTopLevel>
-                <fullId>
-                  http://purl.bioontology.org/ontology/RXNORM/8718
-                </fullId>
-                <preferredName>
-                  Procyclidine
-                </preferredName>
-                <synonyms/>
-                <definitions/>
-                <semanticTypes>
-                  <semanticTypeBean>
-                    <id>
-                      5
-                    </id>
-                    <semanticType>
-                      T121
-                    </semanticType>
-                    <description>
-                      Pharmacologic Substance
-                    </description>
-                  </semanticTypeBean>
-                  <semanticTypeBean>
-                    <id>
-                      10
-                    </id>
-                    <semanticType>
-                      T109
-                    </semanticType>
-                    <description>
-                      Organic Chemical
-                    </description>
-                  </semanticTypeBean>
-                </semanticTypes>
-                <childConcepts/>
-                <immediateParent/>
-                <childConceptsMap/>
-                <relations/>
-              </concept>
-              <isPreferred>
-                1
-              </isPreferred>
-            </term>
-          </context>
-        </annotationBean>
-        <annotationBean>
-          <score>
-            30
-          </score>
-          <concept>
-            <id>
-              22971598
-            </id>
-            <localConceptId>
-              46395/8718
-            </localConceptId>
-            <localOntologyId>
-              46395
-            </localOntologyId>
-            <isTopLevel>
-              1
-            </isTopLevel>
-            <fullId>
-              http://purl.bioontology.org/ontology/RXNORM/8718
-            </fullId>
-            <preferredName>
-              Procyclidine
-            </preferredName>
-            <synonyms/>
-            <definitions/>
-            <semanticTypes>
-              <semanticTypeBean>
-                <id>
-                  5
-                </id>
-                <semanticType>
-                  T121
-                </semanticType>
-                <description>
-                  Pharmacologic Substance
-                </description>
-              </semanticTypeBean>
-              <semanticTypeBean>
-                <id>
-                  10
-                </id>
-                <semanticType>
-                  T109
-                </semanticType>
-                <description>
-                  Organic Chemical
-                </description>
-              </semanticTypeBean>
-            </semanticTypes>
-            <childConcepts/>
-            <immediateParent/>
-            <childConceptsMap/>
-            <relations/>
-          </concept>
-          <context class="mgrepContextBean">
-            <contextName>
-              MGREP
-            </contextName>
-            <isDirect>
-              true
-            </isDirect>
-            <from>
-              127
-            </from>
-            <to>
-              138
-            </to>
-            <term>
-              <name>
-                Procyclidine
-              </name>
-              <concept>
-                <id>
-                  22971598
-                </id>
-                <localConceptId>
-                  46395/8718
-                </localConceptId>
-                <localOntologyId>
-                  46395
-                </localOntologyId>
-                <isTopLevel>
-                  1
-                </isTopLevel>
-                <fullId>
-                  http://purl.bioontology.org/ontology/RXNORM/8718
-                </fullId>
-                <preferredName>
-                  Procyclidine
-                </preferredName>
-                <synonyms/>
-                <definitions/>
-                <semanticTypes>
-                  <semanticTypeBean>
-                    <id>
-                      5
-                    </id>
-                    <semanticType>
-                      T121
-                    </semanticType>
-                    <description>
-                      Pharmacologic Substance
-                    </description>
-                  </semanticTypeBean>
-                  <semanticTypeBean>
-                    <id>
-                      10
-                    </id>
-                    <semanticType>
-                      T109
-                    </semanticType>
-                    <description>
-                      Organic Chemical
-                    </description>
-                  </semanticTypeBean>
-                </semanticTypes>
-                <childConcepts/>
-                <immediateParent/>
-                <childConceptsMap/>
-                <relations/>
-              </concept>
-              <isPreferred>
-                1
-              </isPreferred>
-            </term>
-          </context>
-        </annotationBean>
-        <annotationBean>
-          <score>
-            30
-          </score>
-          <concept>
-            <id>
-              22971598
-            </id>
-            <localConceptId>
-              46395/8718
-            </localConceptId>
-            <localOntologyId>
-              46395
-            </localOntologyId>
-            <isTopLevel>
-              1
+              0
             </isTopLevel>
             <fullId>
               http://purl.bioontology.org/ontology/RXNORM/8718
@@ -910,16 +656,16 @@
               </name>
               <concept>
                 <id>
-                  22971598
+                  40506457
                 </id>
                 <localConceptId>
-                  46395/8718
+                  49463/8718
                 </localConceptId>
                 <localOntologyId>
-                  46395
+                  49463
                 </localOntologyId>
                 <isTopLevel>
-                  1
+                  0
                 </isTopLevel>
                 <fullId>
                   http://purl.bioontology.org/ontology/RXNORM/8718
@@ -989,55 +735,55 @@
             </preferredName>
             <synonyms>
               <string>
-                Opus Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Monarch Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Wellcome Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
                 Mucinil
-              </string>
-              <string>
-                Procyclid
-              </string>
-              <string>
-                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-              </string>
-              <string>
-                Tricyclamol
-              </string>
-              <string>
-                Rosemont Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                GlaxoSmithKline Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Glaxo Wellcome Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Kemadren
-              </string>
-              <string>
-                Procyclidine Hydrochloride
-              </string>
-              <string>
-                Kemadrin
-              </string>
-              <string>
-                Hydrochloride, Procyclidine
-              </string>
-              <string>
-                ICN Brand of Procyclidine Hydrochloride
               </string>
               <string>
                 Arpicolin
               </string>
               <string>
                 Osnervan
+              </string>
+              <string>
+                Hydrochloride, Procyclidine
+              </string>
+              <string>
+                Kemadren
+              </string>
+              <string>
+                Procyclid
+              </string>
+              <string>
+                Kemadrin
+              </string>
+              <string>
+                GlaxoSmithKline Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Tricyclamol
+              </string>
+              <string>
+                Wellcome Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Rosemont Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Opus Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Glaxo Wellcome Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Monarch Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                ICN Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+              </string>
+              <string>
+                Procyclidine Hydrochloride
               </string>
             </synonyms>
             <definitions/>
@@ -1097,55 +843,55 @@
                 </preferredName>
                 <synonyms>
                   <string>
-                    Opus Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Monarch Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Wellcome Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
                     Mucinil
-                  </string>
-                  <string>
-                    Procyclid
-                  </string>
-                  <string>
-                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-                  </string>
-                  <string>
-                    Tricyclamol
-                  </string>
-                  <string>
-                    Rosemont Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    GlaxoSmithKline Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Kemadren
-                  </string>
-                  <string>
-                    Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Kemadrin
-                  </string>
-                  <string>
-                    Hydrochloride, Procyclidine
-                  </string>
-                  <string>
-                    ICN Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
                     Arpicolin
                   </string>
                   <string>
                     Osnervan
+                  </string>
+                  <string>
+                    Hydrochloride, Procyclidine
+                  </string>
+                  <string>
+                    Kemadren
+                  </string>
+                  <string>
+                    Procyclid
+                  </string>
+                  <string>
+                    Kemadrin
+                  </string>
+                  <string>
+                    GlaxoSmithKline Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Tricyclamol
+                  </string>
+                  <string>
+                    Wellcome Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Rosemont Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Opus Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Monarch Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    ICN Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+                  </string>
+                  <string>
+                    Procyclidine Hydrochloride
                   </string>
                 </synonyms>
                 <definitions/>
@@ -1198,55 +944,55 @@
             </preferredName>
             <synonyms>
               <string>
-                Opus Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Monarch Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Wellcome Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
                 Mucinil
-              </string>
-              <string>
-                Procyclid
-              </string>
-              <string>
-                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-              </string>
-              <string>
-                Tricyclamol
-              </string>
-              <string>
-                Rosemont Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                GlaxoSmithKline Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Glaxo Wellcome Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Kemadren
-              </string>
-              <string>
-                Procyclidine Hydrochloride
-              </string>
-              <string>
-                Kemadrin
-              </string>
-              <string>
-                Hydrochloride, Procyclidine
-              </string>
-              <string>
-                ICN Brand of Procyclidine Hydrochloride
               </string>
               <string>
                 Arpicolin
               </string>
               <string>
                 Osnervan
+              </string>
+              <string>
+                Hydrochloride, Procyclidine
+              </string>
+              <string>
+                Kemadren
+              </string>
+              <string>
+                Procyclid
+              </string>
+              <string>
+                Kemadrin
+              </string>
+              <string>
+                GlaxoSmithKline Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Tricyclamol
+              </string>
+              <string>
+                Wellcome Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Rosemont Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Opus Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Glaxo Wellcome Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Monarch Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                ICN Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+              </string>
+              <string>
+                Procyclidine Hydrochloride
               </string>
             </synonyms>
             <definitions/>
@@ -1306,55 +1052,55 @@
                 </preferredName>
                 <synonyms>
                   <string>
-                    Opus Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Monarch Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Wellcome Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
                     Mucinil
-                  </string>
-                  <string>
-                    Procyclid
-                  </string>
-                  <string>
-                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-                  </string>
-                  <string>
-                    Tricyclamol
-                  </string>
-                  <string>
-                    Rosemont Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    GlaxoSmithKline Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Kemadren
-                  </string>
-                  <string>
-                    Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Kemadrin
-                  </string>
-                  <string>
-                    Hydrochloride, Procyclidine
-                  </string>
-                  <string>
-                    ICN Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
                     Arpicolin
                   </string>
                   <string>
                     Osnervan
+                  </string>
+                  <string>
+                    Hydrochloride, Procyclidine
+                  </string>
+                  <string>
+                    Kemadren
+                  </string>
+                  <string>
+                    Procyclid
+                  </string>
+                  <string>
+                    Kemadrin
+                  </string>
+                  <string>
+                    GlaxoSmithKline Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Tricyclamol
+                  </string>
+                  <string>
+                    Wellcome Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Rosemont Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Opus Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Monarch Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    ICN Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+                  </string>
+                  <string>
+                    Procyclidine Hydrochloride
                   </string>
                 </synonyms>
                 <definitions/>
@@ -1368,6 +1114,260 @@
                     </semanticType>
                     <description>
                       NCBO BioPortal concept
+                    </description>
+                  </semanticTypeBean>
+                </semanticTypes>
+                <childConcepts/>
+                <immediateParent/>
+                <childConceptsMap/>
+                <relations/>
+              </concept>
+              <isPreferred>
+                1
+              </isPreferred>
+            </term>
+          </context>
+        </annotationBean>
+        <annotationBean>
+          <score>
+            30
+          </score>
+          <concept>
+            <id>
+              40506457
+            </id>
+            <localConceptId>
+              49463/8718
+            </localConceptId>
+            <localOntologyId>
+              49463
+            </localOntologyId>
+            <isTopLevel>
+              0
+            </isTopLevel>
+            <fullId>
+              http://purl.bioontology.org/ontology/RXNORM/8718
+            </fullId>
+            <preferredName>
+              Procyclidine
+            </preferredName>
+            <synonyms/>
+            <definitions/>
+            <semanticTypes>
+              <semanticTypeBean>
+                <id>
+                  5
+                </id>
+                <semanticType>
+                  T121
+                </semanticType>
+                <description>
+                  Pharmacologic Substance
+                </description>
+              </semanticTypeBean>
+              <semanticTypeBean>
+                <id>
+                  10
+                </id>
+                <semanticType>
+                  T109
+                </semanticType>
+                <description>
+                  Organic Chemical
+                </description>
+              </semanticTypeBean>
+            </semanticTypes>
+            <childConcepts/>
+            <immediateParent/>
+            <childConceptsMap/>
+            <relations/>
+          </concept>
+          <context class="mgrepContextBean">
+            <contextName>
+              MGREP
+            </contextName>
+            <isDirect>
+              true
+            </isDirect>
+            <from>
+              127
+            </from>
+            <to>
+              138
+            </to>
+            <term>
+              <name>
+                Procyclidine
+              </name>
+              <concept>
+                <id>
+                  40506457
+                </id>
+                <localConceptId>
+                  49463/8718
+                </localConceptId>
+                <localOntologyId>
+                  49463
+                </localOntologyId>
+                <isTopLevel>
+                  0
+                </isTopLevel>
+                <fullId>
+                  http://purl.bioontology.org/ontology/RXNORM/8718
+                </fullId>
+                <preferredName>
+                  Procyclidine
+                </preferredName>
+                <synonyms/>
+                <definitions/>
+                <semanticTypes>
+                  <semanticTypeBean>
+                    <id>
+                      5
+                    </id>
+                    <semanticType>
+                      T121
+                    </semanticType>
+                    <description>
+                      Pharmacologic Substance
+                    </description>
+                  </semanticTypeBean>
+                  <semanticTypeBean>
+                    <id>
+                      10
+                    </id>
+                    <semanticType>
+                      T109
+                    </semanticType>
+                    <description>
+                      Organic Chemical
+                    </description>
+                  </semanticTypeBean>
+                </semanticTypes>
+                <childConcepts/>
+                <immediateParent/>
+                <childConceptsMap/>
+                <relations/>
+              </concept>
+              <isPreferred>
+                1
+              </isPreferred>
+            </term>
+          </context>
+        </annotationBean>
+        <annotationBean>
+          <score>
+            30
+          </score>
+          <concept>
+            <id>
+              40506457
+            </id>
+            <localConceptId>
+              49463/8718
+            </localConceptId>
+            <localOntologyId>
+              49463
+            </localOntologyId>
+            <isTopLevel>
+              0
+            </isTopLevel>
+            <fullId>
+              http://purl.bioontology.org/ontology/RXNORM/8718
+            </fullId>
+            <preferredName>
+              Procyclidine
+            </preferredName>
+            <synonyms/>
+            <definitions/>
+            <semanticTypes>
+              <semanticTypeBean>
+                <id>
+                  5
+                </id>
+                <semanticType>
+                  T121
+                </semanticType>
+                <description>
+                  Pharmacologic Substance
+                </description>
+              </semanticTypeBean>
+              <semanticTypeBean>
+                <id>
+                  10
+                </id>
+                <semanticType>
+                  T109
+                </semanticType>
+                <description>
+                  Organic Chemical
+                </description>
+              </semanticTypeBean>
+            </semanticTypes>
+            <childConcepts/>
+            <immediateParent/>
+            <childConceptsMap/>
+            <relations/>
+          </concept>
+          <context class="mgrepContextBean">
+            <contextName>
+              MGREP
+            </contextName>
+            <isDirect>
+              true
+            </isDirect>
+            <from>
+              211
+            </from>
+            <to>
+              222
+            </to>
+            <term>
+              <name>
+                Procyclidine
+              </name>
+              <concept>
+                <id>
+                  40506457
+                </id>
+                <localConceptId>
+                  49463/8718
+                </localConceptId>
+                <localOntologyId>
+                  49463
+                </localOntologyId>
+                <isTopLevel>
+                  0
+                </isTopLevel>
+                <fullId>
+                  http://purl.bioontology.org/ontology/RXNORM/8718
+                </fullId>
+                <preferredName>
+                  Procyclidine
+                </preferredName>
+                <synonyms/>
+                <definitions/>
+                <semanticTypes>
+                  <semanticTypeBean>
+                    <id>
+                      5
+                    </id>
+                    <semanticType>
+                      T121
+                    </semanticType>
+                    <description>
+                      Pharmacologic Substance
+                    </description>
+                  </semanticTypeBean>
+                  <semanticTypeBean>
+                    <id>
+                      10
+                    </id>
+                    <semanticType>
+                      T109
+                    </semanticType>
+                    <description>
+                      Organic Chemical
                     </description>
                   </semanticTypeBean>
                 </semanticTypes>
@@ -1407,55 +1407,55 @@
             </preferredName>
             <synonyms>
               <string>
-                Opus Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Monarch Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Wellcome Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
                 Mucinil
-              </string>
-              <string>
-                Procyclid
-              </string>
-              <string>
-                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-              </string>
-              <string>
-                Tricyclamol
-              </string>
-              <string>
-                Rosemont Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                GlaxoSmithKline Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Glaxo Wellcome Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Kemadren
-              </string>
-              <string>
-                Procyclidine Hydrochloride
-              </string>
-              <string>
-                Kemadrin
-              </string>
-              <string>
-                Hydrochloride, Procyclidine
-              </string>
-              <string>
-                ICN Brand of Procyclidine Hydrochloride
               </string>
               <string>
                 Arpicolin
               </string>
               <string>
                 Osnervan
+              </string>
+              <string>
+                Hydrochloride, Procyclidine
+              </string>
+              <string>
+                Kemadren
+              </string>
+              <string>
+                Procyclid
+              </string>
+              <string>
+                Kemadrin
+              </string>
+              <string>
+                GlaxoSmithKline Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Tricyclamol
+              </string>
+              <string>
+                Wellcome Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Rosemont Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Opus Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Glaxo Wellcome Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Monarch Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                ICN Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+              </string>
+              <string>
+                Procyclidine Hydrochloride
               </string>
             </synonyms>
             <definitions/>
@@ -1515,55 +1515,55 @@
                 </preferredName>
                 <synonyms>
                   <string>
-                    Opus Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Monarch Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Wellcome Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
                     Mucinil
-                  </string>
-                  <string>
-                    Procyclid
-                  </string>
-                  <string>
-                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-                  </string>
-                  <string>
-                    Tricyclamol
-                  </string>
-                  <string>
-                    Rosemont Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    GlaxoSmithKline Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Kemadren
-                  </string>
-                  <string>
-                    Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Kemadrin
-                  </string>
-                  <string>
-                    Hydrochloride, Procyclidine
-                  </string>
-                  <string>
-                    ICN Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
                     Arpicolin
                   </string>
                   <string>
                     Osnervan
+                  </string>
+                  <string>
+                    Hydrochloride, Procyclidine
+                  </string>
+                  <string>
+                    Kemadren
+                  </string>
+                  <string>
+                    Procyclid
+                  </string>
+                  <string>
+                    Kemadrin
+                  </string>
+                  <string>
+                    GlaxoSmithKline Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Tricyclamol
+                  </string>
+                  <string>
+                    Wellcome Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Rosemont Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Opus Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Monarch Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    ICN Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+                  </string>
+                  <string>
+                    Procyclidine Hydrochloride
                   </string>
                 </synonyms>
                 <definitions/>
@@ -1597,16 +1597,16 @@
           </score>
           <concept>
             <id>
-              22845399
+              40383519
             </id>
             <localConceptId>
-              46395/32937
+              49463/32937
             </localConceptId>
             <localOntologyId>
-              46395
+              49463
             </localOntologyId>
             <isTopLevel>
-              1
+              0
             </isTopLevel>
             <fullId>
               http://purl.bioontology.org/ontology/RXNORM/32937
@@ -1614,20 +1614,13 @@
             <preferredName>
               Paroxetine
             </preferredName>
-            <synonyms/>
+            <synonyms>
+              <string>
+                PARoxetine
+              </string>
+            </synonyms>
             <definitions/>
             <semanticTypes>
-              <semanticTypeBean>
-                <id>
-                  10
-                </id>
-                <semanticType>
-                  T109
-                </semanticType>
-                <description>
-                  Organic Chemical
-                </description>
-              </semanticTypeBean>
               <semanticTypeBean>
                 <id>
                   5
@@ -1637,6 +1630,17 @@
                 </semanticType>
                 <description>
                   Pharmacologic Substance
+                </description>
+              </semanticTypeBean>
+              <semanticTypeBean>
+                <id>
+                  10
+                </id>
+                <semanticType>
+                  T109
+                </semanticType>
+                <description>
+                  Organic Chemical
                 </description>
               </semanticTypeBean>
             </semanticTypes>
@@ -1664,16 +1668,16 @@
               </name>
               <concept>
                 <id>
-                  22845399
+                  40383519
                 </id>
                 <localConceptId>
-                  46395/32937
+                  49463/32937
                 </localConceptId>
                 <localOntologyId>
-                  46395
+                  49463
                 </localOntologyId>
                 <isTopLevel>
-                  1
+                  0
                 </isTopLevel>
                 <fullId>
                   http://purl.bioontology.org/ontology/RXNORM/32937
@@ -1681,20 +1685,13 @@
                 <preferredName>
                   Paroxetine
                 </preferredName>
-                <synonyms/>
+                <synonyms>
+                  <string>
+                    PARoxetine
+                  </string>
+                </synonyms>
                 <definitions/>
                 <semanticTypes>
-                  <semanticTypeBean>
-                    <id>
-                      10
-                    </id>
-                    <semanticType>
-                      T109
-                    </semanticType>
-                    <description>
-                      Organic Chemical
-                    </description>
-                  </semanticTypeBean>
                   <semanticTypeBean>
                     <id>
                       5
@@ -1704,6 +1701,17 @@
                     </semanticType>
                     <description>
                       Pharmacologic Substance
+                    </description>
+                  </semanticTypeBean>
+                  <semanticTypeBean>
+                    <id>
+                      10
+                    </id>
+                    <semanticType>
+                      T109
+                    </semanticType>
+                    <description>
+                      Organic Chemical
                     </description>
                   </semanticTypeBean>
                 </semanticTypes>
@@ -1743,28 +1751,13 @@
             </preferredName>
             <synonyms>
               <string>
-                Hemihydrate Paroxetine Hydrochloride
+                Hydrochloride, Hemihydrate Paroxetine
               </string>
               <string>
-                Acetate, Paroxetine
-              </string>
-              <string>
-                Hydrochloride, Paroxetine
-              </string>
-              <string>
-                Paxil
-              </string>
-              <string>
-                BRL-29060
+                BRL 29060
               </string>
               <string>
                 FG-7051
-              </string>
-              <string>
-                Paroxetine Hydrochloride, Hemihydrate
-              </string>
-              <string>
-                Aropax
               </string>
               <string>
                 Paroxetine Acetate
@@ -1773,34 +1766,49 @@
                 Paroxetine, trans-(+)-Isomer
               </string>
               <string>
-                BRL 29060
-              </string>
-              <string>
-                Paroxetine, cis-(+)-Isomer
-              </string>
-              <string>
-                Maleate, Paroxetine
-              </string>
-              <string>
-                Seroxat
-              </string>
-              <string>
-                Paroxetine Hydrochloride
-              </string>
-              <string>
-                Hydrochloride, Hemihydrate Paroxetine
-              </string>
-              <string>
-                Piperidine, 3-((1,3-benzodioxol-5-yloxy)methyl)-4-(4-fluorophenyl)-, (3S-trans)-
-              </string>
-              <string>
-                Paroxetine Maleate
+                Paxil
               </string>
               <string>
                 BRL29060
               </string>
               <string>
+                Maleate, Paroxetine
+              </string>
+              <string>
+                Paroxetine Maleate
+              </string>
+              <string>
+                Seroxat
+              </string>
+              <string>
+                Aropax
+              </string>
+              <string>
+                BRL-29060
+              </string>
+              <string>
+                Hemihydrate Paroxetine Hydrochloride
+              </string>
+              <string>
+                Paroxetine Hydrochloride, Hemihydrate
+              </string>
+              <string>
+                Piperidine, 3-((1,3-benzodioxol-5-yloxy)methyl)-4-(4-fluorophenyl)-, (3S-trans)-
+              </string>
+              <string>
+                Paroxetine, cis-(+)-Isomer
+              </string>
+              <string>
+                Acetate, Paroxetine
+              </string>
+              <string>
+                Paroxetine Hydrochloride
+              </string>
+              <string>
                 Paroxetine, cis-(-)-Isomer
+              </string>
+              <string>
+                Hydrochloride, Paroxetine
               </string>
             </synonyms>
             <definitions/>
@@ -1860,28 +1868,13 @@
                 </preferredName>
                 <synonyms>
                   <string>
-                    Hemihydrate Paroxetine Hydrochloride
+                    Hydrochloride, Hemihydrate Paroxetine
                   </string>
                   <string>
-                    Acetate, Paroxetine
-                  </string>
-                  <string>
-                    Hydrochloride, Paroxetine
-                  </string>
-                  <string>
-                    Paxil
-                  </string>
-                  <string>
-                    BRL-29060
+                    BRL 29060
                   </string>
                   <string>
                     FG-7051
-                  </string>
-                  <string>
-                    Paroxetine Hydrochloride, Hemihydrate
-                  </string>
-                  <string>
-                    Aropax
                   </string>
                   <string>
                     Paroxetine Acetate
@@ -1890,34 +1883,49 @@
                     Paroxetine, trans-(+)-Isomer
                   </string>
                   <string>
-                    BRL 29060
-                  </string>
-                  <string>
-                    Paroxetine, cis-(+)-Isomer
-                  </string>
-                  <string>
-                    Maleate, Paroxetine
-                  </string>
-                  <string>
-                    Seroxat
-                  </string>
-                  <string>
-                    Paroxetine Hydrochloride
-                  </string>
-                  <string>
-                    Hydrochloride, Hemihydrate Paroxetine
-                  </string>
-                  <string>
-                    Piperidine, 3-((1,3-benzodioxol-5-yloxy)methyl)-4-(4-fluorophenyl)-, (3S-trans)-
-                  </string>
-                  <string>
-                    Paroxetine Maleate
+                    Paxil
                   </string>
                   <string>
                     BRL29060
                   </string>
                   <string>
+                    Maleate, Paroxetine
+                  </string>
+                  <string>
+                    Paroxetine Maleate
+                  </string>
+                  <string>
+                    Seroxat
+                  </string>
+                  <string>
+                    Aropax
+                  </string>
+                  <string>
+                    BRL-29060
+                  </string>
+                  <string>
+                    Hemihydrate Paroxetine Hydrochloride
+                  </string>
+                  <string>
+                    Paroxetine Hydrochloride, Hemihydrate
+                  </string>
+                  <string>
+                    Piperidine, 3-((1,3-benzodioxol-5-yloxy)methyl)-4-(4-fluorophenyl)-, (3S-trans)-
+                  </string>
+                  <string>
+                    Paroxetine, cis-(+)-Isomer
+                  </string>
+                  <string>
+                    Acetate, Paroxetine
+                  </string>
+                  <string>
+                    Paroxetine Hydrochloride
+                  </string>
+                  <string>
                     Paroxetine, cis-(-)-Isomer
+                  </string>
+                  <string>
+                    Hydrochloride, Paroxetine
                   </string>
                 </synonyms>
                 <definitions/>
@@ -1968,29 +1976,6 @@
           </nbAnnotation>
           <score>
             394
-          </score>
-        </ontologyUsedBean>
-        <ontologyUsedBean>
-          <id>
-            1186
-          </id>
-          <localOntologyId>
-            47638
-          </localOntologyId>
-          <name>
-            NCI Thesaurus
-          </name>
-          <version>
-            12.04e
-          </version>
-          <virtualOntologyId>
-            1032
-          </virtualOntologyId>
-          <nbAnnotation>
-            19
-          </nbAnnotation>
-          <score>
-            302
           </score>
         </ontologyUsedBean>
         <ontologyUsedBean>
@@ -2064,6 +2049,29 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
+            1651
+          </id>
+          <localOntologyId>
+            50105
+          </localOntologyId>
+          <name>
+            NCI Thesaurus
+          </name>
+          <version>
+            13.03d
+          </version>
+          <virtualOntologyId>
+            1032
+          </virtualOntologyId>
+          <nbAnnotation>
+            11
+          </nbAnnotation>
+          <score>
+            190
+          </score>
+        </ontologyUsedBean>
+        <ontologyUsedBean>
+          <id>
             1170
           </id>
           <localOntologyId>
@@ -2083,6 +2091,29 @@
           </nbAnnotation>
           <score>
             188
+          </score>
+        </ontologyUsedBean>
+        <ontologyUsedBean>
+          <id>
+            1577
+          </id>
+          <localOntologyId>
+            50031
+          </localOntologyId>
+          <name>
+            Chemical entities of biological interest
+          </name>
+          <version>
+            102
+          </version>
+          <virtualOntologyId>
+            1007
+          </virtualOntologyId>
+          <nbAnnotation>
+            4
+          </nbAnnotation>
+          <score>
+            100
           </score>
         </ontologyUsedBean>
         <ontologyUsedBean>
@@ -2110,39 +2141,16 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
-            796
+            1337
           </id>
           <localOntologyId>
-            44452
-          </localOntologyId>
-          <name>
-            VANDF
-          </name>
-          <version>
-            2010_01_25
-          </version>
-          <virtualOntologyId>
-            1527
-          </virtualOntologyId>
-          <nbAnnotation>
-            4
-          </nbAnnotation>
-          <score>
-            100
-          </score>
-        </ontologyUsedBean>
-        <ontologyUsedBean>
-          <id>
-            1002
-          </id>
-          <localOntologyId>
-            46395
+            49463
           </localOntologyId>
           <name>
             RxNORM
           </name>
           <version>
-            10AB_110307F
+            11AB_120305F
           </version>
           <virtualOntologyId>
             1423
@@ -2156,19 +2164,19 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
-            1071
+            796
           </id>
           <localOntologyId>
-            46957
+            44452
           </localOntologyId>
           <name>
-            Chemical entities of biological interest
+            VANDF
           </name>
           <version>
-            88
+            2010_01_25
           </version>
           <virtualOntologyId>
-            1007
+            1527
           </virtualOntologyId>
           <nbAnnotation>
             4
@@ -2248,16 +2256,16 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
-            1185
+            1521
           </id>
           <localOntologyId>
-            47447
+            49816
           </localOntologyId>
           <name>
             RadLex
           </name>
           <version>
-            3.6
+            3.8
           </version>
           <virtualOntologyId>
             1057
@@ -2271,16 +2279,39 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
-            1180
+            1553
           </id>
           <localOntologyId>
-            47736
+            49645
+          </localOntologyId>
+          <name>
+            Fanconi Anemia (FA) Ontology
+          </name>
+          <version>
+            1.2
+          </version>
+          <virtualOntologyId>
+            3183
+          </virtualOntologyId>
+          <nbAnnotation>
+            3
+          </nbAnnotation>
+          <score>
+            50
+          </score>
+        </ontologyUsedBean>
+        <ontologyUsedBean>
+          <id>
+            1515
+          </id>
+          <localOntologyId>
+            49710
           </localOntologyId>
           <name>
             NIFSTD
           </name>
           <version>
-            2.8.2 - June 21, 2012
+            2.9.1 - January 23, 2012
           </version>
           <virtualOntologyId>
             1084
@@ -2363,39 +2394,16 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
-            1296
+            1633
           </id>
           <localOntologyId>
-            49172
-          </localOntologyId>
-          <name>
-            Vaccine Ontology
-          </name>
-          <version>
-            Vision Release; 1.0.639
-          </version>
-          <virtualOntologyId>
-            1172
-          </virtualOntologyId>
-          <nbAnnotation>
-            2
-          </nbAnnotation>
-          <score>
-            20
-          </score>
-        </ontologyUsedBean>
-        <ontologyUsedBean>
-          <id>
-            1163
-          </id>
-          <localOntologyId>
-            49301
+            50094
           </localOntologyId>
           <name>
             Experimental Factor Ontology
           </name>
           <version>
-            2.28.1
+            2.35
           </version>
           <virtualOntologyId>
             1136
@@ -2409,25 +2417,48 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
-            1250
+            1530
           </id>
           <localOntologyId>
-            47463
+            49744
           </localOntologyId>
           <name>
-            Phenotype Fragment Ontology
+            SemanticScience Integrated Ontology
           </name>
           <version>
-            1.0
+            0.9.15
           </version>
           <virtualOntologyId>
-            3049
+            1532
           </virtualOntologyId>
           <nbAnnotation>
             2
           </nbAnnotation>
           <score>
-            18
+            20
+          </score>
+        </ontologyUsedBean>
+        <ontologyUsedBean>
+          <id>
+            1641
+          </id>
+          <localOntologyId>
+            50135
+          </localOntologyId>
+          <name>
+            Vaccine Ontology
+          </name>
+          <version>
+            Vision Release; 1.0.700
+          </version>
+          <virtualOntologyId>
+            1172
+          </virtualOntologyId>
+          <nbAnnotation>
+            2
+          </nbAnnotation>
+          <score>
+            20
           </score>
         </ontologyUsedBean>
         <ontologyUsedBean>
@@ -2455,19 +2486,19 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
-            1236
+            1375
           </id>
           <localOntologyId>
-            47162
+            47841
           </localOntologyId>
           <name>
-            Cancer Chemoprevention Ontology
+            Cell Culture Ontology
           </name>
           <version>
-            0.1
+            1.1
           </version>
           <virtualOntologyId>
-            3030
+            3108
           </virtualOntologyId>
           <nbAnnotation>
             1
@@ -2478,19 +2509,19 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
-            1178
+            1642
           </id>
           <localOntologyId>
-            47163
+            50104
           </localOntologyId>
           <name>
-            Rat Strain Ontology
+            Ascomycete phenotype ontology
           </name>
           <version>
-            4.1
+            unknown
           </version>
           <virtualOntologyId>
-            1150
+            1222
           </virtualOntologyId>
           <nbAnnotation>
             1
@@ -2524,42 +2555,19 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
-            736
+            1332
           </id>
           <localOntologyId>
-            45233
+            49076
           </localOntologyId>
           <name>
             NanoParticle Ontology
           </name>
           <version>
-            2010-10-31 (inferred)
+            2011-12-08 (yyyy-mm-dd)
           </version>
           <virtualOntologyId>
             1083
-          </virtualOntologyId>
-          <nbAnnotation>
-            1
-          </nbAnnotation>
-          <score>
-            10
-          </score>
-        </ontologyUsedBean>
-        <ontologyUsedBean>
-          <id>
-            1161
-          </id>
-          <localOntologyId>
-            47203
-          </localOntologyId>
-          <name>
-            Ontology for Biomedical Investigations
-          </name>
-          <version>
-            2012-03-29
-          </version>
-          <virtualOntologyId>
-            1123
           </virtualOntologyId>
           <nbAnnotation>
             1
@@ -2583,29 +2591,6 @@
           </version>
           <virtualOntologyId>
             1061
-          </virtualOntologyId>
-          <nbAnnotation>
-            1
-          </nbAnnotation>
-          <score>
-            10
-          </score>
-        </ontologyUsedBean>
-        <ontologyUsedBean>
-          <id>
-            1283
-          </id>
-          <localOntologyId>
-            47809
-          </localOntologyId>
-          <name>
-            Cell Culture Ontology
-          </name>
-          <version>
-            1.1
-          </version>
-          <virtualOntologyId>
-            3108
           </virtualOntologyId>
           <nbAnnotation>
             1
@@ -2708,6 +2693,52 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
+            1538
+          </id>
+          <localOntologyId>
+            49772
+          </localOntologyId>
+          <name>
+            Sleep Domain Ontology
+          </name>
+          <version>
+            Last modification: Feb. 11, 2013 Sivaram Arabandi
+          </version>
+          <virtualOntologyId>
+            1651
+          </virtualOntologyId>
+          <nbAnnotation>
+            1
+          </nbAnnotation>
+          <score>
+            10
+          </score>
+        </ontologyUsedBean>
+        <ontologyUsedBean>
+          <id>
+            1610
+          </id>
+          <localOntologyId>
+            49978
+          </localOntologyId>
+          <name>
+            Ontology for Newborn Screening Follow-up and Translational Research
+          </name>
+          <version>
+            0.2
+          </version>
+          <virtualOntologyId>
+            3137
+          </virtualOntologyId>
+          <nbAnnotation>
+            1
+          </nbAnnotation>
+          <score>
+            10
+          </score>
+        </ontologyUsedBean>
+        <ontologyUsedBean>
+          <id>
             795
           </id>
           <localOntologyId>
@@ -2731,19 +2762,65 @@
         </ontologyUsedBean>
         <ontologyUsedBean>
           <id>
-            1094
+            1588
           </id>
           <localOntologyId>
-            46991
+            49943
           </localOntologyId>
           <name>
-            Ascomycete phenotype ontology
+            Rat Strain Ontology
           </name>
           <version>
-            unknown
+            4.9
           </version>
           <virtualOntologyId>
-            1222
+            1150
+          </virtualOntologyId>
+          <nbAnnotation>
+            1
+          </nbAnnotation>
+          <score>
+            10
+          </score>
+        </ontologyUsedBean>
+        <ontologyUsedBean>
+          <id>
+            1299
+          </id>
+          <localOntologyId>
+            47893
+          </localOntologyId>
+          <name>
+            Ontology for Biomedical Investigations
+          </name>
+          <version>
+            2012-07-01
+          </version>
+          <virtualOntologyId>
+            1123
+          </virtualOntologyId>
+          <nbAnnotation>
+            1
+          </nbAnnotation>
+          <score>
+            10
+          </score>
+        </ontologyUsedBean>
+        <ontologyUsedBean>
+          <id>
+            1611
+          </id>
+          <localOntologyId>
+            50040
+          </localOntologyId>
+          <name>
+            Variation Ontology
+          </name>
+          <version>
+            2013-03-08
+          </version>
+          <virtualOntologyId>
+            3159
           </virtualOntologyId>
           <nbAnnotation>
             1
