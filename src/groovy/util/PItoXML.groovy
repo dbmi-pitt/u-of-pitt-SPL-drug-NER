@@ -31,13 +31,13 @@ class PItoXML {
 
 	def OUTPATH = BASEPATH + "processed-output/"
 
-	def RXNORM = "1423"  //virutalOntologyId constant for RXNORM
-	def MESH = "1351" //virutalOntologyId constant for Medical Subject Headings (MeSH)
+	def RXNORM = "1423"  //virtualOntologyId constant for RXNORM
+	def MESH = "1351" //virtualOntologyId constant for Medical Subject Headings (MeSH)
 	def PUNCTUATION ='[\\Q!"#$%&()*+,./:;<=>?@[\\]^_`{|}~\\E]'
 	def ALLPUNCTUATION= '[\\Q!"#$%&()*+,./:;<=>?@[\\]^_`{|}~-\'\\E]'
 	def PROPSFILENAME = "etc/file_properties.xml"  //Wordnet api (extJWNL) properties file
 	def BASERXNORMURI = "http://rxnav.nlm.nih.gov/REST/"
-	def BIOPORTALURL = "http://rest.bioontology.org/bioportal/" //"http://localhost:8080/bioportal/"
+	def BIOPORTALURL = "http://data.bioontology.org/ontologies/"
 	def APIKEY = "74028721-e60e-4ece-989b-1d2c17d14e9c"
 	def STRINGWRITER = new StringWriter()
 	def PRINTWRITER = new PrintWriter(STRINGWRITER)
@@ -460,7 +460,7 @@ class PItoXML {
 	def isMeshMetabolite(annotationBean) {
 		 //Work around for broken semantic types in ncbo annotator
 		def localConceptId = annotationBean.concept.localConceptId.text()
-		def url = BIOPORTALURL + "virtual/ontology/$MESH?conceptid=$localConceptId&apikey=$APIKEY"
+		def url = BIOPORTALURL + "MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2F$localConceptId?format=xml&include=all&apikey=$APIKEY"
 		def client = new HttpClient()
 		def method = new GetMethod(url)
 		def status = client.executeMethod(method)
@@ -468,15 +468,12 @@ class PItoXML {
 			try {
 				def root = new XmlParser().parseText(method.getResponseBodyAsString())
 				method.releaseConnection();
-				for (entry in root.data.classBean.relations.entry) {
-					if (entry.string.text().equals("TUI")) {
-						for (tui in entry.list.string) {
-							if (tui.text().equals("T109")) {
-								return true
-							}
+				for (entry in root.properties.tuiCollection.entry) {
+					if (entry.text().equals("T109")) {
+					    return true
 						}
-					}
 				}
+				
 				return false
 			} catch( ex ) {
 				println ex

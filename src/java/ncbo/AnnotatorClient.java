@@ -12,7 +12,7 @@ import org.apache.commons.httpclient.params.HttpMethodParams;
 
 public class AnnotatorClient { 
 	
-	public static final String annotatorUrl = "http://rest.bioontology.org/obs/annotator";
+	public static final String annotatorUrl = "http://data.bioontology.org/annotator";
 	private static final String API_KEY = "74028721-e60e-4ece-989b-1d2c17d14e9c";
 	
     public static void main( String[] args ) {
@@ -31,22 +31,14 @@ public class AnnotatorClient {
             PostMethod method = new PostMethod(annotatorUrl);
             
             // Configure the form parameters
-            method.addParameter("longestOnly","true");
-            method.addParameter("wholeWordOnly","true");
-            method.addParameter("filterNumber", "true");
-            method.addParameter("stopWords",stopwords);
-            method.addParameter("withDefaultStopWords","false");
-            method.addParameter("isTopWordsCaseSensitive","false");
-            method.addParameter("mintermSize","3");
-            method.addParameter("scored", "true");
-            method.addParameter("withSynonyms","true"); 
-            method.addParameter("ontologiesToExpand", "");
-            method.addParameter("ontologiesToKeepInResult", ""); 
-            method.addParameter("isVirtualOntologyId", "true"); 
-            method.addParameter("semanticTypes", ""); 
-            method.addParameter("levelMax", "0");
-            method.addParameter("mappingTypes", ""); //null, Automatic, Manual 
-            method.addParameter("textToAnnotate", text);  //"Melanoma is a malignant tumor of melanocytes which are found predominantly in skin but also in the bowel and the eye");
+            method.addParameter("longest_only","true");
+            method.addParameter("whole_word_only","true");
+            method.addParameter("stop_words",stopwords);
+            method.addParameter("minimum_match_length","3");
+            method.addParameter("include_synonyms","true"); 
+            method.addParameter("max_level", "0");
+            method.addParameter("mapping_types", "false"); //null, Automatic, Manual 
+            method.addParameter("text", text);  //"Melanoma is a malignant tumor of melanocytes which are found predominantly in skin but also in the bowel and the eye");
             method.addParameter("format", "xml"); //Options are 'text', 'xml', 'tabDelimited'   
             method.addParameter("apikey", API_KEY);
 
