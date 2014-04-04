@@ -1,0 +1,371 @@
+
+- NCBO API v4 documentation:
+http://data.bioontology.org/documentation
+
+- Example REST call for a known ontology term (not api key, use of HTTP escaped PURL, and the use of "include=all" to get the full record):
+  
+http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FC016904?format=xml&include=all&apikey=74028721-e60e-4ece-989b-1d2c17d14e9c
+
+
+- Documentation for the Annotator
+
+http://data.bioontology.org/documentation#nav_annotator
+
+- As of 4/4/2014:
+
+-- src/java/ncbo/AnnotatorClient.java-APIv4-TESTING appears to work
+   properly. Test output pasted below.
+
+
+-- src/groovy/util/PItoXML-NCBO-APIv4-TESTING.groovy -- most porting
+   work done but not tested. The code prefaced by "// UNTESTED!!!" is
+   likely problematic because the exact XML parsing and writing code
+   needs some work.
+
+-- Recommended testing procedure: 
+
+1) back up the current src/groovy/util/PItoXML.groovy and src/java/ncbo/AnnotatorClient.java and replace them with the new code files
+
+2) copy a test text file to textfiles
+$ cp /media/Backup/dbmi-nb-040-backup/boycerd/DI_DIR/src/package-insert-nlp--OLD/trunk/data/AnnotatedData/ConsensusAnnotations/all-statements-combined/package-insert-section-50.txt textfiles/
+
+3) Compile the Annotator class (if any changes are made), copy it where it should go, and run:
+$ ant compile
+$ cp target/classes/ncbo/AnnotatorClient.class classes/ncbo/
+## Assuming you've done everything in the README to set up the environment
+$ groovy -cp $CLASSPATH src/groovy/util/PItoXML.groovy
+
+4) Be sure to revert back if the testing is incomplete and Andres
+needs to work. The NER performance needs to be re-evaluated. Then, we
+need to port to NobleCoder (or develop an alternate script)!
+
+--------------------------------------------------------------------------------
+TEST OUTPUT FOR AN ANNOTATOR CALL USING COMPILED src/java/ncbo/AnnotatorClient.java-APIv4-TESTING
+--------------------------------------------------------------------------------
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<annotationCollection>
+  <annotation>
+    <annotatedClass>
+      <prefLabel>
+        Paroxetine
+      </prefLabel>
+      <id>
+        http://purl.bioontology.org/ontology/MSH/D017374
+      </id>
+      <type>
+        http://www.w3.org/2002/07/owl#Class
+      </type>
+      <linksCollection>
+        <links>
+          <self href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD017374" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <ontology href="http://data.bioontology.org/ontologies/MESH" rel="http://data.bioontology.org/metadata/Ontology"/>
+        </links>
+        <links>
+          <children href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD017374/children" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <parents href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD017374/parents" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <descendants href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD017374/descendants" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <ancestors href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD017374/ancestors" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <tree href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD017374/tree" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <notes href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD017374/notes" rel="http://data.bioontology.org/metadata/Note"/>
+        </links>
+        <links>
+          <mappings href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD017374/mappings" rel="http://data.bioontology.org/metadata/Mapping"/>
+        </links>
+        <links>
+          <ui href="http://bioportal.bioontology.org/ontologies/MESH?p=classes&amp;conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD017374" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+      </linksCollection>
+    </annotatedClass>
+    <hierarchyCollection/>
+    <annotationsCollection>
+      <annotations>
+        <from>
+          40
+        </from>
+        <to>
+          49
+        </to>
+        <matchType>
+          PREF
+        </matchType>
+        <text>
+          PAROXETINE
+        </text>
+      </annotations>
+    </annotationsCollection>
+    <mappingsCollection/>
+  </annotation>
+  <annotation>
+    <annotatedClass>
+      <prefLabel>
+        Paroxetine
+      </prefLabel>
+      <id>
+        http://purl.bioontology.org/ontology/RXNORM/32937
+      </id>
+      <type>
+        http://www.w3.org/2002/07/owl#Class
+      </type>
+      <linksCollection>
+        <links>
+          <self href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F32937" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <ontology href="http://data.bioontology.org/ontologies/RXNORM" rel="http://data.bioontology.org/metadata/Ontology"/>
+        </links>
+        <links>
+          <children href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F32937/children" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <parents href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F32937/parents" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <descendants href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F32937/descendants" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <ancestors href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F32937/ancestors" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <tree href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F32937/tree" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <notes href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F32937/notes" rel="http://data.bioontology.org/metadata/Note"/>
+        </links>
+        <links>
+          <mappings href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F32937/mappings" rel="http://data.bioontology.org/metadata/Mapping"/>
+        </links>
+        <links>
+          <ui href="http://bioportal.bioontology.org/ontologies/RXNORM?p=classes&amp;conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F32937" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+      </linksCollection>
+    </annotatedClass>
+    <hierarchyCollection/>
+    <annotationsCollection>
+      <annotations>
+        <from>
+          40
+        </from>
+        <to>
+          49
+        </to>
+        <matchType>
+          PREF
+        </matchType>
+        <text>
+          PAROXETINE
+        </text>
+      </annotations>
+      <annotations>
+        <from>
+          40
+        </from>
+        <to>
+          49
+        </to>
+        <matchType>
+          SYN
+        </matchType>
+        <text>
+          PAROXETINE
+        </text>
+      </annotations>
+    </annotationsCollection>
+    <mappingsCollection/>
+  </annotation>
+  <annotation>
+    <annotatedClass>
+      <prefLabel>
+        Procyclidine
+      </prefLabel>
+      <id>
+        http://purl.bioontology.org/ontology/RXNORM/8718
+      </id>
+      <type>
+        http://www.w3.org/2002/07/owl#Class
+      </type>
+      <linksCollection>
+        <links>
+          <self href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F8718" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <ontology href="http://data.bioontology.org/ontologies/RXNORM" rel="http://data.bioontology.org/metadata/Ontology"/>
+        </links>
+        <links>
+          <children href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F8718/children" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <parents href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F8718/parents" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <descendants href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F8718/descendants" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <ancestors href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F8718/ancestors" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <tree href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F8718/tree" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <notes href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F8718/notes" rel="http://data.bioontology.org/metadata/Note"/>
+        </links>
+        <links>
+          <mappings href="http://data.bioontology.org/ontologies/RXNORM/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F8718/mappings" rel="http://data.bioontology.org/metadata/Mapping"/>
+        </links>
+        <links>
+          <ui href="http://bioportal.bioontology.org/ontologies/RXNORM?p=classes&amp;conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FRXNORM%2F8718" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+      </linksCollection>
+    </annotatedClass>
+    <hierarchyCollection/>
+    <annotationsCollection>
+      <annotations>
+        <from>
+          127
+        </from>
+        <to>
+          138
+        </to>
+        <matchType>
+          PREF
+        </matchType>
+        <text>
+          PROCYCLIDINE
+        </text>
+      </annotations>
+      <annotations>
+        <from>
+          211
+        </from>
+        <to>
+          222
+        </to>
+        <matchType>
+          PREF
+        </matchType>
+        <text>
+          PROCYCLIDINE
+        </text>
+      </annotations>
+      <annotations>
+        <from>
+          296
+        </from>
+        <to>
+          307
+        </to>
+        <matchType>
+          PREF
+        </matchType>
+        <text>
+          PROCYCLIDINE
+        </text>
+      </annotations>
+    </annotationsCollection>
+    <mappingsCollection/>
+  </annotation>
+  <annotation>
+    <annotatedClass>
+      <prefLabel>
+        Procyclidine
+      </prefLabel>
+      <id>
+        http://purl.bioontology.org/ontology/MSH/D011352
+      </id>
+      <type>
+        http://www.w3.org/2002/07/owl#Class
+      </type>
+      <linksCollection>
+        <links>
+          <self href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD011352" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <ontology href="http://data.bioontology.org/ontologies/MESH" rel="http://data.bioontology.org/metadata/Ontology"/>
+        </links>
+        <links>
+          <children href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD011352/children" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <parents href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD011352/parents" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <descendants href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD011352/descendants" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <ancestors href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD011352/ancestors" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <tree href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD011352/tree" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+        <links>
+          <notes href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD011352/notes" rel="http://data.bioontology.org/metadata/Note"/>
+        </links>
+        <links>
+          <mappings href="http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD011352/mappings" rel="http://data.bioontology.org/metadata/Mapping"/>
+        </links>
+        <links>
+          <ui href="http://bioportal.bioontology.org/ontologies/MESH?p=classes&amp;conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FD011352" rel="http://www.w3.org/2002/07/owl#Class"/>
+        </links>
+      </linksCollection>
+    </annotatedClass>
+    <hierarchyCollection/>
+    <annotationsCollection>
+      <annotations>
+        <from>
+          127
+        </from>
+        <to>
+          138
+        </to>
+        <matchType>
+          PREF
+        </matchType>
+        <text>
+          PROCYCLIDINE
+        </text>
+      </annotations>
+      <annotations>
+        <from>
+          211
+        </from>
+        <to>
+          222
+        </to>
+        <matchType>
+          PREF
+        </matchType>
+        <text>
+          PROCYCLIDINE
+        </text>
+      </annotations>
+      <annotations>
+        <from>
+          296
+        </from>
+        <to>
+          307
+        </to>
+        <matchType>
+          PREF
+        </matchType>
+        <text>
+          PROCYCLIDINE
+        </text>
+      </annotations>
+    </annotationsCollection>
+    <mappingsCollection/>
+  </annotation>
+</annotationCollection>
+
+
