@@ -43,7 +43,7 @@
 	    <!--<param name="encoding" value="UTF-8"/>-->
 	  </param>
 	  <!-- EDIT THIS PATH TO YOUR LOCAL ENVIRONMENT!!!-->
-	  <param name="dictionary_path" value="/home/boycerd/DI_DIR/swat-4-med-safety/u-of-pitt-SPL-drug-NER/etc/WordNet-3.0/dict/"/>
+	  <param name="dictionary_path" value="/home/PITT/rdb20/u-of-pitt-SPL-drug-NER/etc/WordNet-3.0/dict/"/>
         </param>
     </dictionary>
     <resource class="PrincetonResource"/>
