@@ -39,7 +39,9 @@ public class AnnotatorClient {
             method.addParameter("max_level", "0");
             method.addParameter("mapping_types", "false"); //null, Automatic, Manual 
             method.addParameter("text", text);  //"Melanoma is a malignant tumor of melanocytes which are found predominantly in skin but also in the bowel and the eye");
-            method.addParameter("format", "xml"); //Options are 'text', 'xml', 'tabDelimited'   
+	    method.addParameter("ontologies", "MESH,RXNORM"); 
+	    method.addParameter("include", "prefLabel"); 
+            method.addParameter("format", "xml"); 
             method.addParameter("apikey", API_KEY);
 
             // Execute the POST method
