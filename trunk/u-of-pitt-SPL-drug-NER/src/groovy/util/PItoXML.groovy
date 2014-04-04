@@ -98,8 +98,10 @@ class PItoXML {
 			def text = replaceHyphenSuffixes(replacePunctuation(origText.toLowerCase()))
 			def xml = AnnotatorClient.annotate(text)
 			def ncboRoot = xmlParser.parseText(xml)
-			def ontologies = getLocalOntologyIds([RXNORM, MESH], ncboRoot)
-			restrictOntologies(ncboRoot, ontologies)
+			writeXml("TEST-", ncboRoot)
+			   
+			//def ontologies = getLocalOntologyIds([RXNORM, MESH], ncboRoot)
+			//restrictOntologies(ncboRoot, ontologies)
 			filter(ncboRoot)
 			checkJochem(origText)
 			add(text, origText, ncboRoot)
@@ -113,8 +115,8 @@ class PItoXML {
 		def xmlParser = new XmlParser()
 		def xml = AnnotatorClient.annotate(text)
 		def ncboRoot = xmlParser.parseText(xml)
-		def ontologies = getLocalOntologyIds([RXNORM, MESH], ncboRoot)
-		restrictOntologies(ncboRoot, ontologies)
+		    //def ontologies = getLocalOntologyIds([RXNORM, MESH], ncboRoot)
+		    //restrictOntologies(ncboRoot, ontologies)
 		filter(ncboRoot)
 		checkJochem(origText)
 		add(text, origText, ncboRoot)
@@ -127,8 +129,8 @@ class PItoXML {
 		def xmlParser = new XmlParser()
 		def xml = AnnotatorClient.annotate(text)
 		def ncboRoot = xmlParser.parseText(xml)
-		def ontologies = getLocalOntologyIds([RXNORM, MESH], ncboRoot)
-		restrictOntologies(ncboRoot, ontologies)
+		    //def ontologies = getLocalOntologyIds([RXNORM, MESH], ncboRoot)
+		    //restrictOntologies(ncboRoot, ontologies)
 //		for (annotationBean in ncboRoot.data.annotatorResultBean.annotations.annotationBean) {
 //			def name = annotationBean.context.term.name.text().toLowerCase()
 //			testDrugFilterFunctions(name, annotationBean)
@@ -142,7 +144,8 @@ class PItoXML {
 	
 	//Add drugs missed by ncbo annotator
 	def add(text, originalText, root) {
-		def nameNodes = root.data.annotatorResultBean.annotations.annotationBean.context.term.name
+ 	       // UNTESTED!!!
+		def nameNodes = root.annotationCollection.annotation.annotationClass.prefLabel
 		def terms = []
 		nameNodes.each{
 			terms << it.text().toLowerCase()
@@ -162,23 +165,23 @@ class PItoXML {
 	
 	//Add nodes to the xml for Addition terms found in submitted text
 	def add_xml(root, addTerm, locations) {
-		def annotations = root.data.annotatorResultBean.annotations[0]
+	       // UNTESTED!!!
+		def annotations = root.annotationCollection
 		locations.each{
-			def annotationBean = new Node(annotations, "annotationBean")
-			
-			def concept = new Node(annotationBean, "concept")
+			def annotationBean = new Node(annotations, "annotation")			
+			def concept = new Node(annotationBean, "annotatedClass")
 			new Node(concept, "id", "None")
-			new Node(concept, "localConceptId", "None")
-			new Node(concept, "localOntologyId", "None")
+			new Node(concept, "type", "None")
+			new Node(concept, "linksCollection", "None")
 			new Node(concept, "fullId", "Added locally")
-			new Node(concept, "preferredName", addTerm)
+			new Node(concept, "preferredLabel", addTerm)
 			
-			def context = new Node(annotationBean, "context")
+			def annotationsCollection = new Node(annotationBean, "annotationsCollection")
+			def context = new Node(annotationsCollection, "annotations")
 			new Node(context, "from", it[0])
 			new Node(context, "to", it[1])
-			
-			def term = new Node(context, "term")
-			new Node(term, "name", addTerm)
+			new Node(context, "matchType", "CUSTOM")
+			new Node(context, "text", addTerm)
 		}
 	}
 	
@@ -210,11 +213,15 @@ class PItoXML {
 	* that are already present.
 	*/
    def checkLocations(root, locations) {
-	   def annotationBeans = root.data.annotatorResultBean.annotations.annotationBean
+           // UNTESTED!!!
+	   def annotationBeans = root.annotationCollection.annotation
 	   def toremove = []
+   
+          // UNTESTED!!!
 	   for (annotationBean in annotationBeans) {
-		   def from = Integer.parseInt(annotationBean.context.from.text())
-		   def to = Integer.parseInt(annotationBean.context.to.text())
+	       for (annot in annotationBean.annotationsCollection.annotations){
+ 		     def from = Integer.parseInt(annot.from.text())
+		     def to = Integer.parseInt(annot.to.text())
 		   for (location in locations) {
 			   if (location in toremove) {
 				   continue
@@ -223,6 +230,7 @@ class PItoXML {
 				   toremove << location
 			   }
 		   }
+	       }
 	   }
 	   for (location in toremove) {
 		   locations.remove(locations.indexOf(location))
@@ -232,11 +240,12 @@ class PItoXML {
 	
 	//Filter out unwanted terms from ncbo annotations
 	def filter(root) {
-		def annotations = root.data.annotatorResultBean.annotations[0]
+	        //def annotations = root.data.annotatorResultBean.annotations[0]
+  	        def annotations = root.annotationCollection
 		def allNames = []
 		def removeNames = []
-		annotations.annotationBean.each{
-			def name = it.context.term.name.text().toLowerCase()
+		annotations.annotation.each{
+			def name = it.annotatedClass.prefLabel.text().toLowerCase()
 			if (!(name in allNames)) {
 				if (!isDrugName(name, it) || (name in SUBTRACTIONS)) {
 					removeNames << name
@@ -245,8 +254,8 @@ class PItoXML {
 			allNames << name
 		}
 		for (name in removeNames) {
-			annotations.annotationBean.each {
-				if (it.context.term.name.text().toLowerCase().equals(name)) {
+			annotations.annotation.each {
+				if (it.annotatedClass.prefLabel.text().toLowerCase().equals(name)) {
 					annotations.remove(it)
 				}
 			}
