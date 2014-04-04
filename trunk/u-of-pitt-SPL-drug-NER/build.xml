@@ -1,0 +1,21 @@
+<project name="u-of-pitt-SPL-drug-NER" basedir="." xmlns:ora="antlib:net.sf.incanto">
+
+  <target name="compile" depends="">
+    <mkdir dir="target"/>
+    <mkdir dir="target/classes"/>  
+  
+    <javac srcdir="src/java"
+	   destdir="target/classes"
+	   debug="on" 
+	   debuglevel="lines,vars,source" 
+	   >
+      <compilerarg value="-Xlint:unchecked" />
+      <compilerarg value="-Xlint:deprecation" />
+      <classpath> 
+	<fileset dir="lib/">
+	  <include name="*.jar"/>
+	</fileset>           
+      </classpath>
+    </javac>                          
+  </target>  
+</project>
