@@ -4,17 +4,17 @@
     /obs/annotator
   </accessedResource>
   <accessDate>
-    2014-04-04 10:06:10.539 PDT
+    2014-04-04 11:44:55.126 PDT
   </accessDate>
   <data>
     <annotatorResultBean>
       <resultID>
-        OBA_RESULT_ea10
+        OBA_RESULT_38c8
       </resultID>
       <statistics>
         <statisticsBean>
           <contextName>
-            CLOSURE
+            MAPPING
           </contextName>
           <nbAnnotation>
             0
@@ -30,7 +30,7 @@
         </statisticsBean>
         <statisticsBean>
           <contextName>
-            MAPPING
+            CLOSURE
           </contextName>
           <nbAnnotation>
             0
@@ -735,7 +735,25 @@
             </preferredName>
             <synonyms>
               <string>
-                Opus Brand of Procyclidine Hydrochloride
+                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+              </string>
+              <string>
+                Kemadrin
+              </string>
+              <string>
+                Arpicolin
+              </string>
+              <string>
+                Glaxo Wellcome Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Monarch Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Osnervan
+              </string>
+              <string>
+                Tricyclamol
               </string>
               <string>
                 GlaxoSmithKline Brand of Procyclidine Hydrochloride
@@ -744,46 +762,28 @@
                 Procyclidine Hydrochloride
               </string>
               <string>
-                Hydrochloride, Procyclidine
-              </string>
-              <string>
-                Kemadren
-              </string>
-              <string>
-                Rosemont Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Glaxo Wellcome Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Mucinil
-              </string>
-              <string>
                 Wellcome Brand of Procyclidine Hydrochloride
               </string>
               <string>
                 ICN Brand of Procyclidine Hydrochloride
               </string>
               <string>
-                Osnervan
-              </string>
-              <string>
-                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-              </string>
-              <string>
-                Monarch Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Arpicolin
+                Rosemont Brand of Procyclidine Hydrochloride
               </string>
               <string>
                 Procyclid
               </string>
               <string>
-                Tricyclamol
+                Hydrochloride, Procyclidine
               </string>
               <string>
-                Kemadrin
+                Kemadren
+              </string>
+              <string>
+                Mucinil
+              </string>
+              <string>
+                Opus Brand of Procyclidine Hydrochloride
               </string>
             </synonyms>
             <definitions/>
@@ -843,7 +843,25 @@
                 </preferredName>
                 <synonyms>
                   <string>
-                    Opus Brand of Procyclidine Hydrochloride
+                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+                  </string>
+                  <string>
+                    Kemadrin
+                  </string>
+                  <string>
+                    Arpicolin
+                  </string>
+                  <string>
+                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Monarch Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Osnervan
+                  </string>
+                  <string>
+                    Tricyclamol
                   </string>
                   <string>
                     GlaxoSmithKline Brand of Procyclidine Hydrochloride
@@ -852,46 +870,28 @@
                     Procyclidine Hydrochloride
                   </string>
                   <string>
-                    Hydrochloride, Procyclidine
-                  </string>
-                  <string>
-                    Kemadren
-                  </string>
-                  <string>
-                    Rosemont Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Mucinil
-                  </string>
-                  <string>
                     Wellcome Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
                     ICN Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
-                    Osnervan
-                  </string>
-                  <string>
-                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-                  </string>
-                  <string>
-                    Monarch Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Arpicolin
+                    Rosemont Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
                     Procyclid
                   </string>
                   <string>
-                    Tricyclamol
+                    Hydrochloride, Procyclidine
                   </string>
                   <string>
-                    Kemadrin
+                    Kemadren
+                  </string>
+                  <string>
+                    Mucinil
+                  </string>
+                  <string>
+                    Opus Brand of Procyclidine Hydrochloride
                   </string>
                 </synonyms>
                 <definitions/>
@@ -944,7 +944,25 @@
             </preferredName>
             <synonyms>
               <string>
-                Opus Brand of Procyclidine Hydrochloride
+                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+              </string>
+              <string>
+                Kemadrin
+              </string>
+              <string>
+                Arpicolin
+              </string>
+              <string>
+                Glaxo Wellcome Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Monarch Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Osnervan
+              </string>
+              <string>
+                Tricyclamol
               </string>
               <string>
                 GlaxoSmithKline Brand of Procyclidine Hydrochloride
@@ -953,46 +971,28 @@
                 Procyclidine Hydrochloride
               </string>
               <string>
-                Hydrochloride, Procyclidine
-              </string>
-              <string>
-                Kemadren
-              </string>
-              <string>
-                Rosemont Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Glaxo Wellcome Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Mucinil
-              </string>
-              <string>
                 Wellcome Brand of Procyclidine Hydrochloride
               </string>
               <string>
                 ICN Brand of Procyclidine Hydrochloride
               </string>
               <string>
-                Osnervan
-              </string>
-              <string>
-                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-              </string>
-              <string>
-                Monarch Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Arpicolin
+                Rosemont Brand of Procyclidine Hydrochloride
               </string>
               <string>
                 Procyclid
               </string>
               <string>
-                Tricyclamol
+                Hydrochloride, Procyclidine
               </string>
               <string>
-                Kemadrin
+                Kemadren
+              </string>
+              <string>
+                Mucinil
+              </string>
+              <string>
+                Opus Brand of Procyclidine Hydrochloride
               </string>
             </synonyms>
             <definitions/>
@@ -1052,7 +1052,25 @@
                 </preferredName>
                 <synonyms>
                   <string>
-                    Opus Brand of Procyclidine Hydrochloride
+                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+                  </string>
+                  <string>
+                    Kemadrin
+                  </string>
+                  <string>
+                    Arpicolin
+                  </string>
+                  <string>
+                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Monarch Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Osnervan
+                  </string>
+                  <string>
+                    Tricyclamol
                   </string>
                   <string>
                     GlaxoSmithKline Brand of Procyclidine Hydrochloride
@@ -1061,46 +1079,28 @@
                     Procyclidine Hydrochloride
                   </string>
                   <string>
-                    Hydrochloride, Procyclidine
-                  </string>
-                  <string>
-                    Kemadren
-                  </string>
-                  <string>
-                    Rosemont Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Mucinil
-                  </string>
-                  <string>
                     Wellcome Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
                     ICN Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
-                    Osnervan
-                  </string>
-                  <string>
-                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-                  </string>
-                  <string>
-                    Monarch Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Arpicolin
+                    Rosemont Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
                     Procyclid
                   </string>
                   <string>
-                    Tricyclamol
+                    Hydrochloride, Procyclidine
                   </string>
                   <string>
-                    Kemadrin
+                    Kemadren
+                  </string>
+                  <string>
+                    Mucinil
+                  </string>
+                  <string>
+                    Opus Brand of Procyclidine Hydrochloride
                   </string>
                 </synonyms>
                 <definitions/>
@@ -1407,7 +1407,25 @@
             </preferredName>
             <synonyms>
               <string>
-                Opus Brand of Procyclidine Hydrochloride
+                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+              </string>
+              <string>
+                Kemadrin
+              </string>
+              <string>
+                Arpicolin
+              </string>
+              <string>
+                Glaxo Wellcome Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Monarch Brand of Procyclidine Hydrochloride
+              </string>
+              <string>
+                Osnervan
+              </string>
+              <string>
+                Tricyclamol
               </string>
               <string>
                 GlaxoSmithKline Brand of Procyclidine Hydrochloride
@@ -1416,46 +1434,28 @@
                 Procyclidine Hydrochloride
               </string>
               <string>
-                Hydrochloride, Procyclidine
-              </string>
-              <string>
-                Kemadren
-              </string>
-              <string>
-                Rosemont Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Glaxo Wellcome Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Mucinil
-              </string>
-              <string>
                 Wellcome Brand of Procyclidine Hydrochloride
               </string>
               <string>
                 ICN Brand of Procyclidine Hydrochloride
               </string>
               <string>
-                Osnervan
-              </string>
-              <string>
-                1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-              </string>
-              <string>
-                Monarch Brand of Procyclidine Hydrochloride
-              </string>
-              <string>
-                Arpicolin
+                Rosemont Brand of Procyclidine Hydrochloride
               </string>
               <string>
                 Procyclid
               </string>
               <string>
-                Tricyclamol
+                Hydrochloride, Procyclidine
               </string>
               <string>
-                Kemadrin
+                Kemadren
+              </string>
+              <string>
+                Mucinil
+              </string>
+              <string>
+                Opus Brand of Procyclidine Hydrochloride
               </string>
             </synonyms>
             <definitions/>
@@ -1515,7 +1515,25 @@
                 </preferredName>
                 <synonyms>
                   <string>
-                    Opus Brand of Procyclidine Hydrochloride
+                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
+                  </string>
+                  <string>
+                    Kemadrin
+                  </string>
+                  <string>
+                    Arpicolin
+                  </string>
+                  <string>
+                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Monarch Brand of Procyclidine Hydrochloride
+                  </string>
+                  <string>
+                    Osnervan
+                  </string>
+                  <string>
+                    Tricyclamol
                   </string>
                   <string>
                     GlaxoSmithKline Brand of Procyclidine Hydrochloride
@@ -1524,46 +1542,28 @@
                     Procyclidine Hydrochloride
                   </string>
                   <string>
-                    Hydrochloride, Procyclidine
-                  </string>
-                  <string>
-                    Kemadren
-                  </string>
-                  <string>
-                    Rosemont Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Glaxo Wellcome Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Mucinil
-                  </string>
-                  <string>
                     Wellcome Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
                     ICN Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
-                    Osnervan
-                  </string>
-                  <string>
-                    1-Pyrrolidinepropanol, alpha-cyclohexyl-alpha-phenyl-
-                  </string>
-                  <string>
-                    Monarch Brand of Procyclidine Hydrochloride
-                  </string>
-                  <string>
-                    Arpicolin
+                    Rosemont Brand of Procyclidine Hydrochloride
                   </string>
                   <string>
                     Procyclid
                   </string>
                   <string>
-                    Tricyclamol
+                    Hydrochloride, Procyclidine
                   </string>
                   <string>
-                    Kemadrin
+                    Kemadren
+                  </string>
+                  <string>
+                    Mucinil
+                  </string>
+                  <string>
+                    Opus Brand of Procyclidine Hydrochloride
                   </string>
                 </synonyms>
                 <definitions/>
@@ -1751,49 +1751,25 @@
             </preferredName>
             <synonyms>
               <string>
-                Aropax
-              </string>
-              <string>
-                Paroxetine Maleate
-              </string>
-              <string>
-                Hemihydrate Paroxetine Hydrochloride
-              </string>
-              <string>
-                Hydrochloride, Hemihydrate Paroxetine
-              </string>
-              <string>
-                BRL 29060
+                Paroxetine, cis-(+)-Isomer
               </string>
               <string>
                 Hydrochloride, Paroxetine
               </string>
               <string>
-                BRL-29060
-              </string>
-              <string>
-                Paroxetine, trans-(+)-Isomer
-              </string>
-              <string>
-                Acetate, Paroxetine
-              </string>
-              <string>
-                Paroxetine Hydrochloride
-              </string>
-              <string>
-                Paroxetine Acetate
-              </string>
-              <string>
-                BRL29060
+                Maleate, Paroxetine
               </string>
               <string>
                 Paroxetine, cis-(-)-Isomer
               </string>
               <string>
-                Maleate, Paroxetine
+                Paroxetine Maleate
               </string>
               <string>
-                FG-7051
+                Paroxetine Acetate
+              </string>
+              <string>
+                BRL 29060
               </string>
               <string>
                 Piperidine, 3-((1,3-benzodioxol-5-yloxy)methyl)-4-(4-fluorophenyl)-, (3S-trans)-
@@ -1802,13 +1778,37 @@
                 Paroxetine Hydrochloride, Hemihydrate
               </string>
               <string>
-                Paroxetine, cis-(+)-Isomer
+                Seroxat
+              </string>
+              <string>
+                FG-7051
+              </string>
+              <string>
+                Paroxetine, trans-(+)-Isomer
+              </string>
+              <string>
+                Paroxetine Hydrochloride
               </string>
               <string>
                 Paxil
               </string>
               <string>
-                Seroxat
+                Hydrochloride, Hemihydrate Paroxetine
+              </string>
+              <string>
+                BRL-29060
+              </string>
+              <string>
+                BRL29060
+              </string>
+              <string>
+                Aropax
+              </string>
+              <string>
+                Acetate, Paroxetine
+              </string>
+              <string>
+                Hemihydrate Paroxetine Hydrochloride
               </string>
             </synonyms>
             <definitions/>
@@ -1868,49 +1868,25 @@
                 </preferredName>
                 <synonyms>
                   <string>
-                    Aropax
-                  </string>
-                  <string>
-                    Paroxetine Maleate
-                  </string>
-                  <string>
-                    Hemihydrate Paroxetine Hydrochloride
-                  </string>
-                  <string>
-                    Hydrochloride, Hemihydrate Paroxetine
-                  </string>
-                  <string>
-                    BRL 29060
+                    Paroxetine, cis-(+)-Isomer
                   </string>
                   <string>
                     Hydrochloride, Paroxetine
                   </string>
                   <string>
-                    BRL-29060
-                  </string>
-                  <string>
-                    Paroxetine, trans-(+)-Isomer
-                  </string>
-                  <string>
-                    Acetate, Paroxetine
-                  </string>
-                  <string>
-                    Paroxetine Hydrochloride
-                  </string>
-                  <string>
-                    Paroxetine Acetate
-                  </string>
-                  <string>
-                    BRL29060
+                    Maleate, Paroxetine
                   </string>
                   <string>
                     Paroxetine, cis-(-)-Isomer
                   </string>
                   <string>
-                    Maleate, Paroxetine
+                    Paroxetine Maleate
                   </string>
                   <string>
-                    FG-7051
+                    Paroxetine Acetate
+                  </string>
+                  <string>
+                    BRL 29060
                   </string>
                   <string>
                     Piperidine, 3-((1,3-benzodioxol-5-yloxy)methyl)-4-(4-fluorophenyl)-, (3S-trans)-
@@ -1919,13 +1895,37 @@
                     Paroxetine Hydrochloride, Hemihydrate
                   </string>
                   <string>
-                    Paroxetine, cis-(+)-Isomer
+                    Seroxat
+                  </string>
+                  <string>
+                    FG-7051
+                  </string>
+                  <string>
+                    Paroxetine, trans-(+)-Isomer
+                  </string>
+                  <string>
+                    Paroxetine Hydrochloride
                   </string>
                   <string>
                     Paxil
                   </string>
                   <string>
-                    Seroxat
+                    Hydrochloride, Hemihydrate Paroxetine
+                  </string>
+                  <string>
+                    BRL-29060
+                  </string>
+                  <string>
+                    BRL29060
+                  </string>
+                  <string>
+                    Aropax
+                  </string>
+                  <string>
+                    Acetate, Paroxetine
+                  </string>
+                  <string>
+                    Hemihydrate Paroxetine Hydrochloride
                   </string>
                 </synonyms>
                 <definitions/>
