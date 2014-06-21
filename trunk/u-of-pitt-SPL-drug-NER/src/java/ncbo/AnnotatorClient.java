@@ -32,10 +32,7 @@ public class AnnotatorClient {
         String textToAnnotate = URLEncoder.encode("Asenapine paroxetine PAXIL plavix", "ISO-8859-1");
         urlParameters = "text=" + textToAnnotate;
 
-	annotations = annotate(textToAnnotate);
-	printAnnotations(annotations);
-
-	String annotationsXml = convertAnnotationsToXml(annotations);
+	String annotationsXml = annotate(textToAnnotate);
 	System.out.println(annotationsXml);
 
 	// UNCOMMENT THESE ENTRIES TO TEST GET AND POST CALLS
@@ -61,18 +58,20 @@ public class AnnotatorClient {
         // }
     }
 
-    public static JsonNode annotate(String text) {
+    public static String annotate(String text) {
     	try {          
+	    String textToAnnotate = URLEncoder.encode("text", "ISO-8859-1");
             String stopwords = getStopWords(new File("data/stopwords.txt"));
             JsonNode annotations;
 	    String urlParameters;
 
             // Configure the form parameters
-	    urlParameters = "longest_only=true&whole_word_only=true&stopwords=" + stopwords + "&minimum_match_length=3&include_synonyms=true&max_level=0&ontologies=MESH,RXNORM&include=prefLabel&text=" + text;
+	    urlParameters = "longest_only=true&whole_word_only=true&stopwords=" + stopwords + "&minimum_match_length=3&include_synonyms=true&max_level=0&ontologies=MESH,RXNORM&include=prefLabel&text=" + textToAnnotate;
 
             // Execute the POST method
 	    annotations = jsonToNode(post(REST_URL + "/annotator", urlParameters));            
-	    return annotations;
+	    String annotationsXml = convertAnnotationsToXml(annotations);
+	    return annotationsXml;
         }
         catch( Exception e ){
             e.printStackTrace();
