@@ -66,7 +66,12 @@ public class AnnotatorClient {
 	    String urlParameters;
 
             // Configure the form parameters
+
+	    // FILTERING BY SEMANTIC TYPES
 	    urlParameters = "longest_only=true&whole_word_only=true&stopwords=" + stopwords + "&minimum_match_length=3&include_synonyms=true&max_level=0&ontologies=MESH,RXNORM&semantic_types=T121,T109,T999&include=prefLabel&text=" + textToAnnotate;
+	    // WITH NO FILTERING BY SEMANTIC TYPES
+	    // TODO: ENSURE THAT THE RESULTS ARE PROCESSED TO REMOVE REPLACE INVALID STRINGS FOR XML WITH TAGS
+	    //urlParameters = "longest_only=true&whole_word_only=true&stopwords=" + stopwords + "&minimum_match_length=3&include_synonyms=true&max_level=0&ontologies=MESH,RXNORM&include=prefLabel&text=" + textToAnnotate;
 
             // Execute the POST method
 	    annotations = jsonToNode(post(REST_URL + "/annotator", urlParameters));            

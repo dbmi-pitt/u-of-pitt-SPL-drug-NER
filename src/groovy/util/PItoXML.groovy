@@ -107,8 +107,6 @@ class PItoXML {
 			if (ncboRoot == null){
 			    println "ncboRoot  is null"
 			}
-			//def ontologies = getLocalOntologyIds([RXNORM, MESH], ncboRoot)
-			//restrictOntologies(ncboRoot, ontologies) //should not be necessary
 			println "INFO: postprocessing the XML"
 			filter(ncboRoot)
 			checkJochem(origText)
@@ -124,8 +122,6 @@ class PItoXML {
 		def xmlParser = new XmlParser()
 		def xml = AnnotatorClient.annotate(text)
 		def ncboRoot = xmlParser.parseText(xml)
-		    //def ontologies = getLocalOntologyIds([RXNORM, MESH], ncboRoot)
-		    //restrictOntologies(ncboRoot, ontologies) //should not be necessary
 		filter(ncboRoot)
 		checkJochem(origText)
 		add(text, origText, ncboRoot)
@@ -139,12 +135,6 @@ class PItoXML {
 		def xmlParser = new XmlParser()
 		def xml = AnnotatorClient.annotate(text)
 		def ncboRoot = xmlParser.parseText(xml)
-		    //def ontologies = getLocalOntologyIds([RXNORM, MESH], ncboRoot)
-		    //restrictOntologies(ncboRoot, ontologies) //should not be necessary
-//		for (annotationBean in ncboRoot.data.annotatorResultBean.annotations.annotationBean) {
-//			def name = annotationBean.context.term.name.text().toLowerCase()
-//			testDrugFilterFunctions(name, annotationBean)
-//		}
 		filter(ncboRoot)
 		checkJochem(origText)
 		add(text, origText, ncboRoot)
@@ -162,7 +152,6 @@ class PItoXML {
 		def textWords = text.split()
 		ADDITIONS.each{
 			def addition = it.toLowerCase()
-			//if (textWords.contains(addition) && !terms.contains(addition) && !SUBTRACTIONS.contains(addition) && !inWordnet(addition)) {
 			if (textWords.grep(addition) && !terms.grep(addition) && !SUBTRACTIONS.grep(addition) && !inWordnet(addition)) {
 				def locations = checkLocations(root, getLocations(it, originalText))
 				if (locations) {
