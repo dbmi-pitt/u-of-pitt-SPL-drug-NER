@@ -90,16 +90,26 @@ class PItoXML {
 	}
 	
 	def annotate() {
+		println "Annotate function"
 		def piFiles = getPIFiles()
 		def xmlParser = new XmlParser()
 		piFiles.each{
 			println it.toString()
 			def origText = it.text
 			def text = replaceHyphenSuffixes(replacePunctuation(origText.toLowerCase()))
+			println "INFO: Calling annotator client"
 			def xml = AnnotatorClient.annotate(text)
+			if (xml == null){
+			    println "xml from annotator is null"
+			}
+			println "INFO: parsing the XML text for a root"
 			def ncboRoot = xmlParser.parseText(xml)
+			if (ncboRoot == null){
+			    println "ncboRoot  is null"
+			}
 			//def ontologies = getLocalOntologyIds([RXNORM, MESH], ncboRoot)
 			//restrictOntologies(ncboRoot, ontologies) //should not be necessary
+			println "INFO: postprocessing the XML"
 			filter(ncboRoot)
 			checkJochem(origText)
 			add(text, origText, ncboRoot)
@@ -108,6 +118,7 @@ class PItoXML {
 	}
 	
 	def annotate(text) {
+		println "Annotate function with text"
 		def origText = text
 		text = replaceHyphenSuffixes(replacePunctuation(text.toLowerCase()))
 		def xmlParser = new XmlParser()
@@ -122,6 +133,7 @@ class PItoXML {
 	}
 	
 	def annotate_test(text) {
+     	        println "annotate_test function"
 		def origText = text 
 		text = replaceHyphenSuffixes(replacePunctuation(text.toLowerCase()))
 		def xmlParser = new XmlParser()
@@ -233,6 +245,9 @@ class PItoXML {
 	//Filter out unwanted terms from ncbo annotations
 	def filter(root) {
 		def annotations = root.data.annotatorResultBean.annotations[0]
+		if (annotations == null){
+		    println "annotations is null"
+		}
 		def allNames = []
 		def removeNames = []
 		annotations.annotationBean.each{

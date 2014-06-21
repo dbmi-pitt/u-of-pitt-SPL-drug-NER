@@ -60,17 +60,19 @@ public class AnnotatorClient {
 
     public static String annotate(String text) {
     	try {          
-	    String textToAnnotate = URLEncoder.encode("text", "ISO-8859-1");
+	    String textToAnnotate = URLEncoder.encode(text, "ISO-8859-1");
             String stopwords = getStopWords(new File("data/stopwords.txt"));
             JsonNode annotations;
 	    String urlParameters;
 
             // Configure the form parameters
-	    urlParameters = "longest_only=true&whole_word_only=true&stopwords=" + stopwords + "&minimum_match_length=3&include_synonyms=true&max_level=0&ontologies=MESH,RXNORM&include=prefLabel&text=" + textToAnnotate;
+	    urlParameters = "longest_only=true&whole_word_only=true&stopwords=" + stopwords + "&minimum_match_length=3&include_synonyms=true&max_level=0&ontologies=MESH,RXNORM&semantic_types=T121,T109,T999&include=prefLabel&text=" + textToAnnotate;
 
             // Execute the POST method
 	    annotations = jsonToNode(post(REST_URL + "/annotator", urlParameters));            
 	    String annotationsXml = convertAnnotationsToXml(annotations);
+	    // Debugging
+	    System.out.println(annotationsXml);
 	    return annotationsXml;
         }
         catch( Exception e ){
@@ -122,7 +124,7 @@ public class AnnotatorClient {
     // the result to that XML format.
     private static String convertAnnotationsToXml(JsonNode annotations) {
 	String xmlStr = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
-	xmlStr += "<data><annotatorResultBean><annotations>";
+	xmlStr += "<root><data><annotatorResultBean><annotations>";
 	
         for (JsonNode annotation : annotations) {
             // Get the details for the class that was found in the annotation and print
@@ -164,7 +166,7 @@ public class AnnotatorClient {
 	    
 	    xmlStr += "</annotationBean>";
 	}	
-	xmlStr += "</annotations></annotatorResultBean></data>";
+	xmlStr += "</annotations></annotatorResultBean></data></root>";
 	return xmlStr;
     }
 
