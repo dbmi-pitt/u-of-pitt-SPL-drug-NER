@@ -35,6 +35,9 @@ public class AnnotatorClient {
 	annotations = annotate(textToAnnotate);
 	printAnnotations(annotations);
 
+	String annotationsXml = convertAnnotationsToXml(annotations);
+	System.out.println(annotationsXml);
+
 	// UNCOMMENT THESE ENTRIES TO TEST GET AND POST CALLS
         // Get just annotations
         // annotations = jsonToNode(get(REST_URL + "/annotator?" + urlParameters));
@@ -113,6 +116,57 @@ public class AnnotatorClient {
             e.printStackTrace();
         }
         return root;
+    }
+
+    // The NER program that calls this client was written to work with
+    // an older Bioportal API that returned XML. This methods shapes
+    // the result to that XML format.
+    private static String convertAnnotationsToXml(JsonNode annotations) {
+	String xmlStr = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
+	xmlStr += "<data><annotatorResultBean><annotations>";
+	
+        for (JsonNode annotation : annotations) {
+            // Get the details for the class that was found in the annotation and print
+            JsonNode classDetails = jsonToNode(get(annotation.get("annotatedClass").get("links").get("self").asText()));
+	    JsonNode annotationNodeArray = annotation.get("annotations");
+	    JsonNode annotationNode;
+	    if (annotationNodeArray.isArray() && annotationNodeArray.elements().hasNext()) {
+		annotationNode = annotationNodeArray.elements().next();
+		// Debugging
+		System.out.println(annotationNode.toString());
+	    }
+	    else {
+		System.out.print("WARNING: no annotations!");
+		continue;
+	    }
+
+	    xmlStr += "<annotationBean>";
+
+	    xmlStr += "<context>";
+	    xmlStr += "<term><name>";
+	    xmlStr += classDetails.get("prefLabel").asText();
+	    xmlStr += "</name></term>";
+	    xmlStr += "<from>";
+	    xmlStr += annotationNode.get("from").asText();
+            xmlStr += "</from>";
+	    xmlStr += "<to>";
+	    xmlStr += annotationNode.get("to").asText();
+            xmlStr += "</to>";
+	    xmlStr += "</context>";
+	    
+	    xmlStr += "<concept>";
+	    xmlStr += "<fullId>";
+	    xmlStr += classDetails.get("@id").asText();
+	    xmlStr += "</fullId>";
+	    xmlStr += "<preferredName>";
+	    xmlStr += classDetails.get("prefLabel").asText();
+	    xmlStr += "</preferredName>";
+	    xmlStr += "</concept>";
+	    
+	    xmlStr += "</annotationBean>";
+	}	
+	xmlStr += "</annotations></annotatorResultBean></data>";
+	return xmlStr;
     }
 
     private static String get(String urlToGet) {
