@@ -20,7 +20,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 
-public class AnnotateText {
+public class AnnotatorClient {
 
     static final String REST_URL = "http://data.bioontology.org";
     static final String API_KEY = "74028721-e60e-4ece-989b-1d2c17d14e9c";
@@ -66,19 +66,6 @@ public class AnnotateText {
 
             // Configure the form parameters
 	    urlParameters = "longest_only=true&whole_word_only=true&stopwords=" + stopwords + "&minimum_match_length=3&include_synonyms=true&max_level=0&ontologies=MESH,RXNORM&include=prefLabel&text=" + text;
-
-            // method.addParameter("longest_only","true");
-            // method.addParameter("whole_word_only","true");
-            // method.addParameter("stop_words",stopwords);
-            // method.addParameter("minimum_match_length","3");
-            // method.addParameter("include_synonyms","true"); 
-            // method.addParameter("max_level", "0");
-            // method.addParameter("mapping_types", "false"); //null, Automatic, Manual 
-	    // method.addParameter("ontologies", "MESH,RXNORM"); 
-	    // method.addParameter("include", "prefLabel");
-	    
-            //method.addParameter("format", "json"); 
-            //method.addParameter("apikey", API_KEY);
 
             // Execute the POST method
 	    annotations = jsonToNode(post(REST_URL + "/annotator", urlParameters));            
