@@ -58,5 +58,6 @@ $ groovy -cp $CLASSPATH src/groovy/util/PItoXML.groovy
 
 4) java -cp $CLASSPATH  ncbo/AnnotatorClient
 
-There is a default string that will be sent to the annotator for processing.
+There is a default string that will be sent to the annotator for
+processing. You should see results from MESH and RXNORM.
 
