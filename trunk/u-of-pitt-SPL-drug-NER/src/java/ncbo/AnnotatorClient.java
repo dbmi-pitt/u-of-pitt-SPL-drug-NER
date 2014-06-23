@@ -29,7 +29,7 @@ public class AnnotatorClient {
     public static void main(String[] args) throws Exception {
         String urlParameters;
         JsonNode annotations;
-        String textToAnnotate = URLEncoder.encode("Asenapine paroxetine PAXIL plavix", "ISO-8859-1");
+        String textToAnnotate = URLEncoder.encode("Asenapine paroxetine PAXIL plavix", "UTF-8");
         urlParameters = "text=" + textToAnnotate;
 
 	String annotationsXml = annotate(textToAnnotate);
@@ -60,7 +60,7 @@ public class AnnotatorClient {
 
     public static String annotate(String text) {
     	try {          
-	    String textToAnnotate = URLEncoder.encode(text, "ISO-8859-1");
+	    String textToAnnotate = URLEncoder.encode(text, "UTF-8");
             String stopwords = getStopWords(new File("data/stopwords.txt"));
             JsonNode annotations;
 	    String urlParameters;
