@@ -19,6 +19,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.util.*;
 
 public class AnnotatorClient {
 
@@ -29,7 +30,9 @@ public class AnnotatorClient {
     public static void main(String[] args) throws Exception {
         String urlParameters;
         JsonNode annotations;
-        String textToAnnotate = URLEncoder.encode("Asenapine paroxetine PAXIL plavix", "UTF-8");
+        //String textToAnnotate = URLEncoder.encode("Asenapine paroxetine PAXIL plavix", "UTF-8");
+	String textToAnnotate = URLEncoder.encode("Results of a placebo-controlled trial in normal volunteers suggest that chronic administration of sertraline 200 mg/day does not produce clinically important inhibition of phenytoin metabolism. Nonetheless, at this time, it is recommended that plasma phenytoin concentrations be monitored following initiation of sertraline therapy with appropriate adjustments to the phenytoin dose, particularly in patients with multiple underlying medical conditions and/or those receiving multiple concomitant medications.", "UTF-8");
+
         urlParameters = "text=" + textToAnnotate;
 
 	String annotationsXml = annotate(textToAnnotate);
@@ -74,7 +77,10 @@ public class AnnotatorClient {
 	    //urlParameters = "longest_only=true&whole_word_only=true&stopwords=" + stopwords + "&minimum_match_length=3&include_synonyms=true&max_level=0&ontologies=MESH,RXNORM&include=prefLabel&text=" + textToAnnotate;
 
             // Execute the POST method
-	    annotations = jsonToNode(post(REST_URL + "/annotator", urlParameters));            
+	    annotations = jsonToNode(post(REST_URL + "/annotator", urlParameters)); 
+	    //Debugging
+	    //System.out.println(annotations.toString());
+
 	    String annotationsXml = convertAnnotationsToXml(annotations);
 	    // Debugging
 	    System.out.println(annotationsXml);
@@ -135,41 +141,50 @@ public class AnnotatorClient {
             // Get the details for the class that was found in the annotation and print
             JsonNode classDetails = jsonToNode(get(annotation.get("annotatedClass").get("links").get("self").asText()));
 	    JsonNode annotationNodeArray = annotation.get("annotations");
-	    JsonNode annotationNode;
-	    if (annotationNodeArray.isArray() && annotationNodeArray.elements().hasNext()) {
-		annotationNode = annotationNodeArray.elements().next();
-		// Debugging
-		System.out.println(annotationNode.toString());
+	    if (annotationNodeArray.isArray()){
+		//for (JsonNode annotationNode: annotationNodeArray.elements()) {
+
+		Iterator<JsonNode> it = annotationNodeArray.iterator();
+ 
+		while(it.hasNext()) {
+		    //JsonNode annotationNode = annotationNodeArray.elements().next();
+                    JsonNode annotationNode = it.next();
+		    // Debugging
+		    System.out.println(annotationNode.toString());
+		    
+		    xmlStr += "<annotationBean>";
+
+		    xmlStr += "<context>";
+		    xmlStr += "<term><name>";
+		    xmlStr += classDetails.get("prefLabel").asText();
+		    xmlStr += "</name></term>";
+		    xmlStr += "<from>";
+		    xmlStr += annotationNode.get("from").asText();
+		    xmlStr += "</from>";
+		    xmlStr += "<to>";
+		    xmlStr += annotationNode.get("to").asText();
+		    xmlStr += "</to>";
+		    xmlStr += "</context>";
+	    
+		    xmlStr += "<concept>";
+		    xmlStr += "<fullId>";
+		    xmlStr += classDetails.get("@id").asText();
+		    xmlStr += "</fullId>";
+		    xmlStr += "<preferredName>";
+		    xmlStr += classDetails.get("prefLabel").asText();
+		    xmlStr += "</preferredName>";
+		    xmlStr += "</concept>";
+	    
+		    xmlStr += "</annotationBean>";
+
+		}
 	    }
 	    else {
 		System.out.print("WARNING: no annotations!");
 		continue;
 	    }
 
-	    xmlStr += "<annotationBean>";
 
-	    xmlStr += "<context>";
-	    xmlStr += "<term><name>";
-	    xmlStr += classDetails.get("prefLabel").asText();
-	    xmlStr += "</name></term>";
-	    xmlStr += "<from>";
-	    xmlStr += annotationNode.get("from").asText();
-            xmlStr += "</from>";
-	    xmlStr += "<to>";
-	    xmlStr += annotationNode.get("to").asText();
-            xmlStr += "</to>";
-	    xmlStr += "</context>";
-	    
-	    xmlStr += "<concept>";
-	    xmlStr += "<fullId>";
-	    xmlStr += classDetails.get("@id").asText();
-	    xmlStr += "</fullId>";
-	    xmlStr += "<preferredName>";
-	    xmlStr += classDetails.get("prefLabel").asText();
-	    xmlStr += "</preferredName>";
-	    xmlStr += "</concept>";
-	    
-	    xmlStr += "</annotationBean>";
 	}	
 	xmlStr += "</annotations></annotatorResultBean></data></root>";
 	return xmlStr;
