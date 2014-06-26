@@ -96,7 +96,8 @@ class PItoXML {
 		piFiles.each{
 			println it.toString()
 			def origText = it.text
-			def text = replaceHyphenSuffixes(replacePunctuation(origText.toLowerCase()))
+			//def text = replaceHyphenSuffixes(replacePunctuation(origText.toLowerCase()))
+			def text = origText.toLowerCase()
 			println "INFO: Calling annotator client"
 			def xml = AnnotatorClient.annotate(text)
 			if (xml == null){
@@ -118,7 +119,8 @@ class PItoXML {
 	def annotate(text) {
 		println "Annotate function with text"
 		def origText = text
-		text = replaceHyphenSuffixes(replacePunctuation(text.toLowerCase()))
+		    //text = replaceHyphenSuffixes(replacePunctuation(text.toLowerCase()))
+		text = text.toLowerCase()
 		def xmlParser = new XmlParser()
 		def xml = AnnotatorClient.annotate(text)
 		def ncboRoot = xmlParser.parseText(xml)
@@ -131,7 +133,8 @@ class PItoXML {
 	def annotate_test(text) {
      	        println "annotate_test function"
 		def origText = text 
-		text = replaceHyphenSuffixes(replacePunctuation(text.toLowerCase()))
+		    //text = replaceHyphenSuffixes(replacePunctuation(text.toLowerCase()))
+		text = text.toLowerCase()
 		def xmlParser = new XmlParser()
 		def xml = AnnotatorClient.annotate(text)
 		def ncboRoot = xmlParser.parseText(xml)
