@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-95.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_83405" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="20" end="30" />
+    <spannedText>nefazodone</spannedText>
+    <creationDate>Mon Mar 28 16:50:02 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_83425" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="41" end="51" />
+    <spannedText>alprazolam</spannedText>
+    <creationDate>Mon Mar 28 16:50:10 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_83405">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_83425">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+</annotations>
+

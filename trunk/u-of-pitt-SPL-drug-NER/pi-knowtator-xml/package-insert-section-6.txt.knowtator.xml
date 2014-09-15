@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-6.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78157" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3452" end="3459" />
+    <spannedText>Effexor</spannedText>
+    <creationDate>Mon Mar 28 15:20:49 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78159" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3148" end="3159" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:20:20 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78161" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2888" end="2899" />
+    <spannedText>Venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:20:16 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78163" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3380" end="3391" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:20:45 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78165" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3215" end="3226" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:20:28 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78167" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3342" end="3353" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:20:32 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78169" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4198" end="4209" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:21:26 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78171" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4251" end="4262" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:21:35 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78173" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3563" end="3574" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:20:53 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78175" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3954" end="3965" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:21:19 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78177" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4431" end="4442" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:21:46 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78179" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4359" end="4370" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:21:42 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78181" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4861" end="4872" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:22:07 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78183" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4714" end="4725" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:22:00 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78185" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4559" end="4570" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:21:57 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78187" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5219" end="5230" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:22:19 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78189" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5102" end="5113" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:22:15 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78191" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5552" end="5563" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:22:40 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78193" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5477" end="5488" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:22:32 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78195" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5333" end="5344" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:22:27 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78197" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5988" end="5999" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:22:52 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78199" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5565" end="5576" />
+    <spannedText>Venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:22:43 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78201" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="248" end="259" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:15:01 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78203" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="455" end="466" />
+    <spannedText>Venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:15:28 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78205" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="817" end="828" />
+    <spannedText>Venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:15:44 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78207" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="952" end="963" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:16:14 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78209" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1065" end="1076" />
+    <spannedText>Venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:16:27 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78211" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1201" end="1212" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:17:15 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78213" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1251" end="1262" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:17:24 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78215" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1374" end="1385" />
+    <spannedText>Venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:17:28 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78217" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1522" end="1533" />
+    <spannedText>Venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:17:37 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78219" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1710" end="1721" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:17:56 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78221" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1767" end="1778" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:18:03 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78223" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1817" end="1828" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:18:07 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78225" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1911" end="1922" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:18:10 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78227" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2071" end="2082" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:18:35 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78229" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2365" end="2376" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:18:47 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78231" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2246" end="2257" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:18:38 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78233" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2429" end="2440" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:18:54 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78235" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2574" end="2585" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:19:47 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78237" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2489" end="2500" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:19:44 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78239" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2633" end="2644" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:19:56 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78241" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2693" end="2704" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:20:03 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78243" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2827" end="2838" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:20:09 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78245" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2793" end="2804" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:20:06 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78247" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="98" end="109" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:14:53 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78249" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="7104" end="7115" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:23:13 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78251" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="6875" end="6886" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:23:10 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78253" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="6266" end="6277" />
+    <spannedText>Venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:22:58 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78255" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="6072" end="6083" />
+    <spannedText>venlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:22:55 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78359" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="833" end="836" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:16:10 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78459" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="7438" end="7441" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:23:21 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78462" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="6582" end="6585" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:23:07 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78465" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="7245" end="7248" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:23:17 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78468" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4484" end="4487" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:21:53 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78471" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4876" end="4879" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:22:11 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78474" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4267" end="4270" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:21:39 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78477" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4462" end="4465" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:21:50 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78480" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5715" end="5718" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:22:47 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78483" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="6498" end="6501" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:23:03 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78486" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5235" end="5238" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:22:24 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78489" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5493" end="5496" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:22:36 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78492" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="287" end="309" />
+    <spannedText>O-desmethylvenlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:15:04 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78495" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="311" end="314" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:15:25 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78498" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="494" end="516" />
+    <spannedText>O-desmethylvenlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:15:32 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78501" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="518" end="521" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:15:41 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78507" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="968" end="990" />
+    <spannedText>O-desmethylvenlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:16:18 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78510" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="992" end="995" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:16:25 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78513" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1081" end="1084" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:16:51 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78516" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3186" end="3189" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:20:23 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78519" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2843" end="2846" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:20:13 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78522" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3645" end="3648" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:20:57 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78525" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3358" end="3361" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:20:37 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78528" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3686" end="3712" />
+    <spannedText>N,O-didesmethylvenlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:21:09 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78531" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3791" end="3794" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:21:14 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78534" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3662" end="3684" />
+    <spannedText>N-desmethylvenlafaxine</spannedText>
+    <creationDate>Mon Mar 28 15:21:03 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78537" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4214" end="4217" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:21:30 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78540" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3988" end="3991" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:21:22 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78543" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1390" end="1393" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:17:32 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78546" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1217" end="1220" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:17:19 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78549" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2011" end="2014" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:18:13 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78552" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1593" end="1596" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:17:40 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78555" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2457" end="2460" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:18:57 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78558" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2395" end="2398" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:18:50 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78561" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2604" end="2607" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:19:52 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78564" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2661" end="2664" />
+    <spannedText>ODV</spannedText>
+    <creationDate>Mon Mar 28 15:19:59 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_78501">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78502" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78502">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78203" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78203">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78495">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78496" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78496">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78201" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78201">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78498">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78499" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78499">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78203" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78492">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78493" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78493">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78201" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78163">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78519">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78520" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78520">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78243" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78243">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78161">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78159">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78516">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78517" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78517">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78159" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78157">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78510">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78511" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78511">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78207" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78207">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78513">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78514" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78514">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78209" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78209">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78507">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78508" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78508">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78207" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78474">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78475" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78475">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78171" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78171">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78471">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78472" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78472">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78181" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78181">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78468">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78469" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78469">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78177" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78177">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78465">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78466" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78466">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78249" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78249">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78462">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78463" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78463">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78253" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78253">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78489">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78490" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78490">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78193" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78193">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78486">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78487" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78487">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78187" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78187">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78483">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78484" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78484">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78253" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78480">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78481" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78481">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78199" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78199">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78477">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78478" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78478">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78177" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78205">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78359">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78360" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78360">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78205" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78552">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78553" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78553">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78217" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78217">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78555">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78556" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78556">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78233" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78233">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78558">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78559" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78559">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78229" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78229">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78197">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78561">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78562" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78562">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78235" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78235">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78564">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78565" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78565">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78239" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78239">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78221">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78219">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78225">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78459">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78460" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78460">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78249" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78223">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78213">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78211">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78215">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78237">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78173">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78522">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78523" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78523">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78173" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78175">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78241">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78528">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78529" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78529">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78173" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78525">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78526" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78526">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78167" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78167">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78179">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78531">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78532" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78532">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78173" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78165">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78227">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78534">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78535" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78535">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78173" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78169">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78231">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78189">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78251">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78537">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78538" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78538">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78169" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78191">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78543">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78544" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78544">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78215" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78255">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78195">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78540">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78541" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78541">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78175" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78546">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78547" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78547">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78211" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78245">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78183">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78185">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78549">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_78550" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_78550">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_78225" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_78247">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+</annotations>
+

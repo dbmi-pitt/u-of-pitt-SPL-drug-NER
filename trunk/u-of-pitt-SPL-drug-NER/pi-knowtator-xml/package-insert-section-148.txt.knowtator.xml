@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-148.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64545" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="15" end="23" />
+    <spannedText>Felbatol</spannedText>
+    <creationDate>Thu Mar 24 14:36:14 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64547" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="0" end="13" />
+    <spannedText>Carbamazepine</spannedText>
+    <creationDate>Thu Mar 24 14:36:11 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64549" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="678" end="699" />
+    <spannedText>carbamazepine epoxide</spannedText>
+    <creationDate>Thu Mar 24 14:37:12 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64553" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="481" end="502" />
+    <spannedText>Carbamazepine epoxide</spannedText>
+    <creationDate>Thu Mar 24 14:36:54 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64557" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="135" end="156" />
+    <spannedText>carbamazepine epoxide</spannedText>
+    <creationDate>Thu Mar 24 14:36:28 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64619" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="339" end="352" />
+    <spannedText>carbamazepine</spannedText>
+    <creationDate>Thu Mar 24 14:36:45 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64606" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="63" end="76" />
+    <spannedText>carbamazepine</spannedText>
+    <creationDate>Thu Mar 24 14:36:20 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64664" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="284" end="297" />
+    <spannedText>carbamazepine</spannedText>
+    <creationDate>Thu Mar 24 14:36:41 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64666" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="238" end="251" />
+    <spannedText>carbamazepine</spannedText>
+    <creationDate>Thu Mar 24 14:36:36 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64594" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="411" end="420" />
+    <spannedText>felbamate</spannedText>
+    <creationDate>Thu Mar 24 14:36:51 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64584" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="609" end="618" />
+    <spannedText>felbamate</spannedText>
+    <creationDate>Thu Mar 24 14:37:04 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64551" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="660" end="673" />
+    <spannedText>carbamazepine</spannedText>
+    <creationDate>Thu Mar 24 14:37:07 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_64606">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64545">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64584">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64547">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64666">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64549">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_64550" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_64550">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_64551" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_64551">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64594">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64664">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64553">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_64554" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_64554">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_64619" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_64619">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64557">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_64558" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_64558">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_64606" />
+  </complexSlotMention>
+</annotations>
+

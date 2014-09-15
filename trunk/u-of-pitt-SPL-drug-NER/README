@@ -2,7 +2,7 @@ UNIVERSITY OF PITTBURGH SPL DRUG NAME ENTITY RECOGNIZER
 
 Author: Richard D Boyce, PhD, Greg Gardner
 
-Copyright (c) 2011-2012 Richard D Boyce, PhD, University of Pittsburgh 
+Copyright (c) 2011-2015 Richard D Boyce, PhD, University of Pittsburgh 
 All Rights Reserved
 
 Use, reproduction, and preparation of derivative works are permitted.
@@ -61,3 +61,50 @@ $ groovy -cp $CLASSPATH src/groovy/util/PItoXML.groovy
 There is a default string that will be sent to the annotator for
 processing. You should see results from MESH and RXNORM.
 
+------------------------------------------------------------
+Validation procedure
+------------------------------------------------------------
+
+1) remove any text files from the folder 'textfiles'
+
+2) copy all sections located in 'sample-package-insert-statements' to the 'textfiles' folder
+
+3) run the NER program. This will produce output XML files in the 'processed-output' folder
+
+4) make a temporary folder for analysis e.g, /tmp/ner-performance-analysis-09152014/
+
+5) now run the following series of commands from within the ZSH shell
+
+$ cd textfiles
+
+$ for i in *.txt
+echo $i && python ../src/python/calculate-metrics-for-a-single-note.py -n processed-output/$i-PROCESSED.xml -k pi-knowtator-xml/$i.knowtator.xml > <path to analysis folder>/$i-ner-performance.txt
+
+5) Use these grep commands for getting lists of recall, precision, and F values that can then be copied into R vectors for summary statistics
+
+grep -r "Recall:" ./
+grep -r "F-measure:" ./
+grep -r "precision:" ./
+
+
+NOTE: when this analysis was ran on 9.15.2014 to detect changes in
+performance due to migration to Bioportal v4, the following sections
+had to be edited for the NER to complete:
+
+- package-insert-section-20.txt
+- package-insert-section-55.txt
+
+In both cases, the string 'magnesium stearate" had to be removed from
+the orignal text so the the NER program did not generate the following
+exception:
+
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMESH%2FC031183
+
+
+
+------------------------------------------------------------------------------------------
+COMMAND FOR IDENTIFYING XML ENCODING PROBLEMS......
+------------------------------------------------------------------------------------------
+
+for i in *PROCESSED*                
+xmllint --encode UTF-8 $i > $i-LINTED.xml

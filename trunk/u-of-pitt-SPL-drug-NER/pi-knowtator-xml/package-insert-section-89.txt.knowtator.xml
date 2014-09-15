@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-89.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_81992" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="160" end="166" />
+    <spannedText>SEPTRA</spannedText>
+    <creationDate>Mon Mar 28 16:33:09 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_81994" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="115" end="121" />
+    <spannedText>SEPTRA</spannedText>
+    <creationDate>Mon Mar 28 16:33:06 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_81996" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="75" end="81" />
+    <spannedText>SEPTRA</spannedText>
+    <creationDate>Mon Mar 28 16:33:04 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_81994">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_81992">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_81996">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+</annotations>
+

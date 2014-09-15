@@ -1,0 +1,4996 @@
+; Sun Oct 11 15:50:33 MDT 2009
+; 
+;+ (version "3.3.1")
+;+ (build "Build 430")
+
+([BROWSER_SLOT_NAMES] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_50002]
+		[knowtator_ProjectKB_Instance_50003]
+		[knowtator_ProjectKB_Instance_80004]
+		[knowtator_ProjectKB_Instance_80005]
+		[knowtator_ProjectKB_Instance_80006]
+		[knowtator_ProjectKB_Instance_80007]
+		[knowtator_ProjectKB_Instance_80008]
+		[knowtator_ProjectKB_Instance_90009]
+		[knowtator_ProjectKB_Instance_90010]
+		[knowtator_ProjectKB_Instance_90011]
+		[knowtator_ProjectKB_Instance_90012]
+		[knowtator_ProjectKB_Instance_90013]
+		[knowtator_ProjectKB_Instance_90014]
+		[knowtator_ProjectKB_Instance_90015]
+		[knowtator_ProjectKB_Instance_90016]
+		[knowtator_ProjectKB_Instance_90017]
+		[knowtator_ProjectKB_Instance_90018]
+		[knowtator_ProjectKB_Instance_90019]))
+
+([CLSES_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesTab"))
+
+([FORMS_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.FormsTab"))
+
+([INSTANCE_ANNOTATION_FORM_WIDGET] of  Widget
+
+	(height 476)
+	(is_hidden FALSE)
+	(name ":INSTANCE-ANNOTATION")
+	(property_list [KB_776349_Instance_33])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 603)
+	(x 0)
+	(y 0))
+
+([INSTANCES_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
+
+([KB_073128_Instance_0] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator display color")
+	(property_list [KB_073128_Instance_1])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([KB_073128_Instance_1] of  Property_List
+
+	(properties
+		[KB_073128_Instance_2]
+		[knowtator_ProjectKB_Instance_10160]
+		[knowtator_ProjectKB_Instance_10162]
+		[knowtator_ProjectKB_Instance_10164]
+		[knowtator_ProjectKB_Instance_10166]))
+
+([KB_073128_Instance_16] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator annotation")
+	(property_list [KB_073128_Instance_17])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([KB_073128_Instance_17] of  Property_List
+
+	(properties
+		[KB_073128_Instance_18]
+		[knowtator_ProjectKB_Instance_99]
+		[knowtator_ProjectKB_Instance_105]
+		[knowtator_ProjectKB_Instance_107]
+		[knowtator_ProjectKB_Instance_111]
+		[knowtator_ProjectKB_Instance_117]
+		[knowtator_ProjectKB_Instance_121]
+		[knowtator_ProjectKB_Instance_123]
+		[knowtator_ProjectKB_Instance_10]))
+
+([KB_073128_Instance_18] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[knowtator_ProjectKB_Instance_23]
+		[knowtator_ProjectKB_Instance_24]))
+
+([KB_073128_Instance_2] of  Property_List
+
+	(name "layout properties"))
+
+([KB_776349_Instance_0] of  Property_List
+
+	(name "class widget properties")
+	(properties
+		[KB_776349_Instance_1]
+		[KB_776349_Instance_2]
+		[KB_776349_Instance_3]
+		[KB_776349_Instance_4]
+		[KB_776349_Instance_5]
+		[KB_776349_Instance_6]
+		[KB_776349_Instance_7]
+		[KB_776349_Instance_8]
+		[KB_776349_Instance_9]
+		[KB_776349_Instance_10]))
+
+([KB_776349_Instance_1] of  Widget
+
+	(height 120)
+	(label "Constraints")
+	(name ":SLOT-CONSTRAINTS")
+	(property_list [knowtator_ProjectKB_Instance_43])
+	(widget_class_name "edu.stanford.smi.protege.widget.ConstraintsWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_776349_Instance_10] of  Property_List
+
+	(name "layout properties")
+	(properties [KB_776349_Instance_11]))
+
+([KB_776349_Instance_11] of  String
+
+	(name "vertical_stretcher")
+	(string_value ":DIRECT-TEMPLATE-SLOTS"))
+
+([KB_776349_Instance_12] of  Property_List
+
+	(name "slot widget properties")
+	(properties
+		[KB_776349_Instance_13]
+		[KB_776349_Instance_14]
+		[KB_776349_Instance_15]
+		[KB_776349_Instance_16]
+		[KB_776349_Instance_17]
+		[KB_776349_Instance_18]
+		[KB_776349_Instance_19]
+		[KB_776349_Instance_20]
+		[KB_776349_Instance_21]
+		[KB_776349_Instance_22]
+		[KB_776349_Instance_23]
+		[KB_776349_Instance_24]
+		[KB_776349_Instance_25]
+		[KB_776349_Instance_26]
+		[KB_776349_Instance_27]
+		[KB_776349_Instance_28]
+		[knowtator_ProjectKB_Instance_52]))
+
+([KB_776349_Instance_13] of  Widget
+
+	(height 60)
+	(label "Cardinality")
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(property_list [knowtator_ProjectKB_Instance_10060])
+	(widget_class_name "edu.stanford.smi.protege.widget.MinimumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([KB_776349_Instance_14] of  Widget
+
+	(height 35)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(property_list [knowtator_ProjectKB_Instance_10061])
+	(widget_class_name "edu.stanford.smi.protege.widget.MaximumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 180))
+
+([KB_776349_Instance_15] of  Widget
+
+	(name ":SLOT-CONSTRAINTS"))
+
+([KB_776349_Instance_16] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_776349_Instance_17] of  Widget
+
+	(height 95)
+	(label "Domain")
+	(name ":DIRECT-DOMAIN")
+	(property_list [knowtator_ProjectKB_Instance_53])
+	(widget_class_name "edu.stanford.smi.protege.widget.DirectDomainWidget")
+	(width 200)
+	(x 400)
+	(y 180))
+
+([KB_776349_Instance_18] of  Widget
+
+	(height 90)
+	(label "Template Values")
+	(name ":SLOT-VALUES")
+	(property_list [knowtator_ProjectKB_Instance_54])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotValuesWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_776349_Instance_19] of  Widget
+
+	(name ":DIRECT-SUPERSLOTS"))
+
+([KB_776349_Instance_2] of  Widget
+
+	(name ":DIRECT-INSTANCES"))
+
+([KB_776349_Instance_20] of  Widget
+
+	(name ":DIRECT-SUBSLOTS"))
+
+([KB_776349_Instance_21] of  Widget
+
+	(height 90)
+	(label "Default")
+	(name ":SLOT-DEFAULTS")
+	(property_list [knowtator_ProjectKB_Instance_55])
+	(widget_class_name "edu.stanford.smi.protege.widget.DefaultValuesWidget")
+	(width 200)
+	(x 400)
+	(y 90))
+
+([KB_776349_Instance_22] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [knowtator_ProjectKB_Instance_56])
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_776349_Instance_23] of  Widget
+
+	(height 60)
+	(label "Maximum")
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(property_list [knowtator_ProjectKB_Instance_10057])
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMaximumWidget")
+	(width 100)
+	(x 100)
+	(y 215))
+
+([KB_776349_Instance_24] of  Widget
+
+	(height 60)
+	(label "Minimum")
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(property_list [knowtator_ProjectKB_Instance_10058])
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMinimumWidget")
+	(width 100)
+	(x 0)
+	(y 215))
+
+([KB_776349_Instance_25] of  Widget
+
+	(name ":ASSOCIATED-FACET"))
+
+([KB_776349_Instance_26] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(property_list [knowtator_ProjectKB_Instance_10059])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_776349_Instance_27] of  Widget
+
+	(height 60)
+	(label "Inverse Slot")
+	(name ":SLOT-INVERSE")
+	(property_list [knowtator_ProjectKB_Instance_10062])
+	(widget_class_name "edu.stanford.smi.protege.widget.InverseSlotWidget")
+	(width 200)
+	(x 200)
+	(y 215))
+
+([KB_776349_Instance_28] of  Widget
+
+	(height 155)
+	(label "Value Type")
+	(name ":SLOT-VALUE-TYPE")
+	(property_list [knowtator_ProjectKB_Instance_10063])
+	(widget_class_name "edu.stanford.smi.protege.widget.ValueTypeWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_776349_Instance_29] of  Property_List
+
+	(name "facet widget properties")
+	(properties
+		[KB_776349_Instance_30]
+		[KB_776349_Instance_31]
+		[KB_776349_Instance_32]))
+
+([KB_776349_Instance_3] of  Widget
+
+	(name ":DIRECT-SUBCLASSES"))
+
+([KB_776349_Instance_30] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_776349_Instance_31] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_776349_Instance_32] of  Widget
+
+	(height 60)
+	(label "Associated Slot")
+	(name ":ASSOCIATED-SLOT")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_776349_Instance_33] of  Property_List
+
+	(properties
+		[KB_776349_Instance_34]
+		[KB_776349_Instance_35]
+		[KB_776349_Instance_36]
+		[KB_776349_Instance_37]))
+
+([KB_776349_Instance_34] of  Widget
+
+	(name ":ANNOTATED-INSTANCE"))
+
+([KB_776349_Instance_35] of  Widget
+
+	(name ":CREATOR"))
+
+([KB_776349_Instance_36] of  Widget
+
+	(name ":CREATION-TIMESTAMP"))
+
+([KB_776349_Instance_37] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(name ":ANNOTATION-TEXT")
+	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_776349_Instance_38] of  Property_List
+
+	(properties
+		[KB_776349_Instance_39]
+		[KB_776349_Instance_40]
+		[KB_776349_Instance_41]
+		[KB_776349_Instance_42]))
+
+([KB_776349_Instance_39] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":PAL-NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 275)
+	(x 0)
+	(y 0))
+
+([KB_776349_Instance_4] of  Widget
+
+	(name ":DIRECT-SUPERCLASSES"))
+
+([KB_776349_Instance_40] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Range")
+	(name ":PAL-RANGE")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalRangeWidget")
+	(width 250)
+	(x 275)
+	(y 180))
+
+([KB_776349_Instance_41] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Description")
+	(name ":PAL-DESCRIPTION")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 275)
+	(y 0))
+
+([KB_776349_Instance_42] of  Widget
+
+	(height 300)
+	(is_hidden FALSE)
+	(label "Statement")
+	(name ":PAL-STATEMENT")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalConstraintWidget")
+	(width 275)
+	(x 0)
+	(y 60))
+
+([KB_776349_Instance_5] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [knowtator_ProjectKB_Instance_46])
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_776349_Instance_6] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(property_list [knowtator_ProjectKB_Instance_47])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_776349_Instance_7] of  Widget
+
+	(height 60)
+	(label "Role")
+	(name ":ROLE")
+	(property_list [knowtator_ProjectKB_Instance_51])
+	(widget_class_name "edu.stanford.smi.protege.widget.RoleWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_776349_Instance_8] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_776349_Instance_9] of  Widget
+
+	(height 150)
+	(label "Template Slots")
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(property_list [knowtator_ProjectKB_Instance_48])
+	(widget_class_name "edu.stanford.smi.protege.widget.TemplateSlotsWidget")
+	(width 600)
+	(x 0)
+	(y 120))
+
+([KB_965338_Instance_0] of  String
+
+	(name "factory_class_name")
+	(string_value "edu.stanford.smi.protege.storage.clips.ClipsKnowledgeBaseFactory"))
+
+([KB_965338_Instance_61] of  Options
+
+	(confirm_on_remove FALSE)
+	(display_abstract_class_icon FALSE)
+	(display_hidden_classes TRUE)
+	(display_multi_parent_class_icon FALSE)
+	(is_readonly FALSE)
+	(tabbed_instance_form_layout FALSE)
+	(update_modification_slots FALSE))
+
+([KB_965338_Instance_72] of  Property_List
+
+	(properties [t-cell-proliferation_ProjectKB_Instance_75]))
+
+([KB_965338_Instance_73] of  String
+
+	(name "classes_file_name")
+	(string_value "knowtator.pont"))
+
+([KB_965338_Instance_74] of  String
+
+	(name "instances_file_name")
+	(string_value "knowtator.pins"))
+
+([knowtator_ProjectKB_Instance_0] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [knowtator_ProjectKB_Instance_1])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormsTab"))
+
+([knowtator_ProjectKB_Instance_1] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(label "comments on this annotation")
+	(name "knowtator_annotation_comment")
+	(property_list [knowtator_ProjectKB_Instance_11])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 230)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_100] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10000] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator configuration")
+	(property_list [knowtator_ProjectKB_Instance_10001])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_10001] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10002]
+		[knowtator_ProjectKB_Instance_10003]
+		[knowtator_ProjectKB_Instance_50007]
+		[knowtator_ProjectKB_Instance_50011]
+		[knowtator_ProjectKB_Instance_50015]
+		[knowtator_ProjectKB_Instance_50017]
+		[knowtator_ProjectKB_Instance_80121]
+		[knowtator_ProjectKB_Instance_80130]
+		[knowtator_ProjectKB_Instance_30002]
+		[knowtator_ProjectKB_Instance_30071]
+		[knowtator_ProjectKB_Instance_100034]
+		[knowtator_ProjectKB_Instance_100020]
+		[knowtator_ProjectKB_Instance_90007]))
+
+([knowtator_ProjectKB_Instance_10002] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[knowtator_ProjectKB_Instance_80145]
+		[knowtator_ProjectKB_Instance_80146]))
+
+([knowtator_ProjectKB_Instance_100020] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "jump to next annotation on delete")
+	(name "knowtator_next_annotation_on_delete")
+	(property_list [knowtator_ProjectKB_Instance_100021])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 290)
+	(x 0)
+	(y 680))
+
+([knowtator_ProjectKB_Instance_100021] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_100022]
+		[knowtator_ProjectKB_Instance_100023]))
+
+([knowtator_ProjectKB_Instance_100022] of  String
+
+	(name "tooltip_text")
+	(string_value "Automatically select to the next annotation after deleting an annotation"))
+
+([knowtator_ProjectKB_Instance_100023] of  Boolean
+
+	(boolean_value FALSE)
+	(name "readOnly_configured"))
+
+([knowtator_ProjectKB_Instance_100024] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_100025] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Class"))
+
+([knowtator_ProjectKB_Instance_10003] of  Widget
+
+	(height 340)
+	(is_hidden FALSE)
+	(label "color assignments")
+	(name "knowtator_color_assignments")
+	(property_list [knowtator_ProjectKB_Instance_50004])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 310)
+	(x 290)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_100034] of  Widget
+
+	(height 380)
+	(is_hidden FALSE)
+	(label "fast annotate toolbar classes")
+	(name "knowtator_fast_annotate")
+	(property_list [knowtator_ProjectKB_Instance_100035])
+	(widget_class_name "edu.uchsc.ccp.knowtator.widget.FastAnnotateClassWidget")
+	(width 310)
+	(x 290)
+	(y 340))
+
+([knowtator_ProjectKB_Instance_100035] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_100024]
+		[knowtator_ProjectKB_Instance_100025]
+		[knowtator_ProjectKB_Instance_110026]
+		[knowtator_ProjectKB_Instance_110027]
+		[knowtator_ProjectKB_Instance_110028]
+		[knowtator_ProjectKB_Instance_110029]
+		[knowtator_ProjectKB_Instance_110030]
+		[knowtator_ProjectKB_Instance_110031]))
+
+([knowtator_ProjectKB_Instance_10004] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View Value"))
+
+([knowtator_ProjectKB_Instance_10005] of  String
+
+	(name "ButtonDescription-View Value"))
+
+([knowtator_ProjectKB_Instance_10006] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Value"))
+
+([knowtator_ProjectKB_Instance_10007] of  String
+
+	(name "ButtonDescription-Add Value"))
+
+([knowtator_ProjectKB_Instance_10008] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Value"))
+
+([knowtator_ProjectKB_Instance_10009] of  String
+
+	(name "ButtonDescription-Remove Value"))
+
+([knowtator_ProjectKB_Instance_10010] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_10011] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Insert:At:Current:Selection"))
+
+([knowtator_ProjectKB_Instance_10012] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Select:New:Insertions"))
+
+([knowtator_ProjectKB_Instance_10013] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Create:Form:For:New:Instances"))
+
+([knowtator_ProjectKB_Instance_10014] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Subwidget:Selection:Enabled"))
+
+([knowtator_ProjectKB_Instance_10015] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Summary:Panel"))
+
+([knowtator_ProjectKB_Instance_10016] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Number:Of:Subordinates"))
+
+([knowtator_ProjectKB_Instance_10017] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Subordinate:Browser:Keys"))
+
+([knowtator_ProjectKB_Instance_10018] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Use:Separators:Between:Subwidgets"))
+
+([knowtator_ProjectKB_Instance_10019] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Comtain:In:Vertical:Direction"))
+
+([knowtator_ProjectKB_Instance_10020] of  Integer
+
+	(integer_value 4)
+	(name ":Size:Of:Space:Between:Subwidgets"))
+
+([knowtator_ProjectKB_Instance_10021] of  Integer
+
+	(integer_value 1)
+	(name ":Prototype:Depth"))
+
+([knowtator_ProjectKB_Instance_10023] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10025] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator mention")
+	(property_list [knowtator_ProjectKB_Instance_10026])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_10026] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10027]
+		[knowtator_ProjectKB_Instance_10028]))
+
+([knowtator_ProjectKB_Instance_10027] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[knowtator_ProjectKB_Instance_10032]
+		[knowtator_ProjectKB_Instance_10033]))
+
+([knowtator_ProjectKB_Instance_10028] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(name "knowtator_mention_annotation")
+	(property_list [knowtator_ProjectKB_Instance_10029])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_10029] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10032] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "<<all>>"))
+
+([knowtator_ProjectKB_Instance_10033] of  String
+
+	(name "vertical_stretcher")
+	(string_value "<<none>>"))
+
+([knowtator_ProjectKB_Instance_10043] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [knowtator_ProjectKB_Instance_10044])
+	(widget_class_name "edu.stanford.smi.protegex.changes.ChangesTab"))
+
+([knowtator_ProjectKB_Instance_10044] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10045] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [knowtator_ProjectKB_Instance_10046])
+	(widget_class_name "edu.stanford.smi.protege.widget.ProtegePropertiesTab"))
+
+([knowtator_ProjectKB_Instance_10046] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10047] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [knowtator_ProjectKB_Instance_10048])
+	(widget_class_name "se.liu.ida.JessTab.JessTab"))
+
+([knowtator_ProjectKB_Instance_10048] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10049] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [knowtator_ProjectKB_Instance_10050])
+	(widget_class_name "uk.ac.man.cs.mig.coode.debugger.test.DebuggerTestTab"))
+
+([knowtator_ProjectKB_Instance_10050] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10051] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [knowtator_ProjectKB_Instance_10052])
+	(widget_class_name "uk.ac.man.ac.mig.coode.individuals.ui.OWLDLIndividualsTab"))
+
+([knowtator_ProjectKB_Instance_10052] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10057] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10058] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10059] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10060] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10061] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10062] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10063] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10065] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "knowtator_slot_mention"))
+
+([knowtator_ProjectKB_Instance_10066] of  String
+
+	(name "vertical_stretcher")
+	(string_value "knowtator_slot_mention"))
+
+([knowtator_ProjectKB_Instance_10067] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10068]
+		[knowtator_ProjectKB_Instance_10071]
+		[knowtator_ProjectKB_Instance_20108]
+		[knowtator_ProjectKB_Instance_20110]))
+
+([knowtator_ProjectKB_Instance_10068] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[knowtator_ProjectKB_Instance_10069]
+		[knowtator_ProjectKB_Instance_10070]))
+
+([knowtator_ProjectKB_Instance_10069] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "knowtator_slot_mention"))
+
+([knowtator_ProjectKB_Instance_10070] of  String
+
+	(name "vertical_stretcher")
+	(string_value "knowtator_slot_mention"))
+
+([knowtator_ProjectKB_Instance_10071] of  Widget
+
+	(height 240)
+	(is_hidden FALSE)
+	(label "slots of annotated instance")
+	(name "knowtator_slot_mention")
+	(property_list [knowtator_ProjectKB_Instance_10072])
+	(widget_class_name "edu.uchsc.ccp.knowtator.SlotMentionWidget")
+	(width 260)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_10072] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_60038]
+		[knowtator_ProjectKB_Instance_60039]
+		[knowtator_ProjectKB_Instance_60040]
+		[knowtator_ProjectKB_Instance_60041]
+		[knowtator_ProjectKB_Instance_60042]
+		[knowtator_ProjectKB_Instance_60043]
+		[knowtator_ProjectKB_Instance_60044]
+		[knowtator_ProjectKB_Instance_60045]
+		[knowtator_ProjectKB_Instance_60046]
+		[knowtator_ProjectKB_Instance_60047]
+		[knowtator_ProjectKB_Instance_60048]
+		[knowtator_ProjectKB_Instance_60049]
+		[knowtator_ProjectKB_Instance_60050]
+		[knowtator_ProjectKB_Instance_60051]
+		[knowtator_ProjectKB_Instance_60052]
+		[knowtator_ProjectKB_Instance_60053]
+		[knowtator_ProjectKB_Instance_60054]
+		[knowtator_ProjectKB_Instance_60055]
+		[knowtator_ProjectKB_Instance_60056]
+		[knowtator_ProjectKB_Instance_60057]
+		[knowtator_ProjectKB_Instance_60058]
+		[knowtator_ProjectKB_Instance_60059]
+		[knowtator_ProjectKB_Instance_60060]
+		[knowtator_ProjectKB_Instance_60061]
+		[knowtator_ProjectKB_Instance_60062]
+		[knowtator_ProjectKB_Instance_60063]
+		[knowtator_ProjectKB_Instance_60064]
+		[knowtator_ProjectKB_Instance_60065]))
+
+([knowtator_ProjectKB_Instance_10102] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_10103] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_10120] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator instance mention")
+	(property_list [knowtator_ProjectKB_Instance_10067])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_10134] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator human annotator")
+	(property_list [knowtator_ProjectKB_Instance_10135])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_10135] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10136]
+		[knowtator_ProjectKB_Instance_10137]
+		[knowtator_ProjectKB_Instance_10139]
+		[knowtator_ProjectKB_Instance_10141]
+		[knowtator_ProjectKB_Instance_70019]))
+
+([knowtator_ProjectKB_Instance_10136] of  Property_List
+
+	(name "layout properties"))
+
+([knowtator_ProjectKB_Instance_10137] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "first name")
+	(name "knowtator_annotation_annotator_firstname")
+	(property_list [knowtator_ProjectKB_Instance_10138])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 270)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_10138] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10139] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "affiliation")
+	(name "knowtator_annotation_annotator_affiliation")
+	(property_list [knowtator_ProjectKB_Instance_10140])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 270)
+	(x 0)
+	(y 120))
+
+([knowtator_ProjectKB_Instance_10140] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10141] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "last name")
+	(name "knowtator_annotation_annotator_lastname")
+	(property_list [knowtator_ProjectKB_Instance_10142])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 270)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_10142] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10143] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator annotator team")
+	(property_list [knowtator_ProjectKB_Instance_10144])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_10144] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10145]
+		[knowtator_ProjectKB_Instance_20068]
+		[knowtator_ProjectKB_Instance_40000]
+		[knowtator_ProjectKB_Instance_40002]))
+
+([knowtator_ProjectKB_Instance_10145] of  Property_List
+
+	(name "layout properties"))
+
+([knowtator_ProjectKB_Instance_10160] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "B")
+	(name "knowtator_display_color_B")
+	(property_list [knowtator_ProjectKB_Instance_10161])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 50)
+	(x 100)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_10161] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10162] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "color name")
+	(name "knowtator_display_color_name")
+	(property_list [knowtator_ProjectKB_Instance_10163])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_10163] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10164] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "R")
+	(name "knowtator_display_color_R")
+	(property_list [knowtator_ProjectKB_Instance_10165])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 50)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_10165] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10166] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "G")
+	(name "knowtator_display_color_G")
+	(property_list [knowtator_ProjectKB_Instance_10167])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 50)
+	(x 50)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_10167] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10168] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator set")
+	(property_list [knowtator_ProjectKB_Instance_10169])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_10169] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10170]
+		[knowtator_ProjectKB_Instance_10171]
+		[knowtator_ProjectKB_Instance_30004]))
+
+([knowtator_ProjectKB_Instance_10170] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[knowtator_ProjectKB_Instance_10195]
+		[knowtator_ProjectKB_Instance_10196]))
+
+([knowtator_ProjectKB_Instance_10171] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "name")
+	(name "knowtator_set_name")
+	(property_list [knowtator_ProjectKB_Instance_10172])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_10172] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10195] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "knowtator_set_annotation"))
+
+([knowtator_ProjectKB_Instance_10196] of  String
+
+	(name "vertical_stretcher")
+	(string_value "knowtator_set_annotation"))
+
+([knowtator_ProjectKB_Instance_10197] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator filter")
+	(property_list [knowtator_ProjectKB_Instance_10198])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_10198] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10199]
+		[knowtator_ProjectKB_Instance_10200]
+		[knowtator_ProjectKB_Instance_10202]
+		[knowtator_ProjectKB_Instance_10206]
+		[knowtator_ProjectKB_Instance_10208]
+		[knowtator_ProjectKB_Instance_80009]))
+
+([knowtator_ProjectKB_Instance_10199] of  Property_List
+
+	(name "layout properties"))
+
+([knowtator_ProjectKB_Instance_10200] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "types")
+	(name "knowtator_filter_type")
+	(property_list [knowtator_ProjectKB_Instance_10201])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget")
+	(width 330)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_10201] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10212]
+		[knowtator_ProjectKB_Instance_10213]
+		[knowtator_ProjectKB_Instance_10214]
+		[knowtator_ProjectKB_Instance_10215]
+		[knowtator_ProjectKB_Instance_10216]
+		[knowtator_ProjectKB_Instance_10217]))
+
+([knowtator_ProjectKB_Instance_10202] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "sets")
+	(name "knowtator_filter_set")
+	(property_list [knowtator_ProjectKB_Instance_10203])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 330)
+	(x 0)
+	(y 300))
+
+([knowtator_ProjectKB_Instance_10203] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10204]
+		[knowtator_ProjectKB_Instance_10205]
+		[knowtator_ProjectKB_Instance_10228]
+		[knowtator_ProjectKB_Instance_10229]
+		[knowtator_ProjectKB_Instance_10230]
+		[knowtator_ProjectKB_Instance_10231]
+		[knowtator_ProjectKB_Instance_10232]
+		[knowtator_ProjectKB_Instance_10233]
+		[knowtator_ProjectKB_Instance_10234]
+		[knowtator_ProjectKB_Instance_10235]
+		[knowtator_ProjectKB_Instance_10236]
+		[knowtator_ProjectKB_Instance_10237]
+		[knowtator_ProjectKB_Instance_20064]))
+
+([knowtator_ProjectKB_Instance_10204] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_10205] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_10206] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "name")
+	(name "knowtator_filter_name")
+	(property_list [knowtator_ProjectKB_Instance_10207])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_10207] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_10208] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "annotators")
+	(name "knowtator_filter_annotator")
+	(property_list [knowtator_ProjectKB_Instance_10209])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 330)
+	(x 0)
+	(y 180))
+
+([knowtator_ProjectKB_Instance_10209] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10210]
+		[knowtator_ProjectKB_Instance_10211]
+		[knowtator_ProjectKB_Instance_10218]
+		[knowtator_ProjectKB_Instance_10219]
+		[knowtator_ProjectKB_Instance_10220]
+		[knowtator_ProjectKB_Instance_10221]
+		[knowtator_ProjectKB_Instance_10222]
+		[knowtator_ProjectKB_Instance_10223]
+		[knowtator_ProjectKB_Instance_10224]
+		[knowtator_ProjectKB_Instance_10225]
+		[knowtator_ProjectKB_Instance_10226]
+		[knowtator_ProjectKB_Instance_10227]
+		[knowtator_ProjectKB_Instance_30065]))
+
+([knowtator_ProjectKB_Instance_10210] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_10211] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_10212] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Class"))
+
+([knowtator_ProjectKB_Instance_10213] of  String
+
+	(name "ButtonDescription-View Class"))
+
+([knowtator_ProjectKB_Instance_10214] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Class"))
+
+([knowtator_ProjectKB_Instance_10215] of  String
+
+	(name "ButtonDescription-Add Class"))
+
+([knowtator_ProjectKB_Instance_10216] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Class"))
+
+([knowtator_ProjectKB_Instance_10217] of  String
+
+	(name "ButtonDescription-Remove Class"))
+
+([knowtator_ProjectKB_Instance_10218] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_10219] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_10220] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_10221] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_10222] of  String
+
+	(name "ButtonDescription-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_10223] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_10224] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_10225] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_10226] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_10227] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_10228] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_10229] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_10230] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_10231] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_10232] of  String
+
+	(name "ButtonDescription-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_10233] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_10234] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_10235] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_10236] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_10237] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_105] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(label "spans")
+	(name "knowtator_annotation_span")
+	(property_list [knowtator_ProjectKB_Instance_106])
+	(widget_class_name "edu.uchsc.ccp.knowtator.SpanWidget")
+	(width 100)
+	(x 230)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_106] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10004]
+		[knowtator_ProjectKB_Instance_10005]
+		[knowtator_ProjectKB_Instance_10006]
+		[knowtator_ProjectKB_Instance_10007]
+		[knowtator_ProjectKB_Instance_10008]
+		[knowtator_ProjectKB_Instance_10009]))
+
+([knowtator_ProjectKB_Instance_107] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "annotator")
+	(name "knowtator_annotation_annotator")
+	(property_list [knowtator_ProjectKB_Instance_108])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 180)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_108] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_109]
+		[knowtator_ProjectKB_Instance_110]
+		[knowtator_ProjectKB_Instance_57]
+		[knowtator_ProjectKB_Instance_58]
+		[knowtator_ProjectKB_Instance_59]
+		[knowtator_ProjectKB_Instance_60]
+		[knowtator_ProjectKB_Instance_61]
+		[knowtator_ProjectKB_Instance_62]
+		[knowtator_ProjectKB_Instance_63]
+		[knowtator_ProjectKB_Instance_64]
+		[knowtator_ProjectKB_Instance_65]
+		[knowtator_ProjectKB_Instance_66]
+		[knowtator_ProjectKB_Instance_30118]
+		[knowtator_ProjectKB_Instance_20002]
+		[knowtator_ProjectKB_Instance_20003]))
+
+([knowtator_ProjectKB_Instance_109] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_11] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_70052]))
+
+([knowtator_ProjectKB_Instance_110] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_110026] of  String
+
+	(name "ButtonDescription-View Class"))
+
+([knowtator_ProjectKB_Instance_110027] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Class"))
+
+([knowtator_ProjectKB_Instance_110028] of  String
+
+	(name "ButtonDescription-Add Class"))
+
+([knowtator_ProjectKB_Instance_110029] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Class"))
+
+([knowtator_ProjectKB_Instance_110030] of  String
+
+	(name "ButtonDescription-Remove Class"))
+
+([knowtator_ProjectKB_Instance_110031] of  Boolean
+
+	(boolean_value FALSE)
+	(name "readOnly_configured"))
+
+([knowtator_ProjectKB_Instance_111] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "creation date")
+	(name "knowtator_annotation_creation_date")
+	(property_list [knowtator_ProjectKB_Instance_112])
+	(widget_class_name "edu.stanford.smi.protegex.widget.date.CreationDateWidget")
+	(width 150)
+	(x 180)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_112] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_117] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(label "mention")
+	(name "knowtator_annotated_mention")
+	(property_list [knowtator_ProjectKB_Instance_118])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_118] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_121] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(label "text")
+	(name "knowtator_annotation_text")
+	(property_list [knowtator_ProjectKB_Instance_122])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_122] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_123] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(label "annotation set membership")
+	(name "knowtator_set")
+	(property_list [knowtator_ProjectKB_Instance_124])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 330)
+	(x 0)
+	(y 160))
+
+([knowtator_ProjectKB_Instance_124] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10102]
+		[knowtator_ProjectKB_Instance_10103]
+		[knowtator_ProjectKB_Instance_30119]))
+
+([knowtator_ProjectKB_Instance_2] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [knowtator_ProjectKB_Instance_3])
+	(widget_class_name "edu.uchsc.ccp.knowtator.Knowtator"))
+
+([knowtator_ProjectKB_Instance_20000] of  String
+
+	(name "tooltip_text")
+	(string_value "determines the behavior of the \"accept\" button when in consensus mode."))
+
+([knowtator_ProjectKB_Instance_20001] of  Boolean
+
+	(boolean_value FALSE)
+	(name "readOnly_configured"))
+
+([knowtator_ProjectKB_Instance_20002] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_20003] of  String
+
+	(name "ButtonDescription-View References to Value"))
+
+([knowtator_ProjectKB_Instance_20004] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(name "knowtator_mention_annotation")
+	(property_list [knowtator_ProjectKB_Instance_20005])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_20005] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_20008] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(name "knowtator_mention_annotation")
+	(property_list [knowtator_ProjectKB_Instance_20009])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_20009] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_20012] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(name "knowtator_mentioned_in")
+	(property_list [knowtator_ProjectKB_Instance_20013])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_20013] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_20022] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Create:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_20026] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "<<all>>"))
+
+([knowtator_ProjectKB_Instance_20027] of  String
+
+	(name "vertical_stretcher")
+	(string_value "<<none>>"))
+
+([knowtator_ProjectKB_Instance_20064] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_20068] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "team name")
+	(name "knowtator_annotator_team_name")
+	(property_list [knowtator_ProjectKB_Instance_20069])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 310)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_20069] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_70006]))
+
+([knowtator_ProjectKB_Instance_20108] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(name "knowtator_mention_annotation")
+	(property_list [knowtator_ProjectKB_Instance_20109])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_20109] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_20110] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "annotated instance")
+	(name "knowtator_mention_instance")
+	(property_list [knowtator_ProjectKB_Instance_20111])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 260)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_20111] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_20112]
+		[knowtator_ProjectKB_Instance_20113]
+		[knowtator_ProjectKB_Instance_20114]
+		[knowtator_ProjectKB_Instance_20115]
+		[knowtator_ProjectKB_Instance_20116]
+		[knowtator_ProjectKB_Instance_20117]
+		[knowtator_ProjectKB_Instance_20118]
+		[knowtator_ProjectKB_Instance_20119]
+		[knowtator_ProjectKB_Instance_20120]
+		[knowtator_ProjectKB_Instance_20121]
+		[knowtator_ProjectKB_Instance_20122]
+		[knowtator_ProjectKB_Instance_20123]
+		[knowtator_ProjectKB_Instance_30000]))
+
+([knowtator_ProjectKB_Instance_20112] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_20113] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_20114] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_20115] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_20116] of  String
+
+	(name "ButtonDescription-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_20117] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_20118] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_20119] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_20120] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_20121] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_20122] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_20123] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_20124] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(name "knowtator_mentioned_in")
+	(property_list [knowtator_ProjectKB_Instance_20125])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_20125] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_20128] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(name "knowtator_mention_annotation")
+	(property_list [knowtator_ProjectKB_Instance_20129])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_20129] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_20132] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_20133] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_20134] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_20135] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_20136] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_20137] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_20138] of  String
+
+	(name "ButtonDescription-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_20139] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_20140] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_20141] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_20142] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_20143] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_22] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(name "knowtator_text_source_annotation")
+	(property_list [knowtator_ProjectKB_Instance_10023])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_23] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "<<all>>"))
+
+([knowtator_ProjectKB_Instance_24] of  String
+
+	(name "vertical_stretcher")
+	(string_value "<<none>>"))
+
+([knowtator_ProjectKB_Instance_3] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_30000] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_30002] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "fade unselected annotations")
+	(name "knowtator_fade_unselected_annotations")
+	(property_list [knowtator_ProjectKB_Instance_30003])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 290)
+	(x 0)
+	(y 650))
+
+([knowtator_ProjectKB_Instance_30003] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_60004]))
+
+([knowtator_ProjectKB_Instance_30004] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "description")
+	(name "knowtator_set_description")
+	(property_list [knowtator_ProjectKB_Instance_30005])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_30005] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_30006]))
+
+([knowtator_ProjectKB_Instance_30006] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_30039] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Value"))
+
+([knowtator_ProjectKB_Instance_30040] of  String
+
+	(name "ButtonDescription-Add Value"))
+
+([knowtator_ProjectKB_Instance_30041] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Value"))
+
+([knowtator_ProjectKB_Instance_30042] of  String
+
+	(name "ButtonDescription-Remove Value"))
+
+([knowtator_ProjectKB_Instance_30065] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_30071] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "subtext slot")
+	(name "knowtator_subtext_slot")
+	(property_list [knowtator_ProjectKB_Instance_30072])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 290)
+	(x 0)
+	(y 590))
+
+([knowtator_ProjectKB_Instance_30072] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_30073]
+		[knowtator_ProjectKB_Instance_30074]
+		[knowtator_ProjectKB_Instance_30075]
+		[knowtator_ProjectKB_Instance_30076]
+		[knowtator_ProjectKB_Instance_30077]
+		[knowtator_ProjectKB_Instance_30078]
+		[knowtator_ProjectKB_Instance_30079]
+		[knowtator_ProjectKB_Instance_30080]
+		[knowtator_ProjectKB_Instance_30081]
+		[knowtator_ProjectKB_Instance_30082]
+		[knowtator_ProjectKB_Instance_30083]
+		[knowtator_ProjectKB_Instance_30084]
+		[knowtator_ProjectKB_Instance_30085]
+		[knowtator_ProjectKB_Instance_30086]))
+
+([knowtator_ProjectKB_Instance_30073] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_30074] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_30075] of  String
+
+	(name "tooltip_text")
+	(string_value "Choose a slot to display the text of underneath annotations that have the slot."))
+
+([knowtator_ProjectKB_Instance_30076] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_30077] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_30078] of  String
+
+	(name "ButtonDescription-View References to Value"))
+
+([knowtator_ProjectKB_Instance_30079] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_30080] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_30081] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_30082] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_30083] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_30084] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_30085] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_30086] of  Boolean
+
+	(boolean_value FALSE)
+	(name "readOnly_configured"))
+
+([knowtator_ProjectKB_Instance_30097] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_30118] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_30119] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_30155] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator slot matcher config")
+	(property_list [knowtator_ProjectKB_Instance_30156])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_30156] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_30157]
+		[knowtator_ProjectKB_Instance_30158]
+		[knowtator_ProjectKB_Instance_30160]
+		[knowtator_ProjectKB_Instance_30162]))
+
+([knowtator_ProjectKB_Instance_30157] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[knowtator_ProjectKB_Instance_30179]
+		[knowtator_ProjectKB_Instance_30180]))
+
+([knowtator_ProjectKB_Instance_30158] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Select match criteria for the spans of the compared annotations.")
+	(name "knowtator_span_match_criteria")
+	(property_list [knowtator_ProjectKB_Instance_30159])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 380)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_30159] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_30167]))
+
+([knowtator_ProjectKB_Instance_30160] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Check if the classes of the annotations must match.")
+	(name "knowtator_class_match_criteria")
+	(property_list [knowtator_ProjectKB_Instance_30161])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 380)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_30161] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_30166]))
+
+([knowtator_ProjectKB_Instance_30162] of  Widget
+
+	(height 240)
+	(is_hidden FALSE)
+	(label "Slots of annotations to compare ")
+	(name "knowtator_slot_match_criteria")
+	(property_list [knowtator_ProjectKB_Instance_30163])
+	(widget_class_name "edu.stanford.smi.protegex.widget.contains.ContainsWidget")
+	(width 380)
+	(x 0)
+	(y 120))
+
+([knowtator_ProjectKB_Instance_30163] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_30181]
+		[knowtator_ProjectKB_Instance_30182]
+		[knowtator_ProjectKB_Instance_30183]
+		[knowtator_ProjectKB_Instance_30184]
+		[knowtator_ProjectKB_Instance_30185]
+		[knowtator_ProjectKB_Instance_30186]
+		[knowtator_ProjectKB_Instance_30187]
+		[knowtator_ProjectKB_Instance_30188]
+		[knowtator_ProjectKB_Instance_30189]
+		[knowtator_ProjectKB_Instance_30190]
+		[knowtator_ProjectKB_Instance_30191]
+		[knowtator_ProjectKB_Instance_30192]
+		[knowtator_ProjectKB_Instance_30193]
+		[knowtator_ProjectKB_Instance_30194]
+		[knowtator_ProjectKB_Instance_30195]
+		[knowtator_ProjectKB_Instance_30196]
+		[knowtator_ProjectKB_Instance_30197]
+		[knowtator_ProjectKB_Instance_30198]
+		[knowtator_ProjectKB_Instance_30199]
+		[knowtator_ProjectKB_Instance_30200]
+		[knowtator_ProjectKB_Instance_30201]
+		[knowtator_ProjectKB_Instance_30202]
+		[knowtator_ProjectKB_Instance_30203]
+		[knowtator_ProjectKB_Instance_30204]
+		[knowtator_ProjectKB_Instance_30205]
+		[knowtator_ProjectKB_Instance_30206]
+		[knowtator_ProjectKB_Instance_30207]
+		[knowtator_ProjectKB_Instance_30208]))
+
+([knowtator_ProjectKB_Instance_30166] of  String
+
+	(name "tooltip_text")
+	(string_value "If true, then the classes of the compared annotations must match for the annotations to be considered a match."))
+
+([knowtator_ProjectKB_Instance_30167] of  String
+
+	(name "tooltip_text")
+	(string_value "specifies what the match criteria of the spans is for two annotations to be considered a match"))
+
+([knowtator_ProjectKB_Instance_30179] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "knowtator_slot_match_criteria"))
+
+([knowtator_ProjectKB_Instance_30180] of  String
+
+	(name "vertical_stretcher")
+	(string_value "knowtator_slot_match_criteria"))
+
+([knowtator_ProjectKB_Instance_30181] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_30182] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Insert:At:Current:Selection"))
+
+([knowtator_ProjectKB_Instance_30183] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Select:New:Insertions"))
+
+([knowtator_ProjectKB_Instance_30184] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Create:Form:For:New:Instances"))
+
+([knowtator_ProjectKB_Instance_30185] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Subwidget:Selection:Enabled"))
+
+([knowtator_ProjectKB_Instance_30186] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Summary:Panel"))
+
+([knowtator_ProjectKB_Instance_30187] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Number:Of:Subordinates"))
+
+([knowtator_ProjectKB_Instance_30188] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Subordinate:Browser:Keys"))
+
+([knowtator_ProjectKB_Instance_30189] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Use:Separators:Between:Subwidgets"))
+
+([knowtator_ProjectKB_Instance_30190] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Comtain:In:Vertical:Direction"))
+
+([knowtator_ProjectKB_Instance_30191] of  Integer
+
+	(integer_value 10)
+	(name ":Size:Of:Space:Between:Subwidgets"))
+
+([knowtator_ProjectKB_Instance_30192] of  Integer
+
+	(integer_value 1)
+	(name ":Prototype:Depth"))
+
+([knowtator_ProjectKB_Instance_30193] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Display:Create:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_30194] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Add:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_30195] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:View:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_30196] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Display:Remove:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_30197] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Delete:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_30198] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Prototype:Button"))
+
+([knowtator_ProjectKB_Instance_30199] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Move:Instance:Buttons"))
+
+([knowtator_ProjectKB_Instance_30200] of  String
+
+	(name ":Create:Instance:Button:Tooltip")
+	(string_value "Create a new instance"))
+
+([knowtator_ProjectKB_Instance_30201] of  String
+
+	(name ":Add:Instance:Button:Tooltip")
+	(string_value "Select an already existing instance"))
+
+([knowtator_ProjectKB_Instance_30202] of  String
+
+	(name ":View:Instance:Button:Tooltip")
+	(string_value "View the selected instance"))
+
+([knowtator_ProjectKB_Instance_30203] of  String
+
+	(name ":Remove:Instance:Button:Tooltip")
+	(string_value "Remove the selected instance(s)"))
+
+([knowtator_ProjectKB_Instance_30204] of  String
+
+	(name ":Delete:Instance:Button:Tooltip")
+	(string_value "Delete the selected instance(s) from the knowledge base"))
+
+([knowtator_ProjectKB_Instance_30205] of  String
+
+	(name ":Prototype:Button:Tooltip")
+	(string_value "Create a new instance which is a duplicate of the selected instance"))
+
+([knowtator_ProjectKB_Instance_30206] of  String
+
+	(name ":Move:Instance:Buttons:Tooltip")
+	(string_value "Move the selected instance"))
+
+([knowtator_ProjectKB_Instance_30207] of  String
+
+	(name ":Create:Instance:Dialog:Title")
+	(string_value "Create a new instance"))
+
+([knowtator_ProjectKB_Instance_30208] of  String
+
+	(name ":Add:Instance:Dialog:Title")
+	(string_value "Select an already existing instance"))
+
+([knowtator_ProjectKB_Instance_30209] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator complex slot match criteria")
+	(property_list [knowtator_ProjectKB_Instance_30210])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_30210] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_30211]
+		[knowtator_ProjectKB_Instance_30212]
+		[knowtator_ProjectKB_Instance_30216]
+		[knowtator_ProjectKB_Instance_30218]
+		[knowtator_ProjectKB_Instance_30222]
+		[knowtator_ProjectKB_Instance_30224]))
+
+([knowtator_ProjectKB_Instance_30211] of  Property_List
+
+	(name "layout properties"))
+
+([knowtator_ProjectKB_Instance_30212] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(label "simple slots of slot value that must match")
+	(name "knowtator_slot_matcher_simple_slots")
+	(property_list [knowtator_ProjectKB_Instance_30213])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 310)
+	(x 40)
+	(y 150))
+
+([knowtator_ProjectKB_Instance_30213] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_30214]
+		[knowtator_ProjectKB_Instance_30215]
+		[knowtator_ProjectKB_Instance_30239]
+		[knowtator_ProjectKB_Instance_30240]
+		[knowtator_ProjectKB_Instance_30241]
+		[knowtator_ProjectKB_Instance_30242]
+		[knowtator_ProjectKB_Instance_30243]
+		[knowtator_ProjectKB_Instance_30244]
+		[knowtator_ProjectKB_Instance_30245]
+		[knowtator_ProjectKB_Instance_30246]
+		[knowtator_ProjectKB_Instance_30247]
+		[knowtator_ProjectKB_Instance_30248]
+		[knowtator_ProjectKB_Instance_30249]
+		[knowtator_ProjectKB_Instance_90108]))
+
+([knowtator_ProjectKB_Instance_30214] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_30215] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_30216] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Select match criteria for the spans of the slot values.  ")
+	(name "knowtator_span_match_criteria")
+	(property_list [knowtator_ProjectKB_Instance_30217])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 310)
+	(x 40)
+	(y 90))
+
+([knowtator_ProjectKB_Instance_30217] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_30238]))
+
+([knowtator_ProjectKB_Instance_30218] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "complex slot")
+	(name "knowtator_slot_matcher_slot")
+	(property_list [knowtator_ProjectKB_Instance_30219])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 210)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_30219] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_30220]
+		[knowtator_ProjectKB_Instance_30221]
+		[knowtator_ProjectKB_Instance_30226]
+		[knowtator_ProjectKB_Instance_30227]
+		[knowtator_ProjectKB_Instance_30228]
+		[knowtator_ProjectKB_Instance_30229]
+		[knowtator_ProjectKB_Instance_30230]
+		[knowtator_ProjectKB_Instance_30231]
+		[knowtator_ProjectKB_Instance_30232]
+		[knowtator_ProjectKB_Instance_30233]
+		[knowtator_ProjectKB_Instance_30234]
+		[knowtator_ProjectKB_Instance_30235]
+		[knowtator_ProjectKB_Instance_30236]
+		[knowtator_ProjectKB_Instance_90109]))
+
+([knowtator_ProjectKB_Instance_30220] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_30221] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_30222] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Check if the class of the slot value must match.")
+	(name "knowtator_class_match_criteria")
+	(property_list [knowtator_ProjectKB_Instance_30223])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 260)
+	(x 40)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_30223] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_30237]))
+
+([knowtator_ProjectKB_Instance_30224] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "trivial match between simple slots propogates")
+	(name "knowtator_propogate_trivial_match")
+	(property_list [knowtator_ProjectKB_Instance_30225])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 280)
+	(x 70)
+	(y 240))
+
+([knowtator_ProjectKB_Instance_30225] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_30250]))
+
+([knowtator_ProjectKB_Instance_30226] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_30227] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_30228] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_30229] of  String
+
+	(name "ButtonDescription-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_30230] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_30231] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_30232] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_30233] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_30234] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_30235] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_30236] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_30237] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_30238] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_30239] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_30240] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_30241] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_30242] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_30243] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_30244] of  String
+
+	(name "ButtonDescription-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_30245] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_30246] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_30247] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_30248] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_30249] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_30250] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_30271] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator simple slot match criteria")
+	(property_list [knowtator_ProjectKB_Instance_30272])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_30272] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_30273]
+		[knowtator_ProjectKB_Instance_30274]))
+
+([knowtator_ProjectKB_Instance_30273] of  Property_List
+
+	(name "layout properties"))
+
+([knowtator_ProjectKB_Instance_30274] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "simple slot")
+	(name "knowtator_slot_matcher_slot")
+	(property_list [knowtator_ProjectKB_Instance_30275])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_30275] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_30276]
+		[knowtator_ProjectKB_Instance_30277]
+		[knowtator_ProjectKB_Instance_30278]
+		[knowtator_ProjectKB_Instance_30279]
+		[knowtator_ProjectKB_Instance_30280]
+		[knowtator_ProjectKB_Instance_30281]
+		[knowtator_ProjectKB_Instance_30282]
+		[knowtator_ProjectKB_Instance_30283]
+		[knowtator_ProjectKB_Instance_30284]
+		[knowtator_ProjectKB_Instance_30285]
+		[knowtator_ProjectKB_Instance_30286]
+		[knowtator_ProjectKB_Instance_30287]
+		[knowtator_ProjectKB_Instance_30288]
+		[knowtator_ProjectKB_Instance_90110]))
+
+([knowtator_ProjectKB_Instance_30276] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_30277] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_30278] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_30279] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_30280] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_30281] of  String
+
+	(name "ButtonDescription-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_30282] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_30283] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_30284] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_30285] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_30286] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_30287] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_30288] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_4] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [knowtator_ProjectKB_Instance_5])
+	(widget_class_name "ca.uvic.csr.shrimp.jambalaya.JambalayaTab"))
+
+([knowtator_ProjectKB_Instance_40000] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "annotator id")
+	(name "knowtator_annotator_id")
+	(property_list [knowtator_ProjectKB_Instance_40001])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 310)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_40001] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_70007]))
+
+([knowtator_ProjectKB_Instance_40002] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "team members")
+	(name "knowtator_annotator_team_members")
+	(property_list [knowtator_ProjectKB_Instance_40003])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 310)
+	(x 0)
+	(y 120))
+
+([knowtator_ProjectKB_Instance_40003] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_70004]
+		[knowtator_ProjectKB_Instance_70005]
+		[knowtator_ProjectKB_Instance_70008]
+		[knowtator_ProjectKB_Instance_70009]
+		[knowtator_ProjectKB_Instance_70010]
+		[knowtator_ProjectKB_Instance_70011]
+		[knowtator_ProjectKB_Instance_70012]
+		[knowtator_ProjectKB_Instance_70013]
+		[knowtator_ProjectKB_Instance_70014]
+		[knowtator_ProjectKB_Instance_70015]
+		[knowtator_ProjectKB_Instance_70016]
+		[knowtator_ProjectKB_Instance_70017]
+		[knowtator_ProjectKB_Instance_70018]))
+
+([knowtator_ProjectKB_Instance_40004] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator consensus set")
+	(property_list [knowtator_ProjectKB_Instance_40007])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_40007] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_40008]
+		[knowtator_ProjectKB_Instance_40011]
+		[knowtator_ProjectKB_Instance_40015]
+		[knowtator_ProjectKB_Instance_40018]
+		[knowtator_ProjectKB_Instance_40022]
+		[knowtator_ProjectKB_Instance_40026]))
+
+([knowtator_ProjectKB_Instance_40008] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[knowtator_ProjectKB_Instance_40009]
+		[knowtator_ProjectKB_Instance_40010]))
+
+([knowtator_ProjectKB_Instance_40009] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "knowtator_set_annotation"))
+
+([knowtator_ProjectKB_Instance_40010] of  String
+
+	(name "vertical_stretcher")
+	(string_value "knowtator_set_annotation"))
+
+([knowtator_ProjectKB_Instance_40011] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "name")
+	(name "knowtator_set_name")
+	(property_list [knowtator_ProjectKB_Instance_40012])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_40012] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_40015] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "description")
+	(name "knowtator_set_description")
+	(property_list [knowtator_ProjectKB_Instance_40016])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_40016] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_40017]))
+
+([knowtator_ProjectKB_Instance_40017] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_40018] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "team annotator")
+	(name "knowtator_team_annotator")
+	(property_list [knowtator_ProjectKB_Instance_40019])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 210)
+	(x 0)
+	(y 300))
+
+([knowtator_ProjectKB_Instance_40019] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_40020]
+		[knowtator_ProjectKB_Instance_40021]
+		[knowtator_ProjectKB_Instance_40052]
+		[knowtator_ProjectKB_Instance_40053]
+		[knowtator_ProjectKB_Instance_40054]
+		[knowtator_ProjectKB_Instance_40055]
+		[knowtator_ProjectKB_Instance_40056]
+		[knowtator_ProjectKB_Instance_40057]
+		[knowtator_ProjectKB_Instance_40058]
+		[knowtator_ProjectKB_Instance_40059]
+		[knowtator_ProjectKB_Instance_40060]
+		[knowtator_ProjectKB_Instance_40061]
+		[knowtator_ProjectKB_Instance_40062]
+		[knowtator_ProjectKB_Instance_90028]))
+
+([knowtator_ProjectKB_Instance_40020] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_40021] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_40022] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "individual filter")
+	(name "knowtator_individual_filter")
+	(property_list [knowtator_ProjectKB_Instance_40023])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 210)
+	(x 0)
+	(y 240))
+
+([knowtator_ProjectKB_Instance_40023] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_40024]
+		[knowtator_ProjectKB_Instance_40025]
+		[knowtator_ProjectKB_Instance_40041]
+		[knowtator_ProjectKB_Instance_40042]
+		[knowtator_ProjectKB_Instance_40043]
+		[knowtator_ProjectKB_Instance_40044]
+		[knowtator_ProjectKB_Instance_40045]
+		[knowtator_ProjectKB_Instance_40046]
+		[knowtator_ProjectKB_Instance_40047]
+		[knowtator_ProjectKB_Instance_40048]
+		[knowtator_ProjectKB_Instance_40049]
+		[knowtator_ProjectKB_Instance_40050]
+		[knowtator_ProjectKB_Instance_40051]
+		[knowtator_ProjectKB_Instance_90029]))
+
+([knowtator_ProjectKB_Instance_40024] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_40025] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_40026] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "consensus filter")
+	(name "knowtator_consensus_filter")
+	(property_list [knowtator_ProjectKB_Instance_40027])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 210)
+	(x 0)
+	(y 180))
+
+([knowtator_ProjectKB_Instance_40027] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_40028]
+		[knowtator_ProjectKB_Instance_40029]
+		[knowtator_ProjectKB_Instance_40030]
+		[knowtator_ProjectKB_Instance_40031]
+		[knowtator_ProjectKB_Instance_40032]
+		[knowtator_ProjectKB_Instance_40033]
+		[knowtator_ProjectKB_Instance_40034]
+		[knowtator_ProjectKB_Instance_40035]
+		[knowtator_ProjectKB_Instance_40036]
+		[knowtator_ProjectKB_Instance_40037]
+		[knowtator_ProjectKB_Instance_40038]
+		[knowtator_ProjectKB_Instance_40039]
+		[knowtator_ProjectKB_Instance_40040]
+		[knowtator_ProjectKB_Instance_90030]))
+
+([knowtator_ProjectKB_Instance_40028] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_40029] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_40030] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_40031] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_40032] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_40033] of  String
+
+	(name "ButtonDescription-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_40034] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_40035] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_40036] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_40037] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_40038] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_40039] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_40040] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_40041] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_40042] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_40043] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_40044] of  String
+
+	(name "ButtonDescription-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_40045] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_40046] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_40047] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_40048] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_40049] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_40050] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_40051] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_40052] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_40053] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_40054] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_40055] of  String
+
+	(name "ButtonDescription-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_40056] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_40057] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_40058] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_40059] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_40060] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_40061] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_40062] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_43] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_44]
+		[knowtator_ProjectKB_Instance_45]))
+
+([knowtator_ProjectKB_Instance_44] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_45] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_46] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_47] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_48] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_49]
+		[knowtator_ProjectKB_Instance_50]))
+
+([knowtator_ProjectKB_Instance_49] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move up"))
+
+([knowtator_ProjectKB_Instance_5] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_50] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move down"))
+
+([knowtator_ProjectKB_Instance_50002] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([knowtator_ProjectKB_Instance_50003] of  String
+
+	(name "knowtator class mention")
+	(string_value "knowtator_mention_annotation"))
+
+([knowtator_ProjectKB_Instance_50004] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_50005]
+		[knowtator_ProjectKB_Instance_50006]
+		[knowtator_ProjectKB_Instance_80061]
+		[knowtator_ProjectKB_Instance_80062]
+		[knowtator_ProjectKB_Instance_80063]
+		[knowtator_ProjectKB_Instance_80064]
+		[knowtator_ProjectKB_Instance_80065]
+		[knowtator_ProjectKB_Instance_80066]
+		[knowtator_ProjectKB_Instance_80067]
+		[knowtator_ProjectKB_Instance_80068]
+		[knowtator_ProjectKB_Instance_80069]
+		[knowtator_ProjectKB_Instance_80070]
+		[knowtator_ProjectKB_Instance_80071]))
+
+([knowtator_ProjectKB_Instance_50005] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_50006] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_50007] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "default annotator")
+	(name "knowtator_selected_annotator")
+	(property_list [knowtator_ProjectKB_Instance_50008])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 290)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_50008] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_50009]
+		[knowtator_ProjectKB_Instance_50010]
+		[knowtator_ProjectKB_Instance_80032]
+		[knowtator_ProjectKB_Instance_80033]
+		[knowtator_ProjectKB_Instance_80034]
+		[knowtator_ProjectKB_Instance_80035]
+		[knowtator_ProjectKB_Instance_80036]
+		[knowtator_ProjectKB_Instance_80037]
+		[knowtator_ProjectKB_Instance_80038]
+		[knowtator_ProjectKB_Instance_80039]
+		[knowtator_ProjectKB_Instance_80040]
+		[knowtator_ProjectKB_Instance_80041]
+		[knowtator_ProjectKB_Instance_80042]))
+
+([knowtator_ProjectKB_Instance_50009] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_50010] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_50011] of  Widget
+
+	(height 230)
+	(is_hidden FALSE)
+	(label "active filters")
+	(name "knowtator_active_filters")
+	(property_list [knowtator_ProjectKB_Instance_50012])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 290)
+	(x 0)
+	(y 240))
+
+([knowtator_ProjectKB_Instance_50012] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_50013]
+		[knowtator_ProjectKB_Instance_50014]
+		[knowtator_ProjectKB_Instance_80043]
+		[knowtator_ProjectKB_Instance_80044]
+		[knowtator_ProjectKB_Instance_80045]
+		[knowtator_ProjectKB_Instance_80046]
+		[knowtator_ProjectKB_Instance_80047]
+		[knowtator_ProjectKB_Instance_80048]
+		[knowtator_ProjectKB_Instance_80049]
+		[knowtator_ProjectKB_Instance_80050]
+		[knowtator_ProjectKB_Instance_80051]
+		[knowtator_ProjectKB_Instance_80052]
+		[knowtator_ProjectKB_Instance_80053]))
+
+([knowtator_ProjectKB_Instance_50013] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_50014] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_50015] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "root classes")
+	(name "knowtator_root_clses")
+	(property_list [knowtator_ProjectKB_Instance_50016])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget")
+	(width 290)
+	(x 0)
+	(y 120))
+
+([knowtator_ProjectKB_Instance_50016] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_80054]
+		[knowtator_ProjectKB_Instance_80055]
+		[knowtator_ProjectKB_Instance_80056]
+		[knowtator_ProjectKB_Instance_80057]
+		[knowtator_ProjectKB_Instance_80058]
+		[knowtator_ProjectKB_Instance_80059]
+		[knowtator_ProjectKB_Instance_80060]))
+
+([knowtator_ProjectKB_Instance_50017] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "default annotation set")
+	(name "knowtator_selected_annotation_set")
+	(property_list [knowtator_ProjectKB_Instance_50018])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 290)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_50018] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_50019]
+		[knowtator_ProjectKB_Instance_50020]
+		[knowtator_ProjectKB_Instance_50021]
+		[knowtator_ProjectKB_Instance_50022]
+		[knowtator_ProjectKB_Instance_70023]
+		[knowtator_ProjectKB_Instance_70024]
+		[knowtator_ProjectKB_Instance_70025]
+		[knowtator_ProjectKB_Instance_80026]
+		[knowtator_ProjectKB_Instance_80027]
+		[knowtator_ProjectKB_Instance_80028]
+		[knowtator_ProjectKB_Instance_80029]
+		[knowtator_ProjectKB_Instance_80030]
+		[knowtator_ProjectKB_Instance_80031]))
+
+([knowtator_ProjectKB_Instance_50019] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_50020] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_50021] of  String
+
+	(name "tooltip_text")
+	(string_value "New annotations are assigned to the annotation set specified here."))
+
+([knowtator_ProjectKB_Instance_50022] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_50023] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Add:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_50024] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:View:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_50025] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Remove:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_51] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_52] of  Property_List
+
+	(name "layout properties"))
+
+([knowtator_ProjectKB_Instance_53] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_54] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_55] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_56] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_57] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_58] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_59] of  String
+
+	(name "ButtonDescription-View References to Value  "))
+
+([knowtator_ProjectKB_Instance_6] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [knowtator_ProjectKB_Instance_7])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.individuals.OWLIndividualsTab"))
+
+([knowtator_ProjectKB_Instance_60] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_60004] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_60026] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Delete:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_60027] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Prototype:Button"))
+
+([knowtator_ProjectKB_Instance_60028] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Move:Instance:Buttons"))
+
+([knowtator_ProjectKB_Instance_60029] of  String
+
+	(name ":Create:Instance:Button:Tooltip")
+	(string_value "Create a new instance"))
+
+([knowtator_ProjectKB_Instance_60030] of  String
+
+	(name ":Add:Instance:Button:Tooltip")
+	(string_value "Select an already existing instance"))
+
+([knowtator_ProjectKB_Instance_60031] of  String
+
+	(name ":View:Instance:Button:Tooltip")
+	(string_value "View the selected instance"))
+
+([knowtator_ProjectKB_Instance_60032] of  String
+
+	(name ":Remove:Instance:Button:Tooltip")
+	(string_value "Remove the selected instance(s)"))
+
+([knowtator_ProjectKB_Instance_60033] of  String
+
+	(name ":Delete:Instance:Button:Tooltip")
+	(string_value "Delete the selected instance(s) from the knowledge base"))
+
+([knowtator_ProjectKB_Instance_60034] of  String
+
+	(name ":Prototype:Button:Tooltip")
+	(string_value "Create a new instance which is a duplicate of the selected instance"))
+
+([knowtator_ProjectKB_Instance_60035] of  String
+
+	(name ":Move:Instance:Buttons:Tooltip")
+	(string_value "Move the selected instance"))
+
+([knowtator_ProjectKB_Instance_60036] of  String
+
+	(name ":Create:Instance:Dialog:Title")
+	(string_value "Create a new instance"))
+
+([knowtator_ProjectKB_Instance_60037] of  String
+
+	(name ":Add:Instance:Dialog:Title")
+	(string_value "Select an already existing instance"))
+
+([knowtator_ProjectKB_Instance_60038] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_60039] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Insert:At:Current:Selection"))
+
+([knowtator_ProjectKB_Instance_60040] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Select:New:Insertions"))
+
+([knowtator_ProjectKB_Instance_60041] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Create:Form:For:New:Instances"))
+
+([knowtator_ProjectKB_Instance_60042] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Subwidget:Selection:Enabled"))
+
+([knowtator_ProjectKB_Instance_60043] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Summary:Panel"))
+
+([knowtator_ProjectKB_Instance_60044] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Number:Of:Subordinates"))
+
+([knowtator_ProjectKB_Instance_60045] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Subordinate:Browser:Keys"))
+
+([knowtator_ProjectKB_Instance_60046] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Use:Separators:Between:Subwidgets"))
+
+([knowtator_ProjectKB_Instance_60047] of  Boolean
+
+	(boolean_value TRUE)
+	(name ":Comtain:In:Vertical:Direction"))
+
+([knowtator_ProjectKB_Instance_60048] of  Integer
+
+	(integer_value 4)
+	(name ":Size:Of:Space:Between:Subwidgets"))
+
+([knowtator_ProjectKB_Instance_60049] of  Integer
+
+	(integer_value 1)
+	(name ":Prototype:Depth"))
+
+([knowtator_ProjectKB_Instance_60050] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Create:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_60051] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Add:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_60052] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:View:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_60053] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Remove:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_60054] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Delete:Instance:Button"))
+
+([knowtator_ProjectKB_Instance_60055] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Prototype:Button"))
+
+([knowtator_ProjectKB_Instance_60056] of  Boolean
+
+	(boolean_value FALSE)
+	(name ":Display:Move:Instance:Buttons"))
+
+([knowtator_ProjectKB_Instance_60057] of  String
+
+	(name ":Create:Instance:Button:Tooltip")
+	(string_value "Create a new instance"))
+
+([knowtator_ProjectKB_Instance_60058] of  String
+
+	(name ":Add:Instance:Button:Tooltip")
+	(string_value "Select an already existing instance"))
+
+([knowtator_ProjectKB_Instance_60059] of  String
+
+	(name ":View:Instance:Button:Tooltip")
+	(string_value "View the selected instance"))
+
+([knowtator_ProjectKB_Instance_60060] of  String
+
+	(name ":Remove:Instance:Button:Tooltip")
+	(string_value "Remove the selected instance(s)"))
+
+([knowtator_ProjectKB_Instance_60061] of  String
+
+	(name ":Delete:Instance:Button:Tooltip")
+	(string_value "Delete the selected instance(s) from the knowledge base"))
+
+([knowtator_ProjectKB_Instance_60062] of  String
+
+	(name ":Prototype:Button:Tooltip")
+	(string_value "Create a new instance which is a duplicate of the selected instance"))
+
+([knowtator_ProjectKB_Instance_60063] of  String
+
+	(name ":Move:Instance:Buttons:Tooltip")
+	(string_value "Move the selected instance"))
+
+([knowtator_ProjectKB_Instance_60064] of  String
+
+	(name ":Create:Instance:Dialog:Title")
+	(string_value "Create a new instance"))
+
+([knowtator_ProjectKB_Instance_60065] of  String
+
+	(name ":Add:Instance:Dialog:Title")
+	(string_value "Select an already existing instance"))
+
+([knowtator_ProjectKB_Instance_61] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_62] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_63] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_64] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_65] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_66] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_7] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_70] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator class mention")
+	(property_list [knowtator_ProjectKB_Instance_71])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_70004] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_70005] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_70006] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_70007] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_70008] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_70009] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_70010] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_70011] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_70012] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_70013] of  String
+
+	(name "ButtonDescription-View References to Value"))
+
+([knowtator_ProjectKB_Instance_70014] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_70015] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_70016] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_70017] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_70018] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_70019] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "annotator id")
+	(name "knowtator_annotator_id")
+	(property_list [knowtator_ProjectKB_Instance_70020])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 270)
+	(x 0)
+	(y 180))
+
+([knowtator_ProjectKB_Instance_70020] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_70021]))
+
+([knowtator_ProjectKB_Instance_70021] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_70022] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator annotator")
+	(property_list [knowtator_ProjectKB_Instance_80023])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_70023] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_70024] of  String
+
+	(name "ButtonDescription-View References to Value"))
+
+([knowtator_ProjectKB_Instance_70025] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_70052] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_70053] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_71] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_72]
+		[knowtator_ProjectKB_Instance_73]
+		[knowtator_ProjectKB_Instance_77]
+		[knowtator_ProjectKB_Instance_20004]))
+
+([knowtator_ProjectKB_Instance_72] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[knowtator_ProjectKB_Instance_10065]
+		[knowtator_ProjectKB_Instance_10066]))
+
+([knowtator_ProjectKB_Instance_73] of  Widget
+
+	(height 240)
+	(is_hidden FALSE)
+	(label "slots of annotated class")
+	(name "knowtator_slot_mention")
+	(property_list [knowtator_ProjectKB_Instance_74])
+	(widget_class_name "edu.uchsc.ccp.knowtator.SlotMentionWidget")
+	(width 260)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_74] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_10010]
+		[knowtator_ProjectKB_Instance_10011]
+		[knowtator_ProjectKB_Instance_10012]
+		[knowtator_ProjectKB_Instance_10013]
+		[knowtator_ProjectKB_Instance_10014]
+		[knowtator_ProjectKB_Instance_10015]
+		[knowtator_ProjectKB_Instance_10016]
+		[knowtator_ProjectKB_Instance_10017]
+		[knowtator_ProjectKB_Instance_10018]
+		[knowtator_ProjectKB_Instance_10019]
+		[knowtator_ProjectKB_Instance_10020]
+		[knowtator_ProjectKB_Instance_10021]
+		[knowtator_ProjectKB_Instance_20022]
+		[knowtator_ProjectKB_Instance_50023]
+		[knowtator_ProjectKB_Instance_50024]
+		[knowtator_ProjectKB_Instance_50025]
+		[knowtator_ProjectKB_Instance_60026]
+		[knowtator_ProjectKB_Instance_60027]
+		[knowtator_ProjectKB_Instance_60028]
+		[knowtator_ProjectKB_Instance_60029]
+		[knowtator_ProjectKB_Instance_60030]
+		[knowtator_ProjectKB_Instance_60031]
+		[knowtator_ProjectKB_Instance_60032]
+		[knowtator_ProjectKB_Instance_60033]
+		[knowtator_ProjectKB_Instance_60034]
+		[knowtator_ProjectKB_Instance_60035]
+		[knowtator_ProjectKB_Instance_60036]
+		[knowtator_ProjectKB_Instance_60037]))
+
+([knowtator_ProjectKB_Instance_77] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "annotated class")
+	(name "knowtator_mention_class")
+	(property_list [knowtator_ProjectKB_Instance_78])
+	(widget_class_name "edu.uchsc.ccp.knowtator.widget.AnnotatedClassWidget")
+	(width 260)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_78] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_79] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator complex slot mention")
+	(property_list [knowtator_ProjectKB_Instance_82])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_8] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [knowtator_ProjectKB_Instance_9])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.cls.OWLClassesTab"))
+
+([knowtator_ProjectKB_Instance_80004] of  String
+
+	(name "knowtator instance mention")
+	(string_value "knowtator_mention_annotation"))
+
+([knowtator_ProjectKB_Instance_80005] of  String
+
+	(name "knowtator color assignment")
+	(string_value "knowtator_color_class{%2F}knowtator_display_color"))
+
+([knowtator_ProjectKB_Instance_80006] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([knowtator_ProjectKB_Instance_80007] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([knowtator_ProjectKB_Instance_80008] of  String
+
+	(name "knowtator filter")
+	(string_value "knowtator_filter_name"))
+
+([knowtator_ProjectKB_Instance_80009] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "types not selectable from text viewer")
+	(name "knowtator_types_not_selectable_from_text_viewer")
+	(property_list [knowtator_ProjectKB_Instance_80010])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget")
+	(width 330)
+	(x 0)
+	(y 420))
+
+([knowtator_ProjectKB_Instance_80010] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_80011]
+		[knowtator_ProjectKB_Instance_80012]
+		[knowtator_ProjectKB_Instance_80013]
+		[knowtator_ProjectKB_Instance_80014]
+		[knowtator_ProjectKB_Instance_80015]
+		[knowtator_ProjectKB_Instance_80016]
+		[knowtator_ProjectKB_Instance_80017]))
+
+([knowtator_ProjectKB_Instance_80011] of  String
+
+	(name "tooltip_text")
+	(string_value "Select types of annotations that you do not want to appear in the context menu of the text viewer"))
+
+([knowtator_ProjectKB_Instance_80012] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Class"))
+
+([knowtator_ProjectKB_Instance_80013] of  String
+
+	(name "ButtonDescription-View Class"))
+
+([knowtator_ProjectKB_Instance_80014] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Class"))
+
+([knowtator_ProjectKB_Instance_80015] of  String
+
+	(name "ButtonDescription-Add Class"))
+
+([knowtator_ProjectKB_Instance_80016] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Class"))
+
+([knowtator_ProjectKB_Instance_80017] of  String
+
+	(name "ButtonDescription-Remove Class"))
+
+([knowtator_ProjectKB_Instance_80023] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_80024]
+		[knowtator_ProjectKB_Instance_80025]))
+
+([knowtator_ProjectKB_Instance_80024] of  Property_List
+
+	(name "layout properties"))
+
+([knowtator_ProjectKB_Instance_80025] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "annotator id")
+	(name "knowtator_annotator_id")
+	(property_list [knowtator_ProjectKB_Instance_90026])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 260)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_80026] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_80027] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_80028] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_80029] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_80030] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_80031] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_80032] of  String
+
+	(name "tooltip_text")
+	(string_value "New annotations will be assigned the annotator specified here."))
+
+([knowtator_ProjectKB_Instance_80033] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_80034] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_80035] of  String
+
+	(name "ButtonDescription-View References to Value"))
+
+([knowtator_ProjectKB_Instance_80036] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_80037] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_80038] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_80039] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_80040] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_80041] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_80042] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_80043] of  String
+
+	(name "tooltip_text")
+	(string_value "Filters specified here will be made active (selectable) in Knowtator"))
+
+([knowtator_ProjectKB_Instance_80044] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_80045] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_80046] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_80047] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_80048] of  String
+
+	(name "ButtonDescription-View References to Value"))
+
+([knowtator_ProjectKB_Instance_80049] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_80050] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_80051] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_80052] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_80053] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_80054] of  String
+
+	(name "tooltip_text")
+	(string_value "Classes specified here will be root nodes in the annotation schema."))
+
+([knowtator_ProjectKB_Instance_80055] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Class"))
+
+([knowtator_ProjectKB_Instance_80056] of  String
+
+	(name "ButtonDescription-View Class"))
+
+([knowtator_ProjectKB_Instance_80057] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Class"))
+
+([knowtator_ProjectKB_Instance_80058] of  String
+
+	(name "ButtonDescription-Add Class"))
+
+([knowtator_ProjectKB_Instance_80059] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Class"))
+
+([knowtator_ProjectKB_Instance_80060] of  String
+
+	(name "ButtonDescription-Remove Class"))
+
+([knowtator_ProjectKB_Instance_80061] of  String
+
+	(name "tooltip_text")
+	(string_value "Assign colors to classes."))
+
+([knowtator_ProjectKB_Instance_80062] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_80063] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_80064] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_80065] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_80066] of  String
+
+	(name "ButtonDescription-View References to Value"))
+
+([knowtator_ProjectKB_Instance_80067] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_80068] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_80069] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_80070] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_80071] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_80121] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "token boundary regular expression")
+	(name "knowtator_token_regex")
+	(property_list [knowtator_ProjectKB_Instance_80122])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 290)
+	(x 0)
+	(y 470))
+
+([knowtator_ProjectKB_Instance_80122] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_80123]))
+
+([knowtator_ProjectKB_Instance_80123] of  String
+
+	(name "tooltip_text")
+	(string_value "The default regex is \\W+"))
+
+([knowtator_ProjectKB_Instance_80130] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "currently selected filter")
+	(name "knowtator_selected_filter")
+	(property_list [knowtator_ProjectKB_Instance_80131])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 290)
+	(x 0)
+	(y 530))
+
+([knowtator_ProjectKB_Instance_80131] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_80132]
+		[knowtator_ProjectKB_Instance_80133]
+		[knowtator_ProjectKB_Instance_80134]
+		[knowtator_ProjectKB_Instance_80135]
+		[knowtator_ProjectKB_Instance_80136]
+		[knowtator_ProjectKB_Instance_80137]
+		[knowtator_ProjectKB_Instance_80138]
+		[knowtator_ProjectKB_Instance_80139]
+		[knowtator_ProjectKB_Instance_80140]
+		[knowtator_ProjectKB_Instance_80141]
+		[knowtator_ProjectKB_Instance_80142]
+		[knowtator_ProjectKB_Instance_80143]
+		[knowtator_ProjectKB_Instance_80144]))
+
+([knowtator_ProjectKB_Instance_80132] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_80133] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_80134] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_80135] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_80136] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_80137] of  String
+
+	(name "ButtonDescription-View References to Value"))
+
+([knowtator_ProjectKB_Instance_80138] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_80139] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_80140] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_80141] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_80142] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_80143] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_80144] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_80145] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "<<all>>"))
+
+([knowtator_ProjectKB_Instance_80146] of  String
+
+	(name "vertical_stretcher")
+	(string_value "<<all>>"))
+
+([knowtator_ProjectKB_Instance_82] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_83]
+		[knowtator_ProjectKB_Instance_86]
+		[knowtator_ProjectKB_Instance_92]
+		[knowtator_ProjectKB_Instance_20124]
+		[knowtator_ProjectKB_Instance_20128]))
+
+([knowtator_ProjectKB_Instance_83] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[knowtator_ProjectKB_Instance_84]
+		[knowtator_ProjectKB_Instance_85]))
+
+([knowtator_ProjectKB_Instance_84] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "<<all>>"))
+
+([knowtator_ProjectKB_Instance_85] of  String
+
+	(name "vertical_stretcher")
+	(string_value "<<none>>"))
+
+([knowtator_ProjectKB_Instance_86] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(label "mention slot")
+	(name "knowtator_mention_slot")
+	(property_list [knowtator_ProjectKB_Instance_87])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_87] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_9] of  Property_List
+)
+
+([knowtator_ProjectKB_Instance_90007] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "consensus accept recursive")
+	(name "knowtator_consensus_accept_recursive")
+	(property_list [knowtator_ProjectKB_Instance_90008])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 200)
+	(x 0)
+	(y 720))
+
+([knowtator_ProjectKB_Instance_90008] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_20000]
+		[knowtator_ProjectKB_Instance_20001]))
+
+([knowtator_ProjectKB_Instance_90009] of  String
+
+	(name "knowtator annotator team")
+	(string_value "knowtator_annotator_team_name"))
+
+([knowtator_ProjectKB_Instance_90010] of  String
+
+	(name "knowtator version")
+	(string_value "version"))
+
+([knowtator_ProjectKB_Instance_90011] of  String
+
+	(name "knowtator human annotator")
+	(string_value "knowtator_annotation_annotator_firstname{+}knowtator_annotation_annotator_lastname{%2C+}knowtator_annotation_annotator_affiliation"))
+
+([knowtator_ProjectKB_Instance_90012] of  String
+
+	(name ":STANDARD-CLASS")
+	(string_value "%3ANAME"))
+
+([knowtator_ProjectKB_Instance_90013] of  String
+
+	(name "knowtator text source collection implementations")
+	(string_value "knowtator_tsc_implementation"))
+
+([knowtator_ProjectKB_Instance_90014] of  String
+
+	(name ":STANDARD-SLOT")
+	(string_value "%3ANAME"))
+
+([knowtator_ProjectKB_Instance_90015] of  String
+
+	(name "knowtator slot mention")
+	(string_value "knowtator_mention_annotation"))
+
+([knowtator_ProjectKB_Instance_90016] of  String
+
+	(name "knowtator annotation")
+	(string_value "knowtator_annotation_text"))
+
+([knowtator_ProjectKB_Instance_90017] of  String
+
+	(name "knowtator complex slot mention")
+	(string_value "knowtator_mention_annotation"))
+
+([knowtator_ProjectKB_Instance_90018] of  String
+
+	(name "knowtator set")
+	(string_value "knowtator_set_name"))
+
+([knowtator_ProjectKB_Instance_90019] of  String
+
+	(name "knowtator display color")
+	(string_value "knowtator_display_color_name"))
+
+([knowtator_ProjectKB_Instance_90020] of  Map_Entry
+
+	(key "SHOW_INSTANCES")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.Boolean"))
+
+([knowtator_ProjectKB_Instance_90021] of  Map_Entry
+
+	(key "PROJECT_RECENT_TSC")
+	(key_class "java.lang.String")
+	(value "edu.uchsc.ccp.knowtator.textsource.filelines.FileLinesTextSourceCollection")
+	(value_class "java.lang.String"))
+
+([knowtator_ProjectKB_Instance_90022] of  Map_Entry
+
+	(key "FileLinesTextSourceCollection_RECENT_FILE")
+	(key_class "java.lang.String")
+	(value "C:\\Documents and Settings\\Compaq_Owner\\Desktop\\10-19-2006\\mutation.grif")
+	(value_class "java.lang.String"))
+
+([knowtator_ProjectKB_Instance_90023] of  Map_Entry
+
+	(key "KNOWTATOR_SUPPORT_CLASSES_VERSION")
+	(key_class "java.lang.String")
+	(value "V002")
+	(value_class "java.lang.String"))
+
+([knowtator_ProjectKB_Instance_90024] of  Map_Entry
+
+	(key "PROJECT_RECENT_TSC_INDEX")
+	(key_class "java.lang.String")
+	(value "0")
+	(value_class "java.lang.Integer"))
+
+([knowtator_ProjectKB_Instance_90025] of  Map_Entry
+
+	(key "FileTextSourceCollection_RECENT_DIRECTORY")
+	(key_class "java.lang.String")
+	(value "/data/lib/Protege/Protege_3.0/projects/T cell proliferation/abstracts")
+	(value_class "java.lang.String"))
+
+([knowtator_ProjectKB_Instance_90026] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_90027]))
+
+([knowtator_ProjectKB_Instance_90027] of  String
+
+	(name "tooltip_text"))
+
+([knowtator_ProjectKB_Instance_90028] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_90029] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_90030] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_90076] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator color assignment")
+	(property_list [knowtator_ProjectKB_Instance_90077])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([knowtator_ProjectKB_Instance_90077] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_90078]
+		[knowtator_ProjectKB_Instance_90079]
+		[knowtator_ProjectKB_Instance_90081]))
+
+([knowtator_ProjectKB_Instance_90078] of  Property_List
+
+	(name "layout properties"))
+
+([knowtator_ProjectKB_Instance_90079] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "class")
+	(name "knowtator_color_class")
+	(property_list [knowtator_ProjectKB_Instance_90080])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_90080] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_90085]
+		[knowtator_ProjectKB_Instance_90086]
+		[knowtator_ProjectKB_Instance_90087]
+		[knowtator_ProjectKB_Instance_90088]
+		[knowtator_ProjectKB_Instance_90089]
+		[knowtator_ProjectKB_Instance_90090]
+		[knowtator_ProjectKB_Instance_90091]))
+
+([knowtator_ProjectKB_Instance_90081] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "color")
+	(name "knowtator_display_color")
+	(property_list [knowtator_ProjectKB_Instance_90082])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowtator_ProjectKB_Instance_90082] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_90083]
+		[knowtator_ProjectKB_Instance_90084]
+		[knowtator_ProjectKB_Instance_90092]
+		[knowtator_ProjectKB_Instance_90093]
+		[knowtator_ProjectKB_Instance_90094]
+		[knowtator_ProjectKB_Instance_90095]
+		[knowtator_ProjectKB_Instance_90096]
+		[knowtator_ProjectKB_Instance_90097]
+		[knowtator_ProjectKB_Instance_90098]
+		[knowtator_ProjectKB_Instance_90099]
+		[knowtator_ProjectKB_Instance_90100]
+		[knowtator_ProjectKB_Instance_90101]
+		[knowtator_ProjectKB_Instance_90102]))
+
+([knowtator_ProjectKB_Instance_90083] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_90084] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_90085] of  String
+
+	(name "tooltip_text")
+	(string_value "Specify the class of the color assignment"))
+
+([knowtator_ProjectKB_Instance_90086] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Class"))
+
+([knowtator_ProjectKB_Instance_90087] of  String
+
+	(name "ButtonDescription-View Class"))
+
+([knowtator_ProjectKB_Instance_90088] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Class"))
+
+([knowtator_ProjectKB_Instance_90089] of  String
+
+	(name "ButtonDescription-Add Class"))
+
+([knowtator_ProjectKB_Instance_90090] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Class"))
+
+([knowtator_ProjectKB_Instance_90091] of  String
+
+	(name "ButtonDescription-Remove Class"))
+
+([knowtator_ProjectKB_Instance_90092] of  String
+
+	(name "tooltip_text")
+	(string_value "Specify the color to be assigned to the class."))
+
+([knowtator_ProjectKB_Instance_90093] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Instance"))
+
+([knowtator_ProjectKB_Instance_90094] of  String
+
+	(name "ButtonDescription-View Instance"))
+
+([knowtator_ProjectKB_Instance_90095] of  String
+
+	(name "ButtonDescription-View References to Value"))
+
+([knowtator_ProjectKB_Instance_90096] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([knowtator_ProjectKB_Instance_90097] of  String
+
+	(name "ButtonDescription-Create Instance"))
+
+([knowtator_ProjectKB_Instance_90098] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add Instance"))
+
+([knowtator_ProjectKB_Instance_90099] of  String
+
+	(name "ButtonDescription-Add Instance"))
+
+([knowtator_ProjectKB_Instance_90100] of  Boolean
+
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_90101] of  String
+
+	(name "ButtonDescription-Remove Instance"))
+
+([knowtator_ProjectKB_Instance_90102] of  String
+
+	(name "ButtonDescription-Delete Instance"))
+
+([knowtator_ProjectKB_Instance_90108] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_90109] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_90110] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowtator_ProjectKB_Instance_92] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(label "slot values")
+	(name "knowtator_mention_slot_value")
+	(property_list [knowtator_ProjectKB_Instance_93])
+	(widget_class_name "edu.uchsc.ccp.knowtator.ComplexSlotMentionValueWidget")
+	(width 210)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_93] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_20132]
+		[knowtator_ProjectKB_Instance_20133]
+		[knowtator_ProjectKB_Instance_20134]
+		[knowtator_ProjectKB_Instance_20135]
+		[knowtator_ProjectKB_Instance_20136]
+		[knowtator_ProjectKB_Instance_20137]
+		[knowtator_ProjectKB_Instance_20138]
+		[knowtator_ProjectKB_Instance_20139]
+		[knowtator_ProjectKB_Instance_20140]
+		[knowtator_ProjectKB_Instance_20141]
+		[knowtator_ProjectKB_Instance_20142]
+		[knowtator_ProjectKB_Instance_20143]
+		[knowtator_ProjectKB_Instance_30097]))
+
+([knowtator_ProjectKB_Instance_96] of  Widget
+
+	(height 160)
+	(is_hidden FALSE)
+	(label "comments on this text source")
+	(name "knowtator_annotation_comment")
+	(property_list [knowtator_ProjectKB_Instance_97])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([knowtator_ProjectKB_Instance_97] of  Property_List
+
+	(properties [knowtator_ProjectKB_Instance_70053]))
+
+([knowtator_ProjectKB_Instance_99] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(label "text source")
+	(name "knowtator_annotation_text_source")
+	(property_list [knowtator_ProjectKB_Instance_100])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([new-model-exp_ProjectKB_Instance_10007] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator slot mention")
+	(property_list [new-model-exp_ProjectKB_Instance_10008])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([new-model-exp_ProjectKB_Instance_10008] of  Property_List
+
+	(properties
+		[new-model-exp_ProjectKB_Instance_10009]
+		[new-model-exp_ProjectKB_Instance_10010]
+		[new-model-exp_ProjectKB_Instance_10014]
+		[knowtator_ProjectKB_Instance_20008]
+		[knowtator_ProjectKB_Instance_20012]))
+
+([new-model-exp_ProjectKB_Instance_10009] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[new-model-exp_ProjectKB_Instance_10019]
+		[new-model-exp_ProjectKB_Instance_10020]))
+
+([new-model-exp_ProjectKB_Instance_10010] of  Widget
+
+	(height 0)
+	(is_hidden FALSE)
+	(label "mention slot")
+	(name "knowtator_mention_slot")
+	(property_list [new-model-exp_ProjectKB_Instance_10011])
+	(width 0)
+	(x 0)
+	(y 0))
+
+([new-model-exp_ProjectKB_Instance_10011] of  Property_List
+)
+
+([new-model-exp_ProjectKB_Instance_10014] of  Widget
+
+	(height 90)
+	(is_hidden FALSE)
+	(label "slot values")
+	(name "knowtator_mention_slot_value")
+	(property_list [new-model-exp_ProjectKB_Instance_10015])
+	(widget_class_name "edu.uchsc.ccp.knowtator.SlotMentionValueWidget")
+	(width 190)
+	(x 0)
+	(y 0))
+
+([new-model-exp_ProjectKB_Instance_10015] of  Property_List
+
+	(properties
+		[knowtator_ProjectKB_Instance_30039]
+		[knowtator_ProjectKB_Instance_30040]
+		[knowtator_ProjectKB_Instance_30041]
+		[knowtator_ProjectKB_Instance_30042]))
+
+([new-model-exp_ProjectKB_Instance_10019] of  String
+
+	(name "horizontal_stretcher")
+	(string_value "<<all>>"))
+
+([new-model-exp_ProjectKB_Instance_10020] of  String
+
+	(name "vertical_stretcher")
+	(string_value "<<none>>"))
+
+([PAL_FORM_WIDGET] of  Widget
+
+	(height 476)
+	(is_hidden FALSE)
+	(name ":PAL-CONSTRAINT")
+	(property_list [KB_776349_Instance_38])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 603)
+	(x 0)
+	(y 0))
+
+([PROJECT] of  Project
+
+	(browser_slot_names [BROWSER_SLOT_NAMES])
+	(customized_instance_widgets
+		[knowtator_ProjectKB_Instance_30271]
+		[knowtator_ProjectKB_Instance_70]
+		[PAL_FORM_WIDGET]
+		[knowtator_ProjectKB_Instance_10120]
+		[knowtator_ProjectKB_Instance_30209]
+		[knowtator_ProjectKB_Instance_90076]
+		[INSTANCE_ANNOTATION_FORM_WIDGET]
+		[knowtator_ProjectKB_Instance_10143]
+		[knowtator_ProjectKB_Instance_10197]
+		[knowtator_ProjectKB_Instance_10000]
+		[knowtator_ProjectKB_Instance_70022]
+		[knowtator_ProjectKB_Instance_30155]
+		[knowtator_ProjectKB_Instance_10134]
+		[knowtator_ProjectKB_Instance_40004]
+		[STANDARD_CLASS_FORM_WIDGET]
+		[t-cell-proliferation_ProjectKB_Instance_30182]
+		[STANDARD_SLOT_FORM_WIDGET]
+		[STANDARD_FACET_FORM_WIDGET]
+		[new-model-exp_ProjectKB_Instance_10007]
+		[KB_073128_Instance_16]
+		[knowtator_ProjectKB_Instance_79]
+		[knowtator_ProjectKB_Instance_10168]
+		[knowtator_ProjectKB_Instance_10025]
+		[KB_073128_Instance_0])
+	(default_cls_metaclass ":STANDARD-CLASS")
+	(default_facet_metaclass ":STANDARD-FACET")
+	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(default_slot_metaclass ":STANDARD-SLOT")
+	(journaling_enabled FALSE)
+	(next_frame_number 0)
+	(options [KB_965338_Instance_61])
+	(property_map [t-cell-proliferation_ProjectKB_Instance_278])
+	(sources [SOURCES])
+	(tabs
+		[CLSES_TAB]
+		[SLOTS_TAB]
+		[FORMS_TAB]
+		[INSTANCES_TAB]
+		[t-cell-proliferation_ProjectKB_Instance_147]
+		[t-cell-proliferation_ProjectKB_Instance_133]
+		[knowtator_ProjectKB_Instance_2]
+		[t-cell-proliferation_ProjectKB_Instance_155]
+		[knowtator_ProjectKB_Instance_10043]
+		[t-cell-proliferation_ProjectKB_Instance_109]
+		[t-cell-proliferation_ProjectKB_Instance_143]
+		[knowtator_ProjectKB_Instance_10049]
+		[t-cell-proliferation_ProjectKB_Instance_129]
+		[knowtator_ProjectKB_Instance_4]
+		[knowtator_ProjectKB_Instance_10047]
+		[t-cell-proliferation_ProjectKB_Instance_137]
+		[t-cell-proliferation_ProjectKB_Instance_145]
+		[t-cell-proliferation_ProjectKB_Instance_103]
+		[knowtator_ProjectKB_Instance_10051]
+		[knowtator_ProjectKB_Instance_0]
+		[t-cell-proliferation_ProjectKB_Instance_141]
+		[knowtator_ProjectKB_Instance_10045]
+		[t-cell-proliferation_ProjectKB_Instance_105]
+		[t-cell-proliferation_ProjectKB_Instance_119]
+		[QUERIES_TAB]
+		[t-cell-proliferation_ProjectKB_Instance_111]
+		[t-cell-proliferation_ProjectKB_Instance_101]
+		[t-cell-proliferation_ProjectKB_Instance_157]
+		[t-cell-proliferation_ProjectKB_Instance_131]
+		[t-cell-proliferation_ProjectKB_Instance_123]
+		[knowtator_ProjectKB_Instance_8]
+		[knowtator_ProjectKB_Instance_6]
+		[t-cell-proliferation_ProjectKB_Instance_115]
+		[t-cell-proliferation_ProjectKB_Instance_139]
+		[t-cell-proliferation_ProjectKB_Instance_159]
+		[t-cell-proliferation_ProjectKB_Instance_153]
+		[t-cell-proliferation_ProjectKB_Instance_127]
+		[t-cell-proliferation_ProjectKB_Instance_113]))
+
+([QUERIES_TAB] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [KB_965338_Instance_72])
+	(widget_class_name "edu.stanford.smi.protegex.queries_tab.QueriesTab"))
+
+([SLOTS_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotsTab"))
+
+([SOURCES] of  Property_List
+
+	(properties
+		[KB_965338_Instance_0]
+		[KB_965338_Instance_73]
+		[KB_965338_Instance_74]))
+
+([STANDARD_CLASS_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-CLASS")
+	(property_list [KB_776349_Instance_0])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([STANDARD_FACET_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-FACET")
+	(property_list [KB_776349_Instance_29])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([STANDARD_SLOT_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-SLOT")
+	(property_list [KB_776349_Instance_12])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([t-cell-proliferation_ProjectKB_Instance_101] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_102])
+	(widget_class_name "TGViztab.TGVizTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_102] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_103] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_104])
+	(widget_class_name "dfki.protege.ontoviz_tab.OntovizTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_104] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_105] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_106])
+	(widget_class_name "script.ProtegeScriptTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_106] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_109] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_110])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_110] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_111] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_112])
+	(widget_class_name "edu.stanford.smi.protege.keywordsearch.StringSearch"))
+
+([t-cell-proliferation_ProjectKB_Instance_112] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_113] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_114])
+	(widget_class_name "edu.stanford.smi.RemoteKBTab.WordNetTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_114] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_115] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_116])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadatatab.OWLMetadataTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_116] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_119] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_120])
+	(widget_class_name "edu.stanford.smi.protegex.psm.PSMTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_120] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_123] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_124])
+	(widget_class_name "ezpal.EZPalTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_124] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_127] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_128])
+	(widget_class_name "edu.stanford.smi.protegex.owl.swrl.ui.tab.SWRLTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_128] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_129] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_130])
+	(widget_class_name "edu.stanford.smi.protegex.fctab.FacetConstraintsTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_130] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_131] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_132])
+	(widget_class_name "edu.stanford.smi.protegex.xml.tab.XMLTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_132] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_133] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_134])
+	(widget_class_name "edu.stanford.smi.protegex.prompt.PromptTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_134] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_137] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_138])
+	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_138] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_139] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_140])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLPropertiesTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_140] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_141] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_142])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalConstraintsTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_142] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_143] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_144])
+	(widget_class_name "DataGenieTab.DataGenieTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_144] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_145] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_146])
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.KnowledgeTreeTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_146] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_147] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_148])
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.InstanceTreeTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_148] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_153] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_154])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalQueriesTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_154] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_155] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_156])
+	(widget_class_name "org.algernon.kb.okbc.protege.plugins.AlgernonTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_156] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_157] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_158])
+	(widget_class_name "edu.stanford.smi.RemoteKBTab.UMLSTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_158] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_159] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [t-cell-proliferation_ProjectKB_Instance_160])
+	(widget_class_name "uk.ac.man.cs.mig.coode.owlviz.ui.OWLVizTab"))
+
+([t-cell-proliferation_ProjectKB_Instance_160] of  Property_List
+)
+
+([t-cell-proliferation_ProjectKB_Instance_278] of  Map
+
+	(entries
+		[knowtator_ProjectKB_Instance_90020]
+		[knowtator_ProjectKB_Instance_90021]
+		[knowtator_ProjectKB_Instance_90022]
+		[knowtator_ProjectKB_Instance_90023]
+		[knowtator_ProjectKB_Instance_90024]
+		[knowtator_ProjectKB_Instance_90025]))
+
+([t-cell-proliferation_ProjectKB_Instance_30182] of  Widget
+
+	(is_hidden FALSE)
+	(name "knowtator text source")
+	(property_list [t-cell-proliferation_ProjectKB_Instance_30183])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([t-cell-proliferation_ProjectKB_Instance_30183] of  Property_List
+
+	(properties
+		[t-cell-proliferation_ProjectKB_Instance_30184]
+		[knowtator_ProjectKB_Instance_96]
+		[knowtator_ProjectKB_Instance_22]))
+
+([t-cell-proliferation_ProjectKB_Instance_30184] of  Property_List
+
+	(name "layout properties")
+	(properties
+		[knowtator_ProjectKB_Instance_20026]
+		[knowtator_ProjectKB_Instance_20027]))
+
+([t-cell-proliferation_ProjectKB_Instance_75] of  String
+
+	(name "SearchTab_Query"))
