@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-187.txt-PROCESSED.xml for annotations
+
+93 unique entities annotated by the NCBO Annotator
+		['norvir', 'norvir', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'dapsone', 'dapsone', 'atenolol', 'atenolol', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'methadone', 'methadone', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'paclitaxel', 'paclitaxel', 'paclitaxel', 'metoprolol', 'metoprolol', 'repaglinide', 'repaglinide', 'fluvastatin', 'fluvastatin', 'pravastatin', 'pravastatin', 'desipramine', 'desipramine', 'fluconazole', 'fluconazole', 'trimethoprim', 'trimethoprim', 'azithromycin', 'azithromycin', 'erythromycin', 'erythromycin', 'nortriptyline', 'nortriptyline', 'acetaminophen', 'acetaminophen', 'sulfamethoxazole', 'sulfamethoxazole', 'atazanavir sulfate']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'fluvastatin': ['fluvastatin'], 'atenolol': ['atenolol'], 'acetaminophen': ['acetaminophen'], 'paclitaxel': ['paclitaxel'], 'norvir': ['norvir'], 'ritonavir': ['ritonavir'], 'pravastatin': ['pravastatin'], 'repaglinide': ['repaglinide'], 'trimethoprim': ['trimethoprim'], 'nortriptyline': ['nortriptyline'], 'reyataz': ['reyataz'], 'desipramine': ['desipramine'], 'fluconazole': ['fluconazole'], 'erythromycin': ['erythromycin'], 'methadone': ['methadone'], 'metoprolol': ['metoprolol'], 'azithromycin': ['azithromycin'], 'dapsone': ['dapsone'], 'atazanavir': ['atazanavir sulfate', 'atazanavir'], 'sulfamethoxazole': ['sulfamethoxazole']}
+
+47 unique entities in the reference annotation set
+		['norvir', 'norvir', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'reyataz', 'dapsone', 'atenolol', 'ritonavir', 'ritonavir', 'methadone', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'atazanavir', 'paclitaxel', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'metoprolol', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'pravastatin', 'fluvastatin', 'fluconazole', 'desipramine', 'repaglinide', 'azithromycin', 'trimethoprim', 'erythromycin', 'nortriptyline', 'acetaminophen', 'sulfamethoxazole']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'trimethoprim': ['trimethoprim'], 'fluvastatin': ['fluvastatin'], 'atenolol': ['atenolol'], 'acetaminophen': ['acetaminophen'], 'paclitaxel': ['paclitaxel'], 'norvir': ['norvir'], 'ritonavir': ['ritonavir'], 'pravastatin': ['pravastatin'], 'repaglinide': ['repaglinide'], 'azithromycin': ['azithromycin'], 'nortriptyline': ['nortriptyline'], 'reyataz': ['reyataz'], 'desipramine': ['desipramine'], 'fluconazole': ['fluconazole'], 'erythromycin': ['erythromycin'], 'methadone': ['methadone'], 'metoprolol': ['metoprolol'], 'dapsone': ['dapsone'], 'atazanavir': ['atazanavir'], 'sulfamethoxazole': ['sulfamethoxazole']}
+
+20 perfect string matches between Knowtator and NCBO: set(['fluvastatin', 'sulfamethoxazole', 'paclitaxel', 'norvir', 'ritonavir', 'pravastatin', 'repaglinide', 'dapsone', 'trimethoprim', 'nortriptyline', 'reyataz', 'desipramine', 'erythromycin', 'methadone', 'acetaminophen', 'azithromycin', 'fluconazole', 'atenolol', 'atazanavir', 'metoprolol'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['fluvastatin', 'sulfamethoxazole', 'paclitaxel', 'norvir', 'ritonavir', 'pravastatin', 'repaglinide', 'dapsone', 'trimethoprim', 'nortriptyline', 'reyataz', 'desipramine', 'erythromycin', 'methadone', 'acetaminophen', 'azithromycin', 'fluconazole', 'atenolol', 'atazanavir', 'metoprolol']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

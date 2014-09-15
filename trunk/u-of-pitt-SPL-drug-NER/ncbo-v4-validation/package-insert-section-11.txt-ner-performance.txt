@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-11.txt-PROCESSED.xml for annotations
+
+6 unique entities annotated by the NCBO Annotator
+		['sertraline', 'sertraline', 'sertraline', 'sertraline', 'cimetidine', 'cimetidine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'sertraline': ['sertraline'], 'cimetidine': ['cimetidine']}
+
+3 unique entities in the reference annotation set
+		['sertraline', 'sertraline', 'cimetidine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'sertraline': ['sertraline'], 'cimetidine': ['cimetidine']}
+
+2 perfect string matches between Knowtator and NCBO: set(['sertraline', 'cimetidine'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['sertraline', 'cimetidine']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

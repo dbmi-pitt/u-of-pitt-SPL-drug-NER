@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-7.txt-PROCESSED.xml for annotations
+
+204 unique entities annotated by the NCBO Annotator
+		['digoxin', 'digoxin', 'digoxin', 'digoxin', 'alcohol', 'alcohol', 'levodopa', 'levodopa', 'levodopa', 'levodopa', 'rifampin', 'rifampin', 'dopamine', 'dopamine', 'clozapine', 'clozapine', 'clozapine', 'clozapine', 'clozapine', 'clozapine', 'valproate', 'valproate', 'valproate', 'phenytoin', 'phenytoin', 'donepezil', 'donepezil', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'ranitidine', 'ranitidine', 'ranitidine', 'ranitidine', 'ranitidine', 'ranitidine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'galantamine', 'galantamine', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'amitriptyline', 'amitriptyline', 'amitriptyline', 'amitriptyline', 'valproic acid', 'valproic acid', 'valproic acid', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'phenobarbital', 'phenobarbital', 'phenobarbital', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'paroxetine': ['paroxetine'], 'phenytoin': ['phenytoin'], 'risperidone': ['risperidone'], 'alcohol': ['alcohol'], '9-hydroxy-risperidone': ['9-hydroxy-risperidone'], 'donepezil': ['donepezil'], 'galantamine': ['galantamine'], 'cimetidine': ['cimetidine'], 'rifampin': ['rifampin'], 'phenobarbital': ['phenobarbital'], 'valproate': ['valproate'], 'clozapine': ['clozapine'], 'levodopa': ['levodopa'], 'digoxin': ['digoxin'], 'erythromycin': ['erythromycin'], 'dopamine': ['dopamine'], 'amitriptyline': ['amitriptyline'], 'fluoxetine': ['fluoxetine'], 'carbamazepine': ['carbamazepine'], 'valproic acid': ['valproic acid'], 'ranitidine': ['ranitidine']}
+
+85 unique entities in the reference annotation set
+		['lithium', 'digoxin', 'alcohol', 'digoxin', 'lithium', 'alcohol', 'levodopa', 'levodopa', 'rifampin', 'valproate', 'clozapine', 'clozapine', 'valproate', 'valproate', 'phenytoin', 'donepezil', 'cimetidine', 'paroxetine', 'fluoxetine', 'ranitidine', 'ranitidine', 'fluoxetine', 'paroxetine', 'paroxetine', 'fluoxetine', 'paroxetine', 'fluoxetine', 'fluoxetine', 'paroxetine', 'cimetidine', 'cimetidine', 'ranitidine', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'galantamine', 'erythromycin', 'erythromycin', 'carbamazepine', 'amitriptyline', 'amitriptyline', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'phenobarbital', 'carbamazepine', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'paroxetine': ['paroxetine'], 'phenytoin': ['phenytoin'], 'risperidone': ['risperidone'], 'carbamazepine': ['carbamazepine'], 'alcohol': ['alcohol'], 'donepezil': ['donepezil'], '9-hydroxyrisperidone': ['9-hydroxyrisperidone'], 'galantamine': ['galantamine'], 'fluoxetine': ['fluoxetine'], 'rifampin': ['rifampin'], 'phenobarbital': ['phenobarbital'], 'valproate': ['valproate'], 'clozapine': ['clozapine'], 'levodopa': ['levodopa'], 'digoxin': ['digoxin'], 'erythromycin': ['erythromycin'], 'cimetidine': ['cimetidine'], 'amitriptyline': ['amitriptyline'], 'lithium': ['lithium'], 'ranitidine': ['ranitidine']}
+
+18 perfect string matches between Knowtator and NCBO: set(['paroxetine', 'alcohol', 'donepezil', 'galantamine', 'risperidone', 'rifampin', 'phenytoin', 'carbamazepine', 'clozapine', 'levodopa', 'digoxin', 'phenobarbital', 'cimetidine', 'amitriptyline', 'fluoxetine', 'valproate', 'erythromycin', 'ranitidine'])
+
+
+Prior to processing -- ncboTermsDiff: ['valproic acid', '9-hydroxy-risperidone', 'dopamine']
+knowtTermsDiff: ['9-hydroxyrisperidone', 'lithium']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['valproic acid', '9-hydroxy-risperidone', 'dopamine']
+knowtTermsDiff: ['9-hydroxyrisperidone', 'lithium']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['paroxetine', 'alcohol', 'donepezil', 'galantamine', 'risperidone', 'rifampin', 'phenytoin', 'carbamazepine', 'clozapine', 'levodopa', 'digoxin', 'phenobarbital', 'cimetidine', 'amitriptyline', 'fluoxetine', 'valproate', 'erythromycin', 'ranitidine']
+
+3 annotations unique to NCBO: ['valproic acid', '9-hydroxy-risperidone', 'dopamine']
+
+2 annotations unique to Knowtator: ['9-hydroxyrisperidone', 'lithium']
+------------------------------------------------------------
+Recall: 0.90
+precision: 0.86
+F-measure: 0.88
+------------------------------------------------------------

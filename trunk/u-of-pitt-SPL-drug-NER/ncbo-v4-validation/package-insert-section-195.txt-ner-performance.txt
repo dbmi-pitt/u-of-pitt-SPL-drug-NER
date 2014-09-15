@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-195.txt-PROCESSED.xml for annotations
+
+153 unique entities annotated by the NCBO Annotator
+		['rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'procaine', 'procaine', 'calcium,', 'encainide', 'encainide', 'metoprolol', 'metoprolol', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propranolol', 'propranolol', 'propranolol', 'propranolol', 'debrisoquin', 'propafenone,', 'isoproterenol', 'isoproterenol', 'dextromethorphan', 'dextromethorphan', '5-hydroxypropafenone', '5-hydroxypropafenone', '5-hydroxypropafenone', '5-hydroxypropafenone']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'isoproterenol': ['isoproterenol'], 'encainide': ['encainide'], 'rythmol': ['rythmol'], 'debrisoquin': ['debrisoquin'], 'procaine': ['procaine'], 'calcium,': ['calcium,'], 'dextromethorphan': ['dextromethorphan'], 'propafenone': ['propafenone', 'propafenone,'], '5-hydroxypropafenone': ['5-hydroxypropafenone'], 'metoprolol': ['metoprolol'], 'propranolol': ['propranolol']}
+
+82 unique entities in the reference annotation set
+		['rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'rythmol', 'encainide', 'metoprolol', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propranolol', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propranolol', 'propafenone', 'propafenone', 'norpropafenone', 'norpropafenone', 'norpropafenone', 'dextromethorphan', '5-hydroxypropafenone', '5-hydroxypropafenone', '5-hydroxypropafenone', '5-hydroxypropafenone', '5-hydroxypropafenone', 'n-depropylpropafenone', 'n-depropylpropafenone', 'n-depropylpropafenone']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'encainide': ['encainide'], 'rythmol': ['rythmol'], 'norpropafenone': ['norpropafenone'], 'n-depropylpropafenone': ['n-depropylpropafenone'], 'dextromethorphan': ['dextromethorphan'], 'propafenone': ['propafenone'], '5-hydroxypropafenone': ['5-hydroxypropafenone'], 'metoprolol': ['metoprolol'], 'propranolol': ['propranolol']}
+
+7 perfect string matches between Knowtator and NCBO: set(['encainide', 'rythmol', 'dextromethorphan', 'propafenone', '5-hydroxypropafenone', 'metoprolol', 'propranolol'])
+
+
+Prior to processing -- ncboTermsDiff: ['isoproterenol', 'debrisoquin', 'procaine', 'calcium,']
+knowtTermsDiff: ['norpropafenone', 'n-depropylpropafenone']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['isoproterenol', 'debrisoquin', 'procaine', 'calcium,']
+knowtTermsDiff: ['norpropafenone', 'n-depropylpropafenone']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['encainide', 'rythmol', 'dextromethorphan', 'propafenone', '5-hydroxypropafenone', 'metoprolol', 'propranolol']
+
+4 annotations unique to NCBO: ['isoproterenol', 'debrisoquin', 'procaine', 'calcium,']
+
+2 annotations unique to Knowtator: ['norpropafenone', 'n-depropylpropafenone']
+------------------------------------------------------------
+Recall: 0.78
+precision: 0.64
+F-measure: 0.70
+------------------------------------------------------------

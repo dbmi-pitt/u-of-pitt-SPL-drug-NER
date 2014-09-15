@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-112.txt-PROCESSED.xml for annotations
+
+5 unique entities annotated by the NCBO Annotator
+		['nifedipine', 'nifedipine', 'nifedipine', 'clopidogrel', 'clopidogrel']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'nifedipine': ['nifedipine'], 'clopidogrel': ['clopidogrel']}
+
+3 unique entities in the reference annotation set
+		['nifedipine', 'clopidogrel', 'clopidrogrel']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'nifedipine': ['nifedipine'], 'clopidrogrel': ['clopidrogrel'], 'clopidogrel': ['clopidogrel']}
+
+2 perfect string matches between Knowtator and NCBO: set(['nifedipine', 'clopidogrel'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: ['clopidrogrel']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: ['clopidrogrel']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['nifedipine', 'clopidogrel']
+
+0 annotations unique to NCBO: []
+
+1 annotations unique to Knowtator: ['clopidrogrel']
+------------------------------------------------------------
+Recall: 0.67
+precision: 1.00
+F-measure: 0.80
+------------------------------------------------------------

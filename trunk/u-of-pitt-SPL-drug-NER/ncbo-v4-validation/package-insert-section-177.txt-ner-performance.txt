@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-177.txt-PROCESSED.xml for annotations
+
+17 unique entities annotated by the NCBO Annotator
+		['p450', 'diazepam', 'diazepam', 'diazepam', 'diazepam', 'cimetidine', 'cimetidine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'omeprazole', 'omeprazole', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'ketoconazole', 'ketoconazole']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'diazepam': ['diazepam'], 'ketoconazole': ['ketoconazole'], 'fluoxetine': ['fluoxetine'], 'fluvoxamine': ['fluvoxamine'], 'omeprazole': ['omeprazole'], 'cimetidine': ['cimetidine'], 'p450': ['p450']}
+
+7 unique entities in the reference annotation set
+		['diazepam', 'diazepam', 'omeprazole', 'fluoxetine', 'cimetidine', 'fluvoxamine', 'ketoconazole']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'diazepam': ['diazepam'], 'omeprazole': ['omeprazole'], 'fluoxetine': ['fluoxetine'], 'fluvoxamine': ['fluvoxamine'], 'ketoconazole': ['ketoconazole'], 'cimetidine': ['cimetidine']}
+
+6 perfect string matches between Knowtator and NCBO: set(['diazepam', 'omeprazole', 'fluoxetine', 'fluvoxamine', 'ketoconazole', 'cimetidine'])
+
+
+Prior to processing -- ncboTermsDiff: ['p450']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['p450']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['diazepam', 'omeprazole', 'fluoxetine', 'fluvoxamine', 'ketoconazole', 'cimetidine']
+
+1 annotations unique to NCBO: ['p450']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.86
+F-measure: 0.92
+------------------------------------------------------------

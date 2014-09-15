@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-206.txt-PROCESSED.xml for annotations
+
+36 unique entities annotated by the NCBO Annotator
+		['ng/ml', 'glucuronide', 'glucuronide', 'glucuronide', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'glucuronide': ['glucuronide'], 'levonorgestrel': ['levonorgestrel'], 'ng/ml': ['ng/ml']}
+
+20 unique entities in the reference annotation set
+		['next choicetm', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', u'16\u03b2hydroxylevonorgestrel', u'3\u03b1, 5\u03b2-tetrahydrolevonorgestrel', u'3\u03b1, 5\u03b1-tetrahydrolevonorgestrel']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{u'3\u03b1, 5\u03b2-tetrahydrolevonorgestrel': [u'3\u03b1, 5\u03b2-tetrahydrolevonorgestrel'], 'levonorgestrel': ['levonorgestrel'], 'next choicetm': ['next choicetm'], u'16\u03b2hydroxylevonorgestrel': [u'16\u03b2hydroxylevonorgestrel'], u'3\u03b1, 5\u03b1-tetrahydrolevonorgestrel': [u'3\u03b1, 5\u03b1-tetrahydrolevonorgestrel']}
+
+1 perfect string matches between Knowtator and NCBO: set(['levonorgestrel'])
+
+
+Prior to processing -- ncboTermsDiff: ['glucuronide', 'ng/ml']
+knowtTermsDiff: [u'3\u03b1, 5\u03b2-tetrahydrolevonorgestrel', 'next choicetm', u'16\u03b2hydroxylevonorgestrel', u'3\u03b1, 5\u03b1-tetrahydrolevonorgestrel']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['glucuronide', 'ng/ml']
+knowtTermsDiff: [u'3\u03b1, 5\u03b2-tetrahydrolevonorgestrel', 'next choicetm', u'16\u03b2hydroxylevonorgestrel', u'3\u03b1, 5\u03b1-tetrahydrolevonorgestrel']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['levonorgestrel']
+
+2 annotations unique to NCBO: ['glucuronide', 'ng/ml']
+
+4 annotations unique to Knowtator: [u'3\u03b1, 5\u03b2-tetrahydrolevonorgestrel', 'next choicetm', u'16\u03b2hydroxylevonorgestrel', u'3\u03b1, 5\u03b1-tetrahydrolevonorgestrel']
+------------------------------------------------------------
+Recall: 0.20
+precision: 0.33
+F-measure: 0.25
+------------------------------------------------------------

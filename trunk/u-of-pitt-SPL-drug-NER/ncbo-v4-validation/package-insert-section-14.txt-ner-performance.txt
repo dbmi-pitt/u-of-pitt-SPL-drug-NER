@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-14.txt-PROCESSED.xml for annotations
+
+18 unique entities annotated by the NCBO Annotator
+		['pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'sertraline', 'sertraline', 'sertraline', 'sertraline', 'sertraline', 'sertraline']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'sertraline': ['sertraline'], 'pimozide': ['pimozide']}
+
+9 unique entities in the reference annotation set
+		['pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'sertraline', 'sertraline', 'sertraline']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'sertraline': ['sertraline'], 'pimozide': ['pimozide']}
+
+2 perfect string matches between Knowtator and NCBO: set(['sertraline', 'pimozide'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['sertraline', 'pimozide']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

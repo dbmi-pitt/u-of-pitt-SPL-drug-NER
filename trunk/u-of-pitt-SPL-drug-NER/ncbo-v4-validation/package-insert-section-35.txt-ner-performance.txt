@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-35.txt-PROCESSED.xml for annotations
+
+8 unique entities annotated by the NCBO Annotator
+		['nitrofurantoin', 'nitrofurantoin', 'nitrofurantoin', 'nitrofurantoin', 'magnesium trisilicate', 'magnesium trisilicate', 'magnesium trisilicate', 'magnesium trisilicate']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'magnesium trisilicate': ['magnesium trisilicate'], 'nitrofurantoin': ['nitrofurantoin']}
+
+4 unique entities in the reference annotation set
+		['magnesium', 'magnesium', 'nitrofurantoin', 'nitrofurantoin']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'magnesium': ['magnesium'], 'nitrofurantoin': ['nitrofurantoin']}
+
+1 perfect string matches between Knowtator and NCBO: set(['nitrofurantoin'])
+
+
+Prior to processing -- ncboTermsDiff: ['magnesium trisilicate']
+knowtTermsDiff: ['magnesium']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'magnesium': ['magnesium', 'magnesium trisilicate']}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: [['magnesium', 'magnesium trisilicate']]
+DEBUG: AllMatches =  [['magnesium', 'magnesium trisilicate'], 'nitrofurantoin']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

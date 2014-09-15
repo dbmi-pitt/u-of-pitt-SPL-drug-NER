@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-8.txt-PROCESSED.xml for annotations
+
+220 unique entities annotated by the NCBO Annotator
+		['dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'warfarin', 'warfarin', 'rifampin', 'rifampin', 'serotonin', 'serotonin', 'serotonin', 'serotonin', 'serotonin', 'serotonin', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'phenytoin', 'phenytoin', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'haloperidol', 'haloperidol', 'debrisoquin', 'debrisoquin', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'glycoprotein.', 'glycoprotein.', 'sulfamethazine', 'sulfamethazine', 'dihydrotachysterol', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone', '9-hydroxy-risperidone']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'phenytoin': ['phenytoin'], 'haloperidol': ['haloperidol'], 'risperidone': ['risperidone'], 'debrisoquin': ['debrisoquin'], 'sulfamethazine': ['sulfamethazine'], 'quinidine': ['quinidine'], 'warfarin': ['warfarin'], 'dihydrotachysterol': ['dihydrotachysterol'], 'phenobarbital': ['phenobarbital'], 'carbamazepine': ['carbamazepine'], 'serotonin': ['serotonin'], 'rifampin': ['rifampin'], 'dopamine': ['dopamine'], 'glycoprotein.': ['glycoprotein.'], '9-hydroxy-risperidone': ['9-hydroxy-risperidone']}
+
+81 unique entities in the reference annotation set
+		['rifampin', 'warfarin', 'quinidine', 'quinidine', 'phenytoin', 'quinidine', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'haloperidol', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'risperidone', 'carbamazepine', 'phenobarbital', 'carbamazepine', 'sulfamethazine', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone', '9-hydroxyrisperidone']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'phenytoin': ['phenytoin'], 'haloperidol': ['haloperidol'], 'risperidone': ['risperidone'], 'sulfamethazine': ['sulfamethazine'], 'quinidine': ['quinidine'], 'warfarin': ['warfarin'], 'phenobarbital': ['phenobarbital'], 'carbamazepine': ['carbamazepine'], 'rifampin': ['rifampin'], '9-hydroxyrisperidone': ['9-hydroxyrisperidone']}
+
+9 perfect string matches between Knowtator and NCBO: set(['phenytoin', 'haloperidol', 'risperidone', 'sulfamethazine', 'quinidine', 'warfarin', 'phenobarbital', 'carbamazepine', 'rifampin'])
+
+
+Prior to processing -- ncboTermsDiff: ['glycoprotein.', 'dopamine', 'dihydrotachysterol', 'serotonin', '9-hydroxy-risperidone', 'debrisoquin']
+knowtTermsDiff: ['9-hydroxyrisperidone']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['glycoprotein.', 'dopamine', 'dihydrotachysterol', 'serotonin', '9-hydroxy-risperidone', 'debrisoquin']
+knowtTermsDiff: ['9-hydroxyrisperidone']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['phenytoin', 'haloperidol', 'risperidone', 'sulfamethazine', 'quinidine', 'warfarin', 'phenobarbital', 'carbamazepine', 'rifampin']
+
+6 annotations unique to NCBO: ['glycoprotein.', 'dopamine', 'dihydrotachysterol', 'serotonin', '9-hydroxy-risperidone', 'debrisoquin']
+
+1 annotations unique to Knowtator: ['9-hydroxyrisperidone']
+------------------------------------------------------------
+Recall: 0.90
+precision: 0.60
+F-measure: 0.72
+------------------------------------------------------------

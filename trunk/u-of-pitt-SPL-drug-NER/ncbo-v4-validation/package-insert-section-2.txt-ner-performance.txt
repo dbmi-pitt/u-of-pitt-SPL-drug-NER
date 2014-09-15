@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-2.txt-PROCESSED.xml for annotations
+
+119 unique entities annotated by the NCBO Annotator
+		['stavudine', 'stavudine', 'hydrogen.', 'thymidine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'creatinine', 'creatinine', 'zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'lamivudine', 'lamivudine', 'lamivudine', 'zalcitabine', 'zalcitabine', 'deoxyadenosine', 'deoxyadenosine', 'dideoxyadenosine', 'dideoxyadenosine', 'tenofovir disoproxil', 'tenofovir disoproxil fumarate']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'tenofovir disoproxil': ['tenofovir disoproxil', 'tenofovir disoproxil fumarate'], 'didanosine': ['didanosine'], 'dideoxyadenosine': ['dideoxyadenosine'], 'stavudine': ['stavudine'], 'deoxyadenosine': ['deoxyadenosine'], 'zidovudine': ['zidovudine'], 'zalcitabine': ['zalcitabine'], 'lamivudine': ['lamivudine'], 'thymidine': ['thymidine'], 'creatinine': ['creatinine'], 'hydrogen.': ['hydrogen.']}
+
+55 unique entities in the reference annotation set
+		['stavudine', 'didanosine', 'zidovudine', 'didanosine', 'didanosine', 'didanosine', 'zidovudine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'zidovudine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'lamivudine', 'zalcitabine', u'dideoxyadenosine 5\u2019-triphosphate', u'dideoxyadenosine 5\u2019-triphosphate']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'didanosine': ['didanosine'], 'stavudine': ['stavudine'], 'zidovudine': ['zidovudine'], 'zalcitabine': ['zalcitabine'], 'lamivudine': ['lamivudine'], u'dideoxyadenosine 5\u2019-triphosphate': [u'dideoxyadenosine 5\u2019-triphosphate']}
+
+5 perfect string matches between Knowtator and NCBO: set(['lamivudine', 'stavudine', 'zidovudine', 'didanosine', 'zalcitabine'])
+
+
+Prior to processing -- ncboTermsDiff: ['hydrogen.', 'thymidine', 'deoxyadenosine', 'dideoxyadenosine', 'creatinine', 'tenofovir disoproxil']
+knowtTermsDiff: [u'dideoxyadenosine 5\u2019-triphosphate']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'dideoxyadenosine': [u'dideoxyadenosine 5\u2019-triphosphate', 'dideoxyadenosine']}
+Post processing -- ncboTermsDiff: ['hydrogen.', 'thymidine', 'deoxyadenosine', 'creatinine', 'tenofovir disoproxil']
+knowtTermsDiff: []
+inperfectMtchs: [[u'dideoxyadenosine 5\u2019-triphosphate', 'dideoxyadenosine']]
+DEBUG: AllMatches =  [[u'dideoxyadenosine 5\u2019-triphosphate', 'dideoxyadenosine'], 'lamivudine', 'stavudine', 'zidovudine', 'didanosine', 'zalcitabine']
+
+5 annotations unique to NCBO: ['hydrogen.', 'thymidine', 'deoxyadenosine', 'creatinine', 'tenofovir disoproxil']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.55
+F-measure: 0.71
+------------------------------------------------------------

@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-84.txt-PROCESSED.xml for annotations
+
+4 unique entities annotated by the NCBO Annotator
+		['tacrine', 'tacrine', 'cimetidine', 'cimetidine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'cimetidine': ['cimetidine'], 'tacrine': ['tacrine']}
+
+2 unique entities in the reference annotation set
+		['tacrine', 'cimetidine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'cimetidine': ['cimetidine'], 'tacrine': ['tacrine']}
+
+2 perfect string matches between Knowtator and NCBO: set(['cimetidine', 'tacrine'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['cimetidine', 'tacrine']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

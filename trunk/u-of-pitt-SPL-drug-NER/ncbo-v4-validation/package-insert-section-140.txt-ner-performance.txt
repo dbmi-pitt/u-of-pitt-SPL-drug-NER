@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-140.txt-PROCESSED.xml for annotations
+
+77 unique entities annotated by the NCBO Annotator
+		['histamine', 'histamine', 'histamine', 'histamine', 'histamine', 'histamine', 'creatinine', 'creatinine', 'creatinine', 'creatinine', 'creatinine', 'creatinine', 'terfenadine', 'terfenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'glycoprotein.', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'terfenadine': ['terfenadine'], 'glycoprotein.': ['glycoprotein.'], 'creatinine': ['creatinine'], 'fexofenadine': ['fexofenadine', 'fexofenadine hydrochloride'], 'histamine': ['histamine']}
+
+32 unique entities in the reference annotation set
+		['terfenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'terfenadine': ['terfenadine'], 'fexofenadine': ['fexofenadine']}
+
+2 perfect string matches between Knowtator and NCBO: set(['terfenadine', 'fexofenadine'])
+
+
+Prior to processing -- ncboTermsDiff: ['creatinine', 'glycoprotein.', 'histamine']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['creatinine', 'glycoprotein.', 'histamine']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['terfenadine', 'fexofenadine']
+
+3 annotations unique to NCBO: ['creatinine', 'glycoprotein.', 'histamine']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.40
+F-measure: 0.57
+------------------------------------------------------------

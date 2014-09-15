@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-20.txt-PROCESSED.xml for annotations
+
+16 unique entities annotated by the NCBO Annotator
+		['talc,', 'sertraline', 'sertraline', 'sertraline', 'sertraline', 'hypromellose', 'hypromellose', 'polyethylene glycols', 'hydroxypropylcellulose', 'sodium starch glycolate', 'sodium starch glycolate', 'sertraline hydrochloride', 'sertraline hydrochloride', 'microcrystalline cellulose', 'microcrystalline cellulose', 'calcium monohydrogen phosphate dihydrate']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'polyethylene glycols': ['polyethylene glycols'], 'sertraline': ['sertraline', 'sertraline hydrochloride'], 'sodium starch glycolate': ['sodium starch glycolate'], 'microcrystalline cellulose': ['microcrystalline cellulose'], 'calcium monohydrogen phosphate dihydrate': ['calcium monohydrogen phosphate dihydrate'], 'hydroxypropylcellulose': ['hydroxypropylcellulose'], 'hypromellose': ['hypromellose'], 'talc,': ['talc,']}
+
+3 unique entities in the reference annotation set
+		['sertraline', 'sertraline', 'sertraline']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'sertraline': ['sertraline']}
+
+1 perfect string matches between Knowtator and NCBO: set(['sertraline'])
+
+
+Prior to processing -- ncboTermsDiff: ['polyethylene glycols', 'sodium starch glycolate', 'microcrystalline cellulose', 'calcium monohydrogen phosphate dihydrate', 'hydroxypropylcellulose', 'hypromellose', 'talc,']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['polyethylene glycols', 'sodium starch glycolate', 'microcrystalline cellulose', 'calcium monohydrogen phosphate dihydrate', 'hydroxypropylcellulose', 'hypromellose', 'talc,']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['sertraline']
+
+7 annotations unique to NCBO: ['polyethylene glycols', 'sodium starch glycolate', 'microcrystalline cellulose', 'calcium monohydrogen phosphate dihydrate', 'hydroxypropylcellulose', 'hypromellose', 'talc,']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.12
+F-measure: 0.22
+------------------------------------------------------------

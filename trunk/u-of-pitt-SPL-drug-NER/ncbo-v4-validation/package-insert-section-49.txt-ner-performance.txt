@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-49.txt-PROCESSED.xml for annotations
+
+14 unique entities annotated by the NCBO Annotator
+		['lithium.', 'serotonin', 'serotonin', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'lithium carbonate', 'lithium carbonate', 'paroxetine hydrochloride', 'paroxetine hydrochloride', 'paroxetine hydrochloride', 'paroxetine hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'serotonin': ['serotonin'], 'paroxetine': ['paroxetine', 'paroxetine hydrochloride'], 'lithium.': ['lithium.'], 'lithium carbonate': ['lithium carbonate']}
+
+5 unique entities in the reference annotation set
+		['lithium', 'lithium', 'paroxetine', 'paroxetine', 'paroxetine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'paroxetine': ['paroxetine'], 'lithium': ['lithium']}
+
+1 perfect string matches between Knowtator and NCBO: set(['paroxetine'])
+
+
+Prior to processing -- ncboTermsDiff: ['serotonin', 'lithium carbonate', 'lithium.']
+knowtTermsDiff: ['lithium']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'lithium': ['lithium', 'lithium carbonate']}
+Post processing -- ncboTermsDiff: ['serotonin', 'lithium.']
+knowtTermsDiff: []
+inperfectMtchs: [['lithium', 'lithium carbonate']]
+DEBUG: AllMatches =  [['lithium', 'lithium carbonate'], 'paroxetine']
+
+2 annotations unique to NCBO: ['serotonin', 'lithium.']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.50
+F-measure: 0.67
+------------------------------------------------------------

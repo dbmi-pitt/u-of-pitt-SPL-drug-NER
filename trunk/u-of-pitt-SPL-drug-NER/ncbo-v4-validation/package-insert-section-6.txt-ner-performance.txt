@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-6.txt-PROCESSED.xml for annotations
+
+140 unique entities annotated by the NCBO Annotator
+		['odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'effexor', 'dopamine', 'dopamine', 'dopamine', 'serotonin', 'serotonin', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine,', 'venlafaxine,', 'norepinephrine', 'norepinephrine', 'venlafaxine hydrochloride', 'venlafaxine hydrochloride', 'venlafaxine hydrochloride', 'venlafaxine hydrochloride', 'venlafaxine hydrochloride', 'venlafaxine hydrochloride', 'venlafaxine hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'odv': ['odv'], 'serotonin': ['serotonin'], 'norepinephrine': ['norepinephrine'], 'dopamine': ['dopamine'], 'venlafaxine': ['venlafaxine', 'venlafaxine,', 'venlafaxine hydrochloride'], 'effexor': ['effexor']}
+
+86 unique entities in the reference annotation set
+		['odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'odv', 'effexor', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'venlafaxine', 'o-desmethylvenlafaxine', 'o-desmethylvenlafaxine', 'o-desmethylvenlafaxine', 'n-desmethylvenlafaxine', 'n,o-didesmethylvenlafaxine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'n-desmethylvenlafaxine': ['n-desmethylvenlafaxine'], 'odv': ['odv'], 'o-desmethylvenlafaxine': ['o-desmethylvenlafaxine'], 'n,o-didesmethylvenlafaxine': ['n,o-didesmethylvenlafaxine'], 'venlafaxine': ['venlafaxine'], 'effexor': ['effexor']}
+
+3 perfect string matches between Knowtator and NCBO: set(['venlafaxine', 'effexor', 'odv'])
+
+
+Prior to processing -- ncboTermsDiff: ['serotonin', 'norepinephrine', 'dopamine']
+knowtTermsDiff: ['n-desmethylvenlafaxine', 'o-desmethylvenlafaxine', 'n,o-didesmethylvenlafaxine']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['serotonin', 'norepinephrine', 'dopamine']
+knowtTermsDiff: ['n-desmethylvenlafaxine', 'o-desmethylvenlafaxine', 'n,o-didesmethylvenlafaxine']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['venlafaxine', 'effexor', 'odv']
+
+3 annotations unique to NCBO: ['serotonin', 'norepinephrine', 'dopamine']
+
+3 annotations unique to Knowtator: ['n-desmethylvenlafaxine', 'o-desmethylvenlafaxine', 'n,o-didesmethylvenlafaxine']
+------------------------------------------------------------
+Recall: 0.50
+precision: 0.50
+F-measure: 0.50
+------------------------------------------------------------

@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-173.txt-PROCESSED.xml for annotations
+
+79 unique entities annotated by the NCBO Annotator
+		['lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'hmg-coa', 'hmg-coa', 'hmg-coa', 'hmg-coa', 'hmg-coa', 'hmg-coa', 'cholesterol', 'cholesterol', 'cholesterol', 'cholesterol', 'cholesterol', 'cholesterol', 'cholesterol', 'cholesterol', 'cholesterol', 'cholesterol', 'mevalonate,', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'erythromycin', 'erythromycin']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'hmg-coa': ['hmg-coa'], 'lipitor': ['lipitor'], 'erythromycin': ['erythromycin'], 'cholesterol': ['cholesterol'], 'atorvastatin': ['atorvastatin'], 'mevalonate,': ['mevalonate,']}
+
+30 unique entities in the reference annotation set
+		['lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'erythromycin', 'atorvastatin']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'lipitor': ['lipitor'], 'atorvastatin': ['atorvastatin'], 'erythromycin': ['erythromycin']}
+
+3 perfect string matches between Knowtator and NCBO: set(['lipitor', 'atorvastatin', 'erythromycin'])
+
+
+Prior to processing -- ncboTermsDiff: ['mevalonate,', 'cholesterol', 'hmg-coa']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['mevalonate,', 'cholesterol', 'hmg-coa']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['lipitor', 'atorvastatin', 'erythromycin']
+
+3 annotations unique to NCBO: ['mevalonate,', 'cholesterol', 'hmg-coa']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.50
+F-measure: 0.67
+------------------------------------------------------------

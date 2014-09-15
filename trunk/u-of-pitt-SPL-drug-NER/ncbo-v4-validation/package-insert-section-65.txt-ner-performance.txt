@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-65.txt-PROCESSED.xml for annotations
+
+32 unique entities annotated by the NCBO Annotator
+		['triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'triazolam': ['triazolam'], 'nefazodone': ['nefazodone']}
+
+16 unique entities in the reference annotation set
+		['triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'triazolam', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone', 'nefazodone']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'triazolam': ['triazolam'], 'nefazodone': ['nefazodone']}
+
+2 perfect string matches between Knowtator and NCBO: set(['triazolam', 'nefazodone'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['triazolam', 'nefazodone']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

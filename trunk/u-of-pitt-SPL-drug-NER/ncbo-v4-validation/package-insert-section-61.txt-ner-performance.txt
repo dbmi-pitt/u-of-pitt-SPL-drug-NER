@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-61.txt-PROCESSED.xml for annotations
+
+6 unique entities annotated by the NCBO Annotator
+		['alcohol,', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'substances,']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'substances,': ['substances,'], 'alcohol,': ['alcohol,'], 'cimetidine': ['cimetidine']}
+
+3 unique entities in the reference annotation set
+		['alcohol', 'cimetidine', 'cimetidine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'alcohol': ['alcohol'], 'cimetidine': ['cimetidine']}
+
+1 perfect string matches between Knowtator and NCBO: set(['cimetidine'])
+
+
+Prior to processing -- ncboTermsDiff: ['substances,', 'alcohol,']
+knowtTermsDiff: ['alcohol']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'alcohol': ['alcohol', 'alcohol,']}
+Post processing -- ncboTermsDiff: ['substances,']
+knowtTermsDiff: []
+inperfectMtchs: [['alcohol', 'alcohol,']]
+DEBUG: AllMatches =  [['alcohol', 'alcohol,'], 'cimetidine']
+
+1 annotations unique to NCBO: ['substances,']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.67
+F-measure: 0.80
+------------------------------------------------------------

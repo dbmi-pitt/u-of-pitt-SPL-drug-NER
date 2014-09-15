@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-55.txt-PROCESSED.xml for annotations
+
+20 unique entities annotated by the NCBO Annotator
+		['povidone', 'povidone', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'triacetin', 'triacetin', 'hypromellose', 'hypromellose', 'polydextrose', 'polydextrose', 'polydextrose', 'quinidine sulfate', 'quinidine sulfate', 'quinidine sulfate', 'quinidine sulfate', 'lactose monohydrate', 'polyethylene glycols']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'polyethylene glycols': ['polyethylene glycols'], 'lactose monohydrate': ['lactose monohydrate'], 'quinidine': ['quinidine sulfate', 'quinidine'], 'povidone': ['povidone'], 'triacetin': ['triacetin'], 'polydextrose': ['polydextrose'], 'hypromellose': ['hypromellose']}
+
+3 unique entities in the reference annotation set
+		['quinidine', 'quinidine', 'quinidine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'quinidine': ['quinidine']}
+
+1 perfect string matches between Knowtator and NCBO: set(['quinidine'])
+
+
+Prior to processing -- ncboTermsDiff: ['polyethylene glycols', 'lactose monohydrate', 'povidone', 'triacetin', 'polydextrose', 'hypromellose']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['polyethylene glycols', 'lactose monohydrate', 'povidone', 'triacetin', 'polydextrose', 'hypromellose']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['quinidine']
+
+6 annotations unique to NCBO: ['polyethylene glycols', 'lactose monohydrate', 'povidone', 'triacetin', 'polydextrose', 'hypromellose']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.14
+F-measure: 0.25
+------------------------------------------------------------

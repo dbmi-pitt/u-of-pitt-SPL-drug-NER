@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-64.txt-PROCESSED.xml for annotations
+
+6 unique entities annotated by the NCBO Annotator
+		['nisoldipine', 'nisoldipine', 'nisoldipine', 'nisoldipine', 'nisoldipine', 'nisoldipine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'nisoldipine': ['nisoldipine']}
+
+3 unique entities in the reference annotation set
+		['nisoldipine', 'nisoldipine', 'nisoldipine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'nisoldipine': ['nisoldipine']}
+
+1 perfect string matches between Knowtator and NCBO: set(['nisoldipine'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['nisoldipine']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

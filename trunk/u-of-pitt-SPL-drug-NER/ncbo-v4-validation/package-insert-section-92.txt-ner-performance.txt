@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-92.txt-PROCESSED.xml for annotations
+
+10 unique entities annotated by the NCBO Annotator
+		['sirolimus', 'sirolimus', 'sirolimus', 'sirolimus', 'sirolimus', 'sirolimus', 'voriconazole', 'voriconazole', 'voriconazole', 'voriconazole']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'sirolimus': ['sirolimus'], 'voriconazole': ['voriconazole']}
+
+5 unique entities in the reference annotation set
+		['sirolimus', 'sirolimus', 'sirolimus', 'voriconazole', 'voriconazole']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'sirolimus': ['sirolimus'], 'voriconazole': ['voriconazole']}
+
+2 perfect string matches between Knowtator and NCBO: set(['sirolimus', 'voriconazole'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['sirolimus', 'voriconazole']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

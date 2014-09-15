@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-179.txt-PROCESSED.xml for annotations
+
+14 unique entities annotated by the NCBO Annotator
+		['isoniazid', 'isoniazid', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'isoniazid': ['isoniazid'], 'carbamazepine': ['carbamazepine']}
+
+6 unique entities in the reference annotation set
+		['isoniazid', 'isonia-\n\nzid', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'carbamazepine': ['carbamazepine'], 'isoniazid': ['isoniazid'], 'isonia-\n\nzid': ['isonia-\n\nzid']}
+
+2 perfect string matches between Knowtator and NCBO: set(['isoniazid', 'carbamazepine'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: ['isonia-\n\nzid']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: ['isonia-\n\nzid']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['isoniazid', 'carbamazepine']
+
+0 annotations unique to NCBO: []
+
+1 annotations unique to Knowtator: ['isonia-\n\nzid']
+------------------------------------------------------------
+Recall: 0.67
+precision: 1.00
+F-measure: 0.80
+------------------------------------------------------------

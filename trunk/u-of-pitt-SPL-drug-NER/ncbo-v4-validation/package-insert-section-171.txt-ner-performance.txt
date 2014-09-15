@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-171.txt-PROCESSED.xml for annotations
+
+184 unique entities annotated by the NCBO Annotator
+		['p450', 'p450', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'sodium,', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'thiazide', 'thiazide', 'thiazide', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'potassium.', 'aldosterone', 'aldosterone', 'aldosterone', 'aldosterone', 'aldosterone', 'aldosterone', 'aldosterone', 'aldosterone', 'aldosterone', 'aldosterone', 'cholesterol', 'cholesterol', 'tolbutamide', 'tolbutamide', 'tolbutamide', 'prothrombin', 'prothrombin', 'bradykinin;', 'glucuronide', 'glucuronide', 'glucuronide.', 'sulphenazole,', 'glycoprotein)', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'nifedipine': ['nifedipine'], 'tolbutamide': ['tolbutamide'], 'glycoprotein)': ['glycoprotein)'], 'sulphenazole,': ['sulphenazole,'], 'sodium,': ['sodium,'], 'cholesterol': ['cholesterol'], 'warfarin': ['warfarin'], 'potassium.': ['potassium.'], 'prothrombin': ['prothrombin'], 'thiazide': ['thiazide'], 'digoxin': ['digoxin'], 'hydrochlorothiazide': ['hydrochlorothiazide'], 'irbesartan': ['irbesartan'], 'glucuronide': ['glucuronide.', 'glucuronide'], 'aldosterone': ['aldosterone'], 'bradykinin;': ['bradykinin;'], 'p450': ['p450']}
+
+77 unique entities in the reference annotation set
+		['digoxin', 'digoxin', 'digoxin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'nifedipine', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'nifedipine', 'irbesartan', 'nifedipine', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'nifedipine', 'irbesartan', 'tolbutamide', 'sulphenazole', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'irbesartan glucuronide', 'irbesartan glucuronide']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'nifedipine': ['nifedipine'], 'tolbutamide': ['tolbutamide'], 'warfarin': ['warfarin'], 'sulphenazole': ['sulphenazole'], 'digoxin': ['digoxin'], 'hydrochlorothiazide': ['hydrochlorothiazide'], 'irbesartan': ['irbesartan glucuronide', 'irbesartan']}
+
+6 perfect string matches between Knowtator and NCBO: set(['nifedipine', 'tolbutamide', 'warfarin', 'digoxin', 'hydrochlorothiazide', 'irbesartan'])
+
+
+Prior to processing -- ncboTermsDiff: ['glycoprotein)', 'sulphenazole,', 'sodium,', 'potassium.', 'prothrombin', 'thiazide', 'cholesterol', 'glucuronide', 'aldosterone', 'bradykinin;', 'p450']
+knowtTermsDiff: ['sulphenazole']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'sulphenazole': ['sulphenazole', 'sulphenazole,']}
+Post processing -- ncboTermsDiff: ['glycoprotein)', 'sodium,', 'potassium.', 'prothrombin', 'thiazide', 'cholesterol', 'glucuronide', 'aldosterone', 'bradykinin;', 'p450']
+knowtTermsDiff: []
+inperfectMtchs: [['sulphenazole', 'sulphenazole,']]
+DEBUG: AllMatches =  [['sulphenazole', 'sulphenazole,'], 'nifedipine', 'tolbutamide', 'warfarin', 'digoxin', 'hydrochlorothiazide', 'irbesartan']
+
+10 annotations unique to NCBO: ['glycoprotein)', 'sodium,', 'potassium.', 'prothrombin', 'thiazide', 'cholesterol', 'glucuronide', 'aldosterone', 'bradykinin;', 'p450']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.41
+F-measure: 0.58
+------------------------------------------------------------

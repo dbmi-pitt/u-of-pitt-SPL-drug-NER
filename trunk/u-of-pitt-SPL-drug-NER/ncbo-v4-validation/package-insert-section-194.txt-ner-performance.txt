@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-194.txt-PROCESSED.xml for annotations
+
+167 unique entities annotated by the NCBO Annotator
+		['rythmol', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'rifampin', 'rifampin', 'rifampin', 'rifampin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'orlistat', 'orlistat', 'orlistat', 'orlistat', 'orlistat', 'orlistat', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'lidocaine', 'lidocaine', 'lidocaine', 'lidocaine', 'lidocaine', 'lidocaine', 'lidocaine', 'lidocaine', 'paroxetine', 'paroxetine', 'paroxetine', 'sertraline', 'sertraline', 'saquinavir', 'saquinavir', 'amiodarone', 'amiodarone', 'amiodarone', 'amiodarone', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'grapefruit', 'desipramine', 'desipramine', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'prothrombin', 'prothrombin', 'propranolol', 'propranolol', 'propranolol', 'propranolol', 'propranolol', 'propranolol', 'ketoconazole', 'ketoconazole', 'erythromycin', 'erythromycin']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'paroxetine': ['paroxetine'], 'sertraline': ['sertraline'], 'quinidine': ['quinidine'], 'saquinavir': ['saquinavir'], 'cimetidine': ['cimetidine'], 'propranolol': ['propranolol'], 'rythmol': ['rythmol'], 'warfarin': ['warfarin'], 'prothrombin': ['prothrombin'], 'grapefruit': ['grapefruit'], 'ketoconazole': ['ketoconazole'], 'orlistat': ['orlistat'], 'fluoxetine': ['fluoxetine'], 'ritonavir': ['ritonavir'], 'digoxin': ['digoxin'], 'rifampin': ['rifampin'], 'amiodarone': ['amiodarone'], 'lidocaine': ['lidocaine'], 'propafenone': ['propafenone'], 'desipramine': ['desipramine'], 'erythromycin': ['erythromycin'], 'metoprolol': ['metoprolol']}
+
+80 unique entities in the reference annotation set
+		['digoxin', 'rythmol', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'warfarin', 'rifampin', 'orlistat', 'orlistat', 'orlistat', 'rifampin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'quinidine', 'lidocaine', 'lidocaine', 'lidocaine', 'ritonavir', 'ritonavir', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'lidocaine', 'cimetidine', 'fluoxetine', 'saquinavir', 'amiodarone', 'amiodarone', 'paroxetine', 'sertraline', 'cimetidine', 'metoprolol', 'fluoxetine', 'metoprolol', 'metoprolol', 'desipramine', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propranolol', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propranolol', 'propafenone', 'propafenone', 'propranolol', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'erythromycin', 'ketoconazole', 'norpropafenone', 'norpropafenone', '5oh-propafenone', '5oh-propafenone', '5oh-propafenone']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'paroxetine': ['paroxetine'], 'sertraline': ['sertraline'], 'quinidine': ['quinidine'], 'saquinavir': ['saquinavir'], '5oh-propafenone': ['5oh-propafenone'], 'cimetidine': ['cimetidine'], 'propranolol': ['propranolol'], 'rythmol': ['rythmol'], 'warfarin': ['warfarin'], 'digoxin': ['digoxin'], 'ketoconazole': ['ketoconazole'], 'orlistat': ['orlistat'], 'fluoxetine': ['fluoxetine'], 'norpropafenone': ['norpropafenone'], 'ritonavir': ['ritonavir'], 'rifampin': ['rifampin'], 'amiodarone': ['amiodarone'], 'lidocaine': ['lidocaine'], 'propafenone': ['propafenone'], 'desipramine': ['desipramine'], 'erythromycin': ['erythromycin'], 'metoprolol': ['metoprolol']}
+
+20 perfect string matches between Knowtator and NCBO: set(['paroxetine', 'rythmol', 'ritonavir', 'orlistat', 'fluoxetine', 'sertraline', 'quinidine', 'warfarin', 'saquinavir', 'amiodarone', 'rifampin', 'digoxin', 'propafenone', 'lidocaine', 'ketoconazole', 'cimetidine', 'metoprolol', 'desipramine', 'propranolol', 'erythromycin'])
+
+
+Prior to processing -- ncboTermsDiff: ['grapefruit', 'prothrombin']
+knowtTermsDiff: ['norpropafenone', '5oh-propafenone']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['grapefruit', 'prothrombin']
+knowtTermsDiff: ['norpropafenone', '5oh-propafenone']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['paroxetine', 'rythmol', 'ritonavir', 'orlistat', 'fluoxetine', 'sertraline', 'quinidine', 'warfarin', 'saquinavir', 'amiodarone', 'rifampin', 'digoxin', 'propafenone', 'lidocaine', 'ketoconazole', 'cimetidine', 'metoprolol', 'desipramine', 'propranolol', 'erythromycin']
+
+2 annotations unique to NCBO: ['grapefruit', 'prothrombin']
+
+2 annotations unique to Knowtator: ['norpropafenone', '5oh-propafenone']
+------------------------------------------------------------
+Recall: 0.91
+precision: 0.91
+F-measure: 0.91
+------------------------------------------------------------

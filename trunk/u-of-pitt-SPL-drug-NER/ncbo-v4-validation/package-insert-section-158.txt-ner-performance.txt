@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-158.txt-PROCESSED.xml for annotations
+
+29 unique entities annotated by the NCBO Annotator
+		['mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'propafenone']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'fluvoxamine': ['fluvoxamine'], 'propafenone': ['propafenone'], 'mexiletine': ['mexiletine']}
+
+14 unique entities in the reference annotation set
+		['mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'mexiletine', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'fluvoxamine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'fluvoxamine': ['fluvoxamine'], 'propafenone': ['propafenone'], 'mexiletine': ['mexiletine']}
+
+3 perfect string matches between Knowtator and NCBO: set(['fluvoxamine', 'propafenone', 'mexiletine'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['fluvoxamine', 'propafenone', 'mexiletine']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

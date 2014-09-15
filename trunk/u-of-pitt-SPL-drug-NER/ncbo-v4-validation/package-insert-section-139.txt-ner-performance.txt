@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-139.txt-PROCESSED.xml for annotations
+
+73 unique entities annotated by the NCBO Annotator
+		['maalox', 'maalox', 'orange', 'orange', 'orange', 'water.', 'histamine', 'histamine', 'grapefruit', 'grapefruit', 'grapefruit', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'erythromycin', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride', 'fexofenadine hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'fexofenadine': ['fexofenadine', 'fexofenadine hydrochloride'], 'maalox': ['maalox'], 'grapefruit': ['grapefruit'], 'erythromycin': ['erythromycin'], 'ketoconazole': ['ketoconazole'], 'water.': ['water.'], 'orange': ['orange'], 'histamine': ['histamine']}
+
+37 unique entities in the reference annotation set
+		['maalox', 'maalox', 'aluminum', 'aluminum', 'magnesium', 'magnesium', 'ketoconazole', 'erythromycin', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'ketoconazole', 'fexofenadine', 'erythromycin', 'erythromycin', 'fexofenadine', 'ketoconazole', 'fexofenadine', 'erythromycin', 'ketoconazole', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'fexofenadine', 'erythromycin', 'fexofenadine', 'ketoconazole', 'fexofenadine', 'erythromycin', 'fexofenadine', 'erythromycin', 'ketoconazole', 'ketoconazole']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'fexofenadine': ['fexofenadine'], 'aluminum': ['aluminum'], 'maalox': ['maalox'], 'erythromycin': ['erythromycin'], 'ketoconazole': ['ketoconazole'], 'magnesium': ['magnesium']}
+
+4 perfect string matches between Knowtator and NCBO: set(['fexofenadine', 'ketoconazole', 'maalox', 'erythromycin'])
+
+
+Prior to processing -- ncboTermsDiff: ['orange', 'grapefruit', 'histamine', 'water.']
+knowtTermsDiff: ['magnesium', 'aluminum']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['orange', 'grapefruit', 'histamine', 'water.']
+knowtTermsDiff: ['magnesium', 'aluminum']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['fexofenadine', 'ketoconazole', 'maalox', 'erythromycin']
+
+4 annotations unique to NCBO: ['orange', 'grapefruit', 'histamine', 'water.']
+
+2 annotations unique to Knowtator: ['magnesium', 'aluminum']
+------------------------------------------------------------
+Recall: 0.67
+precision: 0.50
+F-measure: 0.57
+------------------------------------------------------------

@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-74.txt-PROCESSED.xml for annotations
+
+114 unique entities annotated by the NCBO Annotator
+		['p450', 'p450', 'diazepam', 'diazepam', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'phenytoin', 'phenytoin', 'ritonavir', 'ritonavir', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'ampicillin', 'ampicillin', 'disulfiram', 'disulfiram', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'saquinavir', 'saquinavir', 'saquinavir', 'saquinavir', 'saquinavir', 'saquinavir', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'prothrombin', 'prothrombin', 'prothrombin', 'prothrombin', 'prothrombin', 'prothrombin', 'propranolol', 'propranolol', 'ketoconazole', 'ketoconazole', 'theophylline', 'theophylline', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'voriconazole', 'voriconazole', 'voriconazole', 'voriconazole', 'voriconazole', 'voriconazole', 'benzodiazepines']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'diazepam': ['diazepam'], 'propranolol': ['propranolol'], 'ketoconazole': ['ketoconazole'], 'voriconazole': ['voriconazole'], 'phenytoin': ['phenytoin'], 'cyclosporine': ['cyclosporine'], 'ritonavir': ['ritonavir'], 'warfarin': ['warfarin'], 'saquinavir': ['saquinavir'], 'nelfinavir': ['nelfinavir'], 'tacrolimus': ['tacrolimus'], 'benzodiazepines': ['benzodiazepines'], 'omeprazole': ['omeprazole'], 'theophylline': ['theophylline'], 'disulfiram': ['disulfiram'], 'prothrombin': ['prothrombin'], 'ampicillin': ['ampicillin'], 'atazanavir': ['atazanavir'], 'p450': ['p450']}
+
+54 unique entities in the reference annotation set
+		['m8', 'iron', 'diazepam', 'warfarin', 'warfarin', 'warfarin', 'ritonavir', 'phenytoin', 'tacrolimus', 'saquinavir', 'disulfiram', 'saquinavir', 'saquinavir', 'ampicillin', 'atazanavir', 'nelfinavir', 'atazanavir', 'omeprazole', 'nelfinavir', 'atazanavir', 'omeprazole', 'omeprazole', 'nelfinavir', 'omeprazole', 'tacrolimus', 'omeprazole', 'tacrolimus', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'nelfinavir', 'atazanavir', 'omeprazole', 'omeprazole', 'atazanavir', 'atazanavir', 'omeprazole', 'omeprazole', 'omeprazole', 'omeprazole', 'atazanavir', 'propranolol', 'voriconazole', 'voriconazole', 'cyclosporine', 'voriconazole', 'ketoconazole', 'theophylline']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'diazepam': ['diazepam'], 'propranolol': ['propranolol'], 'omeprazole': ['omeprazole'], 'phenytoin': ['phenytoin'], 'atazanavir': ['atazanavir'], 'ritonavir': ['ritonavir'], 'warfarin': ['warfarin'], 'saquinavir': ['saquinavir'], 'nelfinavir': ['nelfinavir'], 'tacrolimus': ['tacrolimus'], 'cyclosporine': ['cyclosporine'], 'iron': ['iron'], 'ketoconazole': ['ketoconazole'], 'disulfiram': ['disulfiram'], 'voriconazole': ['voriconazole'], 'ampicillin': ['ampicillin'], 'm8': ['m8'], 'theophylline': ['theophylline']}
+
+16 perfect string matches between Knowtator and NCBO: set(['diazepam', 'ketoconazole', 'phenytoin', 'cyclosporine', 'ritonavir', 'warfarin', 'saquinavir', 'nelfinavir', 'voriconazole', 'atazanavir', 'omeprazole', 'disulfiram', 'tacrolimus', 'ampicillin', 'propranolol', 'theophylline'])
+
+
+Prior to processing -- ncboTermsDiff: ['benzodiazepines', 'prothrombin', 'p450']
+knowtTermsDiff: ['m8', 'iron']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['benzodiazepines', 'prothrombin', 'p450']
+knowtTermsDiff: ['m8', 'iron']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['diazepam', 'ketoconazole', 'phenytoin', 'cyclosporine', 'ritonavir', 'warfarin', 'saquinavir', 'nelfinavir', 'voriconazole', 'atazanavir', 'omeprazole', 'disulfiram', 'tacrolimus', 'ampicillin', 'propranolol', 'theophylline']
+
+3 annotations unique to NCBO: ['benzodiazepines', 'prothrombin', 'p450']
+
+2 annotations unique to Knowtator: ['m8', 'iron']
+------------------------------------------------------------
+Recall: 0.89
+precision: 0.84
+F-measure: 0.86
+------------------------------------------------------------

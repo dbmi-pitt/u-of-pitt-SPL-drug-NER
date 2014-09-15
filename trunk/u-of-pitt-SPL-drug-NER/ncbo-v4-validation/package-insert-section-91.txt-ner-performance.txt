@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-91.txt-PROCESSED.xml for annotations
+
+87 unique entities annotated by the NCBO Annotator
+		['water.', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'norepinephrine', 'norepinephrine', 'norepinephrine', 'norepinephrine', 'atomoxetine hydrochloride', 'atomoxetine hydrochloride', 'atomoxetine hydrochloride', 'atomoxetine hydrochloride', 'atomoxetine hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'paroxetine': ['paroxetine'], 'fluoxetine': ['fluoxetine'], 'atomoxetine': ['atomoxetine', 'atomoxetine hydrochloride'], 'quinidine': ['quinidine'], 'norepinephrine': ['norepinephrine'], 'water.': ['water.']}
+
+47 unique entities in the reference annotation set
+		['quinidine', 'quinidine', 'paroxetine', 'fluoxetine', 'fluoxetine', 'paroxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', '4-hydroxyatomoxetine', '4-hydroxyatomoxetine', '4-hydroxyatomoxetine', '4-hydroxyatomoxetine', '4-hydroxyatomoxetine', 'n-desmethylatomoxetine', 'n-desmethylatomoxetine', 'n-desmethylatomoxetine', '4-hydroxyatomoxetine-o-glucuronide']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'paroxetine': ['paroxetine'], 'fluoxetine': ['fluoxetine'], '4-hydroxyatomoxetine': ['4-hydroxyatomoxetine', '4-hydroxyatomoxetine-o-glucuronide'], 'atomoxetine': ['atomoxetine'], 'quinidine': ['quinidine'], 'n-desmethylatomoxetine': ['n-desmethylatomoxetine']}
+
+4 perfect string matches between Knowtator and NCBO: set(['paroxetine', 'atomoxetine', 'quinidine', 'fluoxetine'])
+
+
+Prior to processing -- ncboTermsDiff: ['norepinephrine', 'water.']
+knowtTermsDiff: ['4-hydroxyatomoxetine', 'n-desmethylatomoxetine']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['norepinephrine', 'water.']
+knowtTermsDiff: ['4-hydroxyatomoxetine', 'n-desmethylatomoxetine']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['paroxetine', 'atomoxetine', 'quinidine', 'fluoxetine']
+
+2 annotations unique to NCBO: ['norepinephrine', 'water.']
+
+2 annotations unique to Knowtator: ['4-hydroxyatomoxetine', 'n-desmethylatomoxetine']
+------------------------------------------------------------
+Recall: 0.67
+precision: 0.67
+F-measure: 0.67
+------------------------------------------------------------

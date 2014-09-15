@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-189.txt-PROCESSED.xml for annotations
+
+28 unique entities annotated by the NCBO Annotator
+		['norvir', 'norvir', 'norvir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'darunavir', 'darunavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'amprenavir', 'amprenavir', 'atazanavir', 'atazanavir', 'saquinavir', 'saquinavir', 'tipranavir', 'tipranavir', 'fosamprenavir', 'fosamprenavir']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'amprenavir': ['amprenavir'], 'darunavir': ['darunavir'], 'norvir': ['norvir'], 'ritonavir': ['ritonavir'], 'saquinavir': ['saquinavir'], 'tipranavir': ['tipranavir'], 'fosamprenavir': ['fosamprenavir'], 'atazanavir': ['atazanavir']}
+
+14 unique entities in the reference annotation set
+		['norvir', 'norvir', 'norvir', 'darunavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'saquinavir', 'tipranavir', 'amprenavir', 'atazanavir', 'fosamprenavir']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'amprenavir': ['amprenavir'], 'darunavir': ['darunavir'], 'norvir': ['norvir'], 'ritonavir': ['ritonavir'], 'saquinavir': ['saquinavir'], 'tipranavir': ['tipranavir'], 'fosamprenavir': ['fosamprenavir'], 'atazanavir': ['atazanavir']}
+
+8 perfect string matches between Knowtator and NCBO: set(['amprenavir', 'darunavir', 'norvir', 'ritonavir', 'saquinavir', 'tipranavir', 'fosamprenavir', 'atazanavir'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['amprenavir', 'darunavir', 'norvir', 'ritonavir', 'saquinavir', 'tipranavir', 'fosamprenavir', 'atazanavir']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

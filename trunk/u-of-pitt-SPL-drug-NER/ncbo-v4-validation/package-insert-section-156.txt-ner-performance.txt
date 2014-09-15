@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-156.txt-PROCESSED.xml for annotations
+
+133 unique entities annotated by the NCBO Annotator
+		['digoxin', 'digoxin', 'digoxin', 'digoxin', 'atenolol', 'atenolol', 'atenolol', 'atenolol', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'ramipril', 'ramipril', 'ramipril', 'ramipril', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'celecoxib', 'celecoxib', 'celecoxib', 'celecoxib', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'lovastatin', 'lovastatin', 'lovastatin', 'lovastatin', 'furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide', 'furosemide', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'valsartan,', 'valsartan,', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'itraconazole', 'itraconazole', 'itraconazole', 'itraconazole', 'itraconazole', 'itraconazole', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'furosemide': ['furosemide'], 'cyclosporine': ['cyclosporine'], 'ketoconazole': ['ketoconazole'], 'verapamil': ['verapamil'], 'warfarin': ['warfarin'], 'irbesartan': ['irbesartan'], 'ramipril': ['ramipril'], 'hydrochlorothiazide': ['hydrochlorothiazide'], 'amlodipine': ['amlodipine'], 'lovastatin': ['lovastatin'], 'digoxin': ['digoxin'], 'valsartan,': ['valsartan,'], 'celecoxib': ['celecoxib'], 'atenolol': ['atenolol'], 'metformin': ['metformin'], 'atorvastatin': ['atorvastatin'], 'itraconazole': ['itraconazole'], 'aliskiren': ['aliskiren']}
+
+62 unique entities in the reference annotation set
+		['digoxin', 'digoxin', 'warfarin', 'warfarin', 'atenolol', 'warfarin', 'atenolol', 'ramipril', 'ramipril', 'aliskiren', 'verapamil', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'verapamil', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'valsartan', 'valsartan', 'metformin', 'metformin', 'celecoxib', 'celecoxib', 'furosemide', 'irbesartan', 'furosemide', 'lovastatin', 'furosemide', 'amlodipine', 'amlodipine', 'furosemide', 'furosemide', 'lovastatin', 'irbesartan', 'atorvastatin', 'cyclosporine', 'itraconazole', 'ketoconazole', 'atorvastatin', 'cyclosporine', 'cyclosporine', 'itraconazole', 'itraconazole', 'atorvastatin', 'ketoconazole', 'hydrochlorothiazide', 'hydrochlorothiazide']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'cyclosporine': ['cyclosporine'], 'ketoconazole': ['ketoconazole'], 'verapamil': ['verapamil'], 'warfarin': ['warfarin'], 'furosemide': ['furosemide'], 'ramipril': ['ramipril'], 'hydrochlorothiazide': ['hydrochlorothiazide'], 'valsartan': ['valsartan'], 'amlodipine': ['amlodipine'], 'lovastatin': ['lovastatin'], 'digoxin': ['digoxin'], 'irbesartan': ['irbesartan'], 'celecoxib': ['celecoxib'], 'atenolol': ['atenolol'], 'metformin': ['metformin'], 'atorvastatin': ['atorvastatin'], 'itraconazole': ['itraconazole'], 'aliskiren': ['aliskiren']}
+
+17 perfect string matches between Knowtator and NCBO: set(['cyclosporine', 'ketoconazole', 'verapamil', 'warfarin', 'furosemide', 'ramipril', 'digoxin', 'atenolol', 'amlodipine', 'lovastatin', 'aliskiren', 'celecoxib', 'hydrochlorothiazide', 'irbesartan', 'atorvastatin', 'itraconazole', 'metformin'])
+
+
+Prior to processing -- ncboTermsDiff: ['valsartan,']
+knowtTermsDiff: ['valsartan']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'valsartan': ['valsartan', 'valsartan,']}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: [['valsartan', 'valsartan,']]
+DEBUG: AllMatches =  [['valsartan', 'valsartan,'], 'cyclosporine', 'ketoconazole', 'verapamil', 'warfarin', 'furosemide', 'ramipril', 'digoxin', 'atenolol', 'amlodipine', 'lovastatin', 'aliskiren', 'celecoxib', 'hydrochlorothiazide', 'irbesartan', 'atorvastatin', 'itraconazole', 'metformin']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

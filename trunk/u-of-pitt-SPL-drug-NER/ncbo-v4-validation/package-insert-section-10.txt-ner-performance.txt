@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-10.txt-PROCESSED.xml for annotations
+
+96 unique entities annotated by the NCBO Annotator
+		['serotonin', 'serotonin', 'serotonin', 'serotonin', 'serotonin', 'serotonin', 'serotonin', 'serotonin', 'creatinine', 'creatinine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'norepinephrine', 'norepinephrine', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate', 'fluvoxamine maleate']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'serotonin': ['serotonin'], 'fluvoxamine': ['fluvoxamine', 'fluvoxamine maleate'], 'creatinine': ['creatinine'], 'norepinephrine': ['norepinephrine']}
+
+32 unique entities in the reference annotation set
+		['fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxamine', 'fluvoxethanol', 'fluvoxethanol', 'fluvoxamine acid', 'fluvoxamine acid']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'fluvoxamine': ['fluvoxamine', 'fluvoxamine acid'], 'fluvoxethanol': ['fluvoxethanol']}
+
+1 perfect string matches between Knowtator and NCBO: set(['fluvoxamine'])
+
+
+Prior to processing -- ncboTermsDiff: ['serotonin', 'creatinine', 'norepinephrine']
+knowtTermsDiff: ['fluvoxethanol']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['serotonin', 'creatinine', 'norepinephrine']
+knowtTermsDiff: ['fluvoxethanol']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['fluvoxamine']
+
+3 annotations unique to NCBO: ['serotonin', 'creatinine', 'norepinephrine']
+
+1 annotations unique to Knowtator: ['fluvoxethanol']
+------------------------------------------------------------
+Recall: 0.50
+precision: 0.25
+F-measure: 0.33
+------------------------------------------------------------

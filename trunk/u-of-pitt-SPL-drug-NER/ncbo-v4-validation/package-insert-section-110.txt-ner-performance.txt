@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-110.txt-PROCESSED.xml for annotations
+
+12 unique entities annotated by the NCBO Annotator
+		['irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'nifedipine': ['nifedipine'], 'irbesartan': ['irbesartan']}
+
+5 unique entities in the reference annotation set
+		['irbesartan', 'irbesartan', 'nifedipine', 'nifedipine', 'irbesartan']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'nifedipine': ['nifedipine'], 'irbesartan': ['irbesartan']}
+
+2 perfect string matches between Knowtator and NCBO: set(['nifedipine', 'irbesartan'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['nifedipine', 'irbesartan']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

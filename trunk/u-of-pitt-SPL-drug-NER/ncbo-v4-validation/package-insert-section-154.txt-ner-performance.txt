@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-154.txt-PROCESSED.xml for annotations
+
+24 unique entities annotated by the NCBO Annotator
+		['revatio', 'revatio', 'revatio', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'doxazosin', 'doxazosin', 'doxazosin', 'doxazosin', 'sildenafil', 'sildenafil', 'sildenafil', 'sildenafil', 'sildenafil', 'sildenafil', 'sildenafil', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'amlodipine': ['amlodipine'], 'ritonavir': ['ritonavir'], 'revatio': ['revatio'], 'doxazosin': ['doxazosin'], 'sildenafil': ['sildenafil']}
+
+11 unique entities in the reference annotation set
+		['revatio', 'revatio', 'revatio', 'doxazosin', 'doxazosin', 'ritonavir', 'ritonavir', 'amlodipine', 'amlodipine', 'sildenafil', 'sildenafil']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'amlodipine': ['amlodipine'], 'doxazosin': ['doxazosin'], 'revatio': ['revatio'], 'ritonavir': ['ritonavir'], 'sildenafil': ['sildenafil']}
+
+5 perfect string matches between Knowtator and NCBO: set(['amlodipine', 'doxazosin', 'revatio', 'ritonavir', 'sildenafil'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['amlodipine', 'doxazosin', 'revatio', 'ritonavir', 'sildenafil']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

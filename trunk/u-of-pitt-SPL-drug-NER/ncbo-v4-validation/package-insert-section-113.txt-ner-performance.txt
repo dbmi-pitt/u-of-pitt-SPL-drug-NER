@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-113.txt-PROCESSED.xml for annotations
+
+52 unique entities annotated by the NCBO Annotator
+		['cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'nifedipine': ['nifedipine'], 'cimetidine': ['cimetidine']}
+
+21 unique entities in the reference annotation set
+		['cimetidine', 'nifedipine', 'nifedipine', 'cimetidine', 'cimetidine', 'nifedipine', 'nifedipine', 'cimetidine', 'cimetidine', 'nifedipine', 'cimetidine', 'cimetidine', 'nifedipine', 'cimetidine', 'nifedipine', 'nifedipine', 'cimetidine', 'cimetidine', 'nifedipine', 'cimetidine', 'nifedipine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'nifedipine': ['nifedipine'], 'cimetidine': ['cimetidine']}
+
+2 perfect string matches between Knowtator and NCBO: set(['nifedipine', 'cimetidine'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['nifedipine', 'cimetidine']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

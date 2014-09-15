@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-42.txt-PROCESSED.xml for annotations
+
+16 unique entities annotated by the NCBO Annotator
+		['azathioprine', 'azathioprine', 'azathioprine', 'azathioprine', 'azathioprine', 'azathioprine', 'azathioprine', 'azathioprine', 'azathioprine', 'mercaptopurine', 'mercaptopurine', 'mercaptopurine', '6-mercaptopurine', '6-mercaptopurine', '6-mercaptopurine', 'allopurinol sodium']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'mercaptopurine': ['mercaptopurine'], 'azathioprine': ['azathioprine'], 'allopurinol sodium': ['allopurinol sodium'], '6-mercaptopurine': ['6-mercaptopurine']}
+
+7 unique entities in the reference annotation set
+		['allopurinol', 'azathioprine', 'azathioprine', 'azathioprine', 'mercaptopurine', 'mercaptopurine', 'mercaptopurine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'mercaptopurine': ['mercaptopurine'], 'allopurinol': ['allopurinol'], 'azathioprine': ['azathioprine']}
+
+2 perfect string matches between Knowtator and NCBO: set(['mercaptopurine', 'azathioprine'])
+
+
+Prior to processing -- ncboTermsDiff: ['allopurinol sodium', '6-mercaptopurine']
+knowtTermsDiff: ['allopurinol']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'allopurinol': ['allopurinol', 'allopurinol sodium']}
+Post processing -- ncboTermsDiff: ['6-mercaptopurine']
+knowtTermsDiff: []
+inperfectMtchs: [['allopurinol', 'allopurinol sodium']]
+DEBUG: AllMatches =  [['allopurinol', 'allopurinol sodium'], 'mercaptopurine', 'azathioprine']
+
+1 annotations unique to NCBO: ['6-mercaptopurine']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.75
+F-measure: 0.86
+------------------------------------------------------------

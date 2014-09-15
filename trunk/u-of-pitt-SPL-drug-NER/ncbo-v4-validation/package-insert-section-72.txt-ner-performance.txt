@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-72.txt-PROCESSED.xml for annotations
+
+54 unique entities annotated by the NCBO Annotator
+		['p450', 'p450', 'alcohol', 'rifampin', 'rifampin', 'rifampin', 'rifampin', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'ritonavir', 'ritonavir', 'phenytoin', 'phenytoin', 'nalbuphine', 'nalbuphine', 'pentazocine', 'pentazocine', 'butorphanol', 'butorphanol', 'oxymorphone', 'oxymorphone', 'voriconazole', 'voriconazole', 'erythromycin', 'erythromycin', 'ketoconazole', 'ketoconazole', 'buprenorphine', 'buprenorphine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'phenytoin': ['phenytoin'], 'carbamazepine': ['carbamazepine'], 'alcohol': ['alcohol'], 'erythromycin': ['erythromycin'], 'ritonavir': ['ritonavir'], 'butorphanol': ['butorphanol'], 'rifampin': ['rifampin'], 'oxymorphone': ['oxymorphone'], 'oxycodone': ['oxycodone hydrochloride', 'oxycodone'], 'nalbuphine': ['nalbuphine'], 'ketoconazole': ['ketoconazole'], 'voriconazole': ['voriconazole'], 'buprenorphine': ['buprenorphine'], 'pentazocine': ['pentazocine'], 'p450': ['p450']}
+
+22 unique entities in the reference annotation set
+		['alcohol', 'rifampin', 'rifampin', 'ritonavir', 'phenytoin', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'nalbuphine', 'oxymorphone', 'butorphanol', 'pentazocine', 'ketoconazole', 'erythromycin', 'voriconazole', 'buprenorphine', 'carbamazepine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'phenytoin': ['phenytoin'], 'carbamazepine': ['carbamazepine'], 'alcohol': ['alcohol'], 'ketoconazole': ['ketoconazole'], 'ritonavir': ['ritonavir'], 'pentazocine': ['pentazocine'], 'rifampin': ['rifampin'], 'oxymorphone': ['oxymorphone'], 'oxycodone': ['oxycodone'], 'nalbuphine': ['nalbuphine'], 'buprenorphine': ['buprenorphine'], 'voriconazole': ['voriconazole'], 'butorphanol': ['butorphanol'], 'erythromycin': ['erythromycin']}
+
+14 perfect string matches between Knowtator and NCBO: set(['phenytoin', 'alcohol', 'ritonavir', 'carbamazepine', 'rifampin', 'oxymorphone', 'oxycodone', 'ketoconazole', 'nalbuphine', 'buprenorphine', 'voriconazole', 'pentazocine', 'butorphanol', 'erythromycin'])
+
+
+Prior to processing -- ncboTermsDiff: ['p450']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['p450']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['phenytoin', 'alcohol', 'ritonavir', 'carbamazepine', 'rifampin', 'oxymorphone', 'oxycodone', 'ketoconazole', 'nalbuphine', 'buprenorphine', 'voriconazole', 'pentazocine', 'butorphanol', 'erythromycin']
+
+1 annotations unique to NCBO: ['p450']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.93
+F-measure: 0.97
+------------------------------------------------------------

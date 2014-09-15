@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-104.txt-PROCESSED.xml for annotations
+
+68 unique entities annotated by the NCBO Annotator
+		['digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'vaprisol', 'vaprisol', 'vaprisol', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'midazolam', 'midazolam', 'midazolam', 'midazolam', 'captopril', 'captopril', 'captopril', 'captopril', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'furosemide', 'furosemide', 'furosemide', 'furosemide', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'prothrombin', 'prothrombin', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'ketoconazole', 'conivaptan hydrochloride', 'conivaptan hydrochloride', 'conivaptan hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'furosemide': ['furosemide'], 'warfarin': ['warfarin'], 'midazolam': ['midazolam'], 'conivaptan': ['conivaptan hydrochloride', 'conivaptan'], 'amlodipine': ['amlodipine'], 'digoxin': ['digoxin'], 'vaprisol': ['vaprisol'], 'prothrombin': ['prothrombin'], 'ketoconazole': ['ketoconazole'], 'simvastatin': ['simvastatin'], 'captopril': ['captopril']}
+
+32 unique entities in the reference annotation set
+		['digoxin', 'digoxin', 'digoxin', 'warfarin', 'warfarin', 'vaprisol', 'vaprisol', 'vaprisol', 'warfarin', 'warfarin', 'captopril', 'captopril', 'midazolam', 'midazolam', 'amlodipine', 'conivaptan', 'amlodipine', 'furosemide', 'furosemide', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'simvastatin', 'simvastatin', 'ketoconazole', 'ketoconazole']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'furosemide': ['furosemide'], 'warfarin': ['warfarin'], 'midazolam': ['midazolam'], 'conivaptan': ['conivaptan'], 'amlodipine': ['amlodipine'], 'digoxin': ['digoxin'], 'vaprisol': ['vaprisol'], 'ketoconazole': ['ketoconazole'], 'simvastatin': ['simvastatin'], 'captopril': ['captopril']}
+
+10 perfect string matches between Knowtator and NCBO: set(['furosemide', 'warfarin', 'midazolam', 'conivaptan', 'amlodipine', 'digoxin', 'vaprisol', 'ketoconazole', 'simvastatin', 'captopril'])
+
+
+Prior to processing -- ncboTermsDiff: ['prothrombin']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['prothrombin']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['furosemide', 'warfarin', 'midazolam', 'conivaptan', 'amlodipine', 'digoxin', 'vaprisol', 'ketoconazole', 'simvastatin', 'captopril']
+
+1 annotations unique to NCBO: ['prothrombin']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.91
+F-measure: 0.95
+------------------------------------------------------------

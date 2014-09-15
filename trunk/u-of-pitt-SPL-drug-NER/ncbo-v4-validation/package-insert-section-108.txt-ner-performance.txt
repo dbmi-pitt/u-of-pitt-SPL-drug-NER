@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-108.txt-PROCESSED.xml for annotations
+
+30 unique entities annotated by the NCBO Annotator
+		['quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'quinidine sulfate', 'quinidine sulfate']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'nifedipine': ['nifedipine'], 'quinidine': ['quinidine', 'quinidine sulfate']}
+
+10 unique entities in the reference annotation set
+		['quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'nifedipine': ['nifedipine'], 'quinidine': ['quinidine']}
+
+2 perfect string matches between Knowtator and NCBO: set(['nifedipine', 'quinidine'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['nifedipine', 'quinidine']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

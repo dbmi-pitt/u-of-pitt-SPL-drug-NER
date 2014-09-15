@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-172.txt-PROCESSED.xml for annotations
+
+142 unique entities annotated by the NCBO Annotator
+		['p450', 'p450', 'p450', 'niacin', 'niacin', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'rifampin', 'rifampin', 'rifampin', 'rifampin', 'rifampin', 'rifampin', 'rifampin', 'rifampin', 'rifampin', 'rifampin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'lopinavir', 'lopinavir', 'efavirenz', 'efavirenz', 'saquinavir', 'saquinavir', 'grapefruit', 'grapefruit', 'prothrombin', 'prothrombin', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'itraconazole', 'itraconazole', 'itraconazole', 'itraconazole', 'itraconazole', 'itraconazole', 'itraconazole', 'itraconazole', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'norethindrone', 'norethindrone', 'clarithromycin', 'clarithromycin', 'clarithromycin', 'clarithromycin', 'clarithromycin', 'clarithromycin', 'clarithromycin', 'clarithromycin', 'ethinyl estradiol', 'ethinyl estradiol']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'niacin': ['niacin'], 'itraconazole': ['itraconazole'], 'lipitor': ['lipitor'], 'cyclosporine': ['cyclosporine'], 'ritonavir': ['ritonavir'], 'warfarin': ['warfarin'], 'saquinavir': ['saquinavir'], 'clarithromycin': ['clarithromycin'], 'prothrombin': ['prothrombin'], 'ethinyl estradiol': ['ethinyl estradiol'], 'grapefruit': ['grapefruit'], 'rifampin': ['rifampin'], 'digoxin': ['digoxin'], 'norethindrone': ['norethindrone'], 'efavirenz': ['efavirenz'], 'atorvastatin': ['atorvastatin'], 'lopinavir': ['lopinavir'], 'p450': ['p450']}
+
+65 unique entities in the reference annotation set
+		['niacin', 'digoxin', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'lipitor', 'digoxin', 'digoxin', 'digoxin', 'warfarin', 'rifampin', 'warfarin', 'rifampin', 'rifampin', 'rifampin', 'rifampin', 'lopinavir', 'efavirenz', 'ritonavir', 'ritonavir', 'saquinavir', 'itraconazole', 'cyclosporine', 'atorvastatin', 'atorvastatin', 'cyclosporine', 'cyclosporine', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'itraconazole', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'cyclosporine', 'atorvastatin', 'atorvastatin', 'itraconazole', 'cyclosporine', 'itraconazole', 'norethindrone', 'clarithromycin', 'clarithromycin', 'clarithromycin', 'clarithromycin', 'ethinyl estradiol']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'niacin': ['niacin'], 'clarithromycin': ['clarithromycin'], 'lipitor': ['lipitor'], 'itraconazole': ['itraconazole'], 'ritonavir': ['ritonavir'], 'warfarin': ['warfarin'], 'saquinavir': ['saquinavir'], 'cyclosporine': ['cyclosporine'], 'rifampin': ['rifampin'], 'digoxin': ['digoxin'], 'norethindrone': ['norethindrone'], 'efavirenz': ['efavirenz'], 'atorvastatin': ['atorvastatin'], 'lopinavir': ['lopinavir'], 'ethinyl estradiol': ['ethinyl estradiol']}
+
+15 perfect string matches between Knowtator and NCBO: set(['niacin', 'clarithromycin', 'lipitor', 'warfarin', 'ritonavir', 'cyclosporine', 'saquinavir', 'rifampin', 'digoxin', 'itraconazole', 'norethindrone', 'efavirenz', 'atorvastatin', 'lopinavir', 'ethinyl estradiol'])
+
+
+Prior to processing -- ncboTermsDiff: ['grapefruit', 'p450', 'prothrombin']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['grapefruit', 'p450', 'prothrombin']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['niacin', 'clarithromycin', 'lipitor', 'warfarin', 'ritonavir', 'cyclosporine', 'saquinavir', 'rifampin', 'digoxin', 'itraconazole', 'norethindrone', 'efavirenz', 'atorvastatin', 'lopinavir', 'ethinyl estradiol']
+
+3 annotations unique to NCBO: ['grapefruit', 'p450', 'prothrombin']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.83
+F-measure: 0.91
+------------------------------------------------------------

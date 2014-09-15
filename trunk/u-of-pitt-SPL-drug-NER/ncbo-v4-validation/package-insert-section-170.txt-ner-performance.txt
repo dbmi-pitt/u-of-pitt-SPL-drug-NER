@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-170.txt-PROCESSED.xml for annotations
+
+33 unique entities annotated by the NCBO Annotator
+		['insulin', 'insulin', 'avalide', 'avalide', 'thiazide', 'thiazide', 'alcohol,', 'relaxant.', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'irbesartan', 'colestipol', 'colestipol', 'colestipol', 'colestipol', 'tubocurarine', 'tubocurarine', 'norepinephrine', 'norepinephrine', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide', 'cholestyramine resin', 'cholestyramine resin', 'adrenocorticotropic hormone']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'alcohol,': ['alcohol,'], 'relaxant.': ['relaxant.'], 'avalide': ['avalide'], 'thiazide': ['thiazide'], 'norepinephrine': ['norepinephrine'], 'insulin': ['insulin'], 'hydrochlorothiazide': ['hydrochlorothiazide'], 'irbesartan': ['irbesartan'], 'cholestyramine resin': ['cholestyramine resin'], 'colestipol': ['colestipol'], 'adrenocorticotropic hormone': ['adrenocorticotropic hormone'], 'tubocurarine': ['tubocurarine']}
+
+20 unique entities in the reference annotation set
+		['lithium', 'lithium', 'lithium', 'lithium', 'alcohol', 'insulin', 'avalide', 'avalide', 'irbesartan', 'irbesartan', 'colestipol', 'irbesartan', 'colestipol', 'tubocurarine', 'cholestyramine', 'cholestyramine', 'norepinephrine', 'hydrochlorothiazide', 'hydrochlorothiazide', 'hydrochlorothiazide']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'alcohol': ['alcohol'], 'cholestyramine': ['cholestyramine'], 'avalide': ['avalide'], 'norepinephrine': ['norepinephrine'], 'insulin': ['insulin'], 'hydrochlorothiazide': ['hydrochlorothiazide'], 'irbesartan': ['irbesartan'], 'colestipol': ['colestipol'], 'lithium': ['lithium'], 'tubocurarine': ['tubocurarine']}
+
+7 perfect string matches between Knowtator and NCBO: set(['avalide', 'norepinephrine', 'insulin', 'hydrochlorothiazide', 'irbesartan', 'colestipol', 'tubocurarine'])
+
+
+Prior to processing -- ncboTermsDiff: ['relaxant.', 'thiazide', 'alcohol,', 'cholestyramine resin', 'adrenocorticotropic hormone']
+knowtTermsDiff: ['cholestyramine', 'lithium', 'alcohol']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'cholestyramine': ['cholestyramine', 'cholestyramine resin'], 'alcohol': ['alcohol', 'alcohol,']}
+Post processing -- ncboTermsDiff: ['relaxant.', 'thiazide', 'adrenocorticotropic hormone']
+knowtTermsDiff: ['lithium']
+inperfectMtchs: [['cholestyramine', 'cholestyramine resin'], ['alcohol', 'alcohol,']]
+DEBUG: AllMatches =  [['cholestyramine', 'cholestyramine resin'], ['alcohol', 'alcohol,'], 'avalide', 'norepinephrine', 'insulin', 'hydrochlorothiazide', 'irbesartan', 'colestipol', 'tubocurarine']
+
+3 annotations unique to NCBO: ['relaxant.', 'thiazide', 'adrenocorticotropic hormone']
+
+1 annotations unique to Knowtator: ['lithium']
+------------------------------------------------------------
+Recall: 0.90
+precision: 0.75
+F-measure: 0.82
+------------------------------------------------------------

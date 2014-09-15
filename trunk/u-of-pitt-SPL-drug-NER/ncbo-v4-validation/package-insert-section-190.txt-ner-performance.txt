@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-190.txt-PROCESSED.xml for annotations
+
+128 unique entities annotated by the NCBO Annotator
+		['norvir', 'norvir', 'norvir', 'norvir', 'norvir', 'norvir', 'norvir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'indinavir', 'indinavir', 'didanosine', 'didanosine', 'zidovudine', 'zidovudine', 'saquinavir', 'saquinavir', 'amprenavir', 'amprenavir', 'amprenavir', 'amprenavir', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'moxifloxacin', 'moxifloxacin']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'moxifloxacin': ['moxifloxacin'], 'didanosine': ['didanosine'], 'amprenavir': ['amprenavir'], 'norvir': ['norvir'], 'ritonavir': ['ritonavir'], 'saquinavir': ['saquinavir'], 'nelfinavir': ['nelfinavir'], 'zidovudine': ['zidovudine'], 'indinavir': ['indinavir']}
+
+65 unique entities in the reference annotation set
+		['ddi', 'zdv', 'norvir', 'norvir', 'norvir', 'norvir', 'norvir', 'norvir', 'norvir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'ritonavir', 'indinavir', 'nelfinavir', 'nelfinavir', 'zidovudine', 'didanosine', 'amprenavir', 'amprenavir', 'moxifloxacin']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'ritonavir': ['ritonavir'], 'didanosine': ['didanosine'], 'amprenavir': ['amprenavir'], 'norvir': ['norvir'], 'zdv': ['zdv'], 'nelfinavir': ['nelfinavir'], 'ddi': ['ddi'], 'zidovudine': ['zidovudine'], 'indinavir': ['indinavir'], 'moxifloxacin': ['moxifloxacin']}
+
+8 perfect string matches between Knowtator and NCBO: set(['moxifloxacin', 'didanosine', 'amprenavir', 'norvir', 'ritonavir', 'nelfinavir', 'zidovudine', 'indinavir'])
+
+
+Prior to processing -- ncboTermsDiff: ['saquinavir']
+knowtTermsDiff: ['ddi', 'zdv']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['saquinavir']
+knowtTermsDiff: ['ddi', 'zdv']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['moxifloxacin', 'didanosine', 'amprenavir', 'norvir', 'ritonavir', 'nelfinavir', 'zidovudine', 'indinavir']
+
+1 annotations unique to NCBO: ['saquinavir']
+
+2 annotations unique to Knowtator: ['ddi', 'zdv']
+------------------------------------------------------------
+Recall: 0.80
+precision: 0.89
+F-measure: 0.84
+------------------------------------------------------------

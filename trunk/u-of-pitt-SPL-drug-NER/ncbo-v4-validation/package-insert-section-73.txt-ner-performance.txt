@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-73.txt-PROCESSED.xml for annotations
+
+170 unique entities annotated by the NCBO Annotator
+		['p450', 'insulin', 'insulin', 'amylases', 'glucagon', 'glucagon', 'rifampin', 'rifampin', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'histamine', 'histamine', 'prolactin', 'prolactin', 'creatinine', 'creatinine', 'thyrotropin', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'noroxycodone', 'noroxycodone', 'noroxycodone', 'noroxycodone', 'noroxycodone', 'noroxycodone', 'voriconazole', 'voriconazole', 'oxymorphone,', 'hydrocortisone', 'growth hormone', 'luteinizing hormone', 'luteinizing hormone', 'luteinizing hormone', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'oxycodone hydrochloride', 'adrenocorticotropic hormone']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'amylases': ['amylases'], 'luteinizing hormone': ['luteinizing hormone'], 'prolactin': ['prolactin'], 'growth hormone': ['growth hormone'], 'glucagon': ['glucagon'], 'noroxycodone': ['noroxycodone'], 'voriconazole': ['voriconazole'], 'hydrocortisone': ['hydrocortisone'], 'thyrotropin': ['thyrotropin'], 'rifampin': ['rifampin'], 'oxymorphone': ['oxymorphone,', 'oxymorphone'], 'oxycodone': ['oxycodone hydrochloride', 'oxycodone'], 'creatinine': ['creatinine'], 'p450': ['p450'], 'adrenocorticotropic hormone': ['adrenocorticotropic hormone'], 'histamine': ['histamine'], 'insulin': ['insulin']}
+
+58 unique entities in the reference annotation set
+		['rifampin', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxycodone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'oxymorphone', 'voriconazole', 'noroxycodone', 'noroxycodone', 'noroxycodone', 'noroxycodone', 'noroxycodone', 'noroxycodone', 'noroxymorphone']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'noroxymorphone': ['noroxymorphone'], 'noroxycodone': ['noroxycodone'], 'voriconazole': ['voriconazole'], 'rifampin': ['rifampin'], 'oxymorphone': ['oxymorphone'], 'oxycodone': ['oxycodone']}
+
+5 perfect string matches between Knowtator and NCBO: set(['rifampin', 'voriconazole', 'oxymorphone', 'oxycodone', 'noroxycodone'])
+
+
+Prior to processing -- ncboTermsDiff: ['amylases', 'prolactin', 'growth hormone', 'glucagon', 'luteinizing hormone', 'hydrocortisone', 'thyrotropin', 'insulin', 'creatinine', 'adrenocorticotropic hormone', 'histamine', 'p450']
+knowtTermsDiff: ['noroxymorphone']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['amylases', 'prolactin', 'growth hormone', 'glucagon', 'luteinizing hormone', 'hydrocortisone', 'thyrotropin', 'insulin', 'creatinine', 'adrenocorticotropic hormone', 'histamine', 'p450']
+knowtTermsDiff: ['noroxymorphone']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['rifampin', 'voriconazole', 'oxymorphone', 'oxycodone', 'noroxycodone']
+
+12 annotations unique to NCBO: ['amylases', 'prolactin', 'growth hormone', 'glucagon', 'luteinizing hormone', 'hydrocortisone', 'thyrotropin', 'insulin', 'creatinine', 'adrenocorticotropic hormone', 'histamine', 'p450']
+
+1 annotations unique to Knowtator: ['noroxymorphone']
+------------------------------------------------------------
+Recall: 0.83
+precision: 0.29
+F-measure: 0.43
+------------------------------------------------------------

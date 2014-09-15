@@ -78,7 +78,7 @@ Validation procedure
 $ cd textfiles
 
 $ for i in *.txt
-echo $i && python ../src/python/calculate-metrics-for-a-single-note.py -n processed-output/$i-PROCESSED.xml -k pi-knowtator-xml/$i.knowtator.xml > <path to analysis folder>/$i-ner-performance.txt
+echo $i && python ../src/python/calculate-metrics-for-a-single-note.py -n ../processed-output/$i-PROCESSED.xml -k ../pi-knowtator-xml/$i.knowtator.xml > <path to analysis folder>/$i-ner-performance.txt
 
 5) Use these grep commands for getting lists of recall, precision, and F values that can then be copied into R vectors for summary statistics
 
