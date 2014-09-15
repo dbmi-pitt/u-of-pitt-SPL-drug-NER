@@ -1,3 +1,6 @@
+NOTE: the NER program was successfully ported to NCBO API v4 in June
+2014. The approach taken was to convert the JSON results to the XML
+format expected by the old program.
 
 - NCBO API v4 documentation:
 http://data.bioontology.org/documentation
@@ -7,20 +10,8 @@ http://data.bioontology.org/documentation
 http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMSH%2FC016904?format=xml&include=all&apikey=74028721-e60e-4ece-989b-1d2c17d14e9c
 
 
-- Documentation for the Annotator
 
-http://data.bioontology.org/documentation#nav_annotator
-
-- As of 4/4/2014:
-
--- src/java/ncbo/AnnotatorClient.java-APIv4-TESTING appears to work
-   properly. Test output pasted below.
-
-
--- src/groovy/util/PItoXML-NCBO-APIv4-TESTING.groovy -- most porting
-   work done but not tested. The code prefaced by "// UNTESTED!!!" is
-   likely problematic because the exact XML parsing and writing code
-   needs some work.
+***** OLD NOTES ****
 
 -- Recommended testing procedure: 
 
