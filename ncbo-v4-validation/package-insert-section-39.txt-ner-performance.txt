@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-39.txt-PROCESSED.xml for annotations
+
+8 unique entities annotated by the NCBO Annotator
+		['atropine', 'atropine', 'alcohol,', 'phosphorus', 'thioridazine', 'thioridazine', 'barbiturate.', 'phenothiazine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'alcohol,': ['alcohol,'], 'phenothiazine': ['phenothiazine'], 'barbiturate.': ['barbiturate.'], 'atropine': ['atropine'], 'thioridazine': ['thioridazine'], 'phosphorus': ['phosphorus']}
+
+3 unique entities in the reference annotation set
+		['alcohol', 'atropine', 'thioridazine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'atropine': ['atropine'], 'thioridazine': ['thioridazine'], 'alcohol': ['alcohol']}
+
+2 perfect string matches between Knowtator and NCBO: set(['atropine', 'thioridazine'])
+
+
+Prior to processing -- ncboTermsDiff: ['alcohol,', 'phenothiazine', 'phosphorus', 'barbiturate.']
+knowtTermsDiff: ['alcohol']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'alcohol': ['alcohol', 'alcohol,']}
+Post processing -- ncboTermsDiff: ['phenothiazine', 'phosphorus', 'barbiturate.']
+knowtTermsDiff: []
+inperfectMtchs: [['alcohol', 'alcohol,']]
+DEBUG: AllMatches =  [['alcohol', 'alcohol,'], 'atropine', 'thioridazine']
+
+3 annotations unique to NCBO: ['phenothiazine', 'phosphorus', 'barbiturate.']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.50
+F-measure: 0.67
+------------------------------------------------------------

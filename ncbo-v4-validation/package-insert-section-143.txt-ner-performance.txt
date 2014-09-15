@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-143.txt-PROCESSED.xml for annotations
+
+17 unique entities annotated by the NCBO Annotator
+		['lovastatin', 'lovastatin', 'lovastatin', 'lovastatin', 'nefazodone', 'nefazodone', 'grapefruit', 'itraconazole', 'itraconazole', 'ketoconazole', 'ketoconazole', 'erythromycin', 'erythromycin', 'telithromycin', 'telithromycin', 'clarithromycin', 'clarithromycin']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'clarithromycin': ['clarithromycin'], 'telithromycin': ['telithromycin'], 'nefazodone': ['nefazodone'], 'lovastatin': ['lovastatin'], 'grapefruit': ['grapefruit'], 'erythromycin': ['erythromycin'], 'ketoconazole': ['ketoconazole'], 'itraconazole': ['itraconazole']}
+
+8 unique entities in the reference annotation set
+		['lovastatin', 'nefazodone', 'lovastatin', 'itraconazole', 'ketoconazole', 'erythromycin', 'telithromycin', 'clarithromycin']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'clarithromycin': ['clarithromycin'], 'telithromycin': ['telithromycin'], 'nefazodone': ['nefazodone'], 'lovastatin': ['lovastatin'], 'erythromycin': ['erythromycin'], 'ketoconazole': ['ketoconazole'], 'itraconazole': ['itraconazole']}
+
+7 perfect string matches between Knowtator and NCBO: set(['clarithromycin', 'telithromycin', 'nefazodone', 'lovastatin', 'erythromycin', 'ketoconazole', 'itraconazole'])
+
+
+Prior to processing -- ncboTermsDiff: ['grapefruit']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['grapefruit']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['clarithromycin', 'telithromycin', 'nefazodone', 'lovastatin', 'erythromycin', 'ketoconazole', 'itraconazole']
+
+1 annotations unique to NCBO: ['grapefruit']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.88
+F-measure: 0.93
+------------------------------------------------------------

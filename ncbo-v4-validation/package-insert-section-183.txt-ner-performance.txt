@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-183.txt-PROCESSED.xml for annotations
+
+50 unique entities annotated by the NCBO Annotator
+		['digoxin', 'digoxin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'atazanavir', 'ampicillin', 'ampicillin', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'prothrombin', 'prothrombin', 'prothrombin', 'prothrombin', 'prothrombin', 'prothrombin', 'prothrombin', 'prothrombin', 'amoxicillin', 'amoxicillin', 'ketoconazole', 'ketoconazole', 'theophylline', 'theophylline', 'theophylline', 'theophylline', 'theophylline', 'theophylline', 'theophylline', 'theophylline', 'theophylline', 'theophylline', 'clarithromycin', 'clarithromycin']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'clarithromycin': ['clarithromycin'], 'theophylline': ['theophylline'], 'amoxicillin': ['amoxicillin'], 'warfarin': ['warfarin'], 'prothrombin': ['prothrombin'], 'digoxin': ['digoxin'], 'ketoconazole': ['ketoconazole'], 'tacrolimus': ['tacrolimus'], 'ampicillin': ['ampicillin'], 'atazanavir': ['atazanavir']}
+
+30 unique entities in the reference annotation set
+		['iron', 'digoxin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'tacrolimus', 'atazanavir', 'atazanavir', 'tacrolimus', 'atazanavir', 'tacrolimus', 'ampicillin', 'amoxicillin', 'theophylline', 'lansoprazole', 'lansoprazole', 'lansoprazole', 'lansoprazole', 'ketoconazole', 'lansoprazole', 'lansoprazole', 'theophylline', 'lansoprazole', 'theophylline', 'theophylline', 'lansoprazole', 'theophylline', 'clarithromycin']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'clarithromycin': ['clarithromycin'], 'theophylline': ['theophylline'], 'ketoconazole': ['ketoconazole'], 'amoxicillin': ['amoxicillin'], 'warfarin': ['warfarin'], 'tacrolimus': ['tacrolimus'], 'digoxin': ['digoxin'], 'iron': ['iron'], 'lansoprazole': ['lansoprazole'], 'ampicillin': ['ampicillin'], 'atazanavir': ['atazanavir']}
+
+9 perfect string matches between Knowtator and NCBO: set(['theophylline', 'ketoconazole', 'amoxicillin', 'warfarin', 'tacrolimus', 'digoxin', 'clarithromycin', 'ampicillin', 'atazanavir'])
+
+
+Prior to processing -- ncboTermsDiff: ['prothrombin']
+knowtTermsDiff: ['lansoprazole', 'iron']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['prothrombin']
+knowtTermsDiff: ['lansoprazole', 'iron']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['theophylline', 'ketoconazole', 'amoxicillin', 'warfarin', 'tacrolimus', 'digoxin', 'clarithromycin', 'ampicillin', 'atazanavir']
+
+1 annotations unique to NCBO: ['prothrombin']
+
+2 annotations unique to Knowtator: ['lansoprazole', 'iron']
+------------------------------------------------------------
+Recall: 0.82
+precision: 0.90
+F-measure: 0.86
+------------------------------------------------------------

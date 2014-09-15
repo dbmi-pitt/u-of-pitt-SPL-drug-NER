@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-127.txt-PROCESSED.xml for annotations
+
+9 unique entities annotated by the NCBO Annotator
+		['verapamil', 'verapamil', 'verapamil', 'verapamil', 'propranolol', 'propranolol', 'propranolol', 'propranolol', 'norverapamil']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'verapamil': ['verapamil'], 'norverapamil': ['norverapamil'], 'propranolol': ['propranolol']}
+
+5 unique entities in the reference annotation set
+		['verapamil', 'verapamil', 'propranolol', 'propranolol', 'norverapamil']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'verapamil': ['verapamil'], 'norverapamil': ['norverapamil'], 'propranolol': ['propranolol']}
+
+3 perfect string matches between Knowtator and NCBO: set(['verapamil', 'norverapamil', 'propranolol'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['verapamil', 'norverapamil', 'propranolol']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

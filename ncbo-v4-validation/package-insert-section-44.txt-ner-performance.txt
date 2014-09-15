@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-44.txt-PROCESSED.xml for annotations
+
+21 unique entities annotated by the NCBO Annotator
+		['pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine hydrochloride', 'paroxetine hydrochloride', 'paroxetine hydrochloride', 'paroxetine hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'paroxetine': ['paroxetine', 'paroxetine hydrochloride'], 'pimozide': ['pimozide']}
+
+9 unique entities in the reference annotation set
+		['pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'pimozide', 'paroxetine', 'paroxetine', 'paroxetine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'paroxetine': ['paroxetine'], 'pimozide': ['pimozide']}
+
+2 perfect string matches between Knowtator and NCBO: set(['paroxetine', 'pimozide'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['paroxetine', 'pimozide']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

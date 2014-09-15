@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-114.txt-PROCESSED.xml for annotations
+
+22 unique entities annotated by the NCBO Annotator
+		['nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'quinupristin', 'quinupristin', 'quinupristin', 'quinupristin']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'nifedipine': ['nifedipine'], 'quinupristin': ['quinupristin']}
+
+8 unique entities in the reference annotation set
+		['nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'nifedipine', 'quinupristin', 'dalfopristin']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'nifedipine': ['nifedipine'], 'quinupristin': ['quinupristin'], 'dalfopristin': ['dalfopristin']}
+
+2 perfect string matches between Knowtator and NCBO: set(['nifedipine', 'quinupristin'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: ['dalfopristin']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: ['dalfopristin']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['nifedipine', 'quinupristin']
+
+0 annotations unique to NCBO: []
+
+1 annotations unique to Knowtator: ['dalfopristin']
+------------------------------------------------------------
+Recall: 0.67
+precision: 1.00
+F-measure: 0.80
+------------------------------------------------------------

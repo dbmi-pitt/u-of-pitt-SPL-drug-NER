@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-40.txt-PROCESSED.xml for annotations
+
+19 unique entities annotated by the NCBO Annotator
+		['glipizide', 'glipizide', 'glipizide', 'glipizide', 'glipizide', 'glipizide', 'glipizide', 'glipizide', 'glipizide', 'miconazole', 'miconazole', 'miconazole', 'miconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'fluconazole']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'glipizide': ['glipizide'], 'miconazole': ['miconazole'], 'fluconazole': ['fluconazole']}
+
+8 unique entities in the reference annotation set
+		['glipizide', 'glipizide', 'glipizide', 'miconazole', 'miconazole', 'fluconazole', 'fluconazole', 'fluconazole']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'glipizide': ['glipizide'], 'miconazole': ['miconazole'], 'fluconazole': ['fluconazole']}
+
+3 perfect string matches between Knowtator and NCBO: set(['glipizide', 'miconazole', 'fluconazole'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['glipizide', 'miconazole', 'fluconazole']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

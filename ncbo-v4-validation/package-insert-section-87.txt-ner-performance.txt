@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-87.txt-PROCESSED.xml for annotations
+
+6 unique entities annotated by the NCBO Annotator
+		['septra', 'septra', 'warfarin', 'warfarin', 'prothrombin', 'prothrombin']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'septra': ['septra'], 'warfarin': ['warfarin'], 'prothrombin': ['prothrombin']}
+
+3 unique entities in the reference annotation set
+		['septra', 'septra', 'warfarin']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'septra': ['septra'], 'warfarin': ['warfarin']}
+
+2 perfect string matches between Knowtator and NCBO: set(['septra', 'warfarin'])
+
+
+Prior to processing -- ncboTermsDiff: ['prothrombin']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['prothrombin']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['septra', 'warfarin']
+
+1 annotations unique to NCBO: ['prothrombin']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.67
+F-measure: 0.80
+------------------------------------------------------------

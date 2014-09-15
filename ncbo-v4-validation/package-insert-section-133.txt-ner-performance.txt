@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-133.txt-PROCESSED.xml for annotations
+
+8 unique entities annotated by the NCBO Annotator
+		['propranolol', 'propranolol', 'thioridazine', 'thioridazine', 'thioridazine', 'thioridazine', 'mesoridazine', 'mesoridazine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'mesoridazine': ['mesoridazine'], 'thioridazine': ['thioridazine'], 'propranolol': ['propranolol']}
+
+4 unique entities in the reference annotation set
+		['propranolol', 'thioridazine', 'thioridazine', 'mesoridazine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'mesoridazine': ['mesoridazine'], 'thioridazine': ['thioridazine'], 'propranolol': ['propranolol']}
+
+3 perfect string matches between Knowtator and NCBO: set(['mesoridazine', 'thioridazine', 'propranolol'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['mesoridazine', 'thioridazine', 'propranolol']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

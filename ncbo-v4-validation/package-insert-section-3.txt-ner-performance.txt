@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-3.txt-PROCESSED.xml for annotations
+
+14 unique entities annotated by the NCBO Annotator
+		['digoxin', 'digoxin', 'warfarin', 'warfarin', 'hydralazine', 'hydralazine', 'hydralazine', 'tolbutamide', 'tolbutamide', 'tolbutamide', 'sulfinpyrazone', 'sulfinpyrazone', 'hydrochlorothiazide', 'hydrochlorothiazide']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'hydralazine': ['hydralazine'], 'tolbutamide': ['tolbutamide'], 'warfarin': ['warfarin'], 'sulfinpyrazone': ['sulfinpyrazone'], 'digoxin': ['digoxin'], 'hydrochlorothiazide': ['hydrochlorothiazide']}
+
+6 unique entities in the reference annotation set
+		['digoxin', 'warfarin', 'hydralazine', 'tolbutamide', 'sulfinpyrazone', 'hydrochlorothiazide']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'hydralazine': ['hydralazine'], 'tolbutamide': ['tolbutamide'], 'warfarin': ['warfarin'], 'sulfinpyrazone': ['sulfinpyrazone'], 'digoxin': ['digoxin'], 'hydrochlorothiazide': ['hydrochlorothiazide']}
+
+6 perfect string matches between Knowtator and NCBO: set(['hydralazine', 'tolbutamide', 'warfarin', 'sulfinpyrazone', 'digoxin', 'hydrochlorothiazide'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['hydralazine', 'tolbutamide', 'warfarin', 'sulfinpyrazone', 'digoxin', 'hydrochlorothiazide']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

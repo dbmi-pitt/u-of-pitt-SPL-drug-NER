@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-106.txt-PROCESSED.xml for annotations
+
+60 unique entities annotated by the NCBO Annotator
+		['reserpine', 'reserpine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'quinidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'diltiazem', 'diltiazem', 'verapamil', 'verapamil', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'propafenone', 'propafenone', 'propafenone', 'propafenone', 'metoprolol succinate']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'clonidine': ['clonidine'], 'paroxetine': ['paroxetine'], 'propafenone': ['propafenone'], 'fluoxetine': ['fluoxetine'], 'diltiazem': ['diltiazem'], 'quinidine': ['quinidine'], 'verapamil': ['verapamil'], 'reserpine': ['reserpine'], 'metoprolol': ['metoprolol', 'metoprolol succinate']}
+
+25 unique entities in the reference annotation set
+		['toprol', 'clonidine', 'clonidine', 'clonidine', 'clonidine', 'quinidine', 'quinidine', 'diltiazem', 'verapamil', 'reserpine', 'digitalis', 'clonidine', 'clonidine', 'metoprolol', 'fluoxetine', 'metoprolol', 'metoprolol', 'paroxetine', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'metoprolol', 'propafenone', 'propafenone']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'clonidine': ['clonidine'], 'paroxetine': ['paroxetine'], 'propafenone': ['propafenone'], 'digitalis': ['digitalis'], 'diltiazem': ['diltiazem'], 'quinidine': ['quinidine'], 'verapamil': ['verapamil'], 'reserpine': ['reserpine'], 'toprol': ['toprol'], 'metoprolol': ['metoprolol'], 'fluoxetine': ['fluoxetine']}
+
+9 perfect string matches between Knowtator and NCBO: set(['clonidine', 'paroxetine', 'propafenone', 'fluoxetine', 'diltiazem', 'quinidine', 'verapamil', 'reserpine', 'metoprolol'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: ['digitalis', 'toprol']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: ['digitalis', 'toprol']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['clonidine', 'paroxetine', 'propafenone', 'fluoxetine', 'diltiazem', 'quinidine', 'verapamil', 'reserpine', 'metoprolol']
+
+0 annotations unique to NCBO: []
+
+2 annotations unique to Knowtator: ['digitalis', 'toprol']
+------------------------------------------------------------
+Recall: 0.82
+precision: 1.00
+F-measure: 0.90
+------------------------------------------------------------

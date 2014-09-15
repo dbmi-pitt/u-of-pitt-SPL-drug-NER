@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-13.txt-PROCESSED.xml for annotations
+
+3 unique entities annotated by the NCBO Annotator
+		['lithium.', 'sertraline', 'sertraline']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'sertraline': ['sertraline'], 'lithium.': ['lithium.']}
+
+3 unique entities in the reference annotation set
+		['lithium', 'lithium', 'sertraline']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'sertraline': ['sertraline'], 'lithium': ['lithium']}
+
+1 perfect string matches between Knowtator and NCBO: set(['sertraline'])
+
+
+Prior to processing -- ncboTermsDiff: ['lithium.']
+knowtTermsDiff: ['lithium']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'lithium': ['lithium', 'lithium.']}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: [['lithium', 'lithium.']]
+DEBUG: AllMatches =  [['lithium', 'lithium.'], 'sertraline']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

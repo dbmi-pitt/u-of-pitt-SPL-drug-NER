@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-76.txt-PROCESSED.xml for annotations
+
+6 unique entities annotated by the NCBO Annotator
+		['citalopram', 'citalopram', 'citalopram', 'citalopram', 'cimetidine', 'cimetidine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'citalopram': ['citalopram'], 'cimetidine': ['cimetidine']}
+
+3 unique entities in the reference annotation set
+		['citalopram', 'cimetidine', 'citalopram']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'citalopram': ['citalopram'], 'cimetidine': ['cimetidine']}
+
+2 perfect string matches between Knowtator and NCBO: set(['citalopram', 'cimetidine'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['citalopram', 'cimetidine']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

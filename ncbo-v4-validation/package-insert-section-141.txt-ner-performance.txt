@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-141.txt-PROCESSED.xml for annotations
+
+85 unique entities annotated by the NCBO Annotator
+		['digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'ethanol', 'ethanol', 'ethanol', 'ethanol', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'phenytoin', 'phenytoin', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'cimetidine', 'cimetidine', 'cimetidine', 'cimetidine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'sildenafil', 'sildenafil', 'sildenafil', 'sildenafil', 'sildenafil', 'sildenafil', 'grapefruit', 'grapefruit', 'prothrombin', 'prothrombin', 'indomethacin', 'indomethacin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'atorvastatin', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate', 'amlodipine besylate']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'phenytoin': ['phenytoin'], 'warfarin': ['warfarin'], 'sildenafil': ['sildenafil'], 'prothrombin': ['prothrombin'], 'amlodipine': ['amlodipine besylate', 'amlodipine'], 'grapefruit': ['grapefruit'], 'digoxin': ['digoxin'], 'ethanol': ['ethanol'], 'cimetidine': ['cimetidine'], 'atorvastatin': ['atorvastatin'], 'indomethacin': ['indomethacin']}
+
+38 unique entities in the reference annotation set
+		['digoxin', 'ethanol', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'ethanol', 'aluminum', 'warfarin', 'warfarin', 'warfarin', 'aluminum', 'warfarin', 'magnesium', 'magnesium', 'phenytoin', 'cimetidine', 'sildenafil', 'amlodipine', 'amlodipine', 'amlodipine', 'sildenafil', 'amlodipine', 'amlodipine', 'amlodipine', 'sildenafil', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'amlodipine', 'cimetidine', 'amlodipine', 'amlodipine', 'atorvastatin', 'indomethacin', 'atorvastatin', 'atorvastatin']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'phenytoin': ['phenytoin'], 'aluminum': ['aluminum'], 'warfarin': ['warfarin'], 'sildenafil': ['sildenafil'], 'amlodipine': ['amlodipine'], 'digoxin': ['digoxin'], 'magnesium': ['magnesium'], 'ethanol': ['ethanol'], 'cimetidine': ['cimetidine'], 'atorvastatin': ['atorvastatin'], 'indomethacin': ['indomethacin']}
+
+9 perfect string matches between Knowtator and NCBO: set(['phenytoin', 'warfarin', 'sildenafil', 'amlodipine', 'digoxin', 'ethanol', 'cimetidine', 'atorvastatin', 'indomethacin'])
+
+
+Prior to processing -- ncboTermsDiff: ['grapefruit', 'prothrombin']
+knowtTermsDiff: ['magnesium', 'aluminum']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['grapefruit', 'prothrombin']
+knowtTermsDiff: ['magnesium', 'aluminum']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['phenytoin', 'warfarin', 'sildenafil', 'amlodipine', 'digoxin', 'ethanol', 'cimetidine', 'atorvastatin', 'indomethacin']
+
+2 annotations unique to NCBO: ['grapefruit', 'prothrombin']
+
+2 annotations unique to Knowtator: ['magnesium', 'aluminum']
+------------------------------------------------------------
+Recall: 0.82
+precision: 0.82
+F-measure: 0.82
+------------------------------------------------------------

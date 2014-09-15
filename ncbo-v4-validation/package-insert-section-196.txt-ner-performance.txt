@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-196.txt-PROCESSED.xml for annotations
+
+25 unique entities annotated by the NCBO Annotator
+		['stavudine', 'stavudine', 'stavudine', 'stavudine', 'ribavirin', 'ribavirin', 'ribavirin', 'ribavirin', 'zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'interferon', 'doxorubicin', 'doxorubicin', 'doxorubicin', 'doxorubicin', 'doxorubicin', 'doxorubicin', 'ganciclovir', 'ganciclovir']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'interferon': ['interferon'], 'stavudine': ['stavudine'], 'doxorubicin': ['doxorubicin'], 'ganciclovir': ['ganciclovir'], 'zidovudine': ['zidovudine'], 'ribavirin': ['ribavirin']}
+
+12 unique entities in the reference annotation set
+		['stavudine', 'ribavirin', 'ribavirin', 'stavudine', 'zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'ganciclovir', 'doxorubicin', 'doxorubicin', 'interferon alfa']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'stavudine': ['stavudine'], 'doxorubicin': ['doxorubicin'], 'ganciclovir': ['ganciclovir'], 'zidovudine': ['zidovudine'], 'ribavirin': ['ribavirin'], 'interferon alfa': ['interferon alfa']}
+
+5 perfect string matches between Knowtator and NCBO: set(['doxorubicin', 'stavudine', 'zidovudine', 'ribavirin', 'ganciclovir'])
+
+
+Prior to processing -- ncboTermsDiff: ['interferon']
+knowtTermsDiff: ['interferon alfa']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'interferon': ['interferon alfa', 'interferon']}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: [['interferon alfa', 'interferon']]
+DEBUG: AllMatches =  [['interferon alfa', 'interferon'], 'doxorubicin', 'stavudine', 'zidovudine', 'ribavirin', 'ganciclovir']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

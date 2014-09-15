@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-182.txt-PROCESSED.xml for annotations
+
+131 unique entities annotated by the NCBO Annotator
+		['ng/ml', 'ng/ml', 'procaine', 'procaine', 'relaxant', 'calcium,', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'norverapamil', 'norverapamil', 'norverapamil', 'norverapamil', 'norverapamil', 'norverapamil', 'norverapamil', 'norverapamil', 'glycoprotein.', 'verapamil hydrochloride', 'verapamil hydrochloride', 'verapamil hydrochloride', 'verapamil hydrochloride', 'verapamil hydrochloride', 'verapamil hydrochloride', 'verapamil hydrochloride', 'verapamil hydrochloride', 'verapamil hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'glycoprotein.': ['glycoprotein.'], 'procaine': ['procaine'], 'calcium,': ['calcium,'], 'verapamil': ['verapamil', 'verapamil hydrochloride'], 'relaxant': ['relaxant'], 'norverapamil': ['norverapamil'], 'ng/ml': ['ng/ml']}
+
+66 unique entities in the reference annotation set
+		['verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'verapamil', 'norverapamil', 'norverapamil', 'norverapamil', 'norverapamil', 'norverapamil', 'norverapamil', 'norverapamil', 'norverapamil']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'verapamil': ['verapamil'], 'norverapamil': ['norverapamil']}
+
+2 perfect string matches between Knowtator and NCBO: set(['verapamil', 'norverapamil'])
+
+
+Prior to processing -- ncboTermsDiff: ['ng/ml', 'glycoprotein.', 'procaine', 'calcium,', 'relaxant']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['ng/ml', 'glycoprotein.', 'procaine', 'calcium,', 'relaxant']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['verapamil', 'norverapamil']
+
+5 annotations unique to NCBO: ['ng/ml', 'glycoprotein.', 'procaine', 'calcium,', 'relaxant']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.29
+F-measure: 0.44
+------------------------------------------------------------

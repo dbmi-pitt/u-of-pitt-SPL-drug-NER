@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-157.txt-PROCESSED.xml for annotations
+
+34 unique entities annotated by the NCBO Annotator
+		['aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aldosterone', 'aldosterone', 'aldosterone', 'aldosterone', 'aldosterone', 'aldosterone', 'angiotensinogen', 'angiotensinogen']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'angiotensinogen': ['angiotensinogen'], 'aliskiren': ['aliskiren'], 'aldosterone': ['aldosterone']}
+
+13 unique entities in the reference annotation set
+		['aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren', 'aliskiren']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'aliskiren': ['aliskiren']}
+
+1 perfect string matches between Knowtator and NCBO: set(['aliskiren'])
+
+
+Prior to processing -- ncboTermsDiff: ['angiotensinogen', 'aldosterone']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['angiotensinogen', 'aldosterone']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['aliskiren']
+
+2 annotations unique to NCBO: ['angiotensinogen', 'aldosterone']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.33
+F-measure: 0.50
+------------------------------------------------------------

@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-129.txt-PROCESSED.xml for annotations
+
+9 unique entities annotated by the NCBO Annotator
+		['cimetidine', 'cimetidine', 'propranolol', 'propranolol', 'propranolol', 'propranolol', 'propranolol', 'propranolol', 'aluminum hydroxide gel']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'aluminum hydroxide gel': ['aluminum hydroxide gel'], 'propranolol': ['propranolol'], 'cimetidine': ['cimetidine']}
+
+5 unique entities in the reference annotation set
+		['cimetidine', 'propranolol', 'propranolol', 'propranolol', 'aluminum hydroxide']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'aluminum hydroxide': ['aluminum hydroxide'], 'propranolol': ['propranolol'], 'cimetidine': ['cimetidine']}
+
+2 perfect string matches between Knowtator and NCBO: set(['propranolol', 'cimetidine'])
+
+
+Prior to processing -- ncboTermsDiff: ['aluminum hydroxide gel']
+knowtTermsDiff: ['aluminum hydroxide']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'aluminum hydroxide': ['aluminum hydroxide', 'aluminum hydroxide gel']}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: [['aluminum hydroxide', 'aluminum hydroxide gel']]
+DEBUG: AllMatches =  [['aluminum hydroxide', 'aluminum hydroxide gel'], 'propranolol', 'cimetidine']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

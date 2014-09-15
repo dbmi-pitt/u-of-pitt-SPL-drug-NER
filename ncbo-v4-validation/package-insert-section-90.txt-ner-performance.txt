@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-90.txt-PROCESSED.xml for annotations
+
+112 unique entities annotated by the NCBO Annotator
+		['p450', 'p450', 'p450', 'beta2', 'ethanol', 'ethanol', 'ethanol', 'ethanol', 'aspirin', 'alcohol', 'dopamine', 'dopamine', 'dopamine', 'warfarin', 'warfarin', 'diazepam', 'diazepam', 'quinidine', 'quinidine', 'quinidine', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'midazolam', 'midazolam', 'midazolam', 'midazolam', 'midazolam', 'midazolam', 'phenytoin', 'phenytoin', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'fluoxetine', 'dobutamine', 'dobutamine', 'dobutamine', 'omeprazole', 'omeprazole', 'hydroxide,', '(magnesium', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'desipramine', 'desipramine', 'desipramine', 'desipramine', 'desipramine', 'desipramine', 'methylphenidate', 'methylphenidate', 'methylphenidate', 'methylphenidate', 'methylphenidate', 'methylphenidate', 'hydroxide/aluminum', 'atomoxetine hydrochloride', 'atomoxetine hydrochloride', 'atomoxetine hydrochloride', 'atomoxetine hydrochloride', 'atomoxetine hydrochloride', 'atomoxetine hydrochloride', 'atomoxetine hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'paroxetine': ['paroxetine'], 'quinidine': ['quinidine'], 'dobutamine': ['dobutamine'], 'dopamine': ['dopamine'], 'diazepam': ['diazepam'], 'alcohol': ['alcohol'], 'fluoxetine': ['fluoxetine'], 'warfarin': ['warfarin'], 'midazolam': ['midazolam'], 'beta2': ['beta2'], 'omeprazole': ['omeprazole'], 'hydroxide,': ['hydroxide,'], 'p450': ['p450'], 'phenytoin': ['phenytoin'], 'albuterol': ['albuterol'], 'methylphenidate': ['methylphenidate'], 'desipramine': ['desipramine'], 'ethanol': ['ethanol'], 'hydroxide/aluminum': ['hydroxide/aluminum'], 'atomoxetine': ['atomoxetine', 'atomoxetine hydrochloride'], 'aspirin': ['aspirin'], '(magnesium': ['(magnesium']}
+
+52 unique entities in the reference annotation set
+		['ethanol', 'alcohol', 'ethanol', 'dopamine', 'warfarin', 'diazepam', 'midazolam', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'albuterol', 'phenytoin', 'midazolam', 'midazolam', 'quinidine', 'fluoxetine', 'paroxetine', 'dobutamine', 'omeprazole', 'fluoxetine', 'paroxetine', 'desipramine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'desipramine', 'atomoxetine', 'desipramine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'atomoxetine', 'methylphenidate', 'methylphenidate', 'methylphenidate', 'aluminum hydroxide', 'magnesium hydroxide', 'acetylsalicylic acid']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'paroxetine': ['paroxetine'], 'diazepam': ['diazepam'], 'aluminum hydroxide': ['aluminum hydroxide'], 'alcohol': ['alcohol'], 'albuterol': ['albuterol'], 'atomoxetine': ['atomoxetine'], 'quinidine': ['quinidine'], 'warfarin': ['warfarin'], 'midazolam': ['midazolam'], 'phenytoin': ['phenytoin'], 'dobutamine': ['dobutamine'], 'acetylsalicylic acid': ['acetylsalicylic acid'], 'magnesium hydroxide': ['magnesium hydroxide'], 'ethanol': ['ethanol'], 'dopamine': ['dopamine'], 'fluoxetine': ['fluoxetine'], 'desipramine': ['desipramine'], 'methylphenidate': ['methylphenidate'], 'omeprazole': ['omeprazole']}
+
+16 perfect string matches between Knowtator and NCBO: set(['ethanol', 'paroxetine', 'diazepam', 'alcohol', 'albuterol', 'methylphenidate', 'quinidine', 'warfarin', 'midazolam', 'phenytoin', 'dobutamine', 'omeprazole', 'dopamine', 'fluoxetine', 'desipramine', 'atomoxetine'])
+
+
+Prior to processing -- ncboTermsDiff: ['hydroxide/aluminum', 'beta2', 'hydroxide,', 'aspirin', '(magnesium', 'p450']
+knowtTermsDiff: ['aluminum hydroxide', 'magnesium hydroxide', 'acetylsalicylic acid']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['hydroxide/aluminum', 'beta2', 'hydroxide,', 'aspirin', '(magnesium', 'p450']
+knowtTermsDiff: ['aluminum hydroxide', 'magnesium hydroxide', 'acetylsalicylic acid']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['ethanol', 'paroxetine', 'diazepam', 'alcohol', 'albuterol', 'methylphenidate', 'quinidine', 'warfarin', 'midazolam', 'phenytoin', 'dobutamine', 'omeprazole', 'dopamine', 'fluoxetine', 'desipramine', 'atomoxetine']
+
+6 annotations unique to NCBO: ['hydroxide/aluminum', 'beta2', 'hydroxide,', 'aspirin', '(magnesium', 'p450']
+
+3 annotations unique to Knowtator: ['aluminum hydroxide', 'magnesium hydroxide', 'acetylsalicylic acid']
+------------------------------------------------------------
+Recall: 0.84
+precision: 0.73
+F-measure: 0.78
+------------------------------------------------------------

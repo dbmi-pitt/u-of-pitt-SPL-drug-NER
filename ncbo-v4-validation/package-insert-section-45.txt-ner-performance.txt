@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-45.txt-PROCESSED.xml for annotations
+
+30 unique entities annotated by the NCBO Annotator
+		['paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'paroxetine hydrochloride', 'paroxetine hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'paroxetine': ['paroxetine', 'paroxetine hydrochloride'], 'phenobarbital': ['phenobarbital']}
+
+10 unique entities in the reference annotation set
+		['paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'phenobarbital', 'phenobarbital', 'phenobarbital', 'phenobarbital']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'paroxetine': ['paroxetine'], 'phenobarbital': ['phenobarbital']}
+
+2 perfect string matches between Knowtator and NCBO: set(['paroxetine', 'phenobarbital'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['paroxetine', 'phenobarbital']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-186.txt-PROCESSED.xml for annotations
+
+58 unique entities annotated by the NCBO Annotator
+		['p450', 'digoxin', 'digoxin', 'hmg-coa', 'hmg-coa', 'hmg-coa', 'hmg-coa', 'hmg-coa', 'hmg-coa', 'hmg-coa', 'statin,', 'midazolam', 'midazolam', 'creatinine', 'creatinine', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'cholesterol', 'mevalonate,', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'erythromycin', 'erythromycin']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'hmg-coa': ['hmg-coa'], 'cyclosporine': ['cyclosporine'], 'midazolam': ['midazolam'], 'digoxin': ['digoxin'], 'erythromycin': ['erythromycin'], 'statin,': ['statin,'], 'cholesterol': ['cholesterol'], 'creatinine': ['creatinine'], 'mevalonate,': ['mevalonate,'], 'simvastatin': ['simvastatin'], 'p450': ['p450']}
+
+25 unique entities in the reference annotation set
+		['digoxin', 'midazolam', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'simvastatin', 'erythromycin', 'cyclosporine', 'simvastatin acid', 'simvastatin acid']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'simvastatin': ['simvastatin acid', 'simvastatin'], 'digoxin': ['digoxin'], 'cyclosporine': ['cyclosporine'], 'midazolam': ['midazolam'], 'erythromycin': ['erythromycin']}
+
+5 perfect string matches between Knowtator and NCBO: set(['simvastatin', 'digoxin', 'cyclosporine', 'midazolam', 'erythromycin'])
+
+
+Prior to processing -- ncboTermsDiff: ['hmg-coa', 'statin,', 'cholesterol', 'creatinine', 'p450', 'mevalonate,']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['hmg-coa', 'statin,', 'cholesterol', 'creatinine', 'p450', 'mevalonate,']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['simvastatin', 'digoxin', 'cyclosporine', 'midazolam', 'erythromycin']
+
+6 annotations unique to NCBO: ['hmg-coa', 'statin,', 'cholesterol', 'creatinine', 'p450', 'mevalonate,']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.45
+F-measure: 0.62
+------------------------------------------------------------

@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-99.txt-PROCESSED.xml for annotations
+
+5 unique entities annotated by the NCBO Annotator
+		['alprazolam', 'alprazolam', 'alprazolam', 'propoxyphene', 'dextropropoxyphene']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'alprazolam': ['alprazolam'], 'propoxyphene': ['propoxyphene'], 'dextropropoxyphene': ['dextropropoxyphene']}
+
+2 unique entities in the reference annotation set
+		['alprazolam', 'propoxyphene']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'alprazolam': ['alprazolam'], 'propoxyphene': ['propoxyphene']}
+
+2 perfect string matches between Knowtator and NCBO: set(['alprazolam', 'propoxyphene'])
+
+
+Prior to processing -- ncboTermsDiff: ['dextropropoxyphene']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['dextropropoxyphene']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['alprazolam', 'propoxyphene']
+
+1 annotations unique to NCBO: ['dextropropoxyphene']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.67
+F-measure: 0.80
+------------------------------------------------------------

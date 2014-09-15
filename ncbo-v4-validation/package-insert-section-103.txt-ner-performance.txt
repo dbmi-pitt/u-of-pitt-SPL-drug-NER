@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-103.txt-PROCESSED.xml for annotations
+
+74 unique entities annotated by the NCBO Annotator
+		['same.', 'same;', 'reglan', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'dopamine', 'levodopa', 'metozolv', 'metozolv', 'metozolv', 'metozolv', 'metozolv', 'prolactin', 'prolactin', 'creatinine', 'creatinine', 'apomorphine', 'apomorphine', 'apomorphine', 'apomorphine', 'apomorphine', 'apomorphine', 'aldosterone', 'aldosterone', 'acetylcholine', 'acetylcholine', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'same;': ['same;'], 'reglan': ['reglan'], 'acetylcholine': ['acetylcholine'], 'prolactin': ['prolactin'], 'metoclopramide': ['metoclopramide'], 'levodopa': ['levodopa'], 'same.': ['same.'], 'metozolv': ['metozolv'], 'dopamine': ['dopamine'], 'creatinine': ['creatinine'], 'aldosterone': ['aldosterone'], 'apomorphine': ['apomorphine']}
+
+28 unique entities in the reference annotation set
+		['reglan', 'metozolv', 'metozolv', 'metozolv', 'metozolv', 'metozolv', 'apomorphine', 'apomorphine', 'apomorphine', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'reglan': ['reglan'], 'apomorphine': ['apomorphine'], 'metozolv': ['metozolv'], 'metoclopramide': ['metoclopramide']}
+
+4 perfect string matches between Knowtator and NCBO: set(['reglan', 'apomorphine', 'metozolv', 'metoclopramide'])
+
+
+Prior to processing -- ncboTermsDiff: ['same;', 'prolactin', 'acetylcholine', 'levodopa', 'same.', 'dopamine', 'creatinine', 'aldosterone']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['same;', 'prolactin', 'acetylcholine', 'levodopa', 'same.', 'dopamine', 'creatinine', 'aldosterone']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['reglan', 'apomorphine', 'metozolv', 'metoclopramide']
+
+8 annotations unique to NCBO: ['same;', 'prolactin', 'acetylcholine', 'levodopa', 'same.', 'dopamine', 'creatinine', 'aldosterone']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.33
+F-measure: 0.50
+------------------------------------------------------------

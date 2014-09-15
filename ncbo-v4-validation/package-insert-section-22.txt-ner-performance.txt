@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-22.txt-PROCESSED.xml for annotations
+
+12 unique entities annotated by the NCBO Annotator
+		['fluconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'levonorgestrel', 'ethinyl estradiol', 'ethinyl estradiol', 'ethinyl estradiol', 'ethinyl estradiol']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'fluconazole': ['fluconazole'], 'levonorgestrel': ['levonorgestrel'], 'ethinyl estradiol': ['ethinyl estradiol']}
+
+5 unique entities in the reference annotation set
+		['fluconazole', 'fluconazole', 'levonorgestrel', 'levonorgestrel', 'ethinyl estradiol']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'fluconazole': ['fluconazole'], 'levonorgestrel': ['levonorgestrel'], 'ethinyl estradiol': ['ethinyl estradiol']}
+
+3 perfect string matches between Knowtator and NCBO: set(['fluconazole', 'levonorgestrel', 'ethinyl estradiol'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['fluconazole', 'levonorgestrel', 'ethinyl estradiol']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

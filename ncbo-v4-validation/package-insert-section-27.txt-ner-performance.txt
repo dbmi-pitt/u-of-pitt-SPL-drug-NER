@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-27.txt-PROCESSED.xml for annotations
+
+12 unique entities annotated by the NCBO Annotator
+		['zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'zidovudine', 'fluconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'fluconazole']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'fluconazole': ['fluconazole'], 'zidovudine': ['zidovudine']}
+
+7 unique entities in the reference annotation set
+		['gzdv', 'zidovudine', 'zidovudine', 'zidovudine', 'fluconazole', 'fluconazole', 'fluconazole']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'gzdv': ['gzdv'], 'zidovudine': ['zidovudine'], 'fluconazole': ['fluconazole']}
+
+2 perfect string matches between Knowtator and NCBO: set(['fluconazole', 'zidovudine'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: ['gzdv']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: ['gzdv']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['fluconazole', 'zidovudine']
+
+0 annotations unique to NCBO: []
+
+1 annotations unique to Knowtator: ['gzdv']
+------------------------------------------------------------
+Recall: 0.67
+precision: 1.00
+F-measure: 0.80
+------------------------------------------------------------

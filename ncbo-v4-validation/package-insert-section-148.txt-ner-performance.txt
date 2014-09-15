@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-148.txt-PROCESSED.xml for annotations
+
+24 unique entities annotated by the NCBO Annotator
+		['felbatol', 'felbamate', 'felbamate', 'felbamate', 'felbamate', 'felbamate', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'felbamate': ['felbamate'], 'carbamazepine': ['carbamazepine'], 'felbatol': ['felbatol']}
+
+12 unique entities in the reference annotation set
+		['felbatol', 'felbamate', 'felbamate', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine', 'carbamazepine epoxide', 'carbamazepine epoxide', 'carbamazepine epoxide']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'felbamate': ['felbamate'], 'carbamazepine': ['carbamazepine epoxide', 'carbamazepine'], 'felbatol': ['felbatol']}
+
+3 perfect string matches between Knowtator and NCBO: set(['felbamate', 'carbamazepine', 'felbatol'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['felbamate', 'carbamazepine', 'felbatol']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

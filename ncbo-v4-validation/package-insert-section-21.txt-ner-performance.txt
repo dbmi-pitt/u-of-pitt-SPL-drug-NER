@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-21.txt-PROCESSED.xml for annotations
+
+24 unique entities annotated by the NCBO Annotator
+		['fluconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'norethindrone', 'norethindrone', 'norethindrone', 'norethindrone', 'norethindrone', 'norethindrone', 'norethindrone', 'norethindrone', 'ethinyl estradiol', 'ethinyl estradiol', 'ethinyl estradiol', 'ethinyl estradiol', 'ethinyl estradiol', 'ethinyl estradiol', 'ethinyl estradiol', 'ethinyl estradiol']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'fluconazole': ['fluconazole'], 'ethinyl estradiol': ['ethinyl estradiol'], 'norethindrone': ['norethindrone']}
+
+11 unique entities in the reference annotation set
+		['fluconazole', 'fluconazole', 'fluconazole', 'fluconazole', 'norethindrone', 'norethindrone', 'norethindrone', 'norethindrone', 'ethinyl estradiol', 'ethinyl estradiol', 'ethinyl estradiol']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'fluconazole': ['fluconazole'], 'ethinyl estradiol': ['ethinyl estradiol'], 'norethindrone': ['norethindrone']}
+
+3 perfect string matches between Knowtator and NCBO: set(['fluconazole', 'ethinyl estradiol', 'norethindrone'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['fluconazole', 'ethinyl estradiol', 'norethindrone']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

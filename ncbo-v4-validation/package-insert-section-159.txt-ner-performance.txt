@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-159.txt-PROCESSED.xml for annotations
+
+9 unique entities annotated by the NCBO Annotator
+		['digoxin', 'digoxin', 'digoxin', 'digoxin', 'mexiletine', 'mexiletine', 'mexiletine', 'hydroxide,', 'mexiletine hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'hydroxide,': ['hydroxide,'], 'digoxin': ['digoxin'], 'mexiletine': ['mexiletine', 'mexiletine hydrochloride']}
+
+6 unique entities in the reference annotation set
+		['digoxin', 'digoxin', 'aluminum', 'magnesium', 'mexiletine', 'mexiletine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'digoxin': ['digoxin'], 'magnesium': ['magnesium'], 'aluminum': ['aluminum'], 'mexiletine': ['mexiletine']}
+
+2 perfect string matches between Knowtator and NCBO: set(['digoxin', 'mexiletine'])
+
+
+Prior to processing -- ncboTermsDiff: ['hydroxide,']
+knowtTermsDiff: ['magnesium', 'aluminum']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['hydroxide,']
+knowtTermsDiff: ['magnesium', 'aluminum']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['digoxin', 'mexiletine']
+
+1 annotations unique to NCBO: ['hydroxide,']
+
+2 annotations unique to Knowtator: ['magnesium', 'aluminum']
+------------------------------------------------------------
+Recall: 0.50
+precision: 0.67
+F-measure: 0.57
+------------------------------------------------------------

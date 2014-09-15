@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-1.txt-PROCESSED.xml for annotations
+
+20 unique entities annotated by the NCBO Annotator
+		['didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'tenofovir disoproxil', 'tenofovir disoproxil', 'tenofovir disoproxil', 'tenofovir disoproxil fumarate', 'tenofovir disoproxil fumarate', 'tenofovir disoproxil fumarate']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'tenofovir disoproxil': ['tenofovir disoproxil', 'tenofovir disoproxil fumarate'], 'didanosine': ['didanosine']}
+
+10 unique entities in the reference annotation set
+		['tenofovir', 'tenofovir', 'tenofovir', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine', 'didanosine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'didanosine': ['didanosine'], 'tenofovir': ['tenofovir']}
+
+1 perfect string matches between Knowtator and NCBO: set(['didanosine'])
+
+
+Prior to processing -- ncboTermsDiff: ['tenofovir disoproxil']
+knowtTermsDiff: ['tenofovir']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'tenofovir': ['tenofovir', 'tenofovir disoproxil']}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: [['tenofovir', 'tenofovir disoproxil']]
+DEBUG: AllMatches =  [['tenofovir', 'tenofovir disoproxil'], 'didanosine']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-51.txt-PROCESSED.xml for annotations
+
+10 unique entities annotated by the NCBO Annotator
+		['ritonavir', 'ritonavir', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'paroxetine', 'fosamprenavir', 'fosamprenavir']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'paroxetine': ['paroxetine'], 'ritonavir': ['ritonavir'], 'fosamprenavir': ['fosamprenavir']}
+
+3 unique entities in the reference annotation set
+		['paroxetine', 'paroxetine', 'fosamprenavir/ritonavir']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'paroxetine': ['paroxetine'], 'fosamprenavir/ritonavir': ['fosamprenavir/ritonavir']}
+
+1 perfect string matches between Knowtator and NCBO: set(['paroxetine'])
+
+
+Prior to processing -- ncboTermsDiff: ['ritonavir', 'fosamprenavir']
+knowtTermsDiff: ['fosamprenavir/ritonavir']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'fosamprenavir': ['fosamprenavir/ritonavir', 'fosamprenavir']}
+Post processing -- ncboTermsDiff: ['ritonavir']
+knowtTermsDiff: []
+inperfectMtchs: [['fosamprenavir/ritonavir', 'fosamprenavir']]
+DEBUG: AllMatches =  [['fosamprenavir/ritonavir', 'fosamprenavir'], 'paroxetine']
+
+1 annotations unique to NCBO: ['ritonavir']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.67
+F-measure: 0.80
+------------------------------------------------------------

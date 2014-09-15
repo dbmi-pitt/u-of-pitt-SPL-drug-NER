@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-68.txt-PROCESSED.xml for annotations
+
+13 unique entities annotated by the NCBO Annotator
+		['rifampin', 'rifampin', 'warfarin', 'warfarin', 'thiazide', 'bisoprolol', 'bisoprolol', 'cimetidine', 'cimetidine', 'prothrombin', 'prothrombin', 'bisoprolol fumarate', 'bisoprolol fumarate']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'bisoprolol': ['bisoprolol fumarate', 'bisoprolol'], 'warfarin': ['warfarin'], 'prothrombin': ['prothrombin'], 'thiazide': ['thiazide'], 'rifampin': ['rifampin'], 'cimetidine': ['cimetidine']}
+
+5 unique entities in the reference annotation set
+		['warfarin', 'rifampin', 'cimetidine', 'bisoprolol', 'bisoprolol']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'rifampin': ['rifampin'], 'warfarin': ['warfarin'], 'bisoprolol': ['bisoprolol'], 'cimetidine': ['cimetidine']}
+
+4 perfect string matches between Knowtator and NCBO: set(['rifampin', 'warfarin', 'bisoprolol', 'cimetidine'])
+
+
+Prior to processing -- ncboTermsDiff: ['thiazide', 'prothrombin']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['thiazide', 'prothrombin']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['rifampin', 'warfarin', 'bisoprolol', 'cimetidine']
+
+2 annotations unique to NCBO: ['thiazide', 'prothrombin']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.67
+F-measure: 0.80
+------------------------------------------------------------

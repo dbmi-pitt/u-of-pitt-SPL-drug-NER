@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-102.txt-PROCESSED.xml for annotations
+
+36 unique entities annotated by the NCBO Annotator
+		['digoxin', 'digoxin', 'ethanol', 'ethanol', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'levodopa', 'levodopa', 'alcohol,', 'tetracycline', 'tetracycline', 'cyclosporine', 'cyclosporine', 'cyclosporine', 'acetaminophen', 'acetaminophen', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'alcohol,': ['alcohol,'], 'metoclopramide': ['metoclopramide'], 'cyclosporine': ['cyclosporine'], 'tetracycline': ['tetracycline'], 'levodopa': ['levodopa'], 'digoxin': ['digoxin'], 'insulin': ['insulin'], 'ethanol': ['ethanol'], 'acetaminophen': ['acetaminophen']}
+
+15 unique entities in the reference annotation set
+		['digoxin', 'ethanol', 'alcohol', 'levodopa', 'cyclosporine', 'tetracycline', 'acetaminophen', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide', 'metoclopramide']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'alcohol': ['alcohol'], 'metoclopramide': ['metoclopramide'], 'cyclosporine': ['cyclosporine'], 'tetracycline': ['tetracycline'], 'levodopa': ['levodopa'], 'digoxin': ['digoxin'], 'ethanol': ['ethanol'], 'acetaminophen': ['acetaminophen']}
+
+7 perfect string matches between Knowtator and NCBO: set(['metoclopramide', 'cyclosporine', 'tetracycline', 'levodopa', 'digoxin', 'ethanol', 'acetaminophen'])
+
+
+Prior to processing -- ncboTermsDiff: ['alcohol,', 'insulin']
+knowtTermsDiff: ['alcohol']
+
+Collapsed version of entities not matched by perfect string matches:
+		{'alcohol': ['alcohol', 'alcohol,']}
+Post processing -- ncboTermsDiff: ['insulin']
+knowtTermsDiff: []
+inperfectMtchs: [['alcohol', 'alcohol,']]
+DEBUG: AllMatches =  [['alcohol', 'alcohol,'], 'metoclopramide', 'cyclosporine', 'tetracycline', 'levodopa', 'digoxin', 'ethanol', 'acetaminophen']
+
+1 annotations unique to NCBO: ['insulin']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.89
+F-measure: 0.94
+------------------------------------------------------------

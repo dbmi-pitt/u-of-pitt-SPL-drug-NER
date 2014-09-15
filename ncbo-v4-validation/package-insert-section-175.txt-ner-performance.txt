@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-175.txt-PROCESSED.xml for annotations
+
+27 unique entities annotated by the NCBO Annotator
+		['ritonavir', 'ritonavir', 'phenytoin', 'phenytoin', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'nelfinavir', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'grapefruit', 'ganciclovir', 'ganciclovir']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'phenytoin': ['phenytoin'], 'ritonavir': ['ritonavir'], 'nelfinavir': ['nelfinavir'], 'tacrolimus': ['tacrolimus'], 'ganciclovir': ['ganciclovir'], 'grapefruit': ['grapefruit']}
+
+13 unique entities in the reference annotation set
+		['phenytoin', 'ritonavir', 'nelfinavir', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'tacrolimus', 'nelfinavir', 'tacrolimus', 'tacrolimus', 'nelfinavir', 'tacrolimus', 'ganciclovir']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'phenytoin': ['phenytoin'], 'ganciclovir': ['ganciclovir'], 'ritonavir': ['ritonavir'], 'nelfinavir': ['nelfinavir'], 'tacrolimus': ['tacrolimus']}
+
+5 perfect string matches between Knowtator and NCBO: set(['phenytoin', 'ganciclovir', 'ritonavir', 'nelfinavir', 'tacrolimus'])
+
+
+Prior to processing -- ncboTermsDiff: ['grapefruit']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['grapefruit']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['phenytoin', 'ganciclovir', 'ritonavir', 'nelfinavir', 'tacrolimus']
+
+1 annotations unique to NCBO: ['grapefruit']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.83
+F-measure: 0.91
+------------------------------------------------------------

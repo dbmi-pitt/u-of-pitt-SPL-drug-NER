@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-105.txt-PROCESSED.xml for annotations
+
+81 unique entities annotated by the NCBO Annotator
+		['water.', 'vaprisol', 'vaprisol', 'vaprisol', 'vaprisol', 'arginine', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'vasopressin', 'moxifloxacin', 'moxifloxacin', 'moxifloxacin', 'moxifloxacin', 'conivaptan hydrochloride', 'conivaptan hydrochloride', 'conivaptan hydrochloride', 'conivaptan hydrochloride', 'conivaptan hydrochloride', 'conivaptan hydrochloride', 'conivaptan hydrochloride']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'moxifloxacin': ['moxifloxacin'], 'vasopressin': ['vasopressin'], 'conivaptan': ['conivaptan hydrochloride', 'conivaptan'], 'arginine': ['arginine'], 'vaprisol': ['vaprisol'], 'water.': ['water.']}
+
+39 unique entities in the reference annotation set
+		['vaprisol', 'vaprisol', 'vaprisol', 'vaprisol', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'conivaptan', 'moxifloxacin', 'moxifloxacin']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'moxifloxacin': ['moxifloxacin'], 'vaprisol': ['vaprisol'], 'conivaptan': ['conivaptan']}
+
+3 perfect string matches between Knowtator and NCBO: set(['moxifloxacin', 'vaprisol', 'conivaptan'])
+
+
+Prior to processing -- ncboTermsDiff: ['vasopressin', 'arginine', 'water.']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['vasopressin', 'arginine', 'water.']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['moxifloxacin', 'vaprisol', 'conivaptan']
+
+3 annotations unique to NCBO: ['vasopressin', 'arginine', 'water.']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.50
+F-measure: 0.67
+------------------------------------------------------------

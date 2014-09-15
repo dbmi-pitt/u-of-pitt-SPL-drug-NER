@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-119.txt-PROCESSED.xml for annotations
+
+10 unique entities annotated by the NCBO Annotator
+		['synercid', 'synercid', 'synercid', 'oxacillin', 'oxacillin', 'cefazolin', 'cefazolin', 'cefazolin', 'vancomycin', 'methicillin']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'methicillin': ['methicillin'], 'oxacillin': ['oxacillin'], 'cefazolin': ['cefazolin'], 'synercid': ['synercid'], 'vancomycin': ['vancomycin']}
+
+7 unique entities in the reference annotation set
+		['synercid', 'synercid', 'synercid', 'oxacillin', 'cefazolin', 'vancomycin', 'penicillin']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'penicillin': ['penicillin'], 'oxacillin': ['oxacillin'], 'cefazolin': ['cefazolin'], 'synercid': ['synercid'], 'vancomycin': ['vancomycin']}
+
+4 perfect string matches between Knowtator and NCBO: set(['oxacillin', 'synercid', 'cefazolin', 'vancomycin'])
+
+
+Prior to processing -- ncboTermsDiff: ['methicillin']
+knowtTermsDiff: ['penicillin']
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['methicillin']
+knowtTermsDiff: ['penicillin']
+inperfectMtchs: []
+DEBUG: AllMatches =  ['oxacillin', 'synercid', 'cefazolin', 'vancomycin']
+
+1 annotations unique to NCBO: ['methicillin']
+
+1 annotations unique to Knowtator: ['penicillin']
+------------------------------------------------------------
+Recall: 0.80
+precision: 0.80
+F-measure: 0.80
+------------------------------------------------------------

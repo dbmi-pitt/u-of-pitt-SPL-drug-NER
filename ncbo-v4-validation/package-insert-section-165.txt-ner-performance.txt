@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-165.txt-PROCESSED.xml for annotations
+
+16 unique entities annotated by the NCBO Annotator
+		['morphine', 'morphine', 'meperidine', 'meperidine', 'meperidine', 'meperidine', 'meperidine', 'meperidine', 'prednisolone', 'prednisolone', 'prednisolone', 'hydrocortisone', 'hydrocortisone', 'chlorpromazine', 'chlorpromazine', 'chlorpromazine']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'meperidine': ['meperidine'], 'prednisolone': ['prednisolone'], 'hydrocortisone': ['hydrocortisone'], 'morphine': ['morphine'], 'chlorpromazine': ['chlorpromazine']}
+
+7 unique entities in the reference annotation set
+		['morphine', 'meperidine', 'meperidine', 'meperidine', 'prednisolone', 'hydrocortisone', 'chlorpromazine']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'meperidine': ['meperidine'], 'prednisolone': ['prednisolone'], 'hydrocortisone': ['hydrocortisone'], 'morphine': ['morphine'], 'chlorpromazine': ['chlorpromazine']}
+
+5 perfect string matches between Knowtator and NCBO: set(['meperidine', 'hydrocortisone', 'prednisolone', 'morphine', 'chlorpromazine'])
+
+
+Prior to processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: []
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['meperidine', 'hydrocortisone', 'prednisolone', 'morphine', 'chlorpromazine']
+
+0 annotations unique to NCBO: []
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 1.00
+F-measure: 1.00
+------------------------------------------------------------

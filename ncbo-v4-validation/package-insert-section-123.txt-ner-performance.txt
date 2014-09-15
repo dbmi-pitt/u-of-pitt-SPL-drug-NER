@@ -1,0 +1,37 @@
+
+************************************************************
+Parsing ../processed-output/package-insert-section-123.txt-PROCESSED.xml for annotations
+
+237 unique entities annotated by the NCBO Annotator
+		['ob/ob', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'insulin', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'digoxin', 'digoxin', 'digoxin', 'digoxin', 'ethanol', 'ethanol', 'alcohol', 'alcohol', 'rifampin', 'rifampin', 'rifampin', 'rifampin', 'acarbose', 'acarbose', 'acarbose', 'acarbose', 'warfarin', 'warfarin', 'warfarin', 'warfarin', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'metformin', 'nifedipine', 'nifedipine', 'nifedipine', 'ranitidine', 'ranitidine', 'ranitidine', 'ranitidine', 'cholesterol', 'gemfibrozil', 'gemfibrozil', 'gemfibrozil', 'gemfibrozil', 'gemfibrozil', 'gemfibrozil', 'glimepiride', 'glimepiride', 'glimepiride', 'glimepiride', 'glimepiride', 'glimepiride', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'norethindrone', 'norethindrone', 'ethinyl estradiol', 'ethinyl estradiol', 'thiazolidinedione', 'rosiglitazone maleate']
+
+Collapsed version of unique entities annotated by the NCBO Annotator:
+		{'nifedipine': ['nifedipine'], 'norethindrone': ['norethindrone'], 'alcohol': ['alcohol'], 'ethinyl estradiol': ['ethinyl estradiol'], 'metformin': ['metformin'], 'thiazolidinedione': ['thiazolidinedione'], 'warfarin': ['warfarin'], 'ranitidine': ['ranitidine'], 'glimepiride': ['glimepiride'], 'rifampin': ['rifampin'], 'digoxin': ['digoxin'], 'insulin': ['insulin'], 'ethanol': ['ethanol'], 'cholesterol': ['cholesterol'], 'acarbose': ['acarbose'], 'glyburide': ['glyburide'], 'rosiglitazone': ['rosiglitazone', 'rosiglitazone maleate'], 'ob/ob': ['ob/ob'], 'gemfibrozil': ['gemfibrozil'], 'avandia': ['avandia']}
+
+100 unique entities in the reference annotation set
+		['digoxin', 'avandia', 'digoxin', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'avandia', 'alcohol', 'warfarin', 'rifampin', 'acarbose', 'warfarin', 'acarbose', 'rifampin', 'metformin', 'metformin', 'metformin', 'metformin', 'glyburide', 'metformin', 'metformin', 'glyburide', 'glyburide', 'metformin', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'glyburide', 'ranitidine', 'ranitidine', 'nifedipine', 'gemfibrozil', 'gemfibrozil', 'glimepiride', 'glimepiride', 'glimepiride', 'gemfibrozil', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'norethindrone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'rosiglitazone', 'ethinyl estradiol']
+
+Collapsed version of unique entities annotated by the KNOWT Annotator:
+		{'nifedipine': ['nifedipine'], 'avandia': ['avandia'], 'glimepiride': ['glimepiride'], 'warfarin': ['warfarin'], 'ranitidine': ['ranitidine'], 'ethinyl estradiol': ['ethinyl estradiol'], 'rifampin': ['rifampin'], 'digoxin': ['digoxin'], 'norethindrone': ['norethindrone'], 'acarbose': ['acarbose'], 'glyburide': ['glyburide'], 'rosiglitazone': ['rosiglitazone'], 'metformin': ['metformin'], 'gemfibrozil': ['gemfibrozil'], 'alcohol': ['alcohol']}
+
+15 perfect string matches between Knowtator and NCBO: set(['nifedipine', 'alcohol', 'avandia', 'glimepiride', 'warfarin', 'ranitidine', 'rifampin', 'digoxin', 'norethindrone', 'acarbose', 'glyburide', 'rosiglitazone', 'metformin', 'gemfibrozil', 'ethinyl estradiol'])
+
+
+Prior to processing -- ncboTermsDiff: ['thiazolidinedione', 'ob/ob', 'insulin', 'ethanol', 'cholesterol']
+knowtTermsDiff: []
+
+Collapsed version of entities not matched by perfect string matches:
+		{}
+Post processing -- ncboTermsDiff: ['thiazolidinedione', 'ob/ob', 'insulin', 'ethanol', 'cholesterol']
+knowtTermsDiff: []
+inperfectMtchs: []
+DEBUG: AllMatches =  ['nifedipine', 'alcohol', 'avandia', 'glimepiride', 'warfarin', 'ranitidine', 'rifampin', 'digoxin', 'norethindrone', 'acarbose', 'glyburide', 'rosiglitazone', 'metformin', 'gemfibrozil', 'ethinyl estradiol']
+
+5 annotations unique to NCBO: ['thiazolidinedione', 'ob/ob', 'insulin', 'ethanol', 'cholesterol']
+
+0 annotations unique to Knowtator: []
+------------------------------------------------------------
+Recall: 1.00
+precision: 0.75
+F-measure: 0.86
+------------------------------------------------------------
