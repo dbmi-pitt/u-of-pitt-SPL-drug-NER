@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-202.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_74632" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="0" end="12" />
+    <spannedText>Voriconazole</spannedText>
+    <creationDate>Mon Mar 28 09:54:16 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_74634" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="211" end="220" />
+    <spannedText>methadone</spannedText>
+    <creationDate>Mon Mar 28 09:54:37 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_74613" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="49" end="61" />
+    <spannedText>voriconazole</spannedText>
+    <creationDate>Mon Mar 28 09:54:21 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_74639" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="570" end="579" />
+    <spannedText>methadone</spannedText>
+    <creationDate>Mon Mar 28 09:54:56 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_74641" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="502" end="511" />
+    <spannedText>methadone</spannedText>
+    <creationDate>Mon Mar 28 09:54:53 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_74643" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="367" end="376" />
+    <spannedText>methadone</spannedText>
+    <creationDate>Mon Mar 28 09:54:49 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_74653" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="147" end="156" />
+    <spannedText>methadone</spannedText>
+    <creationDate>Mon Mar 28 09:54:34 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_74662" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="281" end="290" />
+    <spannedText>methadone</spannedText>
+    <creationDate>Mon Mar 28 09:54:46 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_74641">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_74643">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_74653">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_74639">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_74613">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_74634">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_74632">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_74662">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+</annotations>
+

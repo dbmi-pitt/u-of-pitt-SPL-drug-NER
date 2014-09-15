@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-31.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_75678" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="363" end="374" />
+    <spannedText>fluconazole</spannedText>
+    <creationDate>Mon Mar 28 10:13:48 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_75680" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="337" end="346" />
+    <spannedText>glyburide</spannedText>
+    <creationDate>Mon Mar 28 10:13:44 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_75671" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="20" end="29" />
+    <spannedText>glyburide</spannedText>
+    <creationDate>Mon Mar 28 10:13:31 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_75669" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="110" end="121" />
+    <spannedText>fluconazole</spannedText>
+    <creationDate>Mon Mar 28 10:13:41 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_75678">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_75680">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_75671">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_75669">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+</annotations>
+

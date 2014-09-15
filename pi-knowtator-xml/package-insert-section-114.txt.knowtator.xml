@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-114.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_61736" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="309" end="319" />
+    <spannedText>nifedipine</spannedText>
+    <creationDate>Thu Mar 24 13:24:43 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_61771" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="198" end="210" />
+    <spannedText>quinupristin</spannedText>
+    <creationDate>Thu May 12 11:05:00 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_61760" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="211" end="223" />
+    <spannedText>dalfopristin</spannedText>
+    <creationDate>Thu Mar 24 13:24:39 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_61790" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="375" end="385" />
+    <spannedText>nifedipine</spannedText>
+    <creationDate>Thu Mar 24 13:24:53 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_61794" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="533" end="543" />
+    <spannedText>nifedipine</spannedText>
+    <creationDate>Thu Mar 24 13:25:08 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_61796" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="455" end="465" />
+    <spannedText>nifedipine</spannedText>
+    <creationDate>Thu Mar 24 13:25:01 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_61762" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="228" end="238" />
+    <spannedText>nifedipine</spannedText>
+    <creationDate>Thu Mar 24 13:24:36 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_61799" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="156" end="166" />
+    <spannedText>nifedipine</spannedText>
+    <creationDate>Thu Mar 24 13:24:31 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_61790">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_61762">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_61796">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_61794">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_61771">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_61799">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_61760">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_61736">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+</annotations>
+

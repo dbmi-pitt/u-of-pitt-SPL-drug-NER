@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-50.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_77859" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="210" end="222" />
+    <spannedText>procyclidine</spannedText>
+    <creationDate>Mon Mar 28 10:47:52 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_77861" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="295" end="307" />
+    <spannedText>procyclidine</spannedText>
+    <creationDate>Mon Mar 28 10:47:55 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_77853" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="39" end="49" />
+    <spannedText>paroxetine</spannedText>
+    <creationDate>Mon Mar 28 10:47:35 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_77874" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="126" end="138" />
+    <spannedText>procyclidine</spannedText>
+    <creationDate>Mon Mar 28 10:47:50 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_77859">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_77853">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_77861">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_77874">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+</annotations>
+

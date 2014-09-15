@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-173.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68114" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1140" end="1147" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:03:20 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68116" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1383" end="1390" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:03:24 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68118" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1452" end="1459" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:03:27 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68120" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2086" end="2093" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:03:31 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68122" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="52" end="59" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:03:16 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68124" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3670" end="3677" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:03:55 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68126" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3830" end="3837" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:03:58 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68128" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4321" end="4328" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:04:11 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68130" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4367" end="4374" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:04:15 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68132" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2244" end="2251" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:03:35 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68134" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2344" end="2351" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:03:42 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68136" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="2478" end="2485" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:03:47 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68138" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3238" end="3245" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:03:51 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68140" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5429" end="5436" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:05:03 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68142" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5265" end="5272" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:05:00 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68144" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5741" end="5748" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:06:05 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68146" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5523" end="5530" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:05:57 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68148" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4708" end="4715" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:04:23 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68150" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4671" end="4678" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:04:19 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68152" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5041" end="5048" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:04:53 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68154" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="4878" end="4885" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:04:49 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68156" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="7406" end="7413" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:06:29 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68158" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="7031" end="7038" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:06:26 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68160" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="7566" end="7573" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:06:33 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68162" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="6163" end="6170" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:06:14 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68164" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5964" end="5971" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:06:10 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68166" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="6719" end="6726" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:06:22 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68168" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="6283" end="6290" />
+    <spannedText>LIPITOR</spannedText>
+    <creationDate>Sat Mar 26 12:06:18 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68230" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="5574" end="5586" />
+    <spannedText>erythromycin</spannedText>
+    <creationDate>Sat Mar 26 12:06:01 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_68232" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="3876" end="3888" />
+    <spannedText>atorvastatin</spannedText>
+    <creationDate>Sat Mar 26 12:04:06 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_68232">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68230">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68166">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68164">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68168">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68156">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68124">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68158">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68126">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68160">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68128">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68162">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68130">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68148">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68116">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68150">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68118">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68152">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68120">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68154">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68122">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68140">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68142">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68144">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68114">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68146">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68132">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68134">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68136">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_68138">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+</annotations>
+

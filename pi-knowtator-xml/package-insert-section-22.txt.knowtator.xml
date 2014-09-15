@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-22.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_75220" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="316" end="333" />
+    <spannedText>ethinyl estradiol</spannedText>
+    <creationDate>Mon Mar 28 10:05:19 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_75207" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="282" end="293" />
+    <spannedText>fluconazole</spannedText>
+    <creationDate>Mon Mar 28 10:05:17 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_75217" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="226" end="240" />
+    <spannedText>levonorgestrel</spannedText>
+    <creationDate>Mon Mar 28 10:05:10 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_75225" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="370" end="384" />
+    <spannedText>levonorgestrel</spannedText>
+    <creationDate>Mon Mar 28 10:05:21 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_75227" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="104" end="115" />
+    <spannedText>fluconazole</spannedText>
+    <creationDate>Mon Mar 28 10:04:44 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_75217">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_75220">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_75225">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_75207">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_75227">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+</annotations>
+

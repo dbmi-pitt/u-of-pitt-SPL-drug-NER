@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-162.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_66815" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="144" end="155" />
+    <spannedText>amoxicillin</spannedText>
+    <creationDate>Sat Mar 26 11:32:46 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_66817" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="115" end="127" />
+    <spannedText>azithromycin</spannedText>
+    <creationDate>Sat Mar 26 11:32:42 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_66819" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="793" end="805" />
+    <spannedText>azithromycin</spannedText>
+    <creationDate>Sat Mar 26 11:33:04 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_66821" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="699" end="711" />
+    <spannedText>azithromycin</spannedText>
+    <creationDate>Sat Mar 26 11:32:59 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_66821">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_66819">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_66817">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_66815">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+</annotations>
+

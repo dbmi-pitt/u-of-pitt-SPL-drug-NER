@@ -1,0 +1,865 @@
+; Mon Jun 13 20:13:11 PDT 2011
+; 
+;+ (version "3.3")
+;+ (build "Build 418")
+
+([BROWSER_SLOT_NAMES] of  Property_List
+
+	(properties
+		[PI-NLP-Consensus_ProjectKB_Instance_10732]
+		[PI-NLP-Consensus_ProjectKB_Instance_10733]))
+
+([CLSES_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesTab"))
+
+([ddi-090910_ProjectKB_Instance_68] of  String
+
+	(name "SearchTab_Query"))
+
+([ddi-090910_ProjectKB_Instance_699] of  Widget
+
+	(is_hidden FALSE)
+	(name "Interaction")
+	(property_list [ddi-090910_ProjectKB_Instance_700])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([ddi-090910_ProjectKB_Instance_700] of  Property_List
+
+	(properties
+		[ddi-090910_ProjectKB_Instance_701]
+		[ddi-090910_ProjectKB_Instance_716]
+		[ddi-090910_ProjectKB_Instance_720]
+		[ddi-090910_ProjectKB_Instance_724]
+		[ddi-090910_ProjectKB_Instance_726]))
+
+([ddi-090910_ProjectKB_Instance_701] of  Property_List
+
+	(name "layout properties"))
+
+([ddi-090910_ProjectKB_Instance_716] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "1. Precipitant")
+	(property_list [ddi-090910_ProjectKB_Instance_717])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([ddi-090910_ProjectKB_Instance_717] of  Property_List
+
+	(properties
+		[ddi-090910_ProjectKB_Instance_718]
+		[ddi-090910_ProjectKB_Instance_719]))
+
+([ddi-090910_ProjectKB_Instance_718] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([ddi-090910_ProjectKB_Instance_719] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ddi-090910_ProjectKB_Instance_720] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "2. Object")
+	(property_list [ddi-090910_ProjectKB_Instance_721])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([ddi-090910_ProjectKB_Instance_721] of  Property_List
+
+	(properties
+		[ddi-090910_ProjectKB_Instance_722]
+		[ddi-090910_ProjectKB_Instance_723]))
+
+([ddi-090910_ProjectKB_Instance_722] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([ddi-090910_ProjectKB_Instance_723] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ddi-090910_ProjectKB_Instance_724] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "3. Modality")
+	(property_list [ddi-090910_ProjectKB_Instance_725])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 0)
+	(y 120))
+
+([ddi-090910_ProjectKB_Instance_725] of  Property_List
+)
+
+([ddi-090910_ProjectKB_Instance_726] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "4. Interaction Phrase")
+	(property_list [ddi-090910_ProjectKB_Instance_727])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 180))
+
+([ddi-090910_ProjectKB_Instance_727] of  Property_List
+
+	(properties
+		[ddi-090910_ProjectKB_Instance_728]
+		[ddi-090910_ProjectKB_Instance_729]))
+
+([ddi-090910_ProjectKB_Instance_728] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([ddi-090910_ProjectKB_Instance_729] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([ddi-090910_ProjectKB_Instance_75] of  Map
+
+	(entries
+		[PI-NLP-Consensus_ProjectKB_Instance_10734]
+		[PI-NLP-Consensus_ProjectKB_Instance_10735]
+		[PI-NLP-Consensus_ProjectKB_Instance_10736]
+		[PI-NLP-Consensus_ProjectKB_Instance_10737]
+		[PI-NLP-Consensus_ProjectKB_Instance_10738]
+		[PI-NLP-Consensus_ProjectKB_Instance_10739]
+		[PI-NLP-Consensus_ProjectKB_Instance_10740]
+		[PI-NLP-Consensus_ProjectKB_Instance_10741]
+		[PI-NLP-Consensus_ProjectKB_Instance_10742]
+		[PI-NLP-Consensus_ProjectKB_Instance_10743]
+		[PI-NLP-Consensus_ProjectKB_Instance_10744]
+		[PI-NLP-Consensus_ProjectKB_Instance_10745]))
+
+([FORMS_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.FormsTab"))
+
+([INSTANCE_ANNOTATION_FORM_WIDGET] of  Widget
+
+	(height 476)
+	(is_hidden FALSE)
+	(name ":INSTANCE-ANNOTATION")
+	(property_list [KB_980914_Instance_33])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 603)
+	(x 0)
+	(y 0))
+
+([INSTANCES_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
+
+([KB_422173_Instance_0] of  String
+
+	(name "factory_class_name")
+	(string_value "edu.stanford.smi.protege.storage.clips.ClipsKnowledgeBaseFactory"))
+
+([KB_422173_Instance_1] of  Options
+
+	(confirm_on_remove FALSE)
+	(display_abstract_class_icon TRUE)
+	(display_hidden_classes TRUE)
+	(display_multi_parent_class_icon TRUE)
+	(is_readonly FALSE)
+	(tabbed_instance_form_layout FALSE)
+	(undo_enabled TRUE)
+	(update_modification_slots FALSE))
+
+([KB_422173_Instance_16] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [KB_422173_Instance_17])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab"))
+
+([KB_422173_Instance_17] of  Property_List
+)
+
+([KB_422173_Instance_28] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [KB_422173_Instance_29])
+	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab"))
+
+([KB_422173_Instance_29] of  Property_List
+)
+
+([KB_422173_Instance_30] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [KB_422173_Instance_31])
+	(widget_class_name "edu.uchsc.ccp.knowtator.Knowtator"))
+
+([KB_422173_Instance_31] of  Property_List
+)
+
+([KB_422173_Instance_6] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [KB_422173_Instance_7])
+	(widget_class_name "edu.stanford.smi.protege.widget.ProtegePropertiesTab"))
+
+([KB_422173_Instance_65] of  Property_List
+
+	(properties [ddi-090910_ProjectKB_Instance_68]))
+
+([KB_422173_Instance_66] of  String
+
+	(name "classes_file_name")
+	(string_value "PI-NLP-Consensus.pont"))
+
+([KB_422173_Instance_67] of  String
+
+	(name "instances_file_name")
+	(string_value "PI-NLP-Consensus.pins"))
+
+([KB_422173_Instance_7] of  Property_List
+)
+
+([KB_980914_Instance_0] of  Property_List
+
+	(name "class widget properties")
+	(properties
+		[KB_980914_Instance_1]
+		[KB_980914_Instance_2]
+		[KB_980914_Instance_3]
+		[KB_980914_Instance_4]
+		[KB_980914_Instance_5]
+		[KB_980914_Instance_6]
+		[KB_980914_Instance_7]
+		[KB_980914_Instance_8]
+		[KB_980914_Instance_9]
+		[KB_980914_Instance_10]))
+
+([KB_980914_Instance_1] of  Widget
+
+	(height 120)
+	(label "Constraints")
+	(name ":SLOT-CONSTRAINTS")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_721])
+	(widget_class_name "edu.stanford.smi.protege.widget.ConstraintsWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_980914_Instance_10] of  Property_List
+
+	(name "layout properties")
+	(properties [KB_980914_Instance_11]))
+
+([KB_980914_Instance_11] of  String
+
+	(name "vertical_stretcher")
+	(string_value ":DIRECT-TEMPLATE-SLOTS"))
+
+([KB_980914_Instance_12] of  Property_List
+
+	(name "slot widget properties")
+	(properties
+		[KB_980914_Instance_13]
+		[KB_980914_Instance_14]
+		[KB_980914_Instance_15]
+		[KB_980914_Instance_16]
+		[KB_980914_Instance_17]
+		[KB_980914_Instance_18]
+		[KB_980914_Instance_19]
+		[KB_980914_Instance_20]
+		[KB_980914_Instance_21]
+		[KB_980914_Instance_22]
+		[KB_980914_Instance_23]
+		[KB_980914_Instance_24]
+		[KB_980914_Instance_25]
+		[KB_980914_Instance_26]
+		[KB_980914_Instance_27]
+		[KB_980914_Instance_28]
+		[PI-NLP-Consensus_ProjectKB_Instance_730]))
+
+([KB_980914_Instance_13] of  Widget
+
+	(height 60)
+	(label "Cardinality")
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_738])
+	(widget_class_name "edu.stanford.smi.protege.widget.MinimumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([KB_980914_Instance_14] of  Widget
+
+	(height 35)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_739])
+	(widget_class_name "edu.stanford.smi.protege.widget.MaximumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 180))
+
+([KB_980914_Instance_15] of  Widget
+
+	(name ":SLOT-CONSTRAINTS"))
+
+([KB_980914_Instance_16] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_980914_Instance_17] of  Widget
+
+	(height 95)
+	(label "Domain")
+	(name ":DIRECT-DOMAIN")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_731])
+	(widget_class_name "edu.stanford.smi.protege.widget.DirectDomainWidget")
+	(width 200)
+	(x 400)
+	(y 180))
+
+([KB_980914_Instance_18] of  Widget
+
+	(height 90)
+	(label "Template Values")
+	(name ":SLOT-VALUES")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_732])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotValuesWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([KB_980914_Instance_19] of  Widget
+
+	(name ":DIRECT-SUPERSLOTS"))
+
+([KB_980914_Instance_2] of  Widget
+
+	(name ":DIRECT-INSTANCES"))
+
+([KB_980914_Instance_20] of  Widget
+
+	(name ":DIRECT-SUBSLOTS"))
+
+([KB_980914_Instance_21] of  Widget
+
+	(height 90)
+	(label "Default")
+	(name ":SLOT-DEFAULTS")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_733])
+	(widget_class_name "edu.stanford.smi.protege.widget.DefaultValuesWidget")
+	(width 200)
+	(x 400)
+	(y 90))
+
+([KB_980914_Instance_22] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_734])
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_980914_Instance_23] of  Widget
+
+	(height 60)
+	(label "Maximum")
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_735])
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMaximumWidget")
+	(width 100)
+	(x 100)
+	(y 215))
+
+([KB_980914_Instance_24] of  Widget
+
+	(height 60)
+	(label "Minimum")
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_736])
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMinimumWidget")
+	(width 100)
+	(x 0)
+	(y 215))
+
+([KB_980914_Instance_25] of  Widget
+
+	(name ":ASSOCIATED-FACET"))
+
+([KB_980914_Instance_26] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_737])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_980914_Instance_27] of  Widget
+
+	(height 60)
+	(label "Inverse Slot")
+	(name ":SLOT-INVERSE")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_740])
+	(widget_class_name "edu.stanford.smi.protege.widget.InverseSlotWidget")
+	(width 200)
+	(x 200)
+	(y 215))
+
+([KB_980914_Instance_28] of  Widget
+
+	(height 155)
+	(label "Value Type")
+	(name ":SLOT-VALUE-TYPE")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_741])
+	(widget_class_name "edu.stanford.smi.protege.widget.ValueTypeWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_980914_Instance_29] of  Property_List
+
+	(name "facet widget properties")
+	(properties
+		[KB_980914_Instance_30]
+		[KB_980914_Instance_31]
+		[KB_980914_Instance_32]))
+
+([KB_980914_Instance_3] of  Widget
+
+	(name ":DIRECT-SUBCLASSES"))
+
+([KB_980914_Instance_30] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_980914_Instance_31] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_980914_Instance_32] of  Widget
+
+	(height 60)
+	(label "Associated Slot")
+	(name ":ASSOCIATED-SLOT")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_980914_Instance_33] of  Property_List
+
+	(properties
+		[KB_980914_Instance_34]
+		[KB_980914_Instance_35]
+		[KB_980914_Instance_36]
+		[KB_980914_Instance_37]))
+
+([KB_980914_Instance_34] of  Widget
+
+	(name ":ANNOTATED-INSTANCE"))
+
+([KB_980914_Instance_35] of  Widget
+
+	(name ":CREATOR"))
+
+([KB_980914_Instance_36] of  Widget
+
+	(name ":CREATION-TIMESTAMP"))
+
+([KB_980914_Instance_37] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(name ":ANNOTATION-TEXT")
+	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_980914_Instance_38] of  Property_List
+
+	(properties
+		[KB_980914_Instance_39]
+		[KB_980914_Instance_40]
+		[KB_980914_Instance_41]
+		[KB_980914_Instance_42]))
+
+([KB_980914_Instance_39] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":PAL-NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 275)
+	(x 0)
+	(y 0))
+
+([KB_980914_Instance_4] of  Widget
+
+	(name ":DIRECT-SUPERCLASSES"))
+
+([KB_980914_Instance_40] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Range")
+	(name ":PAL-RANGE")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalRangeWidget")
+	(width 250)
+	(x 275)
+	(y 180))
+
+([KB_980914_Instance_41] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Description")
+	(name ":PAL-DESCRIPTION")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 275)
+	(y 0))
+
+([KB_980914_Instance_42] of  Widget
+
+	(height 300)
+	(is_hidden FALSE)
+	(label "Statement")
+	(name ":PAL-STATEMENT")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalConstraintWidget")
+	(width 275)
+	(x 0)
+	(y 60))
+
+([KB_980914_Instance_5] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_724])
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([KB_980914_Instance_6] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_725])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([KB_980914_Instance_7] of  Widget
+
+	(height 60)
+	(label "Role")
+	(name ":ROLE")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_729])
+	(widget_class_name "edu.stanford.smi.protege.widget.RoleWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([KB_980914_Instance_8] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([KB_980914_Instance_9] of  Widget
+
+	(height 150)
+	(label "Template Slots")
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(property_list [PI-NLP-Consensus_ProjectKB_Instance_726])
+	(widget_class_name "edu.stanford.smi.protege.widget.TemplateSlotsWidget")
+	(width 600)
+	(x 0)
+	(y 120))
+
+([PAL_FORM_WIDGET] of  Widget
+
+	(height 476)
+	(is_hidden FALSE)
+	(name ":PAL-CONSTRAINT")
+	(property_list [KB_980914_Instance_38])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 603)
+	(x 0)
+	(y 0))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10732] of  String
+
+	(name "knowtator annotation")
+	(string_value "knowtator_annotation_text{+%5B}knowtator_annotation_annotator{+%3A+}knowtator_set{%5D}"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10733] of  String
+
+	(name "Metabolite")
+	(string_value "Active+Ingredient"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10734] of  Map_Entry
+
+	(key "add_name_on_instance_form")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10735] of  Map_Entry
+
+	(key "SHOW_INSTANCES")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.Boolean"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10736] of  Map_Entry
+
+	(key "PROJECT_RECENT_TSC")
+	(key_class "java.lang.String")
+	(value "edu.uchsc.ccp.knowtator.textsource.files.FileTextSourceCollection")
+	(value_class "java.lang.String"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10737] of  Map_Entry
+
+	(key "IAA_FILTER")
+	(key_class "java.lang.String")
+	(value "PI-NLP-Consensus_Instance_60046")
+	(value_class "edu.stanford.smi.protege.model.Frame"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10738] of  Map_Entry
+
+	(key "IAA_DIRECTORY")
+	(key_class "java.lang.String")
+	(value "/home/rguzman/package-insert-nlp/trunk/data/AnnotatedData/ConsensusAnnotations/IAA-calculations")
+	(value_class "java.lang.String"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10739] of  Map_Entry
+
+	(key "PROJECT_RECENT_TSC_INDEX")
+	(key_class "java.lang.String")
+	(value "197")
+	(value_class "java.lang.Integer"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10740] of  Map_Entry
+
+	(key "ACTIVE_CONFIGURATION")
+	(key_class "java.lang.String")
+	(value "ddi-090910_Instance_0")
+	(value_class "edu.stanford.smi.protege.model.Frame"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10741] of  Map_Entry
+
+	(key "change_tracking_active")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10742] of  Map_Entry
+
+	(key "FileTextSourceCollection_RECENT_DIRECTORY")
+	(key_class "java.lang.String")
+	(value "all-statements-combined")
+	(value_class "java.lang.String"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10743] of  Map_Entry
+
+	(key "XML_EXPORT_FILE")
+	(key_class "java.lang.String")
+	(value "/home/boycerd/DI_DIR/src/package-insert-nlp/trunk/data/NCBO-Annotations/package-insert-annotations")
+	(value_class "java.lang.String"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10744] of  Map_Entry
+
+	(key "FileTextSourceCollection_RECENT_CHARSET")
+	(key_class "java.lang.String")
+	(value "UTF-8")
+	(value_class "java.lang.String"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_10745] of  Map_Entry
+
+	(key "IAA_CONFIG_DISPLAY")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.Boolean"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_721] of  Property_List
+
+	(properties
+		[PI-NLP-Consensus_ProjectKB_Instance_722]
+		[PI-NLP-Consensus_ProjectKB_Instance_723]))
+
+([PI-NLP-Consensus_ProjectKB_Instance_722] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_723] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_724] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_725] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_726] of  Property_List
+
+	(properties
+		[PI-NLP-Consensus_ProjectKB_Instance_727]
+		[PI-NLP-Consensus_ProjectKB_Instance_728]))
+
+([PI-NLP-Consensus_ProjectKB_Instance_727] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move up"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_728] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move down"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_729] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_730] of  Property_List
+
+	(name "layout properties"))
+
+([PI-NLP-Consensus_ProjectKB_Instance_731] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_732] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_733] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_734] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_735] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_736] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_737] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_738] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_739] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_740] of  Property_List
+)
+
+([PI-NLP-Consensus_ProjectKB_Instance_741] of  Property_List
+)
+
+([PROJECT] of  Project
+
+	(browser_slot_names [BROWSER_SLOT_NAMES])
+	(customized_instance_widgets
+		[PAL_FORM_WIDGET]
+		[INSTANCE_ANNOTATION_FORM_WIDGET]
+		[STANDARD_CLASS_FORM_WIDGET]
+		[STANDARD_SLOT_FORM_WIDGET]
+		[STANDARD_FACET_FORM_WIDGET]
+		[ddi-090910_ProjectKB_Instance_699])
+	(default_cls_metaclass ":STANDARD-CLASS")
+	(default_facet_metaclass ":STANDARD-FACET")
+	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(default_slot_metaclass ":STANDARD-SLOT")
+	(included_projects "knowtator.pprj")
+	(journaling_enabled FALSE)
+	(next_frame_number 0)
+	(options [KB_422173_Instance_1])
+	(property_map [ddi-090910_ProjectKB_Instance_75])
+	(sources [SOURCES])
+	(tabs
+		[CLSES_TAB]
+		[SLOTS_TAB]
+		[FORMS_TAB]
+		[INSTANCES_TAB]
+		[QUERIES_TAB]
+		[KB_422173_Instance_16]
+		[KB_422173_Instance_28]
+		[KB_422173_Instance_30]
+		[KB_422173_Instance_6]))
+
+([QUERIES_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [KB_422173_Instance_65])
+	(widget_class_name "edu.stanford.smi.protegex.queries_tab.QueriesTab"))
+
+([SLOTS_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotsTab"))
+
+([SOURCES] of  Property_List
+
+	(properties
+		[KB_422173_Instance_0]
+		[KB_422173_Instance_66]
+		[KB_422173_Instance_67]))
+
+([STANDARD_CLASS_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-CLASS")
+	(property_list [KB_980914_Instance_0])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([STANDARD_FACET_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-FACET")
+	(property_list [KB_980914_Instance_29])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([STANDARD_SLOT_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-SLOT")
+	(property_list [KB_980914_Instance_12])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))

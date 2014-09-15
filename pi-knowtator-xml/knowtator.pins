@@ -1,0 +1,1018 @@
+; Sun Oct 11 15:50:33 MDT 2009
+; 
+;+ (version "3.3.1")
+;+ (build "Build 430")
+
+([knowtator_Instance_0] of  knowtator+filter
+
+	(knowtator_filter_name "show all"))
+
+([knowtator_Instance_10000] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 248)
+	(knowtator_display_color_name "alice blue")
+	(knowtator_display_color_R 240))
+
+([knowtator_Instance_10001] of  knowtator+display+color
+
+	(knowtator_display_color_B 215)
+	(knowtator_display_color_G 235)
+	(knowtator_display_color_name "antique white")
+	(knowtator_display_color_R 250))
+
+([knowtator_Instance_10002] of  knowtator+text+source+collection+implementations
+
+	(knowtator_tsc_implementation "edu.uchsc.ccp.knowtator.textsource.files.FileTextSourceCollection"))
+
+([knowtator_Instance_10003] of  knowtator+text+source+collection+implementations
+
+	(knowtator_tsc_implementation "edu.uchsc.ccp.knowtator.textsource.filelines.FileLinesTextSourceCollection"))
+
+([knowtator_Instance_10008] of  knowtator+configuration
+
+	(knowtator_consensus_accept_recursive TRUE)
+	(knowtator_root_clses %3ATHING)
+	(knowtator_token_regex "\\W+"))
+
+([knowtator_Instance_20000] of  knowtator+filter
+
+	(knowtator_filter_name "show none")
+	(knowtator_filter_type knowtator+color+assignment))
+
+([knowtator_Instance_20002] of  knowtator+version
+
+	(version "V009"))
+
+([knowtator_Instance_30002] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "aqua")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30003] of  knowtator+display+color
+
+	(knowtator_display_color_B 212)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "aquamarine")
+	(knowtator_display_color_R 127))
+
+([knowtator_Instance_30004] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "azure")
+	(knowtator_display_color_R 240))
+
+([knowtator_Instance_30005] of  knowtator+display+color
+
+	(knowtator_display_color_B 220)
+	(knowtator_display_color_G 245)
+	(knowtator_display_color_name "beige")
+	(knowtator_display_color_R 245))
+
+([knowtator_Instance_30006] of  knowtator+display+color
+
+	(knowtator_display_color_B 196)
+	(knowtator_display_color_G 228)
+	(knowtator_display_color_name "bisque")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30007] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "black")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30008] of  knowtator+display+color
+
+	(knowtator_display_color_B 205)
+	(knowtator_display_color_G 235)
+	(knowtator_display_color_name "blanched almond")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30009] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "blue")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30010] of  knowtator+display+color
+
+	(knowtator_display_color_B 226)
+	(knowtator_display_color_G 43)
+	(knowtator_display_color_name "blue-violet")
+	(knowtator_display_color_R 138))
+
+([knowtator_Instance_30011] of  knowtator+display+color
+
+	(knowtator_display_color_B 42)
+	(knowtator_display_color_G 42)
+	(knowtator_display_color_name "brown")
+	(knowtator_display_color_R 165))
+
+([knowtator_Instance_30012] of  knowtator+display+color
+
+	(knowtator_display_color_B 135)
+	(knowtator_display_color_G 184)
+	(knowtator_display_color_name "burlywood")
+	(knowtator_display_color_R 222))
+
+([knowtator_Instance_30013] of  knowtator+display+color
+
+	(knowtator_display_color_B 160)
+	(knowtator_display_color_G 158)
+	(knowtator_display_color_name "cadet blue")
+	(knowtator_display_color_R 95))
+
+([knowtator_Instance_30014] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "chartreuse")
+	(knowtator_display_color_R 127))
+
+([knowtator_Instance_30015] of  knowtator+display+color
+
+	(knowtator_display_color_B 30)
+	(knowtator_display_color_G 105)
+	(knowtator_display_color_name "chocolate")
+	(knowtator_display_color_R 210))
+
+([knowtator_Instance_30016] of  knowtator+display+color
+
+	(knowtator_display_color_B 80)
+	(knowtator_display_color_G 127)
+	(knowtator_display_color_name "coral")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30017] of  knowtator+display+color
+
+	(knowtator_display_color_B 237)
+	(knowtator_display_color_G 149)
+	(knowtator_display_color_name "cornflower blue")
+	(knowtator_display_color_R 100))
+
+([knowtator_Instance_30018] of  knowtator+display+color
+
+	(knowtator_display_color_B 220)
+	(knowtator_display_color_G 248)
+	(knowtator_display_color_name "cornsilk")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30019] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "cyan")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30020] of  knowtator+display+color
+
+	(knowtator_display_color_B 139)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "dark blue")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30021] of  knowtator+display+color
+
+	(knowtator_display_color_B 139)
+	(knowtator_display_color_G 139)
+	(knowtator_display_color_name "dark cyan")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30022] of  knowtator+display+color
+
+	(knowtator_display_color_B 11)
+	(knowtator_display_color_G 134)
+	(knowtator_display_color_name "dark goldenrod")
+	(knowtator_display_color_R 184))
+
+([knowtator_Instance_30023] of  knowtator+display+color
+
+	(knowtator_display_color_B 169)
+	(knowtator_display_color_G 169)
+	(knowtator_display_color_name "dark gray")
+	(knowtator_display_color_R 169))
+
+([knowtator_Instance_30024] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 100)
+	(knowtator_display_color_name "dark green")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30025] of  knowtator+display+color
+
+	(knowtator_display_color_B 107)
+	(knowtator_display_color_G 183)
+	(knowtator_display_color_name "dark khaki")
+	(knowtator_display_color_R 189))
+
+([knowtator_Instance_30026] of  knowtator+display+color
+
+	(knowtator_display_color_B 139)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "dark magenta")
+	(knowtator_display_color_R 139))
+
+([knowtator_Instance_30027] of  knowtator+display+color
+
+	(knowtator_display_color_B 47)
+	(knowtator_display_color_G 107)
+	(knowtator_display_color_name "dark olive green")
+	(knowtator_display_color_R 85))
+
+([knowtator_Instance_30028] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 140)
+	(knowtator_display_color_name "dark orange")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30029] of  knowtator+display+color
+
+	(knowtator_display_color_B 204)
+	(knowtator_display_color_G 50)
+	(knowtator_display_color_name "dark orchid")
+	(knowtator_display_color_R 153))
+
+([knowtator_Instance_30030] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "dark red")
+	(knowtator_display_color_R 139))
+
+([knowtator_Instance_30031] of  knowtator+display+color
+
+	(knowtator_display_color_B 122)
+	(knowtator_display_color_G 150)
+	(knowtator_display_color_name "dark salmon")
+	(knowtator_display_color_R 233))
+
+([knowtator_Instance_30032] of  knowtator+display+color
+
+	(knowtator_display_color_B 143)
+	(knowtator_display_color_G 188)
+	(knowtator_display_color_name "dark sea green")
+	(knowtator_display_color_R 143))
+
+([knowtator_Instance_30033] of  knowtator+display+color
+
+	(knowtator_display_color_B 139)
+	(knowtator_display_color_G 61)
+	(knowtator_display_color_name "dark slate blue")
+	(knowtator_display_color_R 72))
+
+([knowtator_Instance_30034] of  knowtator+display+color
+
+	(knowtator_display_color_B 79)
+	(knowtator_display_color_G 79)
+	(knowtator_display_color_name "dark slate gray")
+	(knowtator_display_color_R 47))
+
+([knowtator_Instance_30035] of  knowtator+display+color
+
+	(knowtator_display_color_B 209)
+	(knowtator_display_color_G 206)
+	(knowtator_display_color_name "dark turquoise")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30036] of  knowtator+display+color
+
+	(knowtator_display_color_B 211)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "dark violet")
+	(knowtator_display_color_R 148))
+
+([knowtator_Instance_30037] of  knowtator+display+color
+
+	(knowtator_display_color_B 147)
+	(knowtator_display_color_G 20)
+	(knowtator_display_color_name "deep pink")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30038] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 191)
+	(knowtator_display_color_name "deep sky blue")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30039] of  knowtator+display+color
+
+	(knowtator_display_color_B 105)
+	(knowtator_display_color_G 105)
+	(knowtator_display_color_name "dim gray")
+	(knowtator_display_color_R 105))
+
+([knowtator_Instance_30040] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 144)
+	(knowtator_display_color_name "dodger blue")
+	(knowtator_display_color_R 30))
+
+([knowtator_Instance_30041] of  knowtator+display+color
+
+	(knowtator_display_color_B 34)
+	(knowtator_display_color_G 34)
+	(knowtator_display_color_name "firebrick")
+	(knowtator_display_color_R 178))
+
+([knowtator_Instance_30042] of  knowtator+display+color
+
+	(knowtator_display_color_B 240)
+	(knowtator_display_color_G 250)
+	(knowtator_display_color_name "floral white")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30043] of  knowtator+display+color
+
+	(knowtator_display_color_B 34)
+	(knowtator_display_color_G 139)
+	(knowtator_display_color_name "forest green")
+	(knowtator_display_color_R 34))
+
+([knowtator_Instance_30044] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "fuschia")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30045] of  knowtator+display+color
+
+	(knowtator_display_color_B 220)
+	(knowtator_display_color_G 220)
+	(knowtator_display_color_name "gainsboro")
+	(knowtator_display_color_R 220))
+
+([knowtator_Instance_30046] of  knowtator+display+color
+
+	(knowtator_display_color_B 250)
+	(knowtator_display_color_G 250)
+	(knowtator_display_color_name "ghost white")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30047] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 215)
+	(knowtator_display_color_name "gold")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30048] of  knowtator+display+color
+
+	(knowtator_display_color_B 32)
+	(knowtator_display_color_G 165)
+	(knowtator_display_color_name "goldenrod")
+	(knowtator_display_color_R 218))
+
+([knowtator_Instance_30049] of  knowtator+display+color
+
+	(knowtator_display_color_B 128)
+	(knowtator_display_color_G 128)
+	(knowtator_display_color_name "gray")
+	(knowtator_display_color_R 128))
+
+([knowtator_Instance_30050] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 128)
+	(knowtator_display_color_name "green")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30051] of  knowtator+display+color
+
+	(knowtator_display_color_B 47)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "green-yellow")
+	(knowtator_display_color_R 173))
+
+([knowtator_Instance_30052] of  knowtator+display+color
+
+	(knowtator_display_color_B 240)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "honeydew")
+	(knowtator_display_color_R 240))
+
+([knowtator_Instance_30053] of  knowtator+display+color
+
+	(knowtator_display_color_B 180)
+	(knowtator_display_color_G 105)
+	(knowtator_display_color_name "hot pink")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30054] of  knowtator+display+color
+
+	(knowtator_display_color_B 92)
+	(knowtator_display_color_G 92)
+	(knowtator_display_color_name "indian red")
+	(knowtator_display_color_R 205))
+
+([knowtator_Instance_30055] of  knowtator+display+color
+
+	(knowtator_display_color_B 240)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "ivory")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30056] of  knowtator+display+color
+
+	(knowtator_display_color_B 140)
+	(knowtator_display_color_G 230)
+	(knowtator_display_color_name "khaki")
+	(knowtator_display_color_R 240))
+
+([knowtator_Instance_30057] of  knowtator+display+color
+
+	(knowtator_display_color_B 250)
+	(knowtator_display_color_G 230)
+	(knowtator_display_color_name "lavender")
+	(knowtator_display_color_R 230))
+
+([knowtator_Instance_30058] of  knowtator+display+color
+
+	(knowtator_display_color_B 245)
+	(knowtator_display_color_G 240)
+	(knowtator_display_color_name "lavender blush")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30059] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 252)
+	(knowtator_display_color_name "lawn green")
+	(knowtator_display_color_R 124))
+
+([knowtator_Instance_30060] of  knowtator+display+color
+
+	(knowtator_display_color_B 205)
+	(knowtator_display_color_G 250)
+	(knowtator_display_color_name "lemon chiffon")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30061] of  knowtator+display+color
+
+	(knowtator_display_color_B 230)
+	(knowtator_display_color_G 216)
+	(knowtator_display_color_name "light blue")
+	(knowtator_display_color_R 173))
+
+([knowtator_Instance_30062] of  knowtator+display+color
+
+	(knowtator_display_color_B 128)
+	(knowtator_display_color_G 128)
+	(knowtator_display_color_name "light coral")
+	(knowtator_display_color_R 240))
+
+([knowtator_Instance_30063] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "light cyan")
+	(knowtator_display_color_R 224))
+
+([knowtator_Instance_30064] of  knowtator+display+color
+
+	(knowtator_display_color_B 130)
+	(knowtator_display_color_G 221)
+	(knowtator_display_color_name "light goldenrod")
+	(knowtator_display_color_R 238))
+
+([knowtator_Instance_30065] of  knowtator+display+color
+
+	(knowtator_display_color_B 210)
+	(knowtator_display_color_G 250)
+	(knowtator_display_color_name "light goldenrod yellow")
+	(knowtator_display_color_R 250))
+
+([knowtator_Instance_30066] of  knowtator+display+color
+
+	(knowtator_display_color_B 211)
+	(knowtator_display_color_G 211)
+	(knowtator_display_color_name "light gray")
+	(knowtator_display_color_R 211))
+
+([knowtator_Instance_30067] of  knowtator+display+color
+
+	(knowtator_display_color_B 144)
+	(knowtator_display_color_G 238)
+	(knowtator_display_color_name "light green")
+	(knowtator_display_color_R 144))
+
+([knowtator_Instance_30068] of  knowtator+display+color
+
+	(knowtator_display_color_B 193)
+	(knowtator_display_color_G 182)
+	(knowtator_display_color_name "light pink")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30069] of  knowtator+display+color
+
+	(knowtator_display_color_B 122)
+	(knowtator_display_color_G 160)
+	(knowtator_display_color_name "light salmon")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30070] of  knowtator+display+color
+
+	(knowtator_display_color_B 170)
+	(knowtator_display_color_G 178)
+	(knowtator_display_color_name "light sea green")
+	(knowtator_display_color_R 32))
+
+([knowtator_Instance_30071] of  knowtator+display+color
+
+	(knowtator_display_color_B 250)
+	(knowtator_display_color_G 206)
+	(knowtator_display_color_name "light sky blue")
+	(knowtator_display_color_R 135))
+
+([knowtator_Instance_30072] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 112)
+	(knowtator_display_color_name "light slate blue")
+	(knowtator_display_color_R 132))
+
+([knowtator_Instance_30073] of  knowtator+display+color
+
+	(knowtator_display_color_B 153)
+	(knowtator_display_color_G 136)
+	(knowtator_display_color_name "light slate gray")
+	(knowtator_display_color_R 119))
+
+([knowtator_Instance_30074] of  knowtator+display+color
+
+	(knowtator_display_color_B 222)
+	(knowtator_display_color_G 196)
+	(knowtator_display_color_name "light steel blue")
+	(knowtator_display_color_R 176))
+
+([knowtator_Instance_30075] of  knowtator+display+color
+
+	(knowtator_display_color_B 224)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "light yellow")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30076] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "lime")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30077] of  knowtator+display+color
+
+	(knowtator_display_color_B 50)
+	(knowtator_display_color_G 205)
+	(knowtator_display_color_name "lime green")
+	(knowtator_display_color_R 50))
+
+([knowtator_Instance_30078] of  knowtator+display+color
+
+	(knowtator_display_color_B 230)
+	(knowtator_display_color_G 240)
+	(knowtator_display_color_name "linen")
+	(knowtator_display_color_R 250))
+
+([knowtator_Instance_30079] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "magenta")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30080] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "maroon")
+	(knowtator_display_color_R 128))
+
+([knowtator_Instance_30081] of  knowtator+display+color
+
+	(knowtator_display_color_B 170)
+	(knowtator_display_color_G 205)
+	(knowtator_display_color_name "medium aquamarine")
+	(knowtator_display_color_R 102))
+
+([knowtator_Instance_30082] of  knowtator+display+color
+
+	(knowtator_display_color_B 205)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "medium blue")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30083] of  knowtator+display+color
+
+	(knowtator_display_color_B 211)
+	(knowtator_display_color_G 85)
+	(knowtator_display_color_name "medium orchid")
+	(knowtator_display_color_R 186))
+
+([knowtator_Instance_30084] of  knowtator+display+color
+
+	(knowtator_display_color_B 219)
+	(knowtator_display_color_G 112)
+	(knowtator_display_color_name "medium purple")
+	(knowtator_display_color_R 147))
+
+([knowtator_Instance_30085] of  knowtator+display+color
+
+	(knowtator_display_color_B 113)
+	(knowtator_display_color_G 179)
+	(knowtator_display_color_name "medium sea green")
+	(knowtator_display_color_R 60))
+
+([knowtator_Instance_30086] of  knowtator+display+color
+
+	(knowtator_display_color_B 238)
+	(knowtator_display_color_G 104)
+	(knowtator_display_color_name "medium slate blue")
+	(knowtator_display_color_R 123))
+
+([knowtator_Instance_30087] of  knowtator+display+color
+
+	(knowtator_display_color_B 154)
+	(knowtator_display_color_G 250)
+	(knowtator_display_color_name "medium spring green")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30088] of  knowtator+display+color
+
+	(knowtator_display_color_B 204)
+	(knowtator_display_color_G 209)
+	(knowtator_display_color_name "medium turquoise")
+	(knowtator_display_color_R 72))
+
+([knowtator_Instance_30089] of  knowtator+display+color
+
+	(knowtator_display_color_B 133)
+	(knowtator_display_color_G 21)
+	(knowtator_display_color_name "medium violet-red")
+	(knowtator_display_color_R 199))
+
+([knowtator_Instance_30090] of  knowtator+display+color
+
+	(knowtator_display_color_B 112)
+	(knowtator_display_color_G 25)
+	(knowtator_display_color_name "midnight blue")
+	(knowtator_display_color_R 25))
+
+([knowtator_Instance_30091] of  knowtator+display+color
+
+	(knowtator_display_color_B 250)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "mint cream")
+	(knowtator_display_color_R 245))
+
+([knowtator_Instance_30092] of  knowtator+display+color
+
+	(knowtator_display_color_B 225)
+	(knowtator_display_color_G 228)
+	(knowtator_display_color_name "misty rose")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30093] of  knowtator+display+color
+
+	(knowtator_display_color_B 181)
+	(knowtator_display_color_G 228)
+	(knowtator_display_color_name "moccasin")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30094] of  knowtator+display+color
+
+	(knowtator_display_color_B 173)
+	(knowtator_display_color_G 222)
+	(knowtator_display_color_name "navajo white")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30095] of  knowtator+display+color
+
+	(knowtator_display_color_B 128)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "navy")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30096] of  knowtator+display+color
+
+	(knowtator_display_color_B 230)
+	(knowtator_display_color_G 245)
+	(knowtator_display_color_name "old lace")
+	(knowtator_display_color_R 253))
+
+([knowtator_Instance_30097] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 128)
+	(knowtator_display_color_name "olive")
+	(knowtator_display_color_R 128))
+
+([knowtator_Instance_30098] of  knowtator+display+color
+
+	(knowtator_display_color_B 35)
+	(knowtator_display_color_G 142)
+	(knowtator_display_color_name "olive drab")
+	(knowtator_display_color_R 107))
+
+([knowtator_Instance_30099] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 165)
+	(knowtator_display_color_name "orange")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30100] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 69)
+	(knowtator_display_color_name "orange-red")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30101] of  knowtator+display+color
+
+	(knowtator_display_color_B 214)
+	(knowtator_display_color_G 112)
+	(knowtator_display_color_name "orchid")
+	(knowtator_display_color_R 218))
+
+([knowtator_Instance_30102] of  knowtator+display+color
+
+	(knowtator_display_color_B 170)
+	(knowtator_display_color_G 232)
+	(knowtator_display_color_name "pale goldenrod")
+	(knowtator_display_color_R 238))
+
+([knowtator_Instance_30103] of  knowtator+display+color
+
+	(knowtator_display_color_B 152)
+	(knowtator_display_color_G 251)
+	(knowtator_display_color_name "pale green")
+	(knowtator_display_color_R 152))
+
+([knowtator_Instance_30104] of  knowtator+display+color
+
+	(knowtator_display_color_B 238)
+	(knowtator_display_color_G 238)
+	(knowtator_display_color_name "pale turquoise")
+	(knowtator_display_color_R 175))
+
+([knowtator_Instance_30105] of  knowtator+display+color
+
+	(knowtator_display_color_B 147)
+	(knowtator_display_color_G 112)
+	(knowtator_display_color_name "pale violet-red")
+	(knowtator_display_color_R 219))
+
+([knowtator_Instance_30106] of  knowtator+display+color
+
+	(knowtator_display_color_B 213)
+	(knowtator_display_color_G 239)
+	(knowtator_display_color_name "papaya whip")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30107] of  knowtator+display+color
+
+	(knowtator_display_color_B 185)
+	(knowtator_display_color_G 218)
+	(knowtator_display_color_name "peach puff")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30108] of  knowtator+display+color
+
+	(knowtator_display_color_B 63)
+	(knowtator_display_color_G 133)
+	(knowtator_display_color_name "peru")
+	(knowtator_display_color_R 205))
+
+([knowtator_Instance_30109] of  knowtator+display+color
+
+	(knowtator_display_color_B 203)
+	(knowtator_display_color_G 192)
+	(knowtator_display_color_name "pink")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30110] of  knowtator+display+color
+
+	(knowtator_display_color_B 221)
+	(knowtator_display_color_G 160)
+	(knowtator_display_color_name "plum")
+	(knowtator_display_color_R 221))
+
+([knowtator_Instance_30111] of  knowtator+display+color
+
+	(knowtator_display_color_B 230)
+	(knowtator_display_color_G 224)
+	(knowtator_display_color_name "powder blue")
+	(knowtator_display_color_R 176))
+
+([knowtator_Instance_30112] of  knowtator+display+color
+
+	(knowtator_display_color_B 128)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "purple")
+	(knowtator_display_color_R 128))
+
+([knowtator_Instance_30113] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 0)
+	(knowtator_display_color_name "red")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30114] of  knowtator+display+color
+
+	(knowtator_display_color_B 143)
+	(knowtator_display_color_G 143)
+	(knowtator_display_color_name "rosy brown")
+	(knowtator_display_color_R 188))
+
+([knowtator_Instance_30115] of  knowtator+display+color
+
+	(knowtator_display_color_B 225)
+	(knowtator_display_color_G 105)
+	(knowtator_display_color_name "royal blue")
+	(knowtator_display_color_R 65))
+
+([knowtator_Instance_30116] of  knowtator+display+color
+
+	(knowtator_display_color_B 19)
+	(knowtator_display_color_G 69)
+	(knowtator_display_color_name "saddle brown")
+	(knowtator_display_color_R 139))
+
+([knowtator_Instance_30117] of  knowtator+display+color
+
+	(knowtator_display_color_B 114)
+	(knowtator_display_color_G 128)
+	(knowtator_display_color_name "salmon")
+	(knowtator_display_color_R 250))
+
+([knowtator_Instance_30118] of  knowtator+display+color
+
+	(knowtator_display_color_B 96)
+	(knowtator_display_color_G 164)
+	(knowtator_display_color_name "sandy brown")
+	(knowtator_display_color_R 244))
+
+([knowtator_Instance_30119] of  knowtator+display+color
+
+	(knowtator_display_color_B 87)
+	(knowtator_display_color_G 139)
+	(knowtator_display_color_name "sea green")
+	(knowtator_display_color_R 46))
+
+([knowtator_Instance_30120] of  knowtator+display+color
+
+	(knowtator_display_color_B 238)
+	(knowtator_display_color_G 245)
+	(knowtator_display_color_name "seashell")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30121] of  knowtator+display+color
+
+	(knowtator_display_color_B 45)
+	(knowtator_display_color_G 82)
+	(knowtator_display_color_name "sienna")
+	(knowtator_display_color_R 160))
+
+([knowtator_Instance_30122] of  knowtator+display+color
+
+	(knowtator_display_color_B 192)
+	(knowtator_display_color_G 192)
+	(knowtator_display_color_name "silver")
+	(knowtator_display_color_R 192))
+
+([knowtator_Instance_30123] of  knowtator+display+color
+
+	(knowtator_display_color_B 235)
+	(knowtator_display_color_G 206)
+	(knowtator_display_color_name "sky blue")
+	(knowtator_display_color_R 135))
+
+([knowtator_Instance_30124] of  knowtator+display+color
+
+	(knowtator_display_color_B 205)
+	(knowtator_display_color_G 90)
+	(knowtator_display_color_name "slate blue")
+	(knowtator_display_color_R 106))
+
+([knowtator_Instance_30125] of  knowtator+display+color
+
+	(knowtator_display_color_B 144)
+	(knowtator_display_color_G 128)
+	(knowtator_display_color_name "slate gray")
+	(knowtator_display_color_R 112))
+
+([knowtator_Instance_30126] of  knowtator+display+color
+
+	(knowtator_display_color_B 250)
+	(knowtator_display_color_G 250)
+	(knowtator_display_color_name "snow")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30127] of  knowtator+display+color
+
+	(knowtator_display_color_B 127)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "spring green")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30128] of  knowtator+display+color
+
+	(knowtator_display_color_B 180)
+	(knowtator_display_color_G 130)
+	(knowtator_display_color_name "steel blue")
+	(knowtator_display_color_R 70))
+
+([knowtator_Instance_30129] of  knowtator+display+color
+
+	(knowtator_display_color_B 140)
+	(knowtator_display_color_G 180)
+	(knowtator_display_color_name "tan")
+	(knowtator_display_color_R 210))
+
+([knowtator_Instance_30130] of  knowtator+display+color
+
+	(knowtator_display_color_B 128)
+	(knowtator_display_color_G 128)
+	(knowtator_display_color_name "teal")
+	(knowtator_display_color_R 0))
+
+([knowtator_Instance_30131] of  knowtator+display+color
+
+	(knowtator_display_color_B 216)
+	(knowtator_display_color_G 191)
+	(knowtator_display_color_name "thistle")
+	(knowtator_display_color_R 216))
+
+([knowtator_Instance_30132] of  knowtator+display+color
+
+	(knowtator_display_color_B 71)
+	(knowtator_display_color_G 99)
+	(knowtator_display_color_name "tomato")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30133] of  knowtator+display+color
+
+	(knowtator_display_color_B 208)
+	(knowtator_display_color_G 224)
+	(knowtator_display_color_name "turquoise")
+	(knowtator_display_color_R 64))
+
+([knowtator_Instance_30134] of  knowtator+display+color
+
+	(knowtator_display_color_B 238)
+	(knowtator_display_color_G 130)
+	(knowtator_display_color_name "violet")
+	(knowtator_display_color_R 238))
+
+([knowtator_Instance_30135] of  knowtator+display+color
+
+	(knowtator_display_color_B 144)
+	(knowtator_display_color_G 32)
+	(knowtator_display_color_name "violet-red")
+	(knowtator_display_color_R 208))
+
+([knowtator_Instance_30136] of  knowtator+display+color
+
+	(knowtator_display_color_B 179)
+	(knowtator_display_color_G 222)
+	(knowtator_display_color_name "wheat")
+	(knowtator_display_color_R 245))
+
+([knowtator_Instance_30137] of  knowtator+display+color
+
+	(knowtator_display_color_B 255)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "white")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30138] of  knowtator+display+color
+
+	(knowtator_display_color_B 245)
+	(knowtator_display_color_G 245)
+	(knowtator_display_color_name "white smoke")
+	(knowtator_display_color_R 245))
+
+([knowtator_Instance_30139] of  knowtator+display+color
+
+	(knowtator_display_color_B 0)
+	(knowtator_display_color_G 255)
+	(knowtator_display_color_name "yellow")
+	(knowtator_display_color_R 255))
+
+([knowtator_Instance_30140] of  knowtator+display+color
+
+	(knowtator_display_color_B 50)
+	(knowtator_display_color_G 205)
+	(knowtator_display_color_name "yellow-green")
+	(knowtator_display_color_R 154))

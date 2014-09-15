@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-163.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_66831" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="0" end="9" />
+    <spannedText>Acyclovir</spannedText>
+    <creationDate>Sat Mar 26 11:33:23 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_66864" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="67" end="80" />
+    <spannedText>normeperidine</spannedText>
+    <creationDate>Sat Mar 26 11:33:49 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_66862" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="36" end="46" />
+    <spannedText>meperidine</spannedText>
+    <creationDate>Sat Mar 26 11:33:42 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_66839" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="102" end="111" />
+    <spannedText>acyclovir</spannedText>
+    <creationDate>Sat Mar 26 11:33:55 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_66831">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_66862">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_66839">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_66864">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_66865" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_66865">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_66862" />
+  </complexSlotMention>
+</annotations>
+

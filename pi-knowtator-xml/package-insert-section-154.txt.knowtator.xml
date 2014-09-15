@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-154.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64982" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1177" end="1187" />
+    <spannedText>Amlodipine</spannedText>
+    <creationDate>Thu Mar 24 14:49:17 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64984" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="382" end="389" />
+    <spannedText>REVATIO</spannedText>
+    <creationDate>Thu Mar 24 14:49:05 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64986" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="197" end="204" />
+    <spannedText>REVATIO</spannedText>
+    <creationDate>Thu Mar 24 14:49:00 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64988" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="50" end="57" />
+    <spannedText>REVATIO</spannedText>
+    <creationDate>Thu Mar 24 14:48:53 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_65015" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1242" end="1252" />
+    <spannedText>amlodipine</spannedText>
+    <creationDate>Thu Mar 24 14:49:21 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_65017" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="574" end="583" />
+    <spannedText>doxazosin</spannedText>
+    <creationDate>Thu Mar 24 14:49:10 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_65019" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="698" end="707" />
+    <spannedText>doxazosin</spannedText>
+    <creationDate>Thu Mar 24 14:49:14 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_65021" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="1194" end="1204" />
+    <spannedText>sildenafil</spannedText>
+    <creationDate>Thu Mar 24 14:49:24 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_65023" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="210" end="219" />
+    <spannedText>ritonavir</spannedText>
+    <creationDate>Thu Mar 24 14:49:02 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_65025" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="515" end="525" />
+    <spannedText>sildenafil</spannedText>
+    <creationDate>Thu Mar 24 14:49:07 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_65027" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="133" end="142" />
+    <spannedText>Ritonavir</spannedText>
+    <creationDate>Thu Mar 24 14:48:57 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_65027">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_65025">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_65023">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_65021">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64988">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_65019">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64986">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_65017">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64984">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_65015">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64982">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+</annotations>
+

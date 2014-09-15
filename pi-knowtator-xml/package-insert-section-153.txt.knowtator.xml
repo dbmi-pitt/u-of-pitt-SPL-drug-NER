@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-153.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64966" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="37" end="45" />
+    <spannedText>Felbatol</spannedText>
+    <creationDate>Thu Mar 24 14:46:35 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64968" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="318" end="326" />
+    <spannedText>Felbatol</spannedText>
+    <creationDate>Thu Mar 24 14:46:45 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64978" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="588" end="597" />
+    <spannedText>felbamate</spannedText>
+    <creationDate>Thu Mar 24 14:46:47 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_64980" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="48" end="57" />
+    <spannedText>felbamate</spannedText>
+    <creationDate>Thu Mar 24 14:46:38 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_64968">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64978">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64966">
+    <mentionClass id="Drug product">Drug product</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_64980">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+</annotations>
+

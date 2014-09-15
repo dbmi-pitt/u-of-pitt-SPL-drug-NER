@@ -1,0 +1,95 @@
+; Mon Jun 13 20:13:07 PDT 2011
+; 
+;+ (version "3.3")
+;+ (build "Build 418")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot 4.+Interaction+Phrase
+		(type INSTANCE)
+;+		(allowed-classes Interaction+phrase)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Type
+		(type SYMBOL)
+		(allowed-values Qualitative Quantitative)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Active+Ingredient
+		(type INSTANCE)
+;+		(allowed-classes Active+ingredient)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot 1.+Precipitant
+		(type INSTANCE)
+;+		(allowed-classes Active+ingredient Metabolite Drug+product)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot 3.+Modality
+		(type SYMBOL)
+		(allowed-values Positive Negative)
+		(default Positive)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot 2.+Object
+		(type INSTANCE)
+;+		(allowed-classes Active+ingredient Metabolite Drug+product)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot Chain
+		(type INSTANCE)
+;+		(allowed-classes Drug+product Active+ingredient Metabolite)
+		(create-accessor read-write)))
+
+(defclass Active+ingredient
+	(is-a USER)
+	(role concrete))
+
+(defclass Metabolite
+	(is-a USER)
+	(role concrete)
+	(single-slot Active+Ingredient
+		(type INSTANCE)
+;+		(allowed-classes Active+ingredient)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Drug+product
+	(is-a USER)
+	(role concrete))
+
+(defclass Interaction+phrase
+	(is-a USER)
+	(role concrete)
+	(single-slot Type
+		(type SYMBOL)
+		(allowed-values Qualitative Quantitative)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Interaction
+	(is-a USER)
+	(role concrete)
+	(single-slot 4.+Interaction+Phrase
+		(type INSTANCE)
+;+		(allowed-classes Interaction+phrase)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot 1.+Precipitant
+		(type INSTANCE)
+;+		(allowed-classes Active+ingredient Metabolite Drug+product)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot 3.+Modality
+		(type SYMBOL)
+		(allowed-values Positive Negative)
+		(default Positive)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot 2.+Object
+		(type INSTANCE)
+;+		(allowed-classes Active+ingredient Metabolite Drug+product)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))

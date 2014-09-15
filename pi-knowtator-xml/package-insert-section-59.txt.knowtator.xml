@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-59.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78121" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="189" end="202" />
+    <spannedText>carbamazepine</spannedText>
+    <creationDate>Mon Mar 28 10:52:53 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78125" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="208" end="218" />
+    <spannedText>nefazodone</spannedText>
+    <creationDate>Mon Mar 28 10:52:56 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78112" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="20" end="33" />
+    <spannedText>carbamazepine</spannedText>
+    <creationDate>Mon Mar 28 10:52:38 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78115" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="39" end="49" />
+    <spannedText>nefazodone</spannedText>
+    <creationDate>Mon Mar 28 10:52:41 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_78151" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="99" end="109" />
+    <spannedText>nefazodone</spannedText>
+    <creationDate>Mon Mar 28 10:52:47 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_78112">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78151">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78125">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78121">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_78115">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+</annotations>
+

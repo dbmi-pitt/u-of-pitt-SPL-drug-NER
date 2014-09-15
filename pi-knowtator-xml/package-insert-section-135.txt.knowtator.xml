@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="package-insert-section-135.txt">
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_63297" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="585" end="606" />
+    <spannedText>4-hydroxy propranolol</spannedText>
+    <creationDate>Thu Mar 24 14:08:04 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_63301" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="490" end="513" />
+    <spannedText>propranolol glucuronide</spannedText>
+    <creationDate>Thu Mar 24 14:07:49 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_63314" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="515" end="537" />
+    <spannedText>naphthyloxylactic acid</spannedText>
+    <creationDate>Thu Mar 24 14:07:57 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_63317" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="542" end="557" />
+    <spannedText>glucuronic acid</spannedText>
+    <creationDate>Thu Mar 24 14:08:01 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_63299" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="85" end="96" />
+    <spannedText>Propranolol</spannedText>
+    <creationDate>Thu Mar 24 14:07:27 EDT 2011</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PI-NLP-Consensus_Instance_63321" />
+    <annotator id="PI-NLP-Consensus_Instance_60047">consensus set annotator team</annotator>
+    <span start="0" end="11" />
+    <spannedText>Propranolol</spannedText>
+    <creationDate>Thu Mar 24 14:07:15 EDT 2011</creationDate>
+  </annotation>
+  <classMention id="PI-NLP-Consensus_Instance_63317">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_63318" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_63318">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_63299" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_63299">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_63321">
+    <mentionClass id="Active ingredient">Active ingredient</mentionClass>
+  </classMention>
+  <classMention id="PI-NLP-Consensus_Instance_63297">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_63298" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_63298">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_63299" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_63301">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_63302" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_63302">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_63299" />
+  </complexSlotMention>
+  <classMention id="PI-NLP-Consensus_Instance_63314">
+    <mentionClass id="Metabolite">Metabolite</mentionClass>
+    <hasSlotMention id="PI-NLP-Consensus_Instance_63315" />
+  </classMention>
+  <complexSlotMention id="PI-NLP-Consensus_Instance_63315">
+    <mentionSlot id="Active Ingredient" />
+    <complexSlotMentionValue value="PI-NLP-Consensus_Instance_63299" />
+  </complexSlotMention>
+</annotations>
+
