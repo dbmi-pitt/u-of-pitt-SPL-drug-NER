@@ -1,6 +1,6 @@
 UNIVERSITY OF PITTBURGH SPL DRUG NAME ENTITY RECOGNIZER
 
-Author: Richard D Boyce, PhD, Greg Gardner
+Author: Richard D Boyce, PhD, Greg Gardner, Yifan Ning
 
 Copyright (c) 2011-2015 Richard D Boyce, PhD, University of Pittsburgh 
 All Rights Reserved
@@ -114,7 +114,7 @@ xmllint --encode UTF-8 $i > $i-LINTED.xml
 
 
 -----------------------------------------------------------------------------------
-How to converts NER program outputs to the format that feeds domeo loading program
+How to converts NER outputs to the format that feeds domeo loading program
 -----------------------------------------------------------------------------------
 
 (1) run section text parsing program at "analyses/ddi-table-parsing/scripts/retrieveSPLSquery.py"
@@ -125,8 +125,8 @@ Copy txt files in outfiles folder to "u-of-pitt-SPL-drug-NER/textfiles/" as sect
 
 (2) run NER program to get NER dataset in XML
 
-(3) run converting script "convertSPL_NER_2_ODA.py" to get ner data set in json format that feeds domeo annotation pre-loading program
+(3) run converting script "convertNER_2_JSON_DOMEO.py" to get ner data set in json format that feeds domeo annotation pre-loading program
 
-$ convertSPL_NER_2_ODA.py > drug_list.json
+$ convertNER_2_JSON_DOMEO.py > NER-outputs.json
 
 domeo loading program at "u-of-pitt-spl-ddi-v2.0/PK-DDI-NLP-pipeline/loadElasticSearch"

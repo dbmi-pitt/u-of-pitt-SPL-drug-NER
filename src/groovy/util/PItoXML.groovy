@@ -26,8 +26,8 @@ import net.sf.extjwnl.data.list.PointerTargetNodeList;
 
 class PItoXML {
 	
-        static final String PIPATH = "/home/PITT/rdb20/u-of-pitt-SPL-drug-NER/textfiles/"
-	def BASEPATH = "/home/PITT/rdb20/u-of-pitt-SPL-drug-NER/"
+        static final String PIPATH = "/home/rdb20/swat-4-med-safety/u-of-pitt-SPL-drug-NER/textfiles/"
+	def BASEPATH = "/home/rdb20/swat-4-med-safety/u-of-pitt-SPL-drug-NER/"
 
 	def OUTPATH = BASEPATH + "processed-output/"
 
@@ -37,7 +37,8 @@ class PItoXML {
 	def ALLPUNCTUATION= '[\\Q!"#$%&()*+,./:;<=>?@[\\]^_`{|}~-\'\\E]'
 	def PROPSFILENAME = "etc/file_properties.xml"  //Wordnet api (extJWNL) properties file
 	def BASERXNORMURI = "http://rxnav.nlm.nih.gov/REST/"
-	def BIOPORTALURL = "http://rest.bioontology.org/bioportal/" //"http://localhost:8080/bioportal/"
+        //def BIOPORTALURL = "http://rest.bioontology.org/bioportal/" //"http://localhost:8080/bioportal/"
+	def BIOPORTALURL = "http://data.bioontology.org/" 
 	def APIKEY = "74028721-e60e-4ece-989b-1d2c17d14e9c"
 	def STRINGWRITER = new StringWriter()
 	def PRINTWRITER = new PrintWriter(STRINGWRITER)
@@ -407,7 +408,11 @@ class PItoXML {
 	 * Determine if a word/annotation contains a valid drug name
 	 */
 	def isDrugName(word, annotationBean) {
-		return !inWordnet(word) && (rxnormTradename(word) || isJochemTerm(word) || isMeshMetabolite(annotationBean))
+	    // NOTE: isMeshMetabolite currently broken -- the API returns JSON but
+	    //  this expects XML. Also, this is probably not necessary any
+	    //   more because the ncbo call specifies semantic types.
+	    //return !inWordnet(word) && (rxnormTradename(word) || isJochemTerm(word) || isMeshMetabolite(annotationBean))
+	    return !inWordnet(word) && (rxnormTradename(word) || isJochemTerm(word))
 	}
 	
 	def isHerbal(word) {
@@ -463,11 +468,16 @@ class PItoXML {
 	/*
 	 * Determine if an annotation is categorized as an organic chemical (TUI = T109)
 	 * by MeSH, making it a good candidate for a metabolite.
+	 *
+	 * TODO: This is currently broken -- the API returns JSON but
+	 * this expects XML. Also, this is probably not necessary any
+	 * more because the ncbo call specifies semantic types.
 	 */
 	def isMeshMetabolite(annotationBean) {
 		 //Work around for broken semantic types in ncbo annotator
 		def localConceptId = annotationBean.concept.localConceptId.text()
-		def url = BIOPORTALURL + "virtual/ontology/$MESH?conceptid=$localConceptId&apikey=$APIKEY"
+    	        //def url = BIOPORTALURL + "virtual/ontology/$MESH?conceptid=$localConceptId&apikey=$APIKEY"
+		def url = BIOPORTALURL + "search?q=$localConceptId&ontology=MESH&apikey=$APIKEY"
 		def client = new HttpClient()
 		def method = new GetMethod(url)
 		def status = client.executeMethod(method)
