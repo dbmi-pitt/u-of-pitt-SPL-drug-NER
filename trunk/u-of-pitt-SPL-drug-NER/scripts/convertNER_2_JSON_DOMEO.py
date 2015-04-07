@@ -36,7 +36,7 @@ import codecs
 ############################################################
 # Customizations
 
-PREFIX_SUFFIX_SPAN = 30
+PREFIX_SUFFIX_SPAN = 60
 
 inputNERDir = '../processed-output/'
 
@@ -100,7 +100,7 @@ for ner in filesPddi:
                 print textFileName                
                 
                 
-with open('drug_list.json', 'w') as nerOutput:
+with open('NER-outputs.json', 'w') as nerOutput:
     json.dump(nerList, nerOutput)
                 
 
