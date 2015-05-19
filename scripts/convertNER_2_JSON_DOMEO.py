@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#
+
 # convertSPL_NER_2_ODA.py
 #
 # Convert NER output to Open Data Annotation serialized in JSON and
@@ -68,14 +68,15 @@ for ner in filesPddi:
             #print sectionText
             
             jsonResult = xmltodict.parse(jsonInputFile.read())
-                
-
             drugL = jsonResult['root']['data']['annotatorResultBean']['annotations']['annotationBean']
+            
             for drugMention in drugL:
+                drugURI = drugMention['concept']['fullId']
+                
                 drugName = drugMention['context']['term']['name']
                 fromIdx = drugMention['context']['from']
                 toIdx = drugMention['context']['to']
-                drugURI = drugMention['concept']['fullId']
+
                 preferredName = drugMention['concept']['preferredName']
 
                 setId = re.sub(r'-[A-Za-z]+\.txt$', "", textFileName)
@@ -92,22 +93,26 @@ for ner in filesPddi:
                 else:
                     suffix = sectionText[int(toIdx):int(toIdx)+PREFIX_SUFFIX_SPAN]
 
-                nerDict = {"setId":setId ,"name":drugName, "fullId":drugURI, "prefix":prefix,"exact":exact, "suffix":suffix}
-
-                nerList.append(nerDict)
+                #print drugURI
+                if "Added locally" in drugURI:
+                    print "[WARNING] NER drug URI is not available, may mismatching..."
+                    #print drugName + "|" + exact + "|" + unicode(textFileName) + "|" + prefix + "|"
+                    
+                else:
+                    nerDict = {"setId":setId ,"name":drugName, "fullId":drugURI, "prefix":prefix,"exact":exact, "suffix":suffix, "from":fromIdx, "to":toIdx}
+                    nerList.append(nerDict)
+                    print "%s, %s|%s|%s|%s|" % (setId, drugName, prefix, exact, suffix)
                 
-                #print "%s, %s, %s, %s, %s, %s, %s, %s, %s" % (setId, drugName, fromIdx, toIdx, drugURI, preferredName, prefix, exact, suffix)
-                print textFileName                
                 
                 
 with open('NER-outputs.json', 'w') as nerOutput:
     json.dump(nerList, nerOutput)
-                
+            
 
-# with open('drug_list.json', 'w') as nerOutput:
-#     json.dump(drugInfoList, nerOutput)
+with open('NER-output.csv','w') as nerOutput:
+    for element in nerList:
+        line = str(element['setId'])+';'+str(element['name'])+';'+str(element['exact'])+';'+str(element['fullId'])
+        print >>  nerOutput, line
 
-# with open('NER-output.csv','w') as nerOutput:
-#     for element in drugInfoList:
-#         line = str(element['fileId'])+';'+str(element['name'])+';'+str(element['exact'])+';'+str(element['fullId'])
-#         print >>  nerOutput, line
+
+
