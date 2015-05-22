@@ -26,8 +26,8 @@ import net.sf.extjwnl.data.list.PointerTargetNodeList;
 
 class PItoXML {
 	
-        static final String PIPATH = "/home/rdb20/swat-4-med-safety/u-of-pitt-SPL-drug-NER/textfiles/"
-	def BASEPATH = "/home/rdb20/swat-4-med-safety/u-of-pitt-SPL-drug-NER/"
+        static final String PIPATH = "/home/rdb20/u-of-pitt-SPL-drug-NER/textfiles/"
+	def BASEPATH = "/home/rdb20/u-of-pitt-SPL-drug-NER/"
 
 	def OUTPATH = BASEPATH + "processed-output/"
 

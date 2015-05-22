@@ -32,7 +32,7 @@ import json, sys, re
 from os import walk
 import xmltodict
 import codecs
-
+from sets import Set
 ############################################################
 # Customizations
 
@@ -45,6 +45,8 @@ inputProductLabelsDir = '../textfiles/'
 ############################################################
 filesPddi = []
 
+nerList = []
+nerS = Set()
 
 ## read all NER outputs in XML
 
@@ -54,9 +56,6 @@ for (dirpath, dirnames, filenames) in walk(inputNERDir):
             filesPddi.append(fname)
     break
 
-#print filesPddi
-
-nerList = []
 
 for ner in filesPddi:
     with codecs.open(inputNERDir + ner, 'r', 'utf-8') as jsonInputFile:
@@ -99,13 +98,17 @@ for ner in filesPddi:
                     #print drugName + "|" + exact + "|" + unicode(textFileName) + "|" + prefix + "|"
                     
                 else:
-                    nerDict = {"setId":setId ,"name":drugName, "fullId":drugURI, "prefix":prefix,"exact":exact, "suffix":suffix, "from":fromIdx, "to":toIdx}
-                    nerList.append(nerDict)
-                    print "%s, %s|%s|%s|%s|" % (setId, drugName, prefix, exact, suffix)
+                    nerKey = setId + "-" + fromIdx + "-" + toIdx
+                    if nerKey not in nerS:
+                    
+                        nerDict = {"setId":setId ,"name":drugName, "fullId":drugURI, "prefix":prefix,"exact":exact, "suffix":suffix, "from":fromIdx, "to":toIdx}
+                        nerList.append(nerDict)
+                        nerS.add(nerKey)
+                        print "%s, %s|%s|%s|%s|" % (setId, drugName, prefix, exact, suffix)
                 
                 
                 
-with open('NER-outputs.json', 'w') as nerOutput:
+with codecs.open('NER-outputs.json', 'w', 'utf-8') as nerOutput:
     json.dump(nerList, nerOutput)
             
 
