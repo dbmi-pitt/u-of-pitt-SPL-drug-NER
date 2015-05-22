@@ -32,7 +32,7 @@ HOW TO RUN
 
 2) Change the following BASEPATH to your local configuration and export:
 
-BASEPATH="/home/rdb20/swat-4-med-safety/u-of-pitt-SPL-drug-NER" 
+BASEPATH="/home/rdb20/u-of-pitt-SPL-drug-NER" 
 
 3) Configure the 'dictionary_path' variable in etc/file_properties.xml so the the path to the WordNet dictionary resolves correctly
 
