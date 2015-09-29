@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 # convertSPL_NER_2_ODA.py
 #
@@ -34,6 +35,8 @@ import xmltodict
 import codecs
 from sets import Set
 import re
+from bs4 import BeautifulSoup
+
 
 ############################################################
 # Customizations
@@ -52,9 +55,13 @@ nerS = Set()
 
 def regFixPrefixSuffix(text, mode):
 
+    #soup = BeautifulSoup(text)
+    #soup.prettify(formatter=lambda s: s.replace(u'\xa0', ' '))
+    text = text.encode('utf-8').replace('\xa0',' ').replace('\xc2',' ')
+    
     print "ORIGINAL TEXT - " + mode + "|" + text + "|"
     if mode is "prefix":
-        regex = r'[^0-9A-Za-z\.\"\'\-\ \n\,\.\:]'
+        regex = r'[^0-9A-Za-z\.\"\'\-\ \n\,\.\:\%\;\[\]\&]'
         iter = re.finditer(regex, text)
         indices = [m.end(0) for m in iter]
         if indices:
@@ -66,9 +73,13 @@ def regFixPrefixSuffix(text, mode):
             return text
 
     elif mode is "suffix":
-        regex = r'[^0-9A-Za-z\.\"\'\-\ \n\,\.\:]'
+        regex = r'[^0-9A-Za-z\.\"\'\-\ \n\,\.\:\%\;\[\]\&]'
         iter = re.finditer(regex, text)
         indices = [m.start(0) for m in iter]
+
+        print re.findall(r"[^0-9A-Za-z\.\"\'\-\ \n\,\.\:\%\;\[\]\&]", text)
+
+        print "INDICES: " + str(indices)
 
         if indices:
             start = indices[0]
@@ -79,6 +90,7 @@ def regFixPrefixSuffix(text, mode):
 
     else:
         print "[WARNING:] regFixPrefixSuffix get wrong mode"
+        return "ERROR"
         
 
 # parse <annotationBean>
