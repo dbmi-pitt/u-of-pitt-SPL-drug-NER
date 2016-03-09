@@ -45,7 +45,7 @@ PREFIX_SUFFIX_SPAN = 60
 
 inputNERDir = '../processed-output/'
 
-inputProductLabelsDir = '../textfiles/'
+inputProductLabelsDir = '../textfiles/finished-sections/'
 
 ############################################################
 filesPddi = []
@@ -57,7 +57,7 @@ def regFixPrefixSuffix(text, mode):
 
     #soup = BeautifulSoup(text)
     #soup.prettify(formatter=lambda s: s.replace(u'\xa0', ' '))
-    text = text.encode('utf-8').replace('\xa0',' ').replace('\xc2',' ')
+    text = text.encode('utf-8').replace('\xa0',' ').replace('\xc2','')
     
     print "ORIGINAL TEXT - " + mode + "|" + text + "|"
     if mode is "prefix":
