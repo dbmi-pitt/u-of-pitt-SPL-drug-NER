@@ -45,7 +45,7 @@ PREFIX_SUFFIX_SPAN = 60
 
 inputNERDir = '../processed-output/'
 
-inputProductLabelsDir = '../textfiles/finished-sections/'
+inputProductLabelsDir = '../textfiles/'
 
 ############################################################
 filesPddi = []
@@ -148,9 +148,8 @@ for (dirpath, dirnames, filenames) in walk(inputNERDir):
 
 for ner in filesPddi:
     with codecs.open(inputNERDir + ner, 'r', 'utf-8') as jsonInputFile:
-        
-        textFileName = ner.strip('-PROCESSED.xml')
 
+        textFileName = ner.replace('-PROCESSED.xml','')
         with codecs.open(inputProductLabelsDir + textFileName, 'r', 'utf-8') as textInputFile:
             sectionText = textInputFile.read()
             print "[INFO:]" + textFileName
