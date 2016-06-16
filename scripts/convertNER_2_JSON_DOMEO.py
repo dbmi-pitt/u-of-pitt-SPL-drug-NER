@@ -108,7 +108,7 @@ def parseAnnotationBean(drugMention, sectionText):
 
     preferredName = drugMention['concept']['preferredName']
 
-    setId = re.sub(r'-[A-Za-z]+\.txt$', "", textFileName)
+    setId = re.sub(r'-[A-Za-z]+\.txt$', "", textFileName).replace(".txt","");
 
     if len(range(0,int(fromIdx))) < PREFIX_SUFFIX_SPAN:
         prefix = sectionText[0:int(fromIdx)-1]
