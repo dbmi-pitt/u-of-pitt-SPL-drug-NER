@@ -41,7 +41,7 @@ from bs4 import BeautifulSoup
 ############################################################
 # Customizations
 
-PREFIX_SUFFIX_SPAN = 60
+PREFIX_SUFFIX_SPAN = 80
 
 inputNERDir = '../processed-output/'
 
@@ -53,13 +53,14 @@ filesPddi = []
 nerList = []
 nerS = Set()
 
+# stop prefix and suffix at special characters that other than numbers, latters, etc
 def regFixPrefixSuffix(text, mode):
 
     #soup = BeautifulSoup(text)
     #soup.prettify(formatter=lambda s: s.replace(u'\xa0', ' '))
     text = text.encode('utf-8').replace('\xa0',' ').replace('\xc2','')
     
-    print "ORIGINAL TEXT - " + mode + "|" + text + "|"
+    #print "ORIGINAL TEXT - " + mode + "|" + text + "|"
     if mode is "prefix":
         regex = r'[^0-9A-Za-z\.\"\'\-\ \n\,\.\:\%\;\[\]\&]'
         iter = re.finditer(regex, text)
@@ -67,7 +68,6 @@ def regFixPrefixSuffix(text, mode):
         if indices:
             #print indices
             end = indices[-1]
-            print "PREFIX:" + text[end:]
             return text[end:]
         else:
             return text
@@ -77,13 +77,11 @@ def regFixPrefixSuffix(text, mode):
         iter = re.finditer(regex, text)
         indices = [m.start(0) for m in iter]
 
-        print re.findall(r"[^0-9A-Za-z\.\"\'\-\ \n\,\.\:\%\;\[\]\&]", text)
-
-        print "INDICES: " + str(indices)
+        #print re.findall(r"[^0-9A-Za-z\.\"\'\-\ \n\,\.\:\%\;\[\]\&]", text)
+        #print "INDICES: " + str(indices)
 
         if indices:
             start = indices[0]
-            print "SUFFIX:" + text[:start]
             return text[:start]
         else:
             return text
@@ -104,18 +102,19 @@ def parseAnnotationBean(drugMention, sectionText):
 
     drugURI = drugMention['concept']['fullId']
 
-    print "[INFO:] find " + drugName + "|" + drugURI 
+    print "[INFO:] find " + drugName + " at " + fromIdx + " - " + toIdx
 
     preferredName = drugMention['concept']['preferredName']
 
     setId = re.sub(r'-[A-Za-z]+\.txt$', "", textFileName).replace(".txt","");
 
+    # if length of prefix and suffix greater than PREFIX_SUFFIX_SPAN, then trim
     if len(range(0,int(fromIdx))) < PREFIX_SUFFIX_SPAN:
         prefix = sectionText[0:int(fromIdx)-1]
     else:
         prefix = sectionText[int(fromIdx)-PREFIX_SUFFIX_SPAN:int(fromIdx)-1]
 
-    prefix = regFixPrefixSuffix(prefix, "prefix")
+    # prefix = regFixPrefixSuffix(prefix, "prefix")
 
     exact = sectionText[int(fromIdx)-1:int(toIdx)]
 
@@ -124,11 +123,11 @@ def parseAnnotationBean(drugMention, sectionText):
     else:
         suffix = sectionText[int(toIdx):int(toIdx)+PREFIX_SUFFIX_SPAN]
 
-    suffix = regFixPrefixSuffix(suffix, "suffix")
+    # suffix = regFixPrefixSuffix(suffix, "suffix")
 
+    # skip drugs that don't have URI 
     if "Added locally" in drugURI:
         print "[WARNING:] NER drug("+drugName+") URI is not available, drop from resultset"
-        #print drugName + "|" + exact + "|" + unicode(textFileName) + "|" + prefix + "|"
         return None
 
     else:
@@ -172,7 +171,7 @@ for ner in filesPddi:
                         if nerKey not in nerS:
                             nerList.append(nerDict)
                             nerS.add(nerKey)
-                            print "%s, %s|%s|%s|%s|" % (nerDict["setId"],nerDict["name"], nerDict["prefix"], nerDict["exact"], nerDict["suffix"])
+                            #print "%s, %s|%s|%s|%s|" % (nerDict["setId"],nerDict["name"], nerDict["prefix"], nerDict["exact"], nerDict["suffix"])
 
             ## only one NER (not a list)                
             else:
@@ -184,7 +183,7 @@ for ner in filesPddi:
                     if nerKey not in nerS:
                         nerList.append(nerDict)
                         nerS.add(nerKey)
-                        print "Single NER %s, %s|%s|%s|%s|" % (nerDict["setId"],nerDict["name"], nerDict["prefix"], nerDict["exact"], nerDict["suffix"])
+                        #print "Single NER %s, %s|%s|%s|%s|" % (nerDict["setId"],nerDict["name"], nerDict["prefix"], nerDict["exact"], nerDict["suffix"])
 
                 
 with codecs.open('NER-outputs.json', 'w', 'utf-8') as nerOutput:
