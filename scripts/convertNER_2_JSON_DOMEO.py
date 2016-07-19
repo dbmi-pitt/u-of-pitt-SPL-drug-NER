@@ -29,14 +29,15 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
-import json, sys, re
+import json, sys, re, io
 from os import walk
 import xmltodict
 import codecs
 from sets import Set
 import re
 from bs4 import BeautifulSoup
-
+reload(sys)  # Reload does the trick!
+sys.setdefaultencoding('UTF8')
 
 ############################################################
 # Customizations
@@ -73,7 +74,7 @@ def regFixPrefixSuffix(text, mode):
             return text
 
     elif mode is "suffix":
-        regex = r'[^0-9A-Za-z\.\"\'\-\ \n\,\.\:\%\;\[\]\&]'
+        regex = r'[^0-9A-Za-z\.\"\'\-\ \n\,\.\:\%\;\[\]\&\(\)]'
         iter = re.finditer(regex, text)
         indices = [m.start(0) for m in iter]
 
@@ -102,7 +103,7 @@ def parseAnnotationBean(drugMention, sectionText):
 
     drugURI = drugMention['concept']['fullId']
 
-    print "[INFO:] find " + drugName + " at " + fromIdx + " - " + toIdx
+    #print "[INFO:] find " + drugName + " at " + fromIdx + " - " + toIdx
 
     preferredName = drugMention['concept']['preferredName']
 
@@ -110,24 +111,24 @@ def parseAnnotationBean(drugMention, sectionText):
 
     # if length of prefix and suffix greater than PREFIX_SUFFIX_SPAN, then trim
     if len(range(0,int(fromIdx))) < PREFIX_SUFFIX_SPAN:
-        prefix = sectionText[0:int(fromIdx)-1]
+        prefix = unicode(sectionText[0:int(fromIdx)-1])
     else:
-        prefix = sectionText[int(fromIdx)-PREFIX_SUFFIX_SPAN:int(fromIdx)-1]
+        prefix = unicode(sectionText[int(fromIdx)-PREFIX_SUFFIX_SPAN:int(fromIdx)-1])
 
-    # prefix = regFixPrefixSuffix(prefix, "prefix")
+    prefix = regFixPrefixSuffix(prefix, "prefix")
 
     exact = sectionText[int(fromIdx)-1:int(toIdx)]
 
     if len(range(int(toIdx),len(sectionText))) < PREFIX_SUFFIX_SPAN:
-        suffix = sectionText[int(toIdx):]
+        suffix = unicode(sectionText[int(toIdx):])
     else:
-        suffix = sectionText[int(toIdx):int(toIdx)+PREFIX_SUFFIX_SPAN]
+        suffix = unicode(sectionText[int(toIdx):int(toIdx)+PREFIX_SUFFIX_SPAN])
 
-    # suffix = regFixPrefixSuffix(suffix, "suffix")
+    suffix = regFixPrefixSuffix(suffix, "suffix")
 
     # skip drugs that don't have URI 
     if "Added locally" in drugURI:
-        print "[WARNING:] NER drug("+drugName+") URI is not available, drop from resultset"
+        #print "[WARNING:] NER drug("+drugName+") URI is not available, drop from resultset"
         return None
 
     else:
@@ -151,8 +152,7 @@ for ner in filesPddi:
         textFileName = ner.replace('-PROCESSED.xml','')
         with codecs.open(inputProductLabelsDir + textFileName, 'r', 'utf-8') as textInputFile:
             sectionText = textInputFile.read()
-            print "[INFO:]" + textFileName
-            
+            print "[INFO:]" + textFileName        
             jsonResult = xmltodict.parse(jsonInputFile.read())
 
             drugL = []
@@ -163,9 +163,10 @@ for ner in filesPddi:
                 continue
 
             if isinstance(drugL, list):
-            
+                i = 0
                 for drugMention in drugL:
                     nerDict = parseAnnotationBean(drugMention, sectionText)
+                
                     if nerDict:
                         nerKey = nerDict["setId"] + "-" + nerDict["from"] + "-" + nerDict["to"]
                         if nerKey not in nerS:
@@ -184,10 +185,11 @@ for ner in filesPddi:
                         nerList.append(nerDict)
                         nerS.add(nerKey)
                         #print "Single NER %s, %s|%s|%s|%s|" % (nerDict["setId"],nerDict["name"], nerDict["prefix"], nerDict["exact"], nerDict["suffix"])
-
-                
-with codecs.open('NER-outputs.json', 'w', 'utf-8') as nerOutput:
-    json.dump(nerList, nerOutput)
+                        
+                        
+with codecs.open('NER-outputs.json', 'w', encoding='utf-8') as nerOutput:
+    json.dump(nerList , nerOutput,  ensure_ascii=False)
+nerOutput.close()
             
 
 with open('NER-output.csv','w') as nerOutput:
